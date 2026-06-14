@@ -1,0 +1,16 @@
+{
+  "name": "content-blog",
+  "schedule": ["daily 05:00"],
+  "inputs": [],
+  "meta": { "repo": "~/Developer/varr-labs-website", "lead": "4d" },
+  "steps": [
+    { "do": "branch",     "gate": "auto" },
+    { "do": "draft",      "gate": "auto" },
+    { "do": "fact_check", "gate": "auto" },
+    { "do": "build",      "to": "{meta.repo}", "run": ["blog-ready", "blog-image"] },
+    { "do": "qa_image",   "gate": "auto" },
+    { "do": "commit",     "gate": "auto" },
+    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "veto_window", "wait": "2d" },
+    { "do": "notify",     "to": "me" }
+  ]
+}
