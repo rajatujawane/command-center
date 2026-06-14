@@ -24,12 +24,12 @@ You were launched with a single task id. Process ONLY that task. Read CLAUDE.md 
                    blog-image skill, up to twice, else gate with the image.
    - commit     -> cd meta.repo; git checkout blog/<id>. git add -A; git commit -m "blog: <title>";
                    git push -u origin blog/<id>; open a DRAFT PR vs default. record PR url in out.
-                   then engine/imessage/send.sh "<group>" "Draft ready to read:
-                   http://localhost:3001/blog/<slug>. Publishes <go_live or 'next run'>.
+                   then engine/imessage/send.sh "Command Center" "Draft ready to read:
+                   http://192.168.0.217:3001/blog/<slug>. Publishes <go_live or 'next run'>.
                    Reply 'kill <id>' to stop."  THEN STOP (see rule above).
    - deliver    -> run engine/deliver (go-live gate, veto check, budget, then rebase/resolve/
                    push/merge). holds or merges per that skill.
-   - notify     -> on a successful merge, engine/imessage/send.sh "<group>"
-                   "Published: http://localhost:3001/blog/<slug>".
+   - notify     -> on a successful merge, engine/imessage/send.sh "Command Center"
+                   "Published: http://192.168.0.217:3001/blog/<slug>".
 2. All steps done -> move task file to tasks/done/, append a line to tasks/log.md.
 3. Do NOT write heartbeat. Return to the dispatcher.

@@ -10,7 +10,7 @@
     { "do": "build",      "to": "{meta.repo}", "run": ["blog-ready", "blog-image"] },
     { "do": "qa_image",   "gate": "auto" },
     { "do": "commit",     "gate": "auto" },
-    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "veto_window", "wait": "2d" },
+    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "auto" },
     { "do": "notify",     "to": "me" }
   ]
 }
