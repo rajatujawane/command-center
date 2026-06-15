@@ -1,0 +1,12 @@
+{
+  "slug": "past-due-invoices-b2b-shopify-plus",
+  "mdx": "src/content/blog/past-due-invoices-b2b-shopify-plus.mdx",
+  "hero": "public/blog/20-hero-past-due-invoices-b2b.svg",
+  "inline_images": [
+    "public/blog/20a-collections-workflow-timeline.svg",
+    "public/blog/20b-past-due-account-rules-flow.svg"
+  ],
+  "blog_ready": "applied — frontmatter complete, TermStack mentions 4 inline + 1 callout + 1 FAQ + 1 summary + 1 CTA, 8 FAQs, 2 internal links, no em dashes",
+  "blog_image": "applied — hero + 2 inline SVGs generated, light editorial theme #F5F0E6, VarrLabs watermark bottom-right",
+  "blockers": []
+}

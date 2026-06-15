@@ -11,6 +11,7 @@
     { "do": "qa_image",   "gate": "auto" },
     { "do": "commit",     "gate": "auto" },
     { "do": "deliver",    "to": ["git_pr:merge"], "gate": "auto" },
+    { "do": "promote",  "to": ["git_pr:prod"],  "gate": "auto" },
     { "do": "notify",     "to": "me" }
   ]
 }

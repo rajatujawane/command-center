@@ -1,0 +1,19 @@
+{
+  "id": "cb-20260614-past-due-invoices-b2b",
+  "title": "Past-Due Invoices on Shopify B2B: A Practical Collections Workflow",
+  "project": "termstack",
+  "go_live": "2026-06-15",
+  "queued_at": "2026-06-14",
+  "inputs": ["knowledge/termstack/prd.md"],
+  "steps": [
+    { "do": "branch",     "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260614-past-due-invoices-b2b/branch.json" },
+    { "do": "draft",      "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260614-past-due-invoices-b2b/draft.md" },
+    { "do": "fact_check", "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260614-past-due-invoices-b2b/fact_check.md" },
+    { "do": "build",      "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260614-past-due-invoices-b2b/build.json" },
+    { "do": "qa_image",   "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260614-past-due-invoices-b2b/qa_image.md" },
+    { "do": "commit",     "gate": "auto",        "status": "done", "out": "https://github.com/rajatujawane/varr-labs-website/pull/35" },
+    { "do": "deliver",    "gate": "auto",        "status": "done", "out": "merged PR #35 into main" },
+    { "do": "promote",    "gate": "auto",        "status": "done", "out": "https://github.com/rajatujawane/varr-labs-website/pull/36" },
+    { "do": "notify",     "gate": "auto",        "status": "done", "out": "iMessage sent to Command Center" }
+  ]
+}

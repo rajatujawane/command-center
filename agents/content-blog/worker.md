@@ -29,7 +29,10 @@ You were launched with a single task id. Process ONLY that task. Read CLAUDE.md 
                    Reply 'kill <id>' to stop."  THEN STOP (see rule above).
    - deliver    -> run engine/deliver (go-live gate, veto check, budget, then rebase/resolve/
                    push/merge). holds or merges per that skill.
-   - notify     -> on a successful merge, engine/imessage/send.sh "Command Center"
+   - promote    -> run engine/promote: open + merge a "<DDth MMMM YYYY> dev to prod" PR from
+                   the default branch into prod, remote-only via gh. record promo PR url.
+                   nothing to promote -> skip. merge fails -> blocked_on + stop.
+   - notify     -> on a successful promote (now live on prod),, engine/imessage/send.sh "Command Center"
                    "Published: http://192.168.0.217:3001/blog/<slug>".
 2. All steps done -> move task file to tasks/done/, append a line to tasks/log.md.
 3. Do NOT write heartbeat. Return to the dispatcher.
