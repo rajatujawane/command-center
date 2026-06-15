@@ -12,6 +12,12 @@ You are the runner for one agent. A routine started you with a prompt like
 4. Write every file via a temp file + atomic rename (write .tmp, then mv over).
 5. After the pass, append one row to state/heartbeat.json for this agent.
 
+## Routine prompts (what each prompt runs)
+A routine wakes you with one of these prompts. Map it to the file and follow that file exactly:
+- "start content-blog" -> agents/content-blog/run.md  (the dispatcher)
+- "send the brief"     -> engine/brief/SKILL.md
+- "read replies"       -> engine/replies/SKILL.md
+
 ## Gate semantics (this is the autonomy policy)
 - "auto"        : run the step, log it, move on. Reversible work only.
 - "veto_window" : notify me, wait the "wait" duration, then run UNLESS I vetoed.
