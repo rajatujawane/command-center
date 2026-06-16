@@ -1,0 +1,9 @@
+{
+  "slug": "dynamic-payment-terms-deposits-shopify-plus",
+  "mdx": "src/content/blog/dynamic-payment-terms-deposits-shopify-plus.mdx",
+  "images": [
+    "public/blog/21-hero-dynamic-payment-terms-deposits-shopify.svg",
+    "public/blog/21a-static-vs-dynamic-terms-comparison.svg",
+    "public/blog/21b-rules-engine-evaluation-flowchart.svg"
+  ]
+}

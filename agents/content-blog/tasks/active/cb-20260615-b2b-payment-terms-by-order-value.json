@@ -1,0 +1,19 @@
+{
+  "id": "cb-20260615-b2b-payment-terms-by-order-value",
+  "title": "Shopify B2B payment terms by order value: rules, examples, and setup",
+  "project": "termstack",
+  "go_live": "2026-06-19",
+  "queued_at": "2026-06-15",
+  "inputs": ["knowledge/termstack/prd.md"],
+  "steps": [
+    { "do": "branch",     "gate": "auto",        "status": "done", "out": "branch=blog/cb-20260615-b2b-payment-terms-by-order-value default=main" },
+    { "do": "draft",      "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-b2b-payment-terms-by-order-value/draft.md" },
+    { "do": "fact_check", "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-b2b-payment-terms-by-order-value/draft.md", "notes": "Fixed DEPOSIT_PERCENT range from 0-99% to 0-100% to match PRD. Fixed em dashes per voice rules." },
+    { "do": "build",      "gate": "auto",        "status": "done", "out": "slug=b2b-payment-terms-by-order-value mdx=/Users/rajatserver/Developer/varr-labs-website/src/content/blog/b2b-payment-terms-by-order-value.mdx image=/Users/rajatserver/Developer/varr-labs-website/public/blog/22-hero-b2b-payment-terms-by-order-value.svg" },
+    { "do": "qa_image",   "gate": "auto",        "status": "done", "out": "/Users/rajatserver/Developer/varr-labs-website/public/blog/22-hero-b2b-payment-terms-by-order-value.svg", "notes": "Pass: cream bg, violet hook, UI mock with shadow, watermark bottom-right. All coords within bounds." },
+    { "do": "commit",     "gate": "auto",        "status": "done", "out": "pr=https://github.com/rajatujawane/varr-labs-website/pull/38 branch=blog/cb-20260615-b2b-payment-terms-by-order-value" },
+    { "do": "deliver",    "gate": "auto",        "status": "pending" },
+    { "do": "promote",    "gate": "auto",        "status": "pending" },
+    { "do": "notify",     "gate": "auto",        "status": "pending" }
+  ]
+}

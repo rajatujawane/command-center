@@ -1,0 +1,19 @@
+{
+  "id": "cb-20260615-dynamic-payment-terms-deposits-shopify",
+  "title": "How to set up dynamic payment terms and deposits on Shopify (Winter '26 guide)",
+  "project": "termstack",
+  "go_live": "2026-06-17",
+  "queued_at": "2026-06-15",
+  "inputs": ["knowledge/termstack/prd.md"],
+  "steps": [
+    { "do": "branch",     "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-dynamic-payment-terms-deposits-shopify/branch.json" },
+    { "do": "draft",      "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-dynamic-payment-terms-deposits-shopify/draft.md" },
+    { "do": "fact_check", "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-dynamic-payment-terms-deposits-shopify/draft.md" },
+    { "do": "build",      "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-dynamic-payment-terms-deposits-shopify/build.json" },
+    { "do": "qa_image",   "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-dynamic-payment-terms-deposits-shopify/build.json" },
+    { "do": "commit",     "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-dynamic-payment-terms-deposits-shopify/commit.json" },
+    { "do": "deliver",    "gate": "auto",        "status": "pending" },
+    { "do": "promote",    "gate": "auto",        "status": "pending" },
+    { "do": "notify",     "gate": "auto",        "status": "pending" }
+  ]
+}

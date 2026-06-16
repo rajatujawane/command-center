@@ -1,0 +1,19 @@
+{
+  "id": "cb-20260615-payment-customization-function-vs-app",
+  "title": "Custom Payment Customization Function vs. an app: build or buy for B2B terms",
+  "project": "termstack",
+  "go_live": "2026-06-22",
+  "queued_at": "2026-06-15",
+  "inputs": ["knowledge/termstack/prd.md"],
+  "steps": [
+    { "do": "branch",     "gate": "auto",        "status": "pending" },
+    { "do": "draft",      "gate": "auto",        "status": "pending" },
+    { "do": "fact_check", "gate": "auto",        "status": "pending" },
+    { "do": "build",      "gate": "auto",        "status": "pending" },
+    { "do": "qa_image",   "gate": "auto",        "status": "pending" },
+    { "do": "commit",     "gate": "auto",        "status": "pending" },
+    { "do": "deliver",    "gate": "auto",        "status": "pending" },
+    { "do": "promote",    "gate": "auto",        "status": "pending" },
+    { "do": "notify",     "gate": "auto",        "status": "pending" }
+  ]
+}
