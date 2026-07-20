@@ -1,0 +1,8 @@
+{
+  "id": "cb-20260718-graduate-b2b-terms-by-order-count",
+  "title": "Graduate B2B Buyers to Better Terms by Order Count",
+  "project": "termstack",
+  "go_live": "2026-07-28",
+  "queued_at": "2026-07-18",
+  "inputs": ["knowledge/termstack/prd.md", "knowledge/termstack/briefs/graduate-b2b-terms-by-order-count.md"]
+}

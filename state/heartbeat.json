@@ -1,7 +1,384 @@
-{ "runs": [
-  { "agent": "content-blog", "ts": "2026-06-14T05:00:00Z", "tasks_touched": 1, "ok": true },
-  { "agent": "content-blog", "ts": "2026-06-15T05:00:00Z", "tasks_touched": 1, "ok": true },
-  { "agent": "content-blog", "ts": "2026-06-15T10:45:30Z", "tasks_touched": 1, "ok": true },
-  { "agent": "content-blog", "ts": "2026-06-16T05:00:00Z", "tasks_touched": 2, "ok": true },
-  { "agent": "brief", "ts": "2026-06-16T07:15:00Z", "tasks_touched": 0, "ok": true }
-] }
+{
+  "runs": [
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-14T05:00:00Z",
+      "tasks_touched": 1,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-15T05:00:00Z",
+      "tasks_touched": 1,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-15T10:45:30Z",
+      "tasks_touched": 1,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-16T05:00:00Z",
+      "tasks_touched": 2,
+      "ok": true
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-16T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-17T05:00:00Z",
+      "tasks_touched": 2,
+      "ok": true
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-17T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-18T05:00:00Z",
+      "tasks_touched": 2,
+      "ok": true
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-18T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-19T05:00:00Z",
+      "tasks_touched": 2,
+      "ok": true
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-19T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-20T05:00:00Z",
+      "tasks_touched": 2,
+      "ok": true
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-20T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-21T05:00:00Z",
+      "tasks_touched": 2,
+      "ok": true
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-21T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-22T05:00:00Z",
+      "tasks_touched": 3,
+      "ok": true
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-22T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-23T05:00:00Z",
+      "tasks_touched": 2,
+      "ok": true,
+      "notes": "payment-customization-function-vs-app already done (stale active copy removed). b2b-payment-terms-native-vs-app: deliver held, waiting for go-live 2026-06-24. dynamic-deposits-shopify-25pct-upfront: deliver held, waiting for go-live 2026-06-26."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-23T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-24T05:00:00Z",
+      "tasks_touched": 2,
+      "ok": true,
+      "notes": "b2b-payment-terms-native-vs-app: delivered, promoted to prod via PR #45, notified. dynamic-deposits-shopify-25pct-upfront: deliver held, waiting for go-live 2026-06-26."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-24T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-25T05:00:00Z",
+      "tasks_touched": 1,
+      "ok": true,
+      "notes": "dynamic-deposits-shopify-25pct-upfront: deliver held, waiting for go-live 2026-06-26."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-25T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-26T05:00:00Z",
+      "tasks_touched": 1,
+      "ok": true,
+      "notes": "dynamic-deposits-shopify-25pct-upfront: delivered (PR #44 merged), promoted to prod via PR #46, notified. Task moved to done."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-26T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-27T05:00:00Z",
+      "tasks_touched": 1,
+      "ok": true,
+      "notes": "dynamic-deposits-shopify-25pct-upfront: stale active copy cleaned up, notify re-sent (idempotent). No new tasks in incoming. No active tasks remain."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-27T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-28T05:00:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "No tasks in incoming or active. All prior tasks in done."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-28T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-06-29T05:00:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "No tasks in incoming or active. All prior tasks in done."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-29T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-06-30T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-01T05:00:00Z",
+      "tasks_touched": 2,
+      "ok": true,
+      "notes": "shopify-summer26-b2b-payment-terms-native-vs-app: branched, drafted, fact-checked, built (MDX + SVG), qa-passed, committed (PR #47), notified. Awaiting deliver on next run (go-live 2026-07-01). shopify-scripts-stopped-restore-b2b-terms-functions: branched, drafted, fact-checked, built (MDX + SVG), qa-passed, committed (PR #48), notified. Awaiting deliver on next run (go-live 2026-07-03)."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-01T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-08T05:00:00Z",
+      "tasks_touched": 2,
+      "ok": true,
+      "notes": "shopify-scripts-stopped-restore-b2b-terms-functions: delivered (PR #48 merged), promoted to prod via PR #49, notified. Task moved to done. shopify-summer26-b2b-payment-terms-native-vs-app: deliver parked \u2014 daily blog_publish budget exhausted (1/1). Will retry next run."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-08T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "Brief sent. Pipeline: scripts-stopped done (minor task-file sync on notify); summer26 deliver parked 2nd day (budget 1/1). Digest: shopify multi-currency manual payments + staff permissions + Flow fixes; tech Kimi K2.7 in Copilot + Fable 5 usage credits; world China SLBM test + Damascus bombs + Cuba grid. Flagged: brief stale 7 days."
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-09T05:00:00Z",
+      "tasks_touched": 2,
+      "ok": true,
+      "notes": "shopify-scripts-stopped-restore-b2b-terms-functions: notify sent, task moved to done. shopify-summer26-b2b-payment-terms-native-vs-app: delivered (PR #47 merged), promoted to prod via PR #50, notified, task moved to done. No tasks remain in active."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-09T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "Brief sent. Pipeline: all clear (summer26 + scripts-stopped both done this morning). Digest: shopify POS discount breaking change Jul 15 + market-driven shipping preview + delivery profile deprecation + draft order deposit GraphQL; tech OpenAI realtime 2.1; world Iran ceasefire ended + NATO Ankara + IOC Russia ban lifted."
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-10T05:00:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-10T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "Brief sent. Pipeline: all clear. Digest: shopify partner identity verification + POS background extension + app pricing 8/15 plans; tech GPT-5.6 GA three tiers + Grok 4.5 public; world Iran drones at Gulf bases + Ukraine drone offensive + UN Sudan inquiry."
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-11T05:00:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-11T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "Brief sent. Pipeline: all clear. Digest: shopify Flow step copy-paste + hreflang admin toggle; tech ChatGPT Work launch + Meta Muse Spark 1.1 API; world Iran-Qatar talks + DRC Ebola 600 deaths + UN Gaza access restrictions."
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-12T05:00:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-12T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "Brief sent. Pipeline: all clear. Digest: shopify Managed Markets duty-inclusive pricing + Customer Account API Checkout deprecation Oct 2026 + bulk query 4x speedup; tech Claude Code v2.1.207 auto mode default + iOS 27 Gemini Siri public beta Jul 13 + Apple sues OpenAI; world Iran Hormuz closure until further notice + Venezuela earthquake 3500+ dead."
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-13T05:00:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-13T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "Brief sent. Pipeline: all clear. Digest: shopify partner earning model Aug 10 (0.1% GMV share) + ship-and-pickup preview + Shop User metafields in checkout Functions; tech Cursor 3.11 iOS app + Gemini 3.5 Pro GA Jul 17 + Cloudflare Monetization Gateway x402; world Bangkok pub fire 27 dead + Khanna settlers WB + Toronto festival shooting."
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-14T05:00:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-14T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "Brief sent. Pipeline: all clear. Digest: shopify App Store policy 1.3 enforcement + POS health screen + BFS Dec 1 deadline (returns/subscriptions) + Collections API 2026-07 overhaul; tech DeepSeek alias deprecation Jul 24 + NoMac headless iOS CI/CD + China restricting overseas AI model access; world Iran strikes on US Gulf bases overnight + Europe 10k heatwave deaths + Sam Neill died at 78."
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-15T05:00:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-15T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "Brief sent. Pipeline: all clear. Digest: shopify quiet (no new changelog); DotDev Jul 21-22 first official Shopify MCP endpoint idea for TermStack; tech OpenAI dropped 5-hour Codex window + ChatGPT cross-chat search + Claude Code vim/screenreader/mouse fixes; world Houthi-Saudi Abha airport strike + US ICC judge sanctions + VP Vance confirmed US-Iran Doha talks under 14-point MOU."
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-16T05:00:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-16T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "Brief sent. Pipeline: all clear. Digest: shopify delegateAccessTokenCreate scoped sub-tokens + ExchangeLineItem direct fields + App Store 4.1.2 name enforcement; tech Codex Micro macro pad + Payfuture UPI/NetBanking on Shopify + China anthropomorphic AI rules live (Doubao/Qwen kill persistent memory); world US-Iran 4th strike round + naval blockade reimposed + DRC Ebola 700 deaths + Spain-Gibraltar border lifted."
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-17T05:00:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-17T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "Brief sent. Pipeline: all clear. Digest: Gemini 3.5 Pro GA today (2M context, $1.25/$10 per million tokens) + WAIC 2026 Shanghai Xi in person; shopify quiet; world US-Iran 4th strike night + Hormuz blockade reimposed + DRC Ebola 700+ deaths spreading faster than tracking + Trump visa limits (students/journalists) + wildfire smoke US Midwest/NE. DotDev Jul 21-22 flagged as prep item."
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-18T05:00:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-18T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "Brief sent. Pipeline: all clear. Digest: shopify 2026-07 API stable with Aug/Dec deadlines + USPS 11.8% rate hike + EU duty threshold ended; tech Claude Fable 5 launch + US export control forcing Anthropic access suspension (same day) + Google AI Overviews 55% searches/69% zero-click + SAP acquiring Prior Labs $1.18B; world Iran hits Kuwait border posts + offshore rig + Syria off terror list after 47y + Cuba blackout #3 + Venezuela 2295 dead + Taco Bell Cyclospora 18 states. System: attention unset flagged, budget 1/1."
+    },
+    {
+      "agent": "content-blog",
+      "ts": "2026-07-19T05:00:00Z",
+      "tasks_touched": 2,
+      "ok": true,
+      "notes": "Intake: customer-tier-payment-terms-shopify-plus (go-live 07-21) and require-prepayment-first-time-b2b-buyers (go-live 07-23) moved incoming→active. Both ran branch→commit. PRs: #52 (customer-tier), #53 (require-prepayment). Stopped at deliver; next run resumes deliver for customer-tier (07-21) and require-prepayment (07-23)."
+    },
+    {
+      "agent": "brief",
+      "ts": "2026-07-19T07:15:00Z",
+      "tasks_touched": 0,
+      "ok": true,
+      "notes": "Brief rendered. Pipeline: customer-tier PR #52 deliver auto Jul 21 + require-prepayment PR #53 deliver auto Jul 23; 6 incoming queued Jul 28–Aug 13. Digest: shopify physical inventory GraphQL early access + Collections API 2026-07 composable sources + @inContext channelId; tech Kimi K3 2.8T open-weight + PyTorch 2.13 FlexAttention MPS + Gemini 3.1 Flash TTS preview; world Iran suspended Doha MOU + FIFA WC final Spain-Argentina + Texas floods. DotDev Jul 21-22 flagged as prep item. System ok, budget clear."
+    }
+  ]
+}

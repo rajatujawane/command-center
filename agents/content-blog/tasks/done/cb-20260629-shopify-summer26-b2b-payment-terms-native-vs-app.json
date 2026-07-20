@@ -1,0 +1,19 @@
+{
+  "id": "cb-20260629-shopify-summer26-b2b-payment-terms-native-vs-app",
+  "title": "Shopify Summer '26 and B2B payment terms: what's native now vs. what still needs an app",
+  "project": "termstack",
+  "go_live": "2026-07-01",
+  "queued_at": "2026-06-29",
+  "inputs": ["knowledge/termstack/prd.md"],
+  "steps": [
+    { "do": "branch",     "gate": "auto",   "status": "done", "out": { "branch": "blog/cb-20260629-shopify-summer26-b2b-payment-terms-native-vs-app", "default": "main" } },
+    { "do": "draft",      "gate": "auto",   "status": "done", "out": "agents/content-blog/outputs/cb-20260629-shopify-summer26-b2b-payment-terms-native-vs-app/draft.md" },
+    { "do": "fact_check", "gate": "auto",   "status": "done" },
+    { "do": "build",      "to": "{meta.repo}", "run": ["blog-ready", "blog-image"], "status": "done", "out": { "slug": "shopify-summer-2026-b2b-payment-terms-native-vs-app", "mdx": "src/content/blog/shopify-summer-2026-b2b-payment-terms-native-vs-app.mdx", "image": "public/blog/24-hero-shopify-summer26-b2b-payment-terms.svg" } },
+    { "do": "qa_image",   "gate": "auto",   "status": "done" },
+    { "do": "commit",     "gate": "auto",   "status": "done", "out": { "pr_url": "https://github.com/rajatujawane/varr-labs-website/pull/47" } },
+    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "auto", "status": "done", "out": { "pr_url": "https://github.com/rajatujawane/varr-labs-website/pull/47", "merged_at": "2026-07-08T23:33:58Z" } },
+    { "do": "promote",    "to": ["git_pr:prod"],  "gate": "auto", "status": "done", "out": { "pr_url": "https://github.com/rajatujawane/varr-labs-website/pull/50", "merged_at": "2026-07-08T23:34:50Z" } },
+    { "do": "notify",     "to": "me",       "status": "done", "out": { "sent": "Published: http://192.168.0.217:3001/blog/shopify-summer-2026-b2b-payment-terms-native-vs-app" } }
+  ]
+}

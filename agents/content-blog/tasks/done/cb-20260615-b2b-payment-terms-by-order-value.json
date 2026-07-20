@@ -12,8 +12,8 @@
     { "do": "build",      "gate": "auto",        "status": "done", "out": "slug=b2b-payment-terms-by-order-value mdx=/Users/rajatserver/Developer/varr-labs-website/src/content/blog/b2b-payment-terms-by-order-value.mdx image=/Users/rajatserver/Developer/varr-labs-website/public/blog/22-hero-b2b-payment-terms-by-order-value.svg" },
     { "do": "qa_image",   "gate": "auto",        "status": "done", "out": "/Users/rajatserver/Developer/varr-labs-website/public/blog/22-hero-b2b-payment-terms-by-order-value.svg", "notes": "Pass: cream bg, violet hook, UI mock with shadow, watermark bottom-right. All coords within bounds." },
     { "do": "commit",     "gate": "auto",        "status": "done", "out": "pr=https://github.com/rajatujawane/varr-labs-website/pull/38 branch=blog/cb-20260615-b2b-payment-terms-by-order-value" },
-    { "do": "deliver",    "gate": "auto",        "status": "pending" },
-    { "do": "promote",    "gate": "auto",        "status": "pending" },
-    { "do": "notify",     "gate": "auto",        "status": "pending" }
+    { "do": "deliver",    "gate": "auto",        "status": "done", "out": "merged PR #38 https://github.com/rajatujawane/varr-labs-website/pull/38" },
+    { "do": "promote",    "gate": "auto",        "status": "done", "out": "promo PR https://github.com/rajatujawane/varr-labs-website/pull/41 merged main->prod" },
+    { "do": "notify",     "gate": "auto",        "status": "done", "out": "iMessage sent: Published: http://192.168.0.217:3001/blog/b2b-payment-terms-by-order-value" }
   ]
 }

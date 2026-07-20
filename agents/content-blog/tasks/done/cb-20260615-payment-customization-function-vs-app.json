@@ -1,0 +1,19 @@
+{
+  "id": "cb-20260615-payment-customization-function-vs-app",
+  "title": "Custom Payment Customization Function vs. an app: build or buy for B2B terms",
+  "project": "termstack",
+  "go_live": "2026-06-22",
+  "queued_at": "2026-06-15",
+  "inputs": ["knowledge/termstack/prd.md"],
+  "steps": [
+    { "do": "branch",     "gate": "auto",        "status": "done", "out": "branch=blog/cb-20260615-payment-customization-function-vs-app default=main" },
+    { "do": "draft",      "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-payment-customization-function-vs-app/draft.md" },
+    { "do": "fact_check", "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-payment-customization-function-vs-app/draft.md" },
+    { "do": "build",      "gate": "auto",        "status": "done", "out": "slug=payment-customization-function-vs-app" },
+    { "do": "qa_image",   "gate": "auto",        "status": "done", "out": "public/blog/22-hero-payment-customization-function-vs-app.svg" },
+    { "do": "commit",     "gate": "auto",        "status": "done", "out": "https://github.com/rajatujawane/varr-labs-website/pull/40" },
+    { "do": "deliver",    "gate": "auto",        "status": "done", "out": "merged PR #40" },
+    { "do": "promote",    "gate": "auto",        "status": "done", "out": "https://github.com/rajatujawane/varr-labs-website/pull/43" },
+    { "do": "notify",     "gate": "auto",        "status": "done", "out": "iMessage sent: Published: http://192.168.0.217:3001/blog/payment-customization-function-vs-app" }
+  ]
+}

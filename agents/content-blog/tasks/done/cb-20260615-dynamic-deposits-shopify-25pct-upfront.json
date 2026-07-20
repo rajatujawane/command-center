@@ -1,0 +1,19 @@
+{
+  "id": "cb-20260615-dynamic-deposits-shopify-25pct-upfront",
+  "title": "Dynamic deposits on Shopify: collect 25% upfront on large B2B orders",
+  "project": "termstack",
+  "go_live": "2026-06-26",
+  "queued_at": "2026-06-15",
+  "inputs": ["knowledge/termstack/prd.md"],
+  "steps": [
+    { "do": "branch",     "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-dynamic-deposits-shopify-25pct-upfront/branch.txt" },
+    { "do": "draft",      "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-dynamic-deposits-shopify-25pct-upfront/draft.md" },
+    { "do": "fact_check", "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-dynamic-deposits-shopify-25pct-upfront/draft.md" },
+    { "do": "build",      "gate": "auto",        "status": "done", "out": "src/content/blog/dynamic-deposits-shopify-25pct-upfront-b2b.mdx", "slug": "dynamic-deposits-shopify-25pct-upfront-b2b" },
+    { "do": "qa_image",   "gate": "auto",        "status": "done", "out": "public/blog/23-hero-dynamic-deposits-shopify-25pct-upfront.svg" },
+    { "do": "commit",     "gate": "auto",        "status": "done", "out": "https://github.com/rajatujawane/varr-labs-website/pull/44" },
+    { "do": "deliver",    "gate": "auto",        "status": "done", "out": "merged PR #44 into main" },
+    { "do": "promote",    "gate": "auto",        "status": "done", "out": "https://github.com/rajatujawane/varr-labs-website/pull/46" },
+    { "do": "notify",     "gate": "auto",        "status": "done", "out": "iMessage sent: Published dynamic-deposits-shopify-25pct-upfront-b2b" }
+  ]
+}

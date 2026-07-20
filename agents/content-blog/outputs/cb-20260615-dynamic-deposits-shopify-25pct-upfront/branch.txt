@@ -1,0 +1,2 @@
+branch: blog/cb-20260615-dynamic-deposits-shopify-25pct-upfront
+default: main

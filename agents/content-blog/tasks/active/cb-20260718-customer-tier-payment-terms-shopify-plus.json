@@ -1,0 +1,19 @@
+{
+  "id": "cb-20260718-customer-tier-payment-terms-shopify-plus",
+  "title": "Customer-Tier Payment Terms on Shopify Plus",
+  "project": "termstack",
+  "go_live": "2026-07-21",
+  "queued_at": "2026-07-18",
+  "inputs": ["knowledge/termstack/prd.md", "knowledge/termstack/briefs/customer-tier-payment-terms-shopify-plus.md"],
+  "steps": [
+    { "do": "branch",     "gate": "auto",   "status": "done", "out": "branch=blog/cb-20260718-customer-tier-payment-terms-shopify-plus default=main" },
+    { "do": "draft",      "gate": "auto",   "status": "done", "out": "agents/content-blog/outputs/cb-20260718-customer-tier-payment-terms-shopify-plus/draft.md" },
+    { "do": "fact_check", "gate": "auto",   "status": "done", "out": "agents/content-blog/outputs/cb-20260718-customer-tier-payment-terms-shopify-plus/draft.md" },
+    { "do": "build",      "to": "{meta.repo}", "run": ["blog-ready", "blog-image"], "status": "done", "out": "src/content/blog/b2b-payment-terms-by-customer-tier-shopify-plus.mdx slug=b2b-payment-terms-by-customer-tier-shopify-plus" },
+    { "do": "qa_image",   "gate": "auto",   "status": "done", "out": "public/blog/26-hero-b2b-payment-terms-by-customer-tier.svg" },
+    { "do": "commit",     "gate": "auto",   "status": "done", "out": "pr=https://github.com/rajatujawane/varr-labs-website/pull/52" },
+    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "auto", "status": "pending" },
+    { "do": "promote",    "to": ["git_pr:prod"],  "gate": "auto", "status": "pending" },
+    { "do": "notify",     "to": "me",             "status": "pending" }
+  ]
+}

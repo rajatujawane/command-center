@@ -1,0 +1,8 @@
+{
+  "id": "cb-20260718-require-prepayment-first-time-b2b-buyers",
+  "title": "Require Prepayment or Deposits from First-Time B2B Buyers on Shopify",
+  "project": "termstack",
+  "go_live": "2026-07-23",
+  "queued_at": "2026-07-18",
+  "inputs": ["knowledge/termstack/prd.md", "knowledge/termstack/briefs/require-prepayment-first-time-b2b-buyers.md"]
+}

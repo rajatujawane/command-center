@@ -1,0 +1,19 @@
+{
+  "id": "cb-20260718-require-prepayment-first-time-b2b-buyers",
+  "title": "Require Prepayment or Deposits from First-Time B2B Buyers on Shopify",
+  "project": "termstack",
+  "go_live": "2026-07-23",
+  "queued_at": "2026-07-18",
+  "inputs": ["knowledge/termstack/prd.md", "knowledge/termstack/briefs/require-prepayment-first-time-b2b-buyers.md"],
+  "steps": [
+    { "do": "branch",     "gate": "auto",   "status": "done", "out": "branch=blog/cb-20260718-require-prepayment-first-time-b2b-buyers default=main" },
+    { "do": "draft",      "gate": "auto",   "status": "done", "out": "agents/content-blog/outputs/cb-20260718-require-prepayment-first-time-b2b-buyers/draft.md" },
+    { "do": "fact_check", "gate": "auto",   "status": "done", "out": "verified" },
+    { "do": "build",      "to": "{meta.repo}", "run": ["blog-ready", "blog-image"], "status": "done", "out": "slug=require-prepayment-first-time-b2b-buyers-shopify" },
+    { "do": "qa_image",   "gate": "auto",   "status": "done", "out": "pass" },
+    { "do": "commit",     "gate": "auto",   "status": "done", "out": "https://github.com/rajatujawane/varr-labs-website/pull/53" },
+    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "auto", "status": "pending" },
+    { "do": "promote",    "to": ["git_pr:prod"],  "gate": "auto", "status": "pending" },
+    { "do": "notify",     "to": "me",             "status": "pending" }
+  ]
+}

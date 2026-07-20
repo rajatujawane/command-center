@@ -12,8 +12,8 @@
     { "do": "build",      "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-dynamic-payment-terms-deposits-shopify/build.json" },
     { "do": "qa_image",   "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-dynamic-payment-terms-deposits-shopify/build.json" },
     { "do": "commit",     "gate": "auto",        "status": "done", "out": "agents/content-blog/outputs/cb-20260615-dynamic-payment-terms-deposits-shopify/commit.json" },
-    { "do": "deliver",    "gate": "auto",        "status": "pending" },
-    { "do": "promote",    "gate": "auto",        "status": "pending" },
-    { "do": "notify",     "gate": "auto",        "status": "pending" }
+    { "do": "deliver",    "gate": "auto",        "status": "done", "out": "merged PR https://github.com/rajatujawane/varr-labs-website/pull/37" },
+    { "do": "promote",    "gate": "auto",        "status": "done", "out": "https://github.com/rajatujawane/varr-labs-website/pull/39" },
+    { "do": "notify",     "gate": "auto",        "status": "done", "out": "iMessage sent: Published http://192.168.0.217:3001/blog/dynamic-payment-terms-deposits-shopify-plus" }
   ]
 }

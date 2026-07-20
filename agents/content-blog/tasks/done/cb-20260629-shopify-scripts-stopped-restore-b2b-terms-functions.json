@@ -1,0 +1,19 @@
+{
+  "id": "cb-20260629-shopify-scripts-stopped-restore-b2b-terms-functions",
+  "title": "Shopify Scripts have stopped running — how to restore B2B payment-terms logic on Functions",
+  "project": "termstack",
+  "go_live": "2026-07-03",
+  "queued_at": "2026-06-29",
+  "inputs": ["knowledge/termstack/prd.md"],
+  "steps": [
+    { "do": "branch",     "gate": "auto",   "status": "done", "out": { "branch": "blog/cb-20260629-shopify-scripts-stopped-restore-b2b-terms-functions", "default": "main" } },
+    { "do": "draft",      "gate": "auto",   "status": "done", "out": "agents/content-blog/outputs/cb-20260629-shopify-scripts-stopped-restore-b2b-terms-functions/draft.md" },
+    { "do": "fact_check", "gate": "auto",   "status": "done" },
+    { "do": "build",      "to": "{meta.repo}", "run": ["blog-ready", "blog-image"], "status": "done", "out": { "slug": "shopify-scripts-stopped-restore-b2b-payment-terms", "mdx": "src/content/blog/shopify-scripts-stopped-restore-b2b-payment-terms.mdx", "image": "public/blog/25-hero-shopify-scripts-stopped-restore-b2b-terms.svg" } },
+    { "do": "qa_image",   "gate": "auto",   "status": "done" },
+    { "do": "commit",     "gate": "auto",   "status": "done", "out": { "pr_url": "https://github.com/rajatujawane/varr-labs-website/pull/48" } },
+    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "auto", "status": "done", "out": "merged PR #48" },
+    { "do": "promote",    "to": ["git_pr:prod"],  "gate": "auto", "status": "done", "out": "https://github.com/rajatujawane/varr-labs-website/pull/49" },
+    { "do": "notify",     "to": "me",       "status": "done", "out": "iMessage sent to Command Center" }
+  ]
+}

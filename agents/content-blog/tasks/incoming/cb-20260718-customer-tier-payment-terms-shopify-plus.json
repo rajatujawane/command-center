@@ -1,0 +1,8 @@
+{
+  "id": "cb-20260718-customer-tier-payment-terms-shopify-plus",
+  "title": "Customer-Tier Payment Terms on Shopify Plus",
+  "project": "termstack",
+  "go_live": "2026-07-21",
+  "queued_at": "2026-07-18",
+  "inputs": ["knowledge/termstack/prd.md", "knowledge/termstack/briefs/customer-tier-payment-terms-shopify-plus.md"]
+}
