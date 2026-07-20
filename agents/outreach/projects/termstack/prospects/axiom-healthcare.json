@@ -1,0 +1,32 @@
+{
+  "id": "axiom-healthcare",
+  "brand": "Axiom Healthcare",
+  "website": "",
+  "vertical": "",
+  "hq": "",
+  "tier": "HISTORY (pre-system)",
+  "size_class": "",
+  "fit": null,
+  "evidence": "",
+  "evidence_source": "",
+  "angle": "",
+  "contact": {
+    "role_target": "",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "",
+    "hunter": ""
+  },
+  "status": "disqualified",
+  "raw_status": "DEAD - unqualified (Basic plan)",
+  "touches": {},
+  "notes": "Wave 0. NOT churn: Basic-plan store, Functions cannot deploy (Plus-gating). 18 rules 0 executions explained. Do not contact.",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

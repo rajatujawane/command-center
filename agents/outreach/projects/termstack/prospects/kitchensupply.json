@@ -1,0 +1,32 @@
+{
+  "id": "kitchensupply",
+  "brand": "KitchenSupply",
+  "website": "https://kitchensupplyco.com",
+  "vertical": "Kitchenware",
+  "hq": "US",
+  "tier": "C - B2B-on-Shopify, verify checkout",
+  "size_class": "Right-size",
+  "fit": 6,
+  "evidence": "Crstl case study: multi-retailer dropship + wholesale on Shopify stack",
+  "evidence_source": "crstl.ai case study",
+  "angle": "On Shopify + EDI/wholesale to big retailers; confirm buyers use Shopify B2B checkout (not EDI-only) with the qualifying question before pitching - kitchenware wholesale = terms by retailer",
+  "contact": {
+    "role_target": "Ops (Lazenby - verify role)",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=KitchenSupply%20ecommerce",
+    "hunter": "https://hunter.io/search/kitchensupplyco.com"
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

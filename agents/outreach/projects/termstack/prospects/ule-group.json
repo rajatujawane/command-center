@@ -1,0 +1,32 @@
+{
+  "id": "ule-group",
+  "brand": "ULE Group",
+  "website": "",
+  "vertical": "Industrial supplies",
+  "hq": "US (verify)",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 9,
+  "evidence": "Shopify case study via Uncap: true B2B commerce, thousands of protected contract price lists, ERP/PIM",
+  "evidence_source": "shopify.com/case-studies",
+  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback - contract price lists beg for terms-by-contract rules",
+  "contact": {
+    "role_target": "Ecommerce / IT Director",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=ULE%20Group%20ecommerce",
+    "hunter": ""
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "Find official domain first (brand name from cited source)",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

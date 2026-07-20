@@ -1,0 +1,32 @@
+{
+  "id": "gymshark",
+  "brand": "Gymshark",
+  "website": "https://gymshark.com",
+  "vertical": "Apparel",
+  "hq": "UK",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Enterprise long shot",
+  "fit": 5,
+  "evidence": "IWD B2B Examples 2026: Plus company accounts for gyms/corporate",
+  "evidence_source": "IWD Agency article",
+  "angle": "One touch only",
+  "contact": {
+    "role_target": "B2B / Wholesale lead",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Gymshark%20ecommerce",
+    "hunter": "https://hunter.io/search/gymshark.com"
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

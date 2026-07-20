@@ -1,0 +1,36 @@
+{
+  "id": "carbahn",
+  "brand": "CarBahn",
+  "website": "https://carbahn.com",
+  "vertical": "Automotive performance",
+  "hq": "US",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 9,
+  "evidence": "Shopify case study: Plus + B2B for operational efficiency",
+  "evidence_source": "shopify.com/case-studies",
+  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
+  "contact": {
+    "role_target": "Founder",
+    "named_person": "Steve Dinan (CEO/Founder, verified LinkedIn Jul 20)",
+    "email": "steve.dinan@carbahn.com",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=CarBahn%20ecommerce",
+    "hunter": "https://hunter.io/search/carbahn.com"
+  },
+  "status": "in_sequence",
+  "raw_status": "DRAFTED Jul 20 - Steve Dinan CEO/Founder confirmed (LinkedIn -> carbahn.com), verify email in Hunter then send",
+  "touches": {
+    "t1": {
+      "sent": "2026-07-15"
+    }
+  },
+  "notes": "Jul 20: 60s guard closed - carbahn.com official, Steve Dinan CEO/Founder maps via linkedin.com/in/stevedinan, tier A Plus/native B2B per Shopify case study. Auto dealer/tier archetype #1. AB: L. | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "sheet_draft": "T1: (AB: L) Subject: CarBahn's wholesale checkout\n\nHi Steve,\n\nYou sell CarBahn performance parts through a dealer and shop network, so terms at wholesale checkout are a real part of the operation. In TermStack that runs as a rule at checkout: new dealers pay now, approved dealers get Net 30, volume dealers over $5k get Net 60 with a 25% deposit, all applied automatically. A US toy and gift wholesaler on Plus runs it today.\n\nWhen a shop places a wholesale order now, do dealer terms apply automatically at checkout, or are they handled through manual invoicing after the order?\n\nRajat\nFounder, TermStack by Varr Labs",
+  "sheet_next_action": "Send T1 Tue Jul 21 ~7pm IST (US evening). Tue/Wed/Thu window. AB: L.",
+  "gmail": {
+    "thread_id": "19f66bb767487c09",
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

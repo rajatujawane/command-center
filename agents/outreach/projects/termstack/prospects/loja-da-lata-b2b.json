@@ -1,0 +1,32 @@
+{
+  "id": "loja-da-lata-b2b",
+  "brand": "Loja da Lata (B2B)",
+  "website": "",
+  "vertical": "Food / spices",
+  "hq": "BR",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 5,
+  "evidence": "Review (Aug 2025): restricted-access B2B Shopify store",
+  "evidence_source": "Shopify App Store - Onboard B2B reviews",
+  "angle": "Small; low priority but confirmed SAM",
+  "contact": {
+    "role_target": "Founder",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Loja%20da%20Lata%20%28B2B%29%20ecommerce",
+    "hunter": ""
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "Find official domain first (brand name from cited source)",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

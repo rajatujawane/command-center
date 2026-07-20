@@ -1,0 +1,39 @@
+{
+  "id": "montana-west-u-s-a",
+  "brand": "Montana West U.S.A.",
+  "website": "https://montanawestusa.com",
+  "vertical": "Fashion accessories wholesale",
+  "hq": "US",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 9,
+  "evidence": "Review (May 2026): B2B approval process on Shopify company profiles",
+  "evidence_source": "Shopify App Store - Onboard B2B reviews",
+  "angle": "Uses a B2B-companion app = actively investing in native B2B stack right now; warm timing - wholesale-first western handbag house",
+  "contact": {
+    "role_target": "Ecommerce / Sales Ops",
+    "named_person": "Derek Trammell (GM - T1 sent to derek@)",
+    "email": "derek@montanawestusa.com",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Montana%20West%20U.S.A.%20ecommerce",
+    "hunter": "https://hunter.io/search/montanawestusa.com"
+  },
+  "status": "in_sequence",
+  "raw_status": "SENT T2 Jul 13",
+  "touches": {
+    "t1": {
+      "sent": "2026-06-23"
+    },
+    "t2": {
+      "sent": "2026-07-13"
+    }
+  },
+  "notes": "Official domain confirmed Jul 13: montanawestusa.com (wholesale platform, Shopify). Derek Trammell GM confirmed via ZoomInfo. Verify email via Hunter, then send. | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "sheet_draft": "T3 (new angle, same thread, no links): Hi Derek,\n\nOne more thought. Where this usually shows up in wholesale fashion is preseason volume: early orders from smaller boutiques carry the most risk, and that is exactly where a prepay or deposit rule earns its keep.\n\nWant the 90 second walkthrough?\n\nRajat",
+  "sheet_next_action": "T3 (draft ready, same thread, no links) due Mon Jul 20 ~7pm IST if no reply. T4 break-up ~Mon Jul 25. Sequence ends at T4.",
+  "gmail": {
+    "thread_id": "19ef5f059d617b9f",
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "biom",
+  "brand": "Biom",
+  "website": "https://biom.co",
+  "vertical": "Household / eco goods",
+  "hq": "US",
+  "tier": "C - B2B-on-Shopify, verify checkout",
+  "size_class": "Right-size",
+  "fit": 6,
+  "evidence": "Crstl: Shopify-stack brand transacting with major retailers",
+  "evidence_source": "crstl.ai (AI-EDI guide)",
+  "angle": "On Shopify + EDI/wholesale to big retailers; confirm buyers use Shopify B2B checkout (not EDI-only) with the qualifying question before pitching",
+  "contact": {
+    "role_target": "Founder / Ops",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Biom%20ecommerce",
+    "hunter": "https://hunter.io/search/biom.co"
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

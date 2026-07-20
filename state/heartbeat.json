@@ -217,7 +217,7 @@
       "ts": "2026-07-08T05:00:00Z",
       "tasks_touched": 2,
       "ok": true,
-      "notes": "shopify-scripts-stopped-restore-b2b-terms-functions: delivered (PR #48 merged), promoted to prod via PR #49, notified. Task moved to done. shopify-summer26-b2b-payment-terms-native-vs-app: deliver parked \u2014 daily blog_publish budget exhausted (1/1). Will retry next run."
+      "notes": "shopify-scripts-stopped-restore-b2b-terms-functions: delivered (PR #48 merged), promoted to prod via PR #49, notified. Task moved to done. shopify-summer26-b2b-payment-terms-native-vs-app: deliver parked — daily blog_publish budget exhausted (1/1). Will retry next run."
     },
     {
       "agent": "brief",

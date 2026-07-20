@@ -1,0 +1,32 @@
+{
+  "id": "swagup",
+  "brand": "SwagUp",
+  "website": "https://swagup.com",
+  "vertical": "Promo products",
+  "hq": "US",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 7,
+  "evidence": "Published B2B example: bulk corporate ordering on Shopify",
+  "evidence_source": "B2B examples articles",
+  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
+  "contact": {
+    "role_target": "Founder",
+    "named_person": "Michael Martocci (verify)",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=SwagUp%20ecommerce",
+    "hunter": "https://hunter.io/search/swagup.com"
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

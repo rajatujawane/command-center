@@ -1,0 +1,32 @@
+{
+  "id": "fellow",
+  "brand": "Fellow",
+  "website": "https://fellowproducts.com",
+  "vertical": "Coffee gear",
+  "hq": "US",
+  "tier": "B - Native B2B very likely",
+  "size_class": "Right-size",
+  "fit": 8,
+  "evidence": "Runs dedicated B2B/wholesale portal on Shopify Plus (b2b subdomain); stack check needed",
+  "evidence_source": "Public site signals",
+  "angle": "Ask the qualifying question: 'do wholesale buyers check out through Shopify checkout?'",
+  "contact": {
+    "role_target": "CEO / Wholesale Director",
+    "named_person": "Jake Miller (verify)",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Fellow%20ecommerce",
+    "hunter": "https://hunter.io/search/fellowproducts.com"
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

@@ -4,7 +4,7 @@ folder for all: ~/Developer/command-center   (trusted once)
 
 | routine          | schedule        | prompt                  |
 |------------------|-----------------|-------------------------|
-| outreach         | weekly Tue 09:00| start outreach          |
+| outreach         | daily 03:00     | start outreach          |
 | content-blog     | daily 09:00     | start content-blog      |
 | content-x        | daily 08:00     | start content-x         |
 | content-linkedin | weekly Thu 09:00| start content-linkedin  |

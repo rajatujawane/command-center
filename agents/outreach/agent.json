@@ -1,0 +1,16 @@
+{
+  "name": "outreach",
+  "schedule": ["daily 03:00"],
+  "inputs": [],
+  "meta": {
+    "projects": ["termstack"],
+    "stateless": "no task files; state lives in projects/<p>/prospects/*.json, artifacts in outputs/or-<date>/"
+  },
+  "steps": [
+    { "do": "reconcile", "gate": "auto" },
+    { "do": "pick",      "gate": "auto" },
+    { "do": "research",  "gate": "auto" },
+    { "do": "draft",     "gate": "gate", "note": "Gmail DRAFTS only, never send" },
+    { "do": "summarize", "to": "me" }
+  ]
+}

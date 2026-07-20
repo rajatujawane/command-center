@@ -1,0 +1,32 @@
+{
+  "id": "allbirds",
+  "brand": "Allbirds",
+  "website": "https://allbirds.com",
+  "vertical": "Footwear",
+  "hq": "US",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Enterprise long shot",
+  "fit": 5,
+  "evidence": "IWD B2B Examples 2026: Plus B2B with branded wholesale onboarding",
+  "evidence_source": "IWD Agency article",
+  "angle": "One touch only",
+  "contact": {
+    "role_target": "Wholesale lead",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Allbirds%20ecommerce",
+    "hunter": "https://hunter.io/search/allbirds.com"
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

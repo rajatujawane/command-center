@@ -1,0 +1,32 @@
+{
+  "id": "le-toy-van",
+  "brand": "Le Toy Van",
+  "website": "https://letoyvan.co.uk",
+  "vertical": "Toys & gifts",
+  "hq": "UK",
+  "tier": "B - Native B2B very likely",
+  "size_class": "Right-size",
+  "fit": 8,
+  "evidence": "Shopify store with /pages/wholesale-login trade portal (verified Jun 2026); native-vs-app unconfirmed",
+  "evidence_source": "letoyvan.co.uk (checked)",
+  "angle": "Toysmith story + qualifying question; if app-based, native+rules migration pitch",
+  "contact": {
+    "role_target": "Sales Director / Ecom",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Le%20Toy%20Van%20ecommerce",
+    "hunter": "https://hunter.io/search/letoyvan.co.uk"
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

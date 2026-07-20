@@ -1,0 +1,39 @@
+{
+  "id": "american-hospital-supply",
+  "brand": "American Hospital Supply",
+  "website": "https://american-hospitalsupply.com",
+  "vertical": "Medical supplies",
+  "hq": "US",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 10,
+  "evidence": "Review of Onboard B2B (Jul 2025): enhancing their Shopify B2B presence",
+  "evidence_source": "Shopify App Store - Onboard B2B reviews",
+  "angle": "Uses a B2B-companion app = actively investing in native B2B stack right now; warm timing - medical distributors live on net terms + credit exposure",
+  "contact": {
+    "role_target": "Ecommerce / Ops lead",
+    "named_person": "Brian (surname? - T1 sent to brian@)",
+    "email": "brian@american-hospitalsupply.com",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=American%20Hospital%20Supply%20ecommerce",
+    "hunter": "https://hunter.io/search/american-hospitalsupply.com"
+  },
+  "status": "in_sequence",
+  "raw_status": "SENT T2 Jul 13",
+  "touches": {
+    "t1": {
+      "sent": "2026-06-17"
+    },
+    "t2": {
+      "sent": "2026-07-13"
+    }
+  },
+  "notes": "DOMAIN HAS HYPHEN. americanhospitalsupply.com = unrelated Caribbean distributor. Brian Barkeley found Jul 13 via BBB (American Hospital Supply LLC, Santa Monica CA) + LinkedIn company page - 60s guard NOT fully closed: confirm he maps to american-hospitalsupply.com before sending. | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "sheet_draft": "T3 (new angle, same thread, no links): Hi Brian,\n\nOne last thought on this. Medical distributors usually feel this as credit exposure: the bigger the equipment order, the longer the terms, and the more risk sits on your book. A deposit rule above a threshold caps that automatically.\n\nWant the 90 second walkthrough?\n\nRajat",
+  "sheet_next_action": "T3 (draft ready, same thread, no links) due Mon Jul 20 ~7pm IST if no reply. T4 break-up ~Mon Jul 25. Sequence ends at T4.",
+  "gmail": {
+    "thread_id": "19ed41d7b8838598",
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "oaky-rose-smocking-co",
+  "brand": "Oaky Rose Smocking Co",
+  "website": "",
+  "vertical": "",
+  "hq": "",
+  "tier": "HISTORY (pre-system)",
+  "size_class": "",
+  "fit": null,
+  "evidence": "",
+  "evidence_source": "",
+  "angle": "",
+  "contact": {
+    "role_target": "",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "",
+    "hunter": ""
+  },
+  "status": "do_not_contact",
+  "raw_status": "BLOCKED - Basic plan, do not contact",
+  "touches": {},
+  "notes": "Existing install on Basic Shopify. Cannot deploy TermStack (Functions = Plus only). Unblock only if they upgrade or plan-detect ships.",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

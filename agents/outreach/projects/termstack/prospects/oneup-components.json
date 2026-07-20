@@ -1,0 +1,32 @@
+{
+  "id": "oneup-components",
+  "brand": "OneUp Components",
+  "website": "https://oneupcomponents.com",
+  "vertical": "Bike components",
+  "hq": "CA",
+  "tier": "DISQUALIFIED",
+  "size_class": "Right-size",
+  "fit": 10,
+  "evidence": "Review (Jul 2025): dedicated B2B store, data saved to company profiles, contacts/permissions",
+  "evidence_source": "Shopify App Store - Onboard B2B reviews",
+  "angle": "Uses a B2B-companion app = actively investing in native B2B stack right now; warm timing - dealer tiers + preseason deposits demo",
+  "contact": {
+    "role_target": "Ecommerce / B2B lead",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=OneUp%20Components%20ecommerce",
+    "hunter": "https://hunter.io/search/oneupcomponents.com"
+  },
+  "status": "disqualified",
+  "raw_status": "Disqualified",
+  "touches": {},
+  "notes": "B2B ordering runs through Cin7 on separate domain - not native Shopify checkout",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

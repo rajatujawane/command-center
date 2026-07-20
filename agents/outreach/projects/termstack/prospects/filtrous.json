@@ -1,0 +1,36 @@
+{
+  "id": "filtrous",
+  "brand": "Filtrous",
+  "website": "https://filtrous.com",
+  "vertical": "Lab supplies",
+  "hq": "US",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 9,
+  "evidence": "Shopify blog: B2B lab-filter business on Shopify",
+  "evidence_source": "shopify.com/blog (What is B2B)",
+  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
+  "contact": {
+    "role_target": "Founder",
+    "named_person": "David Yazdi (CEO/Founder, verified via ZoomInfo -> d***@filtrous.com)",
+    "email": "david.yazdi@filtrous.com",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Filtrous%20ecommerce",
+    "hunter": "https://hunter.io/search/filtrous.com"
+  },
+  "status": "in_sequence",
+  "raw_status": "DRAFTED Jul 18 - David Yazdi confirmed, verify email then send",
+  "touches": {
+    "t1": {
+      "sent": "2026-07-15"
+    }
+  },
+  "notes": "AB: M. Jul 18: name corrected Yadzi->Yazdi (David Yazdi, CEO/Founder). ZoomInfo shows d***@filtrous.com so contact maps to filtrous.com; 60s guard closed. Verify exact email in Hunter, then send. | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "sheet_draft": "T1: (AB: M) Subject: Filtrous wholesale checkout\n\nHi David,\n\nQuick question about Filtrous B2B orders: when a lab orders on net terms, does that apply automatically at checkout, or is it handled through manual invoicing after the order?\n\nWe built TermStack for exactly this: a Shopify native rules engine for payment terms and deposits at checkout, no custom dev. A US toy and gift wholesaler on Plus runs it today.\n\nRajat\nFounder, TermStack by Varr Labs",
+  "sheet_next_action": "Send T1 Tue Jul 21 ~7pm IST (US evening / lab morning). Tue/Wed/Thu window.",
+  "gmail": {
+    "thread_id": "19f66ad4aa0b7ee0",
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

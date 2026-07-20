@@ -1,0 +1,32 @@
+{
+  "id": "tony-s-chocolonely",
+  "brand": "Tony's Chocolonely",
+  "website": "https://tonyschocolonely.com",
+  "vertical": "Chocolate / F&B",
+  "hq": "NL",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Enterprise long shot",
+  "fit": 6,
+  "evidence": "Shopify case study: unified DTC, B2B and reseller operations",
+  "evidence_source": "shopify.com/case-studies",
+  "angle": "One tailored touch",
+  "contact": {
+    "role_target": "Head of Digital",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Tony%27s%20Chocolonely%20ecommerce",
+    "hunter": "https://hunter.io/search/tonyschocolonely.com"
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "Custom ChocoPortal on Shopify for B2B, ~30 pay-on-account requests/DAY = huge terms pain. US ops smaller team. Find US head of ecommerce/B2B ops first (us.tonyschocolonely.com). From targets.md Wave 2.",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

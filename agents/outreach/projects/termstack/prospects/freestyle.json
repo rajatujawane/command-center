@@ -1,0 +1,32 @@
+{
+  "id": "freestyle",
+  "brand": "Freestyle",
+  "website": "",
+  "vertical": "Beverage / lifestyle",
+  "hq": "US",
+  "tier": "C - B2B-on-Shopify, verify checkout",
+  "size_class": "Right-size",
+  "fit": 5,
+  "evidence": "Crstl case study: EDI upgrade, Shopify-stack wholesale",
+  "evidence_source": "crstl.ai case study",
+  "angle": "On Shopify + EDI/wholesale to big retailers; confirm buyers use Shopify B2B checkout (not EDI-only) with the qualifying question before pitching - confirm official domain first",
+  "contact": {
+    "role_target": "Ops lead",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Freestyle%20ecommerce",
+    "hunter": ""
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "Find official domain first (brand name from cited source)",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

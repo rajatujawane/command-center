@@ -1,0 +1,36 @@
+{
+  "id": "memobottle",
+  "brand": "Memobottle",
+  "website": "https://memobottle.com",
+  "vertical": "Drinkware",
+  "hq": "AU",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 9,
+  "evidence": "Shopify case study: adopted the B2B module for international wholesale",
+  "evidence_source": "shopify.com/case-studies",
+  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
+  "contact": {
+    "role_target": "Co-founders",
+    "named_person": "Jesse Leeworthy / Jonathan Byrt (verify)",
+    "email": "jesse@memobottle.com",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Memobottle%20ecommerce",
+    "hunter": "https://hunter.io/search/memobottle.com"
+  },
+  "status": "in_sequence",
+  "raw_status": "Not contacted",
+  "touches": {
+    "t1": {
+      "sent": "2026-07-15"
+    }
+  },
+  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": "19f66c3fbec095e4",
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

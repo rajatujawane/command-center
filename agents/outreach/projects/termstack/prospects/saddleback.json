@@ -1,0 +1,36 @@
+{
+  "id": "saddleback",
+  "brand": "Saddleback",
+  "website": "https://saddleback.co.uk",
+  "vertical": "Cycling distribution (pure B2B)",
+  "hq": "UK",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 10,
+  "evidence": "Swanky case study: pure-B2B Plus stockist portal (UK + EU stores)",
+  "evidence_source": "swankyagency.com case study",
+  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback - 100% wholesale distributor; brand-by-brand stockist terms + preseason deposits",
+  "contact": {
+    "role_target": "Ecommerce / Ops Director",
+    "named_person": "",
+    "email": "brundha.sathiaseela@saddleback.co.uk",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Saddleback%20ecommerce",
+    "hunter": "https://hunter.io/search/saddleback.co.uk"
+  },
+  "status": "disqualified",
+  "raw_status": "DISQUALIFIED Jul 20 - entered administration May 29 2026, no longer operational",
+  "touches": {
+    "t1": {
+      "sent": "2026-07-16"
+    }
+  },
+  "notes": "Jul 20 web check: Saddleback Ltd entered administration 29 May 2026 (road.cc, Cycling Weekly). Not operational. Do not contact. | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": "19f6bc3b2b14bdfb",
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

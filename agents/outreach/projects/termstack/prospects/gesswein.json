@@ -1,0 +1,45 @@
+{
+  "id": "gesswein",
+  "brand": "Gesswein",
+  "website": "https://gesswein.com",
+  "vertical": "Precision tools",
+  "hq": "US",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 10,
+  "evidence": "Shopify case study: migrated to native Shopify B2B, replaced unreliable plugins (Zaelab build)",
+  "evidence_source": "shopify.com/case-studies",
+  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback - fresh migrant; terms rules = natural next step",
+  "contact": {
+    "role_target": "Ecommerce Director",
+    "named_person": "Lauren Gesswein VP Marketing (lauren@gesswein.com, dropped 0/3); Greg Gesswein President = Sep re-approach option",
+    "email": "lauren@gesswein.com",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Gesswein%20ecommerce",
+    "hunter": "https://hunter.io/search/gesswein.com"
+  },
+  "status": "dropped",
+  "raw_status": "DROPPED May 16 - 0/3 to Lauren. DO NOT CONTACT before Sep 15 2026",
+  "touches": {
+    "t1": {
+      "sent": "2026-04-21",
+      "note": "E1"
+    },
+    "t2": {
+      "sent": "2026-04-30",
+      "note": "E2 qualifying q"
+    },
+    "t3": {
+      "sent": "2026-05-16",
+      "note": "E3 break-up"
+    }
+  },
+  "notes": "Full sequence closed Apr-May 2026 (waves log). Re-approach ONLY: ~Sep 15+, to Greg, NEW thread, concrete trigger (vertical blog post / new capability / store-specific observation). Never reference old sequence.",
+  "sheet_draft": "BLOCKED - do not draft until Sep 15 re-approach window",
+  "sheet_next_action": "Sep 15 2026: reassess re-approach to Greg with new trigger",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

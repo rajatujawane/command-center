@@ -1,0 +1,36 @@
+{
+  "id": "hiut-denim",
+  "brand": "Hiut Denim",
+  "website": "https://hiutdenim.co.uk",
+  "vertical": "Apparel",
+  "hq": "UK",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 8,
+  "evidence": "Published B2B example: trade accounts + approved-buyer pricing on Shopify",
+  "evidence_source": "Avada/Smith B2B examples articles",
+  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
+  "contact": {
+    "role_target": "Founder",
+    "named_person": "David Hieatt (verify)",
+    "email": "david@hiutdenim.co.uk",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Hiut%20Denim%20ecommerce",
+    "hunter": "https://hunter.io/search/hiutdenim.co.uk"
+  },
+  "status": "in_sequence",
+  "raw_status": "Not contacted",
+  "touches": {
+    "t1": {
+      "sent": "2026-07-16"
+    }
+  },
+  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": "19f66d07360b01e5",
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

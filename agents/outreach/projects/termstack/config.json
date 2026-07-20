@@ -1,0 +1,31 @@
+{
+  "project": "termstack",
+  "sender": "rajat@varrlabshq.com",
+  "from_name": "Rajat from TermStack",
+  "gmail_account": "rajatujawane94@gmail.com",
+  "touches": ["t1", "t2", "t3"],
+  "cadence_days": { "t2_after_t1": 4, "t3_after_t1": 9, "min_gap_between_touches": 4 },
+  "drop_after_final_touch_days": 7,
+  "t1_send_days": ["Tue", "Wed", "Thu", "Fri"],
+  "followup_send_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+  "max_emails_per_day": 6,
+  "min_new_t1_per_day": 3,
+  "hard_ceiling_per_day": 8,
+  "max_pending_drafts": 6,
+  "draft_stale_days": 5,
+  "reapproach_after_days": 45,
+  "labels": {
+    "track": "outreach/termstack",
+    "reject": "outreach/reject",
+    "hold": "outreach/hold",
+    "later": "outreach/later"
+  },
+  "templates": { "t1": "templates/t1.md", "t2": "templates/t2.md", "t3": "templates/t3.md" },
+  "links": {
+    "in_cold_touches": false,
+    "in_replied_threads": true,
+    "demo_url": "https://youtu.be/T2oLb7WceE0",
+    "app_url": "https://apps.shopify.com/termstack"
+  },
+  "summary": { "channel": "imessage", "group": "Command Center" }
+}

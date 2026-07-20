@@ -1,0 +1,32 @@
+{
+  "id": "benchmade",
+  "brand": "Benchmade",
+  "website": "https://benchmade.com",
+  "vertical": "Knives / outdoor",
+  "hq": "US",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 8,
+  "evidence": "Shero public project: B2B payments & terms build on Shopify",
+  "evidence_source": "Shero Commerce project page",
+  "angle": "Approach VIA Shero partnership, not cold",
+  "contact": {
+    "role_target": "(via Shero)",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Benchmade%20ecommerce",
+    "hunter": "https://hunter.io/search/benchmade.com"
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

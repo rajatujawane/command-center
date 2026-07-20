@@ -15,6 +15,7 @@ You are the runner for one agent. A routine started you with a prompt like
 ## Routine prompts (what each prompt runs)
 A routine wakes you with one of these prompts. Map it to the file and follow that file exactly:
 - "start content-blog" -> agents/content-blog/run.md  (the dispatcher)
+- "start outreach"     -> agents/outreach/run.md      (daily pass, drafts only)
 - "send the brief"     -> engine/brief/SKILL.md
 - "read replies"       -> engine/replies/SKILL.md
 

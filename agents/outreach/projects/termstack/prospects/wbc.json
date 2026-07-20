@@ -1,0 +1,39 @@
+{
+  "id": "wbc",
+  "brand": "WBC",
+  "website": "https://wbc.co.uk",
+  "vertical": "Trade packaging / retail supplies",
+  "hq": "UK",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 10,
+  "evidence": "5-star review of Onboard B2B (Apr 2025): native company-account creation for their B2B site",
+  "evidence_source": "Shopify App Store - Onboard B2B reviews",
+  "angle": "Uses a B2B-companion app = actively investing in native B2B stack right now; warm timing - large UK trade supplier; terms by account tier is daily reality",
+  "contact": {
+    "role_target": "Ecommerce Director",
+    "named_person": "Mark Judson (mark.judson@wbc.co.uk)",
+    "email": "mark.judson@wbc.co.uk",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=WBC%20ecommerce",
+    "hunter": "https://hunter.io/search/wbc.co.uk"
+  },
+  "status": "in_sequence",
+  "raw_status": "T2 SCHEDULED Jul 14",
+  "touches": {
+    "t1": {
+      "sent": "2026-06-17"
+    },
+    "t2": {
+      "sent": "2026-07-14"
+    }
+  },
+  "notes": "Follow-up Touch 2 due ~Jul 16 | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "sheet_draft": "T3 (new angle, same thread, no links): Hi Mark,\n\nOne more thought. For trade suppliers the usual pain is account tiers: your biggest accounts earn better terms, but someone has to police that per order. Rules at checkout do the policing for you.\n\nWant the 90 second walkthrough?\n\nRajat",
+  "sheet_next_action": "T3 new angle due Mon Jul 20 ~2:30pm IST if no reply. T4 break-up ~Mon Jul 27. Sequence ends at T4.",
+  "gmail": {
+    "thread_id": "19ed1bc78b8b96c8",
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

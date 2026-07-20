@@ -1,0 +1,32 @@
+{
+  "id": "goulet-pen-company",
+  "brand": "Goulet Pen Company",
+  "website": "https://gouletpens.com",
+  "vertical": "Stationery / pens",
+  "hq": "US",
+  "tier": "B - Native B2B very likely",
+  "size_class": "Right-size",
+  "fit": 7,
+  "evidence": "Dedicated wholesale section for retailers on Shopify; stack unconfirmed",
+  "evidence_source": "Public site signals",
+  "angle": "Qualifying question first; founder reachable",
+  "contact": {
+    "role_target": "Founder",
+    "named_person": "Brian Goulet (verify)",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Goulet%20Pen%20Company%20ecommerce",
+    "hunter": "https://hunter.io/search/gouletpens.com"
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

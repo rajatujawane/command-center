@@ -1,0 +1,36 @@
+{
+  "id": "cocofloss",
+  "brand": "Cocofloss",
+  "website": "https://cocofloss.com",
+  "vertical": "Health / dental",
+  "hq": "US",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 8,
+  "evidence": "Published B2B example: B2B to dental offices on Shopify",
+  "evidence_source": "B2B examples articles",
+  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback - office reorders = terms by account tier",
+  "contact": {
+    "role_target": "Co-founder",
+    "named_person": "Chrystle Cu (verify)",
+    "email": "chrystle@cocofloss.com",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Cocofloss%20ecommerce",
+    "hunter": "https://hunter.io/search/cocofloss.com"
+  },
+  "status": "in_sequence",
+  "raw_status": "Not contacted",
+  "touches": {
+    "t1": {
+      "sent": "2026-07-15"
+    }
+  },
+  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": "19f66cb8e694de1c",
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

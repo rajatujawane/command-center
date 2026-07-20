@@ -1,0 +1,32 @@
+{
+  "id": "happ-e-rides",
+  "brand": "Happ-E-Rides",
+  "website": "",
+  "vertical": "E-mobility",
+  "hq": "NL",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 7,
+  "evidence": "Review (May 2026): B2B-only Shopify store with application-gated pricing/checkout",
+  "evidence_source": "Shopify App Store - Onboard B2B reviews",
+  "angle": "Uses a B2B-companion app = actively investing in native B2B stack right now; warm timing",
+  "contact": {
+    "role_target": "Founder",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Happ-E-Rides%20ecommerce",
+    "hunter": ""
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "Find official domain first (brand name from cited source)",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "maguire-shoes",
+  "brand": "Maguire Shoes",
+  "website": "https://maguireshoes.com",
+  "vertical": "Footwear",
+  "hq": "CA",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 7,
+  "evidence": "Published B2B example: wholesale login for trade buyers",
+  "evidence_source": "B2B examples articles",
+  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
+  "contact": {
+    "role_target": "Co-founders",
+    "named_person": "Myriam & Romy Belzile-Maguire (verify)",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Maguire%20Shoes%20ecommerce",
+    "hunter": "https://hunter.io/search/maguireshoes.com"
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

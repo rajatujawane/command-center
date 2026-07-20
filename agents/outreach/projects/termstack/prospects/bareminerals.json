@@ -1,0 +1,32 @@
+{
+  "id": "bareminerals",
+  "brand": "bareMinerals",
+  "website": "https://bareminerals.com",
+  "vertical": "Beauty",
+  "hq": "US",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Enterprise long shot",
+  "fit": 4,
+  "evidence": "Shopify enterprise blog: wholesale on Shopify",
+  "evidence_source": "shopify.com/enterprise/blog",
+  "angle": "One touch only",
+  "contact": {
+    "role_target": "Digital Commerce lead",
+    "named_person": "",
+    "email": "",
+    "email_verified": false,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=bareMinerals%20ecommerce",
+    "hunter": "https://hunter.io/search/bareminerals.com"
+  },
+  "status": "not_contacted",
+  "raw_status": "Not contacted",
+  "touches": {},
+  "notes": "",
+  "sheet_draft": "",
+  "sheet_next_action": "",
+  "gmail": {
+    "thread_id": null,
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}

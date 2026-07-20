@@ -1,0 +1,36 @@
+{
+  "id": "russell-hendrix",
+  "brand": "Russell Hendrix",
+  "website": "https://russellhendrix.com",
+  "vertical": "Foodservice equipment",
+  "hq": "CA",
+  "tier": "A - Native B2B confirmed",
+  "size_class": "Right-size",
+  "fit": 10,
+  "evidence": "Shopify case study: B2B online orders +43% after moving to Shopify",
+  "evidence_source": "shopify.com/case-studies (sitemap)",
+  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback - foodservice distribution = classic net-terms + deposits buyer",
+  "contact": {
+    "role_target": "Ecommerce Director",
+    "named_person": "RAJAT TO FIND",
+    "email": "proy@russellhendrix.com",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Russell%20Hendrix%20ecommerce",
+    "hunter": "https://hunter.io/search/russellhendrix.com"
+  },
+  "status": "in_sequence",
+  "raw_status": "QUEUED Jul 18 - contact needed (draft ready, AB: L)",
+  "touches": {
+    "t1": {
+      "sent": "2026-07-16"
+    }
+  },
+  "notes": "Claude web search Jul 13 found no named ecomm/digital lead (company-level results only). Rajat: use LinkedIn search link + hunter.io/search/russellhendrix.com. Draft ready - just add name. | AB: L. Jul 18 web check: no named ecom/digital lead confirmed. Candidate LinkedIn profiles at Russell Hendrix to check: Tom Pitera, Rob Vass, Amy Kissler, Stan Dabic (roles unverified, do NOT send until one maps to ecom/ops). PE-owned (Blue Point), Saskatoon HQ, largest CA foodservice dealer, so not founder-persona. Use LinkedIn + hunter.io/search/russellhendrix.com. | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "sheet_draft": "T1: (AB: L) Subject: Russell Hendrix wholesale checkout\n\nHi {Name},\n\nQuick question about Russell Hendrix B2B orders: when a restaurant group or institutional buyer places a large equipment order, do payment terms and any deposit apply automatically at checkout, or is that handled through invoicing after the order?\n\nIn TermStack that runs as a rule at checkout: under $1k pay now, $1k to $10k Net 30, over $10k Net 60 with a 25% deposit. A US toy and gift wholesaler on Plus runs it today.\n\nRajat\nFounder, TermStack by Varr Labs",
+  "sheet_next_action": "Find ecom/ops contact (LinkedIn + Hunter), then send T1 Tue Jul 21 ~7pm IST.",
+  "gmail": {
+    "thread_id": "19f6a603e65a7c09",
+    "pending_draft_id": null
+  },
+  "imported": "2026-07-20"
+}
