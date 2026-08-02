@@ -20,7 +20,7 @@ Across every agent in `agents/*`:
 Then:
 - `state/heartbeat.json` -> per agent, flag if the last clean run is older than its schedule
                             (content-blog is daily; no clean run in >36h -> "stale").
-- `state/budget.json`    -> today's spend vs caps.
+- `state/budget.json`    -> today's spend vs caps, per project.
 - `state/attention.json` -> when I last replied (informational).
 
 Hold this as the PIPELINE block.
@@ -60,7 +60,7 @@ CONDENSED iMessage in this exact shape:
 🌍 World
 • <bullets>
 
-⚙️ <dot> runs <ok|stale> · budget <n>/<cap> · last reply <Xh> ago
+⚙️ <dot> runs <ok|stale> · budget <proj> <n>/<cap>, <proj> <n>/<cap> · last reply <Xh> ago
 ```
 
 Pipeline lines are TITLE-FIRST so they're readable at a glance. Format:
@@ -69,6 +69,10 @@ Pipeline lines are TITLE-FIRST so they're readable at a glance. Format:
 Trim the title to ~6-8 words. Keep the full `id` only in the kill instruction (that's the
 handle I type back). Icons: ✅ ready/publishing · ✍️ drafting · ⏳ holding for go-live ·
 ⛔ blocked. System dot: 🟢 all good · 🟡 something stale or blocked · 🔴 a hard failure.
+
+When more than one project has live tasks, prefix each pipeline line with the project so I
+can tell them apart at a glance: `<icon> [termstack] "<short title>" — <status>`. With only
+one project in play, drop the prefix.
 
 Surface only what needs me: drafts ready + publish date, vetoable items, blocked tasks,
 stale agents, go-live holds. Finished work is a count, not a list. Keep it scannable — one

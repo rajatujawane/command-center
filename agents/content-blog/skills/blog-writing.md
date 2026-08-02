@@ -1,31 +1,35 @@
 ---
 name: blog-writing
-description: Write or revise blog articles for the Varr Labs site. Produces the title and prose only; the site repo's blog-ready skill handles site formatting and frontmatter.
+description: Write or revise blog articles for any content-blog project. Owns craft — structure, AI-tell kill list, titles, SEO, output contract. The project's voice file owns persona and audience; the site repo's blog-ready skill owns site formatting and frontmatter.
 ---
 
 # Blog Writing
 
 This skill produces the article itself — title, prose, structure. It does NOT format for
-the site; the repo's `blog-ready` skill does that at build time. The voice rules below are
-the foundation for everything you write here.
+the site; the repo's `blog-ready` skill does that at build time.
 
-## How we sound
+## Resolve the voice first
 
-Like a friend who knows their stuff explaining something over chai. Not a brand, not a
-teacher, not a LinkedIn thought leader. Talk to the reader, not at them. Use "you" and
-"I". Have opinions and back them up.
+Before writing a word, read `projects/<task.project>/config.json` and load its `voice`.
 
-## Voice rules
+Voice lives in the SITE REPO, not here — that way the agent and anyone writing a post by
+hand in that repo read the same file. `"voice": "repo:<path>"` means read `<path>` inside
+the project's `repo`:
 
-- Write like you talk. Read it out loud. If it sounds weird, rewrite it.
-- Short sentences. Short paragraphs. One idea per paragraph.
-- Ask rhetorical questions to pull the reader in.
-- Be opinionated. Take a side. "It depends" is lazy unless you explain the conditions.
-- Be specific. Numbers, names, examples. Not "many developers" but "most devs I talk to".
-- Start with the reader's problem, not background they already know.
-- Contractions always. "Don't", "can't", "won't".
+- termstack    -> `~/Developer/varr-labs-website/.claude/skills/blog-writing.md`
+- publishpilot -> `~/Developer/publish-pilot/.claude/skills/blog-writing.md`
+
+(A `"voice": "projects/<p>/voice.md"` form is still honoured for a project whose repo has no
+voice guide, read relative to `agents/content-blog/`. Nothing uses it today. Prefer the repo.)
+
+The voice file owns persona, pronouns, audience, and product-mention stance. Where the
+voice file and this file disagree on tone, the voice file wins. Where they disagree on
+craft (the kill list below, structure, SEO), this file wins. Never write a post without
+having loaded the project's voice file.
 
 ## Kill on sight (AI writing tells)
+
+Applies to every project, no exceptions.
 
 - Em dashes (— or --). Use a period or comma, or split into two sentences.
 - Dramatic one-line fragments: "Not a replacement. A portfolio." Write complete sentences.
@@ -37,6 +41,13 @@ teacher, not a LinkedIn thought leader. Talk to the reader, not at them. Use "yo
 - Filler: "essentially", "basically", "actually", "in order to", "when it comes to".
 - Hedging: "might potentially", "could possibly". Stacked adjectives. Parenthetical asides.
 
+## Craft floor
+
+- Short sentences. Short paragraphs. One idea per paragraph.
+- Start with the reader's problem, not background they already know.
+- Be specific. Numbers, names, examples beat adjectives.
+- Human enough that someone would believe a person wrote it.
+
 ## The opening
 
 No heading. 2-3 short paragraphs. Frame the problem or question. Hook with something the
@@ -47,18 +58,8 @@ Pattern:
 - Why the obvious answer doesn't work
 - What this post actually covers (one sentence)
 
-Don't start with "In this article, we will explore." Just talk.
-
-Example:
-```
-If you sell wholesale on Shopify Plus, payment terms aren't optional.
-They're how your buyers expect to pay.
-
-But most merchants I talk to have a fuzzy understanding of how terms
-actually work on Shopify.
-
-This post breaks that down.
-```
+Don't start with "In this article, we will explore." Just talk. See the project's voice
+file for a worked example in that project's register.
 
 ## Structure
 
@@ -103,9 +104,9 @@ Adapt it. The point is: problem first, then substance, then action.
 
 ## Project-aware writing
 
-When writing for a specific product, read the context files the task points you to in its
-`inputs` (e.g. a product PRD, positioning notes, or market doc). Use them to ground the
-post:
+Read every context file the task points you to in its `inputs` (the project PRD, the topic
+brief, positioning notes). Those live under the project's `knowledge_root`. Use them to
+ground the post:
 
 - What the product does, who it's for, the one concrete claim you can always make.
 - The customer's own language — mirror their words, not ours.

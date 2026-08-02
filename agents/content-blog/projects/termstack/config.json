@@ -1,0 +1,16 @@
+{
+  "project": "termstack",
+  "product": "TermStack",
+  "repo": "~/Developer/varr-labs-website",
+  "repo_slug": "rajatujawane/varr-labs-website",
+  "site_root": ".",
+  "default_branch": "main",
+  "prod_branch": "prod",
+  "preview_base_url": "http://192.168.0.217:3001/blog",
+  "live_base_url": "https://varrlabs.com/blog",
+  "knowledge_root": "knowledge/termstack",
+  "build_skills": ["blog-ready", "blog-image"],
+  "voice": "repo:.claude/skills/blog-writing.md",
+  "lead": "4d",
+  "notify": { "channel": "imessage", "group": "Command Center" }
+}

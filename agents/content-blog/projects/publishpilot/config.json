@@ -1,0 +1,16 @@
+{
+  "project": "publishpilot",
+  "product": "Publish Pilot",
+  "repo": "~/Developer/publish-pilot",
+  "repo_slug": "rajatujawane/publish-pilot",
+  "site_root": "main-site",
+  "default_branch": "main",
+  "prod_branch": "prod",
+  "preview_base_url": "http://192.168.0.217:3002/blog",
+  "live_base_url": "https://publishpilot.app/blog",
+  "knowledge_root": "knowledge/publishpilot",
+  "build_skills": ["blog-ready", "blog-image"],
+  "voice": "repo:.claude/skills/blog-writing.md",
+  "lead": "4d",
+  "notify": { "channel": "imessage", "group": "Command Center" }
+}

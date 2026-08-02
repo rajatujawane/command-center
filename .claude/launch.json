@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["--prefix", "/Users/rajatserver/Developer/varr-labs-website", "run", "dev"],
       "port": 3000
+    },
+    {
+      "name": "publish-pilot-main-site",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/rajatserver/Developer/publish-pilot/main-site", "run", "dev"],
+      "port": 3000
     }
   ]
 }
