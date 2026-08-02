@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-21",
+  "project": "termstack",
+  "day_type": "t1_day (Tue)",
+  "capacity": {
+    "hard_ceiling_per_day": 8,
+    "reserved_t1_slots": 3,
+    "followup_slots": 5,
+    "followups_due": 13,
+    "followups_carried": 8
+  },
+  "queue_guard": { "pending_drafts_in_gmail": 0, "max_pending_drafts": 6, "passed": true },
+  "queue": [
+    { "prospect_id": "american-hospital-supply", "touch": "t3", "due": "2026-07-17", "reason": "t2 sent 2026-07-13 + min_gap 4", "window": "US 6:30-9:30pm IST" },
+    { "prospect_id": "elite-truck", "touch": "t3", "due": "2026-07-17", "reason": "t2 sent 2026-07-13 + min_gap 4", "window": "US 6:30-9:30pm IST" },
+    { "prospect_id": "montana-west-u-s-a", "touch": "t3", "due": "2026-07-17", "reason": "t2 sent 2026-07-13 + min_gap 4", "window": "US 6:30-9:30pm IST" },
+    { "prospect_id": "wbc", "touch": "t3", "due": "2026-07-18", "reason": "t2 sent 2026-07-14 + min_gap 4", "window": "UK 1:30-3pm IST" },
+    { "prospect_id": "filtrous", "touch": "t2", "due": "2026-07-19", "reason": "t1 sent 2026-07-15 + 4; tiebreak on earliest actual send among fit-9 peers", "window": "US 6:30-9:30pm IST" }
+  ],
+  "carried_to_tomorrow": [
+    { "prospect_id": "carbahn", "touch": "t2", "due": "2026-07-19" },
+    { "prospect_id": "memobottle", "touch": "t2", "due": "2026-07-19" },
+    { "prospect_id": "cocofloss", "touch": "t2", "due": "2026-07-19" },
+    { "prospect_id": "allied-medical", "touch": "t2", "due": "2026-07-20" },
+    { "prospect_id": "future-glass", "touch": "t2", "due": "2026-07-20" },
+    { "prospect_id": "hiut-denim", "touch": "t2", "due": "2026-07-20" },
+    { "prospect_id": "pittsburgh-spray-equipment", "touch": "t2", "due": "2026-07-20" },
+    { "prospect_id": "russell-hendrix", "touch": "t2", "due": "2026-07-20" }
+  ],
+  "t1_slots": { "reserved": 3, "status": "pending_research", "note": "No not_contacted prospect has a verified contact; all T1s gated on Phase 3 research" }
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-07-24",
+  "project": "termstack",
+  "day_type": "t1_day (Fri)",
+  "queue_guard": {
+    "pending_drafts_in_gmail_at_pick": 6,
+    "max_pending_drafts": 6,
+    "slots_available": 0,
+    "passed": false,
+    "action": "HOLD ALL DRAFTING",
+    "note": "Same 6 tracked drafts still unsent in Gmail, now one day older. slots_available = 6 - 6 = 0. Per pick.md section 0, draft nothing this pass: no T1s, no follow-ups. Second consecutive day the guard has tripped."
+  },
+  "pending_unsent_drafts": [
+    { "prospect_id": "filtrous", "touch": "t2", "draft_id": "r-8852580823048405894", "created": "2026-07-21", "age_days": 4, "note": "stale at 5d -> tomorrow" },
+    { "prospect_id": "carbahn", "touch": "t2", "draft_id": "r-5833756127674803728", "created": "2026-07-22", "age_days": 3 },
+    { "prospect_id": "memobottle", "touch": "t2", "draft_id": "r4629686905532665799", "created": "2026-07-22", "age_days": 3 },
+    { "prospect_id": "cocofloss", "touch": "t2", "draft_id": "r-6431761475815498025", "created": "2026-07-22", "age_days": 3 },
+    { "prospect_id": "russell-hendrix", "touch": "t2", "draft_id": "r8087751110958439868", "created": "2026-07-22", "age_days": 3 },
+    { "prospect_id": "future-glass", "touch": "t2", "draft_id": "r1221402530463193311", "created": "2026-07-22", "age_days": 3 }
+  ],
+  "queue": [],
+  "held_due_followups": [
+    { "prospect_id": "allied-medical", "touch": "t2", "due": "2026-07-20", "days_overdue": 4, "note": "fit 9; held by queue guard, carried since 07-22" },
+    { "prospect_id": "pittsburgh-spray-equipment", "touch": "t2", "due": "2026-07-20", "days_overdue": 4, "note": "fit 9; held by queue guard, carried since 07-22" },
+    { "prospect_id": "hiut-denim", "touch": "t2", "due": "2026-07-20", "days_overdue": 4, "note": "fit 8; held by queue guard, carried since 07-22" }
+  ],
+  "blocked_behind_unsent_t2": [
+    { "prospect_id": "carbahn", "touch": "t3", "t3_clock_from_t1": "2026-07-24", "blocked_by": "t2 not sent; min_gap_between_touches=4 from actual t2 send date" },
+    { "prospect_id": "cocofloss", "touch": "t3", "t3_clock_from_t1": "2026-07-24", "blocked_by": "t2 not sent" },
+    { "prospect_id": "memobottle", "touch": "t3", "t3_clock_from_t1": "2026-07-24", "blocked_by": "t2 not sent" },
+    { "prospect_id": "filtrous", "touch": "t3", "t3_clock_from_t1": "2026-07-24", "blocked_by": "t2 not sent" }
+  ],
+  "t1_slots": {
+    "reserved": 0,
+    "status": "not_evaluated_guard_tripped",
+    "note": "Fri is a T1 day, but slots_available = 0 so no T1 reserve exists. Pool independently contact-blocked: 62 not_contacted, only 1 carries an email on file (sweet-water-decor, generic wholesale@ alias)."
+  },
+  "reconcile_note": "No change since 07-23. 0 sends detected (last send 07-22), 0 replies, 0 bounces, control labels (reject/hold/later) all empty. Sequences complete for american-hospital-supply, elite-truck, montana-west-u-s-a, wbc -- auto-drop 2026-07-29 if silent."
+}

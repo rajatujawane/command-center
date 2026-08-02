@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-22",
+  "project": "termstack",
+  "day_type": "t1_day (Wed)",
+  "capacity": {
+    "hard_ceiling_per_day": 8,
+    "reserved_t1_slots": 3,
+    "followup_slots": 5,
+    "followups_due": 8,
+    "followups_drafted": 5,
+    "followups_carried": 3
+  },
+  "queue_guard": { "pending_drafts_in_gmail_at_pick": 5, "max_pending_drafts": 6, "passed": true },
+  "queue": [
+    { "prospect_id": "carbahn", "touch": "t2", "due": "2026-07-19", "reason": "t1 sent 2026-07-15 + 4; fit 9, earliest send among 07-19 peers", "window": "US 6:30-9:30pm IST" },
+    { "prospect_id": "memobottle", "touch": "t2", "due": "2026-07-19", "reason": "t1 sent 2026-07-15 + 4; fit 9", "window": "AU 6-8am IST" },
+    { "prospect_id": "cocofloss", "touch": "t2", "due": "2026-07-19", "reason": "t1 sent 2026-07-15 + 4; fit 8", "window": "US 6:30-9:30pm IST" },
+    { "prospect_id": "russell-hendrix", "touch": "t2", "due": "2026-07-20", "reason": "t1 sent 2026-07-16 + 4; fit 10, earliest send among 07-20 fit-10 peers", "window": "CA 6:30-9:30pm IST" },
+    { "prospect_id": "future-glass", "touch": "t2", "due": "2026-07-20", "reason": "t1 sent 2026-07-16 + 4; fit 10", "window": "US 6:30-9:30pm IST" }
+  ],
+  "carried_to_tomorrow": [
+    { "prospect_id": "allied-medical", "touch": "t2", "due": "2026-07-20", "note": "fit 9" },
+    { "prospect_id": "pittsburgh-spray-equipment", "touch": "t2", "due": "2026-07-20", "note": "fit 9" },
+    { "prospect_id": "hiut-denim", "touch": "t2", "due": "2026-07-20", "note": "fit 8" }
+  ],
+  "t1_slots": {
+    "reserved": 3,
+    "status": "unused_pool_contact_blocked",
+    "note": "Unchanged since 2026-07-21 exhaustive sweep. No not_contacted prospect has a verified direct contact. ULE Group passes all 3 guards but only a generic inbox is published (held while domain reputation recovers). Death Wish persona fail. No new inputs today, so no re-research; 3 T1 slots reserved and left unused, not padded."
+  }
+}

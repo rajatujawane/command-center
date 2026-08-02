@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-26",
+  "project": "termstack",
+  "gate": "drafts only - nothing sent",
+  "drafts": [],
+  "failed": [],
+  "t1_drafts": [],
+  "sent_detected": [],
+  "note": "Reconcile detected no new sends, replies, bounces, or control-label changes since 07-25. Nothing was due today, so no new drafts were created. 3 T2 drafts from 07-25 remain unsent in Gmail (allied/pittsburgh/hiut), 1-2 days old, not yet stale.",
+  "pending_unsent_drafts": [
+    { "prospect_id": "allied-medical", "touch": "t2", "draft_id": "r5629415856914550849", "age_days": 1 },
+    { "prospect_id": "pittsburgh-spray-equipment", "touch": "t2", "draft_id": "r4171547755318258885", "age_days": 1 },
+    { "prospect_id": "hiut-denim", "touch": "t2", "draft_id": "r-8047015235567705078", "age_days": 1 }
+  ]
+}

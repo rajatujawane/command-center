@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-31",
+  "day": "Thu",
+  "t1_day": true,
+  "slots_available": 6,
+  "pending_unsent_at_start": 0,
+  "queue": [
+    {
+      "prospect_id": "allied-medical",
+      "touch": "t3",
+      "reason": "T3 due (t1 07-16 +9, t2 07-26 +min_gap 07-30); final touch",
+      "window": "NZ/US ~7pm IST"
+    },
+    {
+      "prospect_id": "hiut-denim",
+      "touch": "t3",
+      "reason": "T3 due (t1 07-16 +9, t2 07-26 +min_gap 07-30); final touch",
+      "window": "UK 1:30-3pm IST"
+    },
+    {
+      "prospect_id": "pittsburgh-spray-equipment",
+      "touch": "t3",
+      "reason": "T3 due (t1 07-16 +9, t2 07-26 +min_gap 07-30); final touch",
+      "window": "US 6:30-9:30pm IST"
+    }
+  ],
+  "t1_reserve": {
+    "reserved": 3,
+    "filled": 0,
+    "reason": "verified cold T1 pool empty (only benchmade=warm-only via Shero, sweet-water-decor=generic wholesale@ inbox + Plus unverified). Reserve returned to follow-ups; no follow-ups needed the extra slots."
+  },
+  "notes": "Follow-ups only. No new T1s. Mining needed."
+}

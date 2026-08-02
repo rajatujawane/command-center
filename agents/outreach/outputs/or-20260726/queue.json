@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-26",
+  "project": "termstack",
+  "day": "Sun (non-T1 day: follow-ups only)",
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent": 3,
+    "slots_available": 3,
+    "status": "clear (3 T2 drafts from 07-25 still unsent: allied/pittsburgh/hiut)"
+  },
+  "queue": [],
+  "queue_note": "Nothing due today. The 3 T2 drafts (allied/pittsburgh/hiut) already exist and are unsent - idempotency means no redraft. No other touch is due until 07-28.",
+  "t1s": [],
+  "t1_note": "Sun is not a t1_send_day (Tue-Fri). No new T1s. Next T1 day: Tue 2026-07-28.",
+  "not_due_yet": {
+    "t3_due_2026-07-28": ["carbahn", "cocofloss", "filtrous", "memobottle", "future-glass", "russell-hendrix"],
+    "t3_final_drop_2026-07-29_if_silent": ["american-hospital-supply", "elite-truck", "montana-west-u-s-a", "wbc"],
+    "pending_unsent_t2": ["allied-medical", "pittsburgh-spray-equipment", "hiut-denim"]
+  }
+}

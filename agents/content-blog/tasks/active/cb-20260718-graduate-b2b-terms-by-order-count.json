@@ -1,0 +1,77 @@
+{
+  "id": "cb-20260718-graduate-b2b-terms-by-order-count",
+  "title": "Graduate B2B Buyers to Better Terms by Order Count",
+  "project": "termstack",
+  "go_live": "2026-07-28",
+  "queued_at": "2026-07-18",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/graduate-b2b-terms-by-order-count.md"
+  ],
+  "steps": [
+    {
+      "do": "branch",
+      "gate": "auto",
+      "status": "done",
+      "out": "branch=blog/cb-20260718-graduate-b2b-terms-by-order-count default=main"
+    },
+    {
+      "do": "draft",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/content-blog/outputs/cb-20260718-graduate-b2b-terms-by-order-count/draft.md"
+    },
+    {
+      "do": "fact_check",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/content-blog/outputs/cb-20260718-graduate-b2b-terms-by-order-count/fact_check.md"
+    },
+    {
+      "do": "build",
+      "to": "{meta.repo}",
+      "run": [
+        "blog-ready",
+        "blog-image"
+      ],
+      "status": "done",
+      "out": "slug=graduate-b2b-payment-terms-by-order-count"
+    },
+    {
+      "do": "qa_image",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/content-blog/outputs/cb-20260718-graduate-b2b-terms-by-order-count/qa_image.md"
+    },
+    {
+      "do": "commit",
+      "gate": "auto",
+      "status": "done",
+      "out": "https://github.com/rajatujawane/varr-labs-website/pull/56"
+    },
+    {
+      "do": "deliver",
+      "to": [
+        "git_pr:merge"
+      ],
+      "gate": "auto",
+      "status": "pending",
+      "out": ""
+    },
+    {
+      "do": "promote",
+      "to": [
+        "git_pr:prod"
+      ],
+      "gate": "auto",
+      "status": "pending",
+      "out": ""
+    },
+    {
+      "do": "notify",
+      "to": "me",
+      "status": "pending",
+      "out": ""
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-02",
+  "day_of_week": "Sun",
+  "t1_day": false,
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent_at_start": 3,
+    "slots_available": 3
+  },
+  "queue": [
+    {
+      "prospect_id": "darche",
+      "touch": "t2",
+      "reason": "T1 sent 2026-07-29, T2 due 2026-08-02 (t1+4). AU, send 6-8am IST.",
+      "hq": "AU",
+      "fit": 8
+    },
+    {
+      "prospect_id": "maguire-shoes",
+      "touch": "t2",
+      "reason": "T1 sent 2026-07-29, T2 due 2026-08-02 (t1+4). CA, send 6:30-9:30pm IST.",
+      "hq": "CA",
+      "fit": 7
+    },
+    {
+      "prospect_id": "tony-s-chocolonely",
+      "touch": "t2",
+      "reason": "T1 sent 2026-07-29, T2 due 2026-08-02 (t1+4). US ops, send 6:30-9:30pm IST.",
+      "hq": "NL/US",
+      "fit": 6
+    }
+  ],
+  "t1s": [],
+  "notes": "Non-T1 day (Sun) so no new T1s. slots_available 3 (3 unsent T2s carried from 08-01: death-wish/ule/valvetronic). Drafted all 3 due T2s, exactly filling the queue to 6/6 pending. Verified-contact cold pool empty; mining needed."
+}

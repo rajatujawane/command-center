@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-25",
+  "project": "termstack",
+  "gate": "drafts only - nothing sent",
+  "drafts": [
+    { "prospect_id": "allied-medical", "touch": "t2", "draft_id": "r5629415856914550849", "thread_id": "19f6bd120c4c6a36", "to": "katie.noble@alliedmedical.co.nz", "subject": "Re: Payment terms for clinic accounts", "angle": "clinic tiers: new prepay / established Net 30 / equipment >$10k Net 60 + 25% deposit" },
+    { "prospect_id": "pittsburgh-spray-equipment", "touch": "t2", "draft_id": "r4171547755318258885", "thread_id": "19f6be6fb16b36d5", "to": "patrick.harmon@pittsburghsprayequip.com", "subject": "Re: Deposit rules on large equipment orders", "angle": "keep existing Net 30, add first-order prepay + deposit on equipment >$10k" },
+    { "prospect_id": "hiut-denim", "touch": "t2", "draft_id": "r-8047015235567705078", "thread_id": "19f66d07360b01e5", "to": "david@hiutdenim.co.uk", "subject": "Re: Trade account payment terms", "angle": "trade tiers, GBP: new prepay / stockists Net 30 / >£10k Net 60 + 25% deposit" }
+  ],
+  "failed": [],
+  "t1_drafts": [],
+  "sent_detected": [
+    { "prospect_id": "carbahn", "touch": "t2", "sent": "2026-07-24" },
+    { "prospect_id": "cocofloss", "touch": "t2", "sent": "2026-07-24" },
+    { "prospect_id": "filtrous", "touch": "t2", "sent": "2026-07-24" },
+    { "prospect_id": "memobottle", "touch": "t2", "sent": "2026-07-24" },
+    { "prospect_id": "future-glass", "touch": "t2", "sent": "2026-07-24" },
+    { "prospect_id": "russell-hendrix", "touch": "t2", "sent": "2026-07-24" }
+  ]
+}

@@ -23,14 +23,22 @@
   "touches": {
     "t1": {
       "sent": "2026-07-15"
+    },
+    "t2": {
+      "drafted": "2026-07-22",
+      "sent": "2026-07-24"
+    },
+    "t3": {
+      "sent": "2026-07-29",
+      "subject": "Re: Wholesale payment terrms",
+      "drafted": "2026-07-29"
     }
   },
-  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T2 draft created 2026-07-22 (id r4629686905532665799), awaiting review | T2 SENT 2026-07-24 (detected via Gmail Sent 2026-07-25); no reply; t3 due 2026-07-28",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": "19f66c3fbec095e4",
-    "pending_draft_id": null
+    "thread_id": "19f66c3fbec095e4"
   },
   "imported": "2026-07-20"
 }

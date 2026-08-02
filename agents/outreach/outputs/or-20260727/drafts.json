@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-27",
+  "project": "termstack",
+  "gate": "drafts only - nothing sent",
+  "drafts": [],
+  "failed": [],
+  "t1_drafts": [],
+  "sent_detected": [
+    { "prospect_id": "allied-medical", "touch": "t2", "sent_date": "2026-07-26", "gmail_msg_id": "19f9ea90c1194605" },
+    { "prospect_id": "hiut-denim", "touch": "t2", "sent_date": "2026-07-26", "gmail_msg_id": "19f9ea93cc240f17" },
+    { "prospect_id": "pittsburgh-spray-equipment", "touch": "t2", "sent_date": "2026-07-26", "gmail_msg_id": "19f9ea9285bfe48a" }
+  ],
+  "note": "Reconcile detected the 3 T2 drafts created 07-25 (allied/hiut/pittsburgh) were sent by Rajat on 2026-07-26 13:41 UTC. Prospect files updated: t2.sent=2026-07-26, pending_draft_id cleared, status stays in_sequence, T3 anchors to 2026-07-30. 0 replies, 0 bounces, control labels empty. Nothing due today (Mon, follow-up-only) so 0 new drafts created. 1 untracked draft remains in Gmail (the 07-16 'Email #1 (Template)', not created by this system, left untouched).",
+  "pending_unsent_drafts": []
+}

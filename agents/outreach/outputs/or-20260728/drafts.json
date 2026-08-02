@@ -1,0 +1,21 @@
+{
+  "date": "2026-07-28",
+  "project": "termstack",
+  "gate": "drafts only - nothing sent",
+  "drafts": [
+    { "prospect_id": "carbahn",              "touch": "t3", "draft_id": "r-4244489194046954616", "thread_id": "19f66bb767487c09", "subject": "Re: Dealer payment terms at checkout" },
+    { "prospect_id": "cocofloss",            "touch": "t3", "draft_id": "r-6828092592085908202", "thread_id": "19f66cb8e694de1c", "subject": "Re: Payment terms for dental offices" },
+    { "prospect_id": "filtrous",             "touch": "t3", "draft_id": "r4227355078587898129",  "thread_id": "19f66ad4aa0b7ee0", "subject": "Re: Payment terms for your lab accounts" },
+    { "prospect_id": "ule-group",            "touch": "t1", "draft_id": "r-341755229372141987",  "thread_id": "19fa5872bae7a4fc", "subject": "Payment terms on your contract accounts" },
+    { "prospect_id": "death-wish-coffee",    "touch": "t1", "draft_id": "r226054642010235757",   "thread_id": "19fa587367261230", "subject": "Death Wish's wholesale checkout" },
+    { "prospect_id": "valvetronic-designs",  "touch": "t1", "draft_id": "r1844909178273515548",  "thread_id": "19fa5874090a667b", "subject": "Valvetronic's dealer checkout" }
+  ],
+  "failed": [],
+  "sent_detected": [],
+  "carried": ["memobottle", "future-glass", "russell-hendrix"],
+  "pending_unsent_drafts": [
+    "carbahn/t3", "cocofloss/t3", "filtrous/t3",
+    "ule-group/t1", "death-wish-coffee/t1", "valvetronic-designs/t1"
+  ],
+  "note": "6 drafts created (3 T3 finals + 3 new T1s), filling all 6 slots. Tracking label outreach/termstack applied to the 3 new T1 threads (T3 threads already carried it). Prospect files updated: T3s pending_draft_id set (status stays in_sequence); T1s status->drafted, thread_id + pending_draft_id set. 0 replies, 0 sends detected, 0 bounces, control labels empty this pass."
+}

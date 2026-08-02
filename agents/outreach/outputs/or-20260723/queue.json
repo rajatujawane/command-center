@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-23",
+  "project": "termstack",
+  "day_type": "t1_day (Thu)",
+  "queue_guard": {
+    "pending_drafts_in_gmail_at_pick": 6,
+    "max_pending_drafts": 6,
+    "slots_available": 0,
+    "passed": false,
+    "action": "HOLD ALL DRAFTING",
+    "note": "6 tracked drafts sit unsent in Gmail (carbahn, memobottle, cocofloss, russell-hendrix, future-glass T2s from 07-22 + filtrous T2 from 07-21). slots_available = max_pending_drafts - pending_unsent = 6 - 6 = 0. Per pick.md section 0, draft nothing this pass: no T1s, no follow-ups. Adding drafts on top of an unsent stack is pileup, not progress."
+  },
+  "pending_unsent_drafts": [
+    { "prospect_id": "filtrous", "touch": "t2", "draft_id": "r-8852580823048405894", "age_days": 3 },
+    { "prospect_id": "carbahn", "touch": "t2", "draft_id": "r-5833756127674803728", "age_days": 2 },
+    { "prospect_id": "memobottle", "touch": "t2", "draft_id": "r4629686905532665799", "age_days": 2 },
+    { "prospect_id": "cocofloss", "touch": "t2", "draft_id": "r-6431761475815498025", "age_days": 2 },
+    { "prospect_id": "russell-hendrix", "touch": "t2", "draft_id": "r8087751110958439868", "age_days": 2 },
+    { "prospect_id": "future-glass", "touch": "t2", "draft_id": "r1221402530463193311", "age_days": 2 }
+  ],
+  "queue": [],
+  "held_due_followups": [
+    { "prospect_id": "allied-medical", "touch": "t2", "due": "2026-07-20", "note": "fit 9; held by queue guard, carried since 07-22" },
+    { "prospect_id": "pittsburgh-spray-equipment", "touch": "t2", "due": "2026-07-20", "note": "fit 9; held by queue guard, carried since 07-22" },
+    { "prospect_id": "hiut-denim", "touch": "t2", "due": "2026-07-20", "note": "fit 8; held by queue guard, carried since 07-22" }
+  ],
+  "t1_slots": {
+    "reserved": 0,
+    "status": "not_evaluated_guard_tripped",
+    "note": "Thu is a T1 day, but slots_available = 0 so no T1 reserve exists this pass. Pool also remains contact-blocked, unchanged since 2026-07-21 sweep."
+  },
+  "reconcile_note": "4 T3 finals (american-hospital-supply, elite-truck, montana-west-u-s-a, wbc) were SENT by Rajat on 2026-07-22, clearing them from the draft stack (was 10 pending, now 6). 0 replies detected across all threads."
+}

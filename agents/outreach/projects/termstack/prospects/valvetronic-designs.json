@@ -1,7 +1,7 @@
 {
   "id": "valvetronic-designs",
   "brand": "Valvetronic Designs",
-  "website": "https://valvetronicdesigns.com",
+  "website": "https://valvetronic.com",
   "vertical": "Automotive performance",
   "hq": "US",
   "tier": "A - Native B2B confirmed",
@@ -11,22 +11,35 @@
   "evidence_source": "icecubedigital.com case study",
   "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
   "contact": {
-    "role_target": "Founder / Ecom",
-    "named_person": "",
-    "email": "",
-    "email_verified": false,
+    "role_target": "Founder/CEO",
+    "named_person": "Austin Huffman (Founder/CEO)",
+    "email": "ahuffman@valvetronic.com",
+    "email_verified": true,
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Valvetronic%20Designs%20ecommerce",
     "hunter": "https://hunter.io/search/valvetronicdesigns.com"
   },
-  "status": "not_contacted",
+  "status": "in_sequence",
   "raw_status": "Not contacted",
-  "touches": {},
-  "notes": "",
+  "touches": {
+    "t1": {
+      "drafted": "2026-07-28",
+      "draft_id": "r1844909178273515548",
+      "sent": "2026-07-28"
+    },
+    "t2": {
+      "drafted": "2026-08-01",
+      "draft_id": "r-5716470282331944502",
+      "subject": "Re: Valvetronic's dealer checkout"
+    }
+  },
+  "notes": " | Domain corrected to valvetronic.com. Email verified by Rajat 2026-07-26: ahuffman@valvetronic.com (Austin Huffman, Founder/CEO). | T1 sent 2026-07-28 (thread 19fa5874090a667b). | T2 draft created 2026-08-01 (id r-5716470282331944502), awaiting review; no links (cold thread). T3 due 2026-08-06.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": null,
-    "pending_draft_id": null
+    "thread_id": "19fa5874090a667b",
+    "pending_draft_id": "r-5716470282331944502",
+    "pending_touch": "t2"
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "flags": []
 }

@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-01",
+  "day_of_week": "Sat",
+  "t1_day": false,
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent_at_start": 0,
+    "slots_available": 6
+  },
+  "queue": [
+    {
+      "prospect_id": "death-wish-coffee",
+      "touch": "t2",
+      "reason": "T1 sent 2026-07-28, T2 due 2026-08-01 (t1+4). US, send 6:30-9:30pm IST.",
+      "hq": "US",
+      "fit": 9
+    },
+    {
+      "prospect_id": "ule-group",
+      "touch": "t2",
+      "reason": "T1 sent 2026-07-28, T2 due 2026-08-01 (t1+4). US, send 6:30-9:30pm IST.",
+      "hq": "US",
+      "fit": 9
+    },
+    {
+      "prospect_id": "valvetronic-designs",
+      "touch": "t2",
+      "reason": "T1 sent 2026-07-28, T2 due 2026-08-01 (t1+4). US, send 6:30-9:30pm IST.",
+      "hq": "US",
+      "fit": 8
+    }
+  ],
+  "t1s": [],
+  "notes": "Non-T1 day (Sat) so no new T1s. Verified-contact cold pool empty; mining needed. darche/maguire/tony-s T2 due 2026-08-02."
+}

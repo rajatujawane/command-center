@@ -1,0 +1,19 @@
+{
+  "id": "cb-20260718-shopify-b2b-2026-all-plans-vs-plus",
+  "title": "Shopify B2B in 2026: All Plans vs Plus",
+  "project": "termstack",
+  "go_live": "2026-07-30",
+  "queued_at": "2026-07-18",
+  "inputs": ["knowledge/termstack/prd.md", "knowledge/termstack/briefs/shopify-b2b-2026-all-plans-vs-plus.md"],
+  "steps": [
+    { "do": "branch",     "gate": "auto", "status": "done", "out": "branch=blog/cb-20260718-shopify-b2b-2026-all-plans-vs-plus; default=main" },
+    { "do": "draft",      "gate": "auto", "status": "done", "out": "agents/content-blog/outputs/cb-20260718-shopify-b2b-2026-all-plans-vs-plus/draft.md" },
+    { "do": "fact_check", "gate": "auto", "status": "done", "out": "clean; claims trace to brief + prd. FLAG: April-2026 all-plans premise contradicts 3 published posts (native-vs-app, summer-2026, complete-guide) that call B2B payment terms Plus-only; human should reconcile before publish." },
+    { "do": "build",      "to": "{meta.repo}", "run": ["blog-ready", "blog-image"], "status": "done", "out": "slug=shopify-b2b-2026-all-plans-vs-plus; mdx=src/content/blog/shopify-b2b-2026-all-plans-vs-plus.mdx; hero=public/blog/27-hero-shopify-b2b-2026-all-plans-vs-plus.svg; backlink added in src/content/blog/shopify-b2b-payment-terms-native-vs-app.mdx" },
+    { "do": "qa_image",   "gate": "auto", "status": "done", "out": "viewed hero via headless-chrome faithful render; both columns legible + in-bounds, cream bg, watermark present, no AI-card tells; no fixes needed (1 pass)." },
+    { "do": "commit",     "gate": "auto", "status": "done", "out": "commit=53cba6e; pushed origin/blog/cb-20260718-shopify-b2b-2026-all-plans-vs-plus; draft_pr=https://github.com/rajatujawane/varr-labs-website/pull/57; imessage sent to 'Command Center'. STOP after commit per worker.md." },
+    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "auto", "status": "pending", "out": "" },
+    { "do": "promote",    "to": ["git_pr:prod"],  "gate": "auto", "status": "pending", "out": "" },
+    { "do": "notify",     "to": "me", "status": "pending", "out": "" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-07-22",
+  "project": "termstack",
+  "gate": "drafts only - nothing sent",
+  "drafts": [
+    { "prospect_id": "carbahn", "touch": "t2", "draft_id": "r-5833756127674803728", "thread_id": "19f66bb767487c09", "to": "steve.dinan@carbahn.com", "subject": "Re: Dealer payment terms at checkout", "angle": "dealer tiers: new pay now / approved Net 30 / volume >$5k Net 60 + deposit" },
+    { "prospect_id": "memobottle", "touch": "t2", "draft_id": "r4629686905532665799", "thread_id": "19f66c3fbec095e4", "to": "jesse@memobottle.com", "subject": "Re: Wholesale payment terrms", "angle": "boutique wholesale + international accounts, AUD" },
+    { "prospect_id": "cocofloss", "touch": "t2", "draft_id": "r-6431761475815498025", "thread_id": "19f66cb8e694de1c", "to": "chrystle@cocofloss.com", "subject": "Re: Payment terms for dental offices", "angle": "office account tiers, reorders keep their terms" },
+    { "prospect_id": "russell-hendrix", "touch": "t2", "draft_id": "r8087751110958439868", "thread_id": "19f6a603e65a7c09", "to": "proy@russellhendrix.com", "subject": "Re: Payment terms for foodservice accounts", "angle": "order-value tiers for restaurant groups + institutional buyers" },
+    { "prospect_id": "future-glass", "touch": "t2", "draft_id": "r1221402530463193311", "thread_id": "19f6bf26a7fec786", "to": "parker@glasswarehouse.us", "subject": "Re: Payment terms for trade accounts", "angle": "trade/contractor tiers, no invoicing back and forth" }
+  ],
+  "failed": [],
+  "t1_drafts": []
+}

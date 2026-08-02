@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-25",
+  "project": "termstack",
+  "day": "Sat (non-T1 day: follow-ups only)",
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent": 0,
+    "slots_available": 6,
+    "status": "clear (all 6 prior T2 drafts sent by Rajat 2026-07-24)"
+  },
+  "queue": [
+    { "prospect_id": "allied-medical", "touch": "t2", "reason": "t2 due (t1 2026-07-16 + 4 = 07-20); carried from guard-blocked passes 07-22..07-24; fit 9" },
+    { "prospect_id": "pittsburgh-spray-equipment", "touch": "t2", "reason": "t2 due (t1 2026-07-16 + 4 = 07-20); carried; fit 9" },
+    { "prospect_id": "hiut-denim", "touch": "t2", "reason": "t2 due (t1 2026-07-16 + 4 = 07-20); carried; fit 8" }
+  ],
+  "t1s": [],
+  "t1_note": "Sat is not a t1_send_day (Tue-Fri). No new T1s. Next T1 day: Tue 2026-07-28.",
+  "not_due_yet": {
+    "t3_due_2026-07-28": ["carbahn", "cocofloss", "filtrous", "memobottle", "future-glass", "russell-hendrix"],
+    "t3_final_drop_2026-07-29_if_silent": ["american-hospital-supply", "elite-truck", "montana-west-u-s-a", "wbc"]
+  }
+}

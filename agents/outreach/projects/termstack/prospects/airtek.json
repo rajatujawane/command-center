@@ -21,12 +21,14 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "",
+  "notes": " | Blocked 2026-07-26: researched, no named contact findable.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
     "thread_id": null,
     "pending_draft_id": null
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "flags": [],
+  "blocked": "no_contact"
 }

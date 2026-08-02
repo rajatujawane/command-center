@@ -1,0 +1,37 @@
+{
+  "date": "2026-07-28",
+  "project": "termstack",
+  "day": "Tue (T1 day)",
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent": 0,
+    "slots_available": 6,
+    "status": "clear (0 tracked unsent drafts at start of pass)"
+  },
+  "reserve": {
+    "min_new_t1_per_day": 3,
+    "t1_reserve_fillable": true,
+    "note": "Pool no longer fully contact-blocked: 8 not_contacted prospects now carry a verified email (several verified by Rajat 2026-07-26). T1 reserve of 3 is filled; follow-ups get the remaining 3 slots."
+  },
+  "queue": [
+    { "prospect_id": "carbahn",   "touch": "t3", "reason": "T3 final due 07-28 (t1 07-15 +9, gated by t2 07-24 +min_gap 4). US 6:30-9:30pm IST." },
+    { "prospect_id": "cocofloss", "touch": "t3", "reason": "T3 final due 07-28. US 6:30-9:30pm IST." },
+    { "prospect_id": "filtrous",  "touch": "t3", "reason": "T3 final due 07-28. US 6:30-9:30pm IST." },
+    { "prospect_id": "ule-group",            "touch": "t1", "reason": "New T1. Tier A, fit 9, Plus confirmed, 60s guard passes, EVP eCommerce verified. US 6:30-9:30pm IST." },
+    { "prospect_id": "death-wish-coffee",    "touch": "t1", "reason": "New T1. Tier A, fit 9, Plus confirmed, contact verified by Rajat. US 6:30-9:30pm IST." },
+    { "prospect_id": "valvetronic-designs",  "touch": "t1", "reason": "New T1. Tier A, fit 8, Plus dealer portal, Founder/CEO verified by Rajat. US 6:30-9:30pm IST." }
+  ],
+  "carried_to_tomorrow": {
+    "t3_due_but_over_slot_cap": ["memobottle", "future-glass", "russell-hendrix"],
+    "note": "6 T3 finals were due today; only 3 follow-up slots after the 3-slot T1 reserve. memobottle (t1 07-15) plus the two 07-16 opens carry to Wed 07-29, oldest-due first."
+  },
+  "t1_candidates_considered": {
+    "picked": ["ule-group", "death-wish-coffee", "valvetronic-designs"],
+    "eligible_not_picked": ["benchmade (SKIP: notes say approach via Shero partnership, not cold)", "darche (AU, fit 8)", "maguire-shoes (CA, fit 7)", "tony-s-chocolonely (NL, enterprise long shot, fit 6)"],
+    "excluded": ["sweet-water-decor (Wave 2, email unverified + Plus not verified -> research first)"]
+  },
+  "not_due_yet": {
+    "t3_final_drop_2026-07-29_if_silent": ["american-hospital-supply", "elite-truck", "montana-west-u-s-a", "wbc"],
+    "t3_due_2026-07-30": ["allied-medical", "hiut-denim", "pittsburgh-spray-equipment"]
+  }
+}

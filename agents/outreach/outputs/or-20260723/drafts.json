@@ -1,0 +1,9 @@
+{
+  "date": "2026-07-23",
+  "project": "termstack",
+  "gate": "drafts only - nothing sent",
+  "drafts": [],
+  "failed": [],
+  "t1_drafts": [],
+  "note": "No drafts created. Queue guard tripped (6 pending unsent = max_pending_drafts). Holding all new drafting until Rajat works down the stack."
+}

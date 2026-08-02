@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-31",
+  "created": [
+    {
+      "prospect_id": "allied-medical",
+      "touch": "t3",
+      "draft_id": "r1105971099175614121",
+      "subject": "Re: Payment terms for clinic accounts"
+    },
+    {
+      "prospect_id": "hiut-denim",
+      "touch": "t3",
+      "draft_id": "r1616566517772557033",
+      "subject": "Re: Trade account payment terms"
+    },
+    {
+      "prospect_id": "pittsburgh-spray-equipment",
+      "touch": "t3",
+      "draft_id": "r4956952630405743713",
+      "subject": "Re: Deposit rules on large equipment orders"
+    }
+  ]
+}

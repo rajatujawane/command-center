@@ -28,5 +28,6 @@
     "thread_id": null,
     "pending_draft_id": null
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "flags": []
 }

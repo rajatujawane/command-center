@@ -18,22 +18,26 @@
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=American%20Hospital%20Supply%20ecommerce",
     "hunter": "https://hunter.io/search/american-hospitalsupply.com"
   },
-  "status": "in_sequence",
-  "raw_status": "SENT T2 Jul 13",
+  "status": "dropped",
+  "raw_status": "SENT T3 Jul 22",
   "touches": {
     "t1": {
       "sent": "2026-06-17"
     },
     "t2": {
       "sent": "2026-07-13"
+    },
+    "t3": {
+      "drafted": "2026-07-21",
+      "sent": "2026-07-22"
     }
   },
-  "notes": "DOMAIN HAS HYPHEN. americanhospitalsupply.com = unrelated Caribbean distributor. Brian Barkeley found Jul 13 via BBB (American Hospital Supply LLC, Santa Monica CA) + LinkedIn company page - 60s guard NOT fully closed: confirm he maps to american-hospitalsupply.com before sending. | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "notes": "DOMAIN HAS HYPHEN. americanhospitalsupply.com = unrelated Caribbean distributor. Brian Barkeley found Jul 13 via BBB (American Hospital Supply LLC, Santa Monica CA) + LinkedIn company page - 60s guard NOT fully closed: confirm he maps to american-hospitalsupply.com before sending. | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T3 draft created 2026-07-21 (id r-2366121571741718305) | T3 SENT 2026-07-22 (detected via Gmail Sent 2026-07-23); final touch, no reply; auto-drop after 2026-07-29 if silent | AUTO-DROPPED 2026-07-31: T3 sent 2026-07-22, no reply within 7 days (drop_after_final_touch_days). Sequence complete, no 4th email. Re-approach eligible after 45d with new contact/angle.",
   "sheet_draft": "T3 (new angle, same thread, no links): Hi Brian,\n\nOne last thought on this. Medical distributors usually feel this as credit exposure: the bigger the equipment order, the longer the terms, and the more risk sits on your book. A deposit rule above a threshold caps that automatically.\n\nWant the 90 second walkthrough?\n\nRajat",
-  "sheet_next_action": "T3 (draft ready, same thread, no links) due Mon Jul 20 ~7pm IST if no reply. T4 break-up ~Mon Jul 25. Sequence ends at T4.",
+  "sheet_next_action": "T3 sent Jul 22. Sequence complete (3 touches). No T4. Auto-drop after Jul 29 if no reply.",
   "gmail": {
-    "thread_id": "19ed41d7b8838598",
-    "pending_draft_id": null
+    "thread_id": "19ed41d7b8838598"
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "dropped_at": "2026-07-31"
 }

@@ -23,14 +23,25 @@
   "touches": {
     "t1": {
       "sent": "2026-07-16"
+    },
+    "t2": {
+      "drafted": "2026-07-25",
+      "sent": "2026-07-26"
+    },
+    "t3": {
+      "drafted": "2026-07-31",
+      "draft_id": "r1616566517772557033",
+      "subject": "Re: Trade account payment terms",
+      "sent": "2026-07-31"
     }
   },
-  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T2 draft created 2026-07-25 (id r-8047015235567705078), awaiting review | T2 sent 2026-07-26 (detected in Gmail Sent, msg 19f9ea93cc240f17); T3 due 2026-07-30 (t2+min_gap) | T3 (final) draft created 2026-07-31 (id r1616566517772557033) | T3 sent 2026-07-31 (detected Gmail Sent, msg 19fb780653535a6f); final touch, no reply, auto-drop after 2026-08-07 if silent.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
     "thread_id": "19f66d07360b01e5",
-    "pending_draft_id": null
+    "pending_draft_id": null,
+    "pending_touch": null
   },
   "imported": "2026-07-20"
 }

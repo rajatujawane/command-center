@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-02",
+  "drafts": [
+    {
+      "prospect_id": "darche",
+      "touch": "t2",
+      "draft_id": "r-3207856652627993564",
+      "subject": "Re: DARCHE's wholesale checkout",
+      "thread_id": "19faaadf6d65d613",
+      "to": "lyndon@darche.com.au"
+    },
+    {
+      "prospect_id": "maguire-shoes",
+      "touch": "t2",
+      "draft_id": "r-4000919845001776347",
+      "subject": "Re: Maguire's wholesale checkout",
+      "thread_id": "19faaae0118167a7",
+      "to": "romy@maguireshoes.com"
+    },
+    {
+      "prospect_id": "tony-s-chocolonely",
+      "touch": "t2",
+      "draft_id": "r5614659168117413243",
+      "subject": "Re: Payment terms on your reseller accounts",
+      "thread_id": "19faaae110bcf923",
+      "to": "brianam@tonyschocolonely.com"
+    }
+  ],
+  "sent_detected": [],
+  "replies": [],
+  "auto_dropped": []
+}

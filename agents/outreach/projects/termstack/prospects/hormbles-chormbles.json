@@ -1,7 +1,7 @@
 {
   "id": "hormbles-chormbles",
   "brand": "Hormbles Chormbles",
-  "website": "https://hormbleschormbles.com",
+  "website": "https://hormbles.com",
   "vertical": "Food & beverage",
   "hq": "US",
   "tier": "A - Native B2B confirmed",
@@ -15,18 +15,20 @@
     "named_person": "",
     "email": "",
     "email_verified": false,
-    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Hormbles%20Chormbles%20ecommerce",
-    "hunter": "https://hunter.io/search/hormbleschormbles.com"
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Hormbles+Chormbles+ecommerce",
+    "hunter": "https://hunter.io/search/hormbles.com"
   },
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "",
+  "notes": " | Domain corrected to hormbles.com (2026-07-26). Hunter shows only generic inboxes, no named person. Founders: Jared Smith, Tom Melcher (COO), John Qiu (President). Need direct email.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
     "thread_id": null,
     "pending_draft_id": null
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "flags": [],
+  "blocked": "generic_inbox_only"
 }

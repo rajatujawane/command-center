@@ -1,0 +1,16 @@
+{
+  "date": "2026-07-29",
+  "project": "termstack",
+  "day_of_week": "Wed",
+  "t1_day": true,
+  "slots_available": 6,
+  "pending_unsent_before": 0,
+  "queue": [
+    { "prospect_id": "memobottle", "touch": "t3", "reason": "T3 due (t1 07-15, t2 07-24, due 07-28); oldest follow-up", "hq": "AU", "window": "AU 6-8am" },
+    { "prospect_id": "future-glass", "touch": "t3", "reason": "T3 due (t1 07-16, t2 07-24, due 07-28)", "hq": "US", "window": "US 6:30-9:30pm" },
+    { "prospect_id": "russell-hendrix", "touch": "t3", "reason": "T3 due (t1 07-16, t2 07-24, due 07-28)", "hq": "CA", "window": "US 6:30-9:30pm" },
+    { "prospect_id": "darche", "touch": "t1", "reason": "New T1, tier A, fit 8, verified contact + native B2B", "hq": "AU", "window": "AU 6-8am" },
+    { "prospect_id": "maguire-shoes", "touch": "t1", "reason": "New T1, tier A, fit 7, verified contact + native B2B", "hq": "CA", "window": "US 6:30-9:30pm" },
+    { "prospect_id": "tony-s-chocolonely", "touch": "t1", "reason": "New T1, tier A, fit 6, verified contact + native B2B", "hq": "NL", "window": "EU 1:30-3pm" }
+  ]
+}

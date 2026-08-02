@@ -23,14 +23,25 @@
   "touches": {
     "t1": {
       "sent": "2026-07-16"
+    },
+    "t2": {
+      "drafted": "2026-07-25",
+      "sent": "2026-07-26"
+    },
+    "t3": {
+      "drafted": "2026-07-31",
+      "draft_id": "r1105971099175614121",
+      "subject": "Re: Payment terms for clinic accounts",
+      "sent": "2026-07-31"
     }
   },
-  "notes": "Find official domain first (brand name from cited source) | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "notes": "Find official domain first (brand name from cited source) | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T2 draft created 2026-07-25 (id r5629415856914550849), awaiting review | T2 sent 2026-07-26 (detected in Gmail Sent, msg 19f9ea90c1194605); T3 due 2026-07-30 (t2+min_gap) | T3 (final) draft created 2026-07-31 (id r1105971099175614121) | T3 sent 2026-07-31 (detected Gmail Sent, msg 19fb77fcbab94ebd); final touch, no reply, auto-drop after 2026-08-07 if silent.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
     "thread_id": "19f6bd120c4c6a36",
-    "pending_draft_id": null
+    "pending_draft_id": null,
+    "pending_touch": null
   },
   "imported": "2026-07-20"
 }

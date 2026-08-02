@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-27",
+  "project": "termstack",
+  "day": "Mon (non-T1 day: follow-ups only)",
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent": 0,
+    "slots_available": 6,
+    "status": "clear (the 3 T2 drafts from 07-25 were sent by Rajat on 07-26; no tracked drafts remain unsent)"
+  },
+  "queue": [],
+  "queue_note": "Nothing due today. Follow-up-only Monday and no follow-up clock expires until 07-28. The six 07-24 T2s reach T3 on 2026-07-28 (t2+min_gap 4). The three T2s sent 07-26 (allied/hiut/pittsburgh) reach T3 on 2026-07-30. The four T3-finals auto-drop 2026-07-29 if still silent.",
+  "t1s": [],
+  "t1_note": "Mon is not a t1_send_day (Tue-Fri). No new T1s. Next T1 day: Tue 2026-07-28.",
+  "not_due_yet": {
+    "t3_due_2026-07-28": ["carbahn", "cocofloss", "filtrous", "memobottle", "future-glass", "russell-hendrix"],
+    "t3_due_2026-07-30": ["allied-medical", "hiut-denim", "pittsburgh-spray-equipment"],
+    "t3_final_drop_2026-07-29_if_silent": ["american-hospital-supply", "elite-truck", "montana-west-u-s-a", "wbc"]
+  }
+}

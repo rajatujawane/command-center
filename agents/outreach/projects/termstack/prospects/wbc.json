@@ -18,22 +18,26 @@
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=WBC%20ecommerce",
     "hunter": "https://hunter.io/search/wbc.co.uk"
   },
-  "status": "in_sequence",
-  "raw_status": "T2 SCHEDULED Jul 14",
+  "status": "dropped",
+  "raw_status": "SENT T3 Jul 22",
   "touches": {
     "t1": {
       "sent": "2026-06-17"
     },
     "t2": {
       "sent": "2026-07-14"
+    },
+    "t3": {
+      "drafted": "2026-07-21",
+      "sent": "2026-07-22"
     }
   },
-  "notes": "Follow-up Touch 2 due ~Jul 16 | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "notes": "Follow-up Touch 2 due ~Jul 16 | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T3 draft created 2026-07-21 (id r-250554197948944899) | T3 SENT 2026-07-22 (detected via Gmail Sent 2026-07-23); final touch, no reply; auto-drop after 2026-07-29 if silent | AUTO-DROPPED 2026-07-31: T3 sent 2026-07-22, no reply within 7 days (drop_after_final_touch_days). Sequence complete, no 4th email. Re-approach eligible after 45d with new contact/angle.",
   "sheet_draft": "T3 (new angle, same thread, no links): Hi Mark,\n\nOne more thought. For trade suppliers the usual pain is account tiers: your biggest accounts earn better terms, but someone has to police that per order. Rules at checkout do the policing for you.\n\nWant the 90 second walkthrough?\n\nRajat",
-  "sheet_next_action": "T3 new angle due Mon Jul 20 ~2:30pm IST if no reply. T4 break-up ~Mon Jul 27. Sequence ends at T4.",
+  "sheet_next_action": "T3 sent Jul 22. Sequence complete (3 touches). No T4. Auto-drop after Jul 29 if no reply.",
   "gmail": {
-    "thread_id": "19ed1bc78b8b96c8",
-    "pending_draft_id": null
+    "thread_id": "19ed1bc78b8b96c8"
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "dropped_at": "2026-07-31"
 }

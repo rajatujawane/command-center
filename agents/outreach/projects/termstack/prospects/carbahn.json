@@ -23,14 +23,24 @@
   "touches": {
     "t1": {
       "sent": "2026-07-15"
+    },
+    "t2": {
+      "drafted": "2026-07-22",
+      "sent": "2026-07-24"
+    },
+    "t3": {
+      "drafted": "2026-07-28",
+      "draft_id": null,
+      "sent": "2026-07-28"
     }
   },
-  "notes": "Jul 20: 60s guard closed - carbahn.com official, Steve Dinan CEO/Founder maps via linkedin.com/in/stevedinan, tier A Plus/native B2B per Shopify case study. Auto dealer/tier archetype #1. AB: L. | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "notes": "Jul 20: 60s guard closed - carbahn.com official, Steve Dinan CEO/Founder maps via linkedin.com/in/stevedinan, tier A Plus/native B2B per Shopify case study. Auto dealer/tier archetype #1. AB: L. | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T2 draft created 2026-07-22 (id r-5833756127674803728), awaiting review | T2 SENT 2026-07-24 (detected via Gmail Sent 2026-07-25); no reply; t3 due 2026-07-28",
   "sheet_draft": "T1: (AB: L) Subject: CarBahn's wholesale checkout\n\nHi Steve,\n\nYou sell CarBahn performance parts through a dealer and shop network, so terms at wholesale checkout are a real part of the operation. In TermStack that runs as a rule at checkout: new dealers pay now, approved dealers get Net 30, volume dealers over $5k get Net 60 with a 25% deposit, all applied automatically. A US toy and gift wholesaler on Plus runs it today.\n\nWhen a shop places a wholesale order now, do dealer terms apply automatically at checkout, or are they handled through manual invoicing after the order?\n\nRajat\nFounder, TermStack by Varr Labs",
   "sheet_next_action": "Send T1 Tue Jul 21 ~7pm IST (US evening). Tue/Wed/Thu window. AB: L.",
   "gmail": {
     "thread_id": "19f66bb767487c09",
-    "pending_draft_id": null
+    "pending_draft_id": null,
+    "pending_touch": null
   },
   "imported": "2026-07-20"
 }

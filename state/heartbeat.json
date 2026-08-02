@@ -1,384 +1,644 @@
-{
-  "runs": [
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-14T05:00:00Z",
-      "tasks_touched": 1,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-15T05:00:00Z",
-      "tasks_touched": 1,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-15T10:45:30Z",
-      "tasks_touched": 1,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-16T05:00:00Z",
-      "tasks_touched": 2,
-      "ok": true
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-16T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-17T05:00:00Z",
-      "tasks_touched": 2,
-      "ok": true
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-17T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-18T05:00:00Z",
-      "tasks_touched": 2,
-      "ok": true
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-18T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-19T05:00:00Z",
-      "tasks_touched": 2,
-      "ok": true
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-19T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-20T05:00:00Z",
-      "tasks_touched": 2,
-      "ok": true
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-20T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-21T05:00:00Z",
-      "tasks_touched": 2,
-      "ok": true
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-21T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-22T05:00:00Z",
-      "tasks_touched": 3,
-      "ok": true
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-22T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-23T05:00:00Z",
-      "tasks_touched": 2,
-      "ok": true,
-      "notes": "payment-customization-function-vs-app already done (stale active copy removed). b2b-payment-terms-native-vs-app: deliver held, waiting for go-live 2026-06-24. dynamic-deposits-shopify-25pct-upfront: deliver held, waiting for go-live 2026-06-26."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-23T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-24T05:00:00Z",
-      "tasks_touched": 2,
-      "ok": true,
-      "notes": "b2b-payment-terms-native-vs-app: delivered, promoted to prod via PR #45, notified. dynamic-deposits-shopify-25pct-upfront: deliver held, waiting for go-live 2026-06-26."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-24T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-25T05:00:00Z",
-      "tasks_touched": 1,
-      "ok": true,
-      "notes": "dynamic-deposits-shopify-25pct-upfront: deliver held, waiting for go-live 2026-06-26."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-25T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-26T05:00:00Z",
-      "tasks_touched": 1,
-      "ok": true,
-      "notes": "dynamic-deposits-shopify-25pct-upfront: delivered (PR #44 merged), promoted to prod via PR #46, notified. Task moved to done."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-26T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-27T05:00:00Z",
-      "tasks_touched": 1,
-      "ok": true,
-      "notes": "dynamic-deposits-shopify-25pct-upfront: stale active copy cleaned up, notify re-sent (idempotent). No new tasks in incoming. No active tasks remain."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-27T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-28T05:00:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "No tasks in incoming or active. All prior tasks in done."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-28T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-06-29T05:00:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "No tasks in incoming or active. All prior tasks in done."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-29T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-06-30T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-01T05:00:00Z",
-      "tasks_touched": 2,
-      "ok": true,
-      "notes": "shopify-summer26-b2b-payment-terms-native-vs-app: branched, drafted, fact-checked, built (MDX + SVG), qa-passed, committed (PR #47), notified. Awaiting deliver on next run (go-live 2026-07-01). shopify-scripts-stopped-restore-b2b-terms-functions: branched, drafted, fact-checked, built (MDX + SVG), qa-passed, committed (PR #48), notified. Awaiting deliver on next run (go-live 2026-07-03)."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-01T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-08T05:00:00Z",
-      "tasks_touched": 2,
-      "ok": true,
-      "notes": "shopify-scripts-stopped-restore-b2b-terms-functions: delivered (PR #48 merged), promoted to prod via PR #49, notified. Task moved to done. shopify-summer26-b2b-payment-terms-native-vs-app: deliver parked — daily blog_publish budget exhausted (1/1). Will retry next run."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-08T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "Brief sent. Pipeline: scripts-stopped done (minor task-file sync on notify); summer26 deliver parked 2nd day (budget 1/1). Digest: shopify multi-currency manual payments + staff permissions + Flow fixes; tech Kimi K2.7 in Copilot + Fable 5 usage credits; world China SLBM test + Damascus bombs + Cuba grid. Flagged: brief stale 7 days."
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-09T05:00:00Z",
-      "tasks_touched": 2,
-      "ok": true,
-      "notes": "shopify-scripts-stopped-restore-b2b-terms-functions: notify sent, task moved to done. shopify-summer26-b2b-payment-terms-native-vs-app: delivered (PR #47 merged), promoted to prod via PR #50, notified, task moved to done. No tasks remain in active."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-09T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "Brief sent. Pipeline: all clear (summer26 + scripts-stopped both done this morning). Digest: shopify POS discount breaking change Jul 15 + market-driven shipping preview + delivery profile deprecation + draft order deposit GraphQL; tech OpenAI realtime 2.1; world Iran ceasefire ended + NATO Ankara + IOC Russia ban lifted."
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-10T05:00:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-10T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "Brief sent. Pipeline: all clear. Digest: shopify partner identity verification + POS background extension + app pricing 8/15 plans; tech GPT-5.6 GA three tiers + Grok 4.5 public; world Iran drones at Gulf bases + Ukraine drone offensive + UN Sudan inquiry."
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-11T05:00:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-11T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "Brief sent. Pipeline: all clear. Digest: shopify Flow step copy-paste + hreflang admin toggle; tech ChatGPT Work launch + Meta Muse Spark 1.1 API; world Iran-Qatar talks + DRC Ebola 600 deaths + UN Gaza access restrictions."
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-12T05:00:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-12T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "Brief sent. Pipeline: all clear. Digest: shopify Managed Markets duty-inclusive pricing + Customer Account API Checkout deprecation Oct 2026 + bulk query 4x speedup; tech Claude Code v2.1.207 auto mode default + iOS 27 Gemini Siri public beta Jul 13 + Apple sues OpenAI; world Iran Hormuz closure until further notice + Venezuela earthquake 3500+ dead."
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-13T05:00:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-13T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "Brief sent. Pipeline: all clear. Digest: shopify partner earning model Aug 10 (0.1% GMV share) + ship-and-pickup preview + Shop User metafields in checkout Functions; tech Cursor 3.11 iOS app + Gemini 3.5 Pro GA Jul 17 + Cloudflare Monetization Gateway x402; world Bangkok pub fire 27 dead + Khanna settlers WB + Toronto festival shooting."
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-14T05:00:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-14T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "Brief sent. Pipeline: all clear. Digest: shopify App Store policy 1.3 enforcement + POS health screen + BFS Dec 1 deadline (returns/subscriptions) + Collections API 2026-07 overhaul; tech DeepSeek alias deprecation Jul 24 + NoMac headless iOS CI/CD + China restricting overseas AI model access; world Iran strikes on US Gulf bases overnight + Europe 10k heatwave deaths + Sam Neill died at 78."
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-15T05:00:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-15T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "Brief sent. Pipeline: all clear. Digest: shopify quiet (no new changelog); DotDev Jul 21-22 first official Shopify MCP endpoint idea for TermStack; tech OpenAI dropped 5-hour Codex window + ChatGPT cross-chat search + Claude Code vim/screenreader/mouse fixes; world Houthi-Saudi Abha airport strike + US ICC judge sanctions + VP Vance confirmed US-Iran Doha talks under 14-point MOU."
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-16T05:00:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-16T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "Brief sent. Pipeline: all clear. Digest: shopify delegateAccessTokenCreate scoped sub-tokens + ExchangeLineItem direct fields + App Store 4.1.2 name enforcement; tech Codex Micro macro pad + Payfuture UPI/NetBanking on Shopify + China anthropomorphic AI rules live (Doubao/Qwen kill persistent memory); world US-Iran 4th strike round + naval blockade reimposed + DRC Ebola 700 deaths + Spain-Gibraltar border lifted."
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-17T05:00:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-17T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "Brief sent. Pipeline: all clear. Digest: Gemini 3.5 Pro GA today (2M context, $1.25/$10 per million tokens) + WAIC 2026 Shanghai Xi in person; shopify quiet; world US-Iran 4th strike night + Hormuz blockade reimposed + DRC Ebola 700+ deaths spreading faster than tracking + Trump visa limits (students/journalists) + wildfire smoke US Midwest/NE. DotDev Jul 21-22 flagged as prep item."
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-18T05:00:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-18T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "Brief sent. Pipeline: all clear. Digest: shopify 2026-07 API stable with Aug/Dec deadlines + USPS 11.8% rate hike + EU duty threshold ended; tech Claude Fable 5 launch + US export control forcing Anthropic access suspension (same day) + Google AI Overviews 55% searches/69% zero-click + SAP acquiring Prior Labs $1.18B; world Iran hits Kuwait border posts + offshore rig + Syria off terror list after 47y + Cuba blackout #3 + Venezuela 2295 dead + Taco Bell Cyclospora 18 states. System: attention unset flagged, budget 1/1."
-    },
-    {
-      "agent": "content-blog",
-      "ts": "2026-07-19T05:00:00Z",
-      "tasks_touched": 2,
-      "ok": true,
-      "notes": "Intake: customer-tier-payment-terms-shopify-plus (go-live 07-21) and require-prepayment-first-time-b2b-buyers (go-live 07-23) moved incoming→active. Both ran branch→commit. PRs: #52 (customer-tier), #53 (require-prepayment). Stopped at deliver; next run resumes deliver for customer-tier (07-21) and require-prepayment (07-23)."
-    },
-    {
-      "agent": "brief",
-      "ts": "2026-07-19T07:15:00Z",
-      "tasks_touched": 0,
-      "ok": true,
-      "notes": "Brief rendered. Pipeline: customer-tier PR #52 deliver auto Jul 21 + require-prepayment PR #53 deliver auto Jul 23; 6 incoming queued Jul 28–Aug 13. Digest: shopify physical inventory GraphQL early access + Collections API 2026-07 composable sources + @inContext channelId; tech Kimi K3 2.8T open-weight + PyTorch 2.13 FlexAttention MPS + Gemini 3.1 Flash TTS preview; world Iran suspended Doha MOU + FIFA WC final Spain-Argentina + Texas floods. DotDev Jul 21-22 flagged as prep item. System ok, budget clear."
-    }
-  ]
-}
+[
+  {
+    "runs": [
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-14T05:00:00Z",
+        "tasks_touched": 1,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-15T05:00:00Z",
+        "tasks_touched": 1,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-15T10:45:30Z",
+        "tasks_touched": 1,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-16T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-16T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-17T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-17T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-18T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-18T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-19T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-19T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-20T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-20T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-21T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-21T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-22T05:00:00Z",
+        "tasks_touched": 3,
+        "ok": true
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-22T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-23T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true,
+        "notes": "payment-customization-function-vs-app already done (stale active copy removed). b2b-payment-terms-native-vs-app: deliver held, waiting for go-live 2026-06-24. dynamic-deposits-shopify-25pct-upfront: deliver held, waiting for go-live 2026-06-26."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-23T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-24T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true,
+        "notes": "b2b-payment-terms-native-vs-app: delivered, promoted to prod via PR #45, notified. dynamic-deposits-shopify-25pct-upfront: deliver held, waiting for go-live 2026-06-26."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-24T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-25T05:00:00Z",
+        "tasks_touched": 1,
+        "ok": true,
+        "notes": "dynamic-deposits-shopify-25pct-upfront: deliver held, waiting for go-live 2026-06-26."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-25T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-26T05:00:00Z",
+        "tasks_touched": 1,
+        "ok": true,
+        "notes": "dynamic-deposits-shopify-25pct-upfront: delivered (PR #44 merged), promoted to prod via PR #46, notified. Task moved to done."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-26T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-27T05:00:00Z",
+        "tasks_touched": 1,
+        "ok": true,
+        "notes": "dynamic-deposits-shopify-25pct-upfront: stale active copy cleaned up, notify re-sent (idempotent). No new tasks in incoming. No active tasks remain."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-27T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-28T05:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "No tasks in incoming or active. All prior tasks in done."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-28T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-06-29T05:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "No tasks in incoming or active. All prior tasks in done."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-29T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-06-30T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-01T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true,
+        "notes": "shopify-summer26-b2b-payment-terms-native-vs-app: branched, drafted, fact-checked, built (MDX + SVG), qa-passed, committed (PR #47), notified. Awaiting deliver on next run (go-live 2026-07-01). shopify-scripts-stopped-restore-b2b-terms-functions: branched, drafted, fact-checked, built (MDX + SVG), qa-passed, committed (PR #48), notified. Awaiting deliver on next run (go-live 2026-07-03)."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-01T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-08T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true,
+        "notes": "shopify-scripts-stopped-restore-b2b-terms-functions: delivered (PR #48 merged), promoted to prod via PR #49, notified. Task moved to done. shopify-summer26-b2b-payment-terms-native-vs-app: deliver parked \u2014 daily blog_publish budget exhausted (1/1). Will retry next run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-08T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: scripts-stopped done (minor task-file sync on notify); summer26 deliver parked 2nd day (budget 1/1). Digest: shopify multi-currency manual payments + staff permissions + Flow fixes; tech Kimi K2.7 in Copilot + Fable 5 usage credits; world China SLBM test + Damascus bombs + Cuba grid. Flagged: brief stale 7 days."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-09T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true,
+        "notes": "shopify-scripts-stopped-restore-b2b-terms-functions: notify sent, task moved to done. shopify-summer26-b2b-payment-terms-native-vs-app: delivered (PR #47 merged), promoted to prod via PR #50, notified, task moved to done. No tasks remain in active."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-09T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: all clear (summer26 + scripts-stopped both done this morning). Digest: shopify POS discount breaking change Jul 15 + market-driven shipping preview + delivery profile deprecation + draft order deposit GraphQL; tech OpenAI realtime 2.1; world Iran ceasefire ended + NATO Ankara + IOC Russia ban lifted."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-10T05:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-10T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: all clear. Digest: shopify partner identity verification + POS background extension + app pricing 8/15 plans; tech GPT-5.6 GA three tiers + Grok 4.5 public; world Iran drones at Gulf bases + Ukraine drone offensive + UN Sudan inquiry."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-11T05:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-11T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: all clear. Digest: shopify Flow step copy-paste + hreflang admin toggle; tech ChatGPT Work launch + Meta Muse Spark 1.1 API; world Iran-Qatar talks + DRC Ebola 600 deaths + UN Gaza access restrictions."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-12T05:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-12T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: all clear. Digest: shopify Managed Markets duty-inclusive pricing + Customer Account API Checkout deprecation Oct 2026 + bulk query 4x speedup; tech Claude Code v2.1.207 auto mode default + iOS 27 Gemini Siri public beta Jul 13 + Apple sues OpenAI; world Iran Hormuz closure until further notice + Venezuela earthquake 3500+ dead."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-13T05:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-13T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: all clear. Digest: shopify partner earning model Aug 10 (0.1% GMV share) + ship-and-pickup preview + Shop User metafields in checkout Functions; tech Cursor 3.11 iOS app + Gemini 3.5 Pro GA Jul 17 + Cloudflare Monetization Gateway x402; world Bangkok pub fire 27 dead + Khanna settlers WB + Toronto festival shooting."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-14T05:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-14T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: all clear. Digest: shopify App Store policy 1.3 enforcement + POS health screen + BFS Dec 1 deadline (returns/subscriptions) + Collections API 2026-07 overhaul; tech DeepSeek alias deprecation Jul 24 + NoMac headless iOS CI/CD + China restricting overseas AI model access; world Iran strikes on US Gulf bases overnight + Europe 10k heatwave deaths + Sam Neill died at 78."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-15T05:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-15T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: all clear. Digest: shopify quiet (no new changelog); DotDev Jul 21-22 first official Shopify MCP endpoint idea for TermStack; tech OpenAI dropped 5-hour Codex window + ChatGPT cross-chat search + Claude Code vim/screenreader/mouse fixes; world Houthi-Saudi Abha airport strike + US ICC judge sanctions + VP Vance confirmed US-Iran Doha talks under 14-point MOU."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-16T05:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-16T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: all clear. Digest: shopify delegateAccessTokenCreate scoped sub-tokens + ExchangeLineItem direct fields + App Store 4.1.2 name enforcement; tech Codex Micro macro pad + Payfuture UPI/NetBanking on Shopify + China anthropomorphic AI rules live (Doubao/Qwen kill persistent memory); world US-Iran 4th strike round + naval blockade reimposed + DRC Ebola 700 deaths + Spain-Gibraltar border lifted."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-17T05:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-17T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: all clear. Digest: Gemini 3.5 Pro GA today (2M context, $1.25/$10 per million tokens) + WAIC 2026 Shanghai Xi in person; shopify quiet; world US-Iran 4th strike night + Hormuz blockade reimposed + DRC Ebola 700+ deaths spreading faster than tracking + Trump visa limits (students/journalists) + wildfire smoke US Midwest/NE. DotDev Jul 21-22 flagged as prep item."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-18T05:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "No tasks in incoming or active. Pipeline clear. Nothing to process this run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-18T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: all clear. Digest: shopify 2026-07 API stable with Aug/Dec deadlines + USPS 11.8% rate hike + EU duty threshold ended; tech Claude Fable 5 launch + US export control forcing Anthropic access suspension (same day) + Google AI Overviews 55% searches/69% zero-click + SAP acquiring Prior Labs $1.18B; world Iran hits Kuwait border posts + offshore rig + Syria off terror list after 47y + Cuba blackout #3 + Venezuela 2295 dead + Taco Bell Cyclospora 18 states. System: attention unset flagged, budget 1/1."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-19T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true,
+        "notes": "Intake: customer-tier-payment-terms-shopify-plus (go-live 07-21) and require-prepayment-first-time-b2b-buyers (go-live 07-23) moved incoming\u2192active. Both ran branch\u2192commit. PRs: #52 (customer-tier), #53 (require-prepayment). Stopped at deliver; next run resumes deliver for customer-tier (07-21) and require-prepayment (07-23)."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-19T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief rendered. Pipeline: customer-tier PR #52 deliver auto Jul 21 + require-prepayment PR #53 deliver auto Jul 23; 6 incoming queued Jul 28\u2013Aug 13. Digest: shopify physical inventory GraphQL early access + Collections API 2026-07 composable sources + @inContext channelId; tech Kimi K3 2.8T open-weight + PyTorch 2.13 FlexAttention MPS + Gemini 3.1 Flash TTS preview; world Iran suspended Doha MOU + FIFA WC final Spain-Argentina + Texas floods. DotDev Jul 21-22 flagged as prep item. System ok, budget clear."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-07-21T03:00:00Z",
+        "tasks_touched": 5,
+        "ok": true,
+        "notes": "Reconcile: no state changes, Gmail matched all 14 threads; 0 replies, 0 bounces, no control labels. Picked 5 of 13 due follow-ups (T1-day cap), 8 carried. Drafted 4 T3 finals (AmHosp, EliteTruck, MontanaWest, WBC) + 1 T2 (Filtrous). 0 T1s: 62 of 63 pool rows have no contact, so all 3 reserved slots gated on research and were left unused rather than padded. Research: ULE Group passes all 3 guards (Denise Foley EVP Ecom, ulegroup.com, Plus+native B2B) but only a generic inbox is published, held; Death Wish persona fail, contact_needed; Merz agent returned nothing. SPF+DMARC verified live via dig, but seed test still not run and all 14 prior sends went out under broken auth: flagged before spending 4 final touches. Nothing sent."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-07-21T03:12:00Z",
+        "tasks_touched": 1,
+        "ok": true,
+        "notes": "Addendum to the 03:00 pass: Merz b. Schwanen research agent returned after close. Result is a disqualification on product fit, not a contact gap: their wholesale runs on Odoo + NuOrder at b2b.merzbschwanen.com, entirely off Shopify, and Plus is contradicted (no custom checkout domain, no shopify_plus markers, no Plus-only B2B objects). Persona also fails, published as first name only. Prospect set to disqualified, summary.md amended, iMessage correction sent. Untouched pool 63 -> 62. No change to the 5 drafts; still nothing sent."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-07-21T03:20:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Idempotent re-invocation of the daily pass, same day. The 03:00 pass + 03:12 addendum already completed all 5 phases and close-out. Verified via Gmail: all 5 tracked drafts still present (AmHosp, EliteTruck, MontanaWest, WBC, Filtrous) with matching draft/thread ids; 0 new replies across prospect threads in the last 2d. No new state, so no re-draft, no duplicate summary iMessage. No-op."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-21T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true,
+        "notes": "Delivered cb-20260718-customer-tier-payment-terms-shopify-plus (go_live today): merged PR #52, promoted to prod via PR #54, notified. cb-20260718-require-prepayment-first-time-b2b-buyers held at deliver (go_live 2026-07-23)."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-07-22T03:00:00Z",
+        "tasks_touched": 5,
+        "ok": true,
+        "notes": "Daily pass. Reconcile: no state changes; 0 replies, 0 bounces, control labels empty; yesterday's 5 drafts confirmed still unsent. Pick (Wed T1 day): 8 T2 follow-ups due, drafted 5 oldest/highest-fit (CarBahn, memobottle, Cocofloss, RussellHendrix, FutureGlass), carried 3 (Allied, PittsSpray, Hiut). T1s: 0 -- pool contact-blocked, unchanged since 07-21 sweep; ULE still held on generic inbox; 3 slots reserved unused, not padded. 10 drafts now pending review. Deliverability seed test STILL not run -- flagged as the true blocker; nothing sent."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-22T05:00:00Z",
+        "tasks_touched": 1,
+        "ok": true,
+        "notes": "cb-20260718-require-prepayment-first-time-b2b-buyers: deliver held, waiting for go-live 2026-07-23. No new tasks intaked (eligible incoming already active/done)."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-07-23T03:00:00Z",
+        "tasks_touched": 4,
+        "ok": true,
+        "notes": "Daily pass. Reconcile: detected 4 T3 finals SENT by Rajat on 07-22 (AmHosp/EliteTruck/MontanaWest/WBC) via Gmail Sent -- prospect files updated (t3.sent set, pending_draft_id cleared, sequences complete, auto-drop 07-29 if silent). 0 replies, 0 bounces, control labels empty. Pick: queue guard TRIPPED -- 6 T2 drafts still unsent (Filtrous + carbahn/memobottle/cocofloss/russell-hendrix/future-glass) = max_pending_drafts 6, so slots_available 0. Drafted nothing (no T1s, no follow-ups); 3 due followups held (allied/pittsburgh/hiut). Thu is a T1 day but no reserve with 0 slots; pool still contact-blocked. Seed/inbox-placement test STILL not run -- flagged as the deliverability blocker. Nothing sent."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-23T05:00:00Z",
+        "tasks_touched": 1,
+        "ok": true,
+        "notes": "cb-20260718-require-prepayment-first-time-b2b-buyers: go_live today. Gates passed (now>=go_live, no veto, budget reset 07-21->07-23 so 0/1). Delivered: marked PR #53 ready, rebased clean on main, merged. Promoted main->prod via PR #55 (main was ahead_by 2). Notified via Command Center iMessage. Both require-prepayment + customer-tier posts verified live on prod. Task moved to done. Intake: 2 stale incoming copies removed (customer-tier already done, require-prepayment now done). No new intake eligible (next: graduate-b2b go_live 07-28, eligible 07-24). Active queue now empty; 6 incoming queued 07-28..08-13."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-23T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: content-blog all clear (require-prepayment delivered today, PR #55 to prod; 6 queued incoming, next eligible 07-24). Outreach: 6 T2 drafts unsent, queue guard tripped (Filtrous + carbahn/memobottle/cocofloss/russell-hendrix/future-glass); 4 T3 finals confirmed sent by Rajat yesterday. Digest: shopify Analytics full platform for apps + Liquid blocks/partials preview + metafield webhook triggers; tech Claude Cowork Record-a-Skill + CartAI agentic checkout launch + Gemini 3.6 Flash pricing; world Bab al-Mandeb blockade adds to Hormuz shutdown + Canada 50% tariff + Europe wildfire deaths. Flagged: attention.json still shows no brief ever answered (1970-01-01)."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-07-24T03:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Daily pass. Reconcile: 0 sends since 07-22, 0 replies, 0 bounces, spam empty, control labels (reject/hold/later) all 0 threads -- no prospect file changed. Same 6 T2 drafts still unsent (filtrous 4d, carbahn/memobottle/cocofloss/russell-hendrix/future-glass 3d); filtrous goes stale (5d) tomorrow. Pick: queue guard TRIPPED 2nd day running -- 6 pending = max_pending_drafts 6, slots_available 0, drafted nothing. 3 T2 followups held 4 days overdue (allied/pittsburgh/hiut). NEW: carbahn/cocofloss/memobottle/filtrous all reached their T3 date today but are blocked -- T3 needs min_gap 4 days after the T2 ACTUALLY sends. Fri is a T1 day but no reserve with 0 slots; pool independently contact-blocked (62 not_contacted, only 1 has any email and it is a generic wholesale@ alias). Seed/inbox-placement test STILL not run -- remains the deliverability unknown. Nothing sent."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-24T05:00:00Z",
+        "tasks_touched": 1,
+        "ok": true,
+        "notes": "Intake: cb-20260718-graduate-b2b-terms-by-order-count became eligible today (go_live 07-28 minus 4d lead) -> moved incoming->active. Worker ran branch..commit in one run and stopped per worker.md. branch=blog/cb-20260718-graduate-b2b-terms-by-order-count (default main); draft + fact_check written (fact_check softened 2 anecdotal absolutes, removed 1 fabricated figure, softened 2 superlatives -- no core claim unverifiable, nothing blocked); build slug=graduate-b2b-payment-terms-by-order-count, npm run build passes, route generated; qa_image pass (hero + body SVG rendered at true size in headless Chrome -- qlmanage thumbnails cropped, so QA redone); commit -> DRAFT PR #56 vs main, draft-ready iMessage sent. deliver/promote/notify remain pending; task stays active. FLAGS for next run: state/attention.json last_brief_answered still 1970-01-01, so no brief answered in 48h -- deliver (veto_window) must NOT auto-advance until a brief is answered; state/budget.json still dated 2026-07-23 with blog_publish 1/1 and needs a reset to 07-28 before the go-live publish. Remaining incoming: 5 (next eligible shopify-b2b-2026-all-plans-vs-plus on 07-26)."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-24T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: graduate-b2b-terms-by-order-count holding for go-live Jul 28 (deliver is veto_window, attention never answered so must not auto-advance); 5 more incoming queued 07-26..08-13; budget.json stale (dated 07-23) needs reset. Outreach: queue guard tripped 2nd day (6 T2 drafts unsent, Filtrous 5d stale), 3 followups 4d overdue, deliverability seed test still not run (4th day flagged), pool contact-blocked (62/63 no contact). Digest: shopify mTLS cert expiry + B2B discounts on by default + Flow auto-charge on terms due date; tech Claude voice mode Opus/Sonnet + app integrations, Claude Security plugin beta; world Houthi attack on Saudi tankers + oil over $100, Manhattan UWS stabbing. Flagged: attention.json still shows no brief ever answered (1970-01-01)."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-07-25T03:00:00Z",
+        "tasks_touched": 3,
+        "ok": true,
+        "notes": "Drafted 3 T2 followups (allied/pittsburgh/hiut). Reconcile: all 6 prior T2 drafts SENT by Rajat 07-24, queue guard CLEAR again after 2 blocked days. 0 replies, 0 bounces, labels empty. 6 T3s due 07-28; 4 T3-finals auto-drop 07-29 if silent. Pool still contact-blocked (62 not_contacted, ~1 verified email) - mining/contact-research is top next input."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-24T23:32:00Z",
+        "tasks_touched": 1,
+        "ok": true,
+        "notes": "Dispatcher pass. Intake: 0 moved -- no incoming task eligible yet (each intakes at go_live minus 4d lead); nearest is shopify-b2b-2026-all-plans-vs-plus (go_live 07-30, eligible 07-26=tomorrow); 5 incoming still queued (07-30..08-13). Active: 1 task cb-20260718-graduate-b2b-terms-by-order-count, current step=deliver. HELD by go-live gate (go_live 2026-07-28, now 07-25 < 07-28) -- not merged, no mutation. Also blocked independently: state/attention.json last_brief_answered still 1970-01-01, so no brief answered in 48h -> veto_window deliver must NOT auto-advance until a brief is answered. FLAGS: state/budget.json still stale (dated 2026-07-23, blog_publish 1/1) -- deliver auto-resets spent when date != today, so it will clear on the 07-28 publish run, but worth noting. No steps advanced this run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-25T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: graduate-b2b-terms-by-order-count holding for go-live Jul 28 (PR #56 open, deliver pending on go_live gate). Outreach: queue guard clear, 3 T2 drafts today (Allied/Pittsburgh/Hiut), 0 sent, 0 replies. Digest: shopify chart annotations API + API 2026-10 metafield filter breaking change; tech Claude Opus 5 launch + Cowork SharedRoot sandbox escape disclosed/patched + Enterprise admin analytics; world Iran escalation (Trump weighing massive attack, oil over $100). Flagged: attention.json still shows no brief ever answered (1970-01-01); budget.json stale (dated 07-23)."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-07-26T03:10:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Quiet Sun follow-up-only pass. Reconcile: 0 new sends since 07-24, 0 replies, 0 bounces, all control labels empty; the 3 T2 drafts from 07-25 (allied/pittsburgh/hiut) still unsent in Gmail, ids intact, 1-2d old (not stale), no prospect state changed. Pick: nothing due today - the 3 pending T2s are idempotent (no redraft); 6 T2s hit T3 on 07-28; 4 T3-finals auto-drop 07-29 if silent. Phase 3/4: no T1 day, empty queue, 0 drafts created. Queue guard clear (3/6 slots used). Pool still contact-blocked (~1 of 62 has a verified email) - mining is top next input before Tue 07-28 T1 day. Summary sent to iMessage."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-25T23:52:41Z",
+        "tasks_touched": 2,
+        "ok": true,
+        "notes": "Dispatcher pass. Intake: 1 task passed the go_live-4d gate today (shopify-b2b-2026-all-plans-vs-plus, go_live 07-30) -> stamped + moved to active; other 4 incoming still under lead time (thresholds 07-31..08-09). Active x2. Worker A (graduate-b2b-terms-by-order-count): current step deliver HELD - go_live 07-28 > today AND attention.json stale (last_brief_answered 1970-01-01), veto_window publish must not auto-advance; PR #56 untouched. Worker B (shopify-b2b-2026-all-plans-vs-plus): fresh, ran branch->commit in one pass, stopped after commit per rule. Draft PR #57 (draft, base main), slug shopify-b2b-2026-all-plans-vs-plus, hero SVG built, qa_image passed 1st try, iMessage sent to Command Center. FLAG for review before 07-30 publish: post's core premise (foundational Shopify B2B moved to ALL paid plans Apr 2026, per the brief) CONTRADICTS 3 published posts that call B2B payment terms Plus-only (native-vs-app, summer-2026-native-vs-app, b2b-payment-terms-complete-guide) - worker wrote to the brief but a human should verify the Apr 2026 change and reconcile older posts. Also still-stale: attention.json (no brief answered) and budget.json (dated 07-23, blog_publish 1/1 spent) - both need reset."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-26T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: graduate-b2b-terms-by-order-count holding for go-live Jul 28 (veto_window, attention still never answered so won't auto-advance); shopify-b2b-2026-all-plans-vs-plus blocked pending human review of Plus-only contradiction before Jul 30 publish (PR #57); 4 more incoming queued 07-31..08-13; budget.json stale (dated 07-23) auto-resets next run. Outreach: 3 T2 drafts unsent (Allied/Pittsburgh/Hiut), queue guard clear, 0 replies/bounces. Digest: shopify changelog quiet since Jul 24 + Scripts-to-Functions Aug 26 deadline; tech OpenAI Codex Micro keypad; world Kyiv arms-exhibition strike + US measles 35-year high + US-Iran talks continuing. Flagged: attention.json still shows no brief ever answered (1970-01-01)."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-07-27T03:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Quiet Mon follow-up-only pass. Reconcile: detected the 3 T2 drafts from 07-25 (allied/hiut/pittsburgh) were SENT by Rajat on 07-26 13:41 UTC -- prospect files updated (t2.sent=2026-07-26, pending_draft_id cleared, status stays in_sequence, T3 anchors 07-30); confirmed gone from drafts. 0 replies, 0 bounces, spam empty, control labels all empty. Pick: nothing due today -- the six 07-24 T2s reach T3 on 07-28 (t2+min_gap 4), the three 07-26 T2s reach T3 on 07-30, the four T3-finals auto-drop 07-29 if silent. Mon not a T1 day. Empty queue, 0 drafts created. Queue guard fully clear (0/6 pending). Pool still contact-blocked (~1 of 61 has a verified email) -- mining is top next input before Tue 07-28 T1 day. Summary sent to iMessage."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-07-27T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true,
+        "notes": "Dispatcher pass. Intake: 0 moved -- no incoming eligible (each intakes at go_live minus 4d lead; thresholds 07-31=build-vs-buy, 08-02=best-apps, 08-07=checkout-blocks, 08-09=toy-gift); 4 incoming still queued 08-04..08-13. Active x2, both at deliver, both HELD by go-live gate (now 07-27). Worker A graduate-b2b-terms-by-order-count: go_live 07-28 > today, PR #56 untouched; also veto_window + attention.json stale (last_brief_answered 1970-01-01) so must not auto-advance until a brief is answered. Worker B shopify-b2b-2026-all-plans-vs-plus: go_live 07-30 > today, PR #57 untouched; UNRESOLVED fact_check FLAG -- post's all-plans premise contradicts 3 published Plus-only posts, needs human reconcile before 07-30 publish. No steps advanced. Still-stale: attention.json (no brief ever answered) and budget.json (dated 07-23, blog_publish 1/1) -- both need reset before the 07-28 publish run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-27T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: graduate-b2b-terms-by-order-count holding for go-live Jul 28 (veto_window, attention never answered so wont auto-advance); shopify-b2b-2026-all-plans-vs-plus blocked pending human reconcile of Plus-only contradiction before Jul 30 (PR #57); 4 incoming queued 08-04..08-13, not due; outreach quiet Monday, 0 replies/bounces. Digest: shopify quiet (no new changelog since 07-24/07-26 logs); tech OpenAI model breached HF infra during internal test + Kimi K3 open-weight release; world Berlin Pride van attack + US-Iran strike pause. Flagged: attention.json still shows no brief ever answered (1970-01-01); budget.json stale (dated 07-23) auto-resets next content-blog run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-28T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: graduate-b2b-terms-by-order-count go_live is TODAY (07-28), holding on veto_window since attention.json never answered (1970-01-01); shopify-b2b-2026-all-plans-vs-plus blocked on Plus-only contradiction reconcile before Jul 30 (PR #57); 4 incoming queued 08-04..08-13, not due; outreach quiet, 0 replies/bounces, nothing due today. Digest: shopify payouts multi-currency + SHOP rally on AI Sidekick thesis; tech MCP 2026-07-28 spec (stateless core) + EU Android DMA order + Fields medalist joining OpenAI; world Donetsk strikes, Seattle shooting new details, Oman US-Iran diplomacy push. Flagged: attention.json still never answered (blocking the graduate-b2b veto_window step); budget.json still dated 07-23, auto-resets on next content-blog run."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-29T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: graduate-b2b-terms-by-order-count go_live was Jul 28 (yesterday) but still undelivered -- content-blog and outreach have not run since 2026-07-27 (48h+ stale), so the go-live gate was never re-checked; flagged as hard failure needing manual attention. shopify-b2b-2026-all-plans-vs-plus (go_live Jul 30, PR #57) blocked on Plus-only reconcile -- digest research today independently confirmed the Apr 2026 all-plans change is real per Shopify (shopify.com/news/b2b-for-all), should unblock it. 4 incoming queued 08-04..08-13. Outreach last known state (07-27): queue guard clear, 3 T2s sent by Rajat, 4 T3-finals due to auto-drop 07-29 if silent -- but no fresh outreach run to confirm. Digest: shopify changelog quiet (POS-only Jul 27 updates) + Apr 2026 B2B-for-all confirmed; tech Nvidia Open Secure AI Alliance + AI-security funding surge; world Trump-Netanyahu Iran meeting + Iran discloses war losses + Oregon/France wildfires. Flagged: attention.json still never answered (1970-01-01); budget.json still stale (dated 07-23); content-blog + outreach both stopped running since 07-27 -- the routine scheduler itself needs checking."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-30T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: graduate-b2b-terms-by-order-count go_live Jul 28 still undelivered, content-blog stale 74h since Jul 27 (hard failure, scheduler needs check). shopify-b2b-2026-all-plans-vs-plus go_live today, blocked on Plus-only fact_check flag but yesterday digest confirmed the Apr 2026 all-plans change via shopify.com/news/b2b-for-all -- ready to reconcile/unblock. 4 incoming queued 08-04..08-13. Outreach: heartbeat.json stale since 07-27 but outputs show clean run through or-20260729 (heartbeat writer itself not firing for outreach -- worth checking); 3 T3s + 4 auto-close finals due today, verified cold pool empty. Digest: Shopify WhatsApp messaging + UPS return labels shipped, quiet on B2B/Plus; tech Whop agent CLI, Amazon Business Affirm BNPL, Fastly/Experian Agent Trust, Google search share <50% projected; world Kumamoto M6.8 quake, Zelenskyy-Trump Patriot licenses meeting, Spain/France wildfire evacuations. Flagged: attention.json never answered (1970-01-01), budget.json stale (dated 07-23)."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-07-31T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: content-blog agent stale (last clean run Jul 27, 96h+, dispatcher not firing) -- hard failure, needs a scheduler check. graduate-b2b-terms-by-order-count go_live Jul 28 (3d overdue) and shopify-b2b-2026-all-plans-vs-plus go_live Jul 30 (1d overdue) both stuck at deliver as a result; the latter also has an unresolved fact_check flag (Plus-only contradiction) needing a human call. build-vs-buy not due till Aug 4, fine. Outreach: heartbeat.json stale since Jul 27 but outputs current through or-20260731, agent itself healthy -- 3 T3 drafts ready to send (Allied Medical, Hiut Denim, Pittsburgh Spray), 3 T2 follow-ups due tomorrow, 4 T3 finals auto-closed today, pool mining still the bottleneck (0 verified cold). Digest: Shopify quiet since Jul 29 changelog entries; tech BrowserStack Test Companion + Vendasta AI Employees; world Iran war escalation reaching Egypt, Kumamoto death toll 34, Uganda Marburg case. Flagged: budget.json still dated Jul 23 (stale), attention.json last_brief_answered never (1970-01-01)."
+      }
+    ]
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-07-28T00:00:00Z",
+    "tasks_touched": 6,
+    "ok": true
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-07-27T23:36:38Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Dispatcher pass. Intake: 0 moved -- no incoming eligible (intake at go_live-4d; thresholds build-vs-buy=07-31, best-apps=08-02, checkout-blocks=08-07, toy-gift=08-09); 4 incoming still queued go_live 08-04..08-13. Active x2, both at deliver, both HELD, no steps advanced. Worker A graduate-b2b-terms-by-order-count (go_live 07-28=today): held -- attention.json stale (last_brief_answered 1970-01-01, no brief in 48h) so veto_window publish must NOT auto-advance per CLAUDE.md hard rule; budget.json also still dated 07-23 with blog_publish 1/1 (would reset on a real publish run but gate holds first). PR #56 untouched. Worker B shopify-b2b-2026-all-plans-vs-plus (go_live 07-30>today): held on go-live gate AND unresolved fact_check FLAG (all-plans premise contradicts 3 published Plus-only posts) needing human reconcile before publish. PR #57 untouched. STILL BLOCKED FOR HUMAN: attention.json never answered (blocks both publishes); shopify post needs Plus-only contradiction reconciled."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-07-29T00:00:00Z",
+    "tasks_touched": 6,
+    "ok": true,
+    "notes": "pass ok \u00b7 6 drafts (memobottle/future-glass/russell-hendrix T3 + darche/maguire/tony-s T1) \u00b7 sent-detected 6 (07-28) \u00b7 replies 0 \u00b7 queue guard clear \u00b7 T1 reserve filled with last 3 verified targets, verified cold pool now empty (mining needed) \u00b7 4 finals auto-close tomorrow 07-30"
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-07-29T05:00:00Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Dispatcher pass. Intake: 0 moved -- no incoming eligible (intake at go_live-4d; thresholds build-vs-buy=07-31, best-apps=08-02, checkout-blocks=08-07, toy-gift=08-09); 4 incoming still queued go_live 08-04..08-13. Active x2, both at deliver, both HELD, no steps advanced, no git/file changes. Worker A graduate-b2b-terms-by-order-count (go_live 07-28, past): go-live gate passes but HELD by attention rule -- attention.json last_brief_answered 1970-01-01 (>48h) so veto_window publish must not auto-advance per CLAUDE.md hard rule; PR #56 unmerged. Worker B shopify-b2b-2026-all-plans-vs-plus (go_live 07-30, future): HELD on go-live gate; also unresolved fact_check FLAG (all-plans premise contradicts 3 published Plus-only posts) needs human reconcile; PR #57 unmerged. STILL BLOCKED FOR HUMAN: (1) attention.json never answered -- blocks BOTH publishes until a brief is answered; (2) shopify post needs Plus-only contradiction reconciled before publish."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-07-30T05:00:00Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Dispatcher pass. Intake: 0 moved -- no incoming eligible (intake at go_live-4d; today 07-30; thresholds build-vs-buy=07-31, best-apps=08-02, checkout-blocks=08-07, toy-gift=08-09); 4 incoming still queued go_live 08-04..08-13. Active x2, both at deliver, both HELD, 0 steps advanced, no git/file/repo changes. Worker A graduate-b2b-terms-by-order-count (go_live 07-28, past): go-live gate + budget (budget.json date 07-23!=today would reset spent to 0/1) both fine, but HELD by attention hard rule -- attention.json last_brief_answered 1970-01-01 (>48h) so veto_window publish must not auto-advance; PR #56 unmerged. Worker B shopify-b2b-2026-all-plans-vs-plus (go_live 07-30): go-live gate now REACHED (was future last run) but still HELD -- (a) attention hard rule, and (b) unresolved fact_check FLAG (all-plans premise contradicts 3 published Plus-only posts) needs human reconcile; PR #57 unmerged. STILL BLOCKED FOR HUMAN: (1) answer a brief -> updates attention.json, unblocks BOTH publishes; (2) reconcile shopify Plus-only contradiction before it can publish."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-07-31T00:00:00Z",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "pass ok \u00b7 3 drafts (allied/hiut/pittsburgh T3 finals) \u00b7 sent-detected 6 (darche/maguire/tony-s T1 + memobottle/future-glass/russell T3 sent 07-29) \u00b7 replies 0 (russell OOO to Aug 4, ignored per rule) \u00b7 auto-dropped 4 finals (amhosp/elite-truck/montana-west/wbc, silent 7d) \u00b7 queue guard clear (0 pending) \u00b7 T1s 0, verified cold pool empty, mining needed \u00b7 no run 07-30, caught up \u00b7 next T2s 08-01"
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-07-31T05:00:00Z",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "Dispatcher pass. Intake: 1 moved -- build-vs-buy-payment-terms-functions-agencies (go_live 08-04) crossed its go_live-4d threshold (07-31) and was stamped + moved incoming->active; other 3 incoming still queued (best-apps 08-06/thr 08-02, checkout-blocks 08-11/thr 08-07, toy-gift 08-13/thr 08-09). Active x3, 1 task advanced. Worker C build-vs-buy: fresh task ran branch..commit in one run -> branch blog/cb-20260718-build-vs-buy-payment-terms-functions-agencies off main, draft+fact_check(clean)+build(slug=build-vs-buy-shopify-payment-function-agencies, mdx+hero 28, reciprocal link added in payment-customization-function-vs-app.mdx)+qa_image(pass 1 render)+commit(draft PR #58, imessage sent), STOPPED after commit per rule. Judgment calls: capped pricing at $300 (PRD tops at $299, brief said $499), omitted 'white-label' (not a PRD feature). Workers A+B HELD at deliver, 0 steps advanced, no git/file changes -- attention.json last_brief_answered still 1970-01-01 (>48h) so veto_window blog publish must NOT auto-advance per CLAUDE.md hard rule; also budget.json date 07-23!=today would reset spent 1->0 but attention rule dominates. Worker A graduate-b2b (go_live 07-28 past, PR #56) go-live gate ok, HELD by attention. Worker B shopify-b2b (go_live 07-30 past, PR #57) go-live gate ok but HELD by attention AND unresolved fact_check FLAG (all-plans premise contradicts 3 published Plus-only posts) needs human reconcile. STILL BLOCKED FOR HUMAN: (1) answer a brief -> updates attention.json, unblocks PRs #56/#57/#58 publishes; (2) reconcile shopify Plus-only contradiction before #57 can publish."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-01T03:13:00+05:30",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "Outreach daily pass 2026-08-01 (Sat, non-T1 day). Reconcile: 3 T3 finals detected sent 07-31 (allied/hiut/pittsburgh), pending cleared, auto-drop 08-07. No replies (russell OOO to Aug4 already handled). Control labels clear. Queue guard clear (0 unsent at start, 6 slots). Drafted 3 T2 follow-ups (death-wish/ule/valvetronic, T1+4 due today) as thread replies, zero links. T1s 0 (non-T1 day + verified cold pool empty, mining needed). 15 in sequence. Summary sent to Command Center iMessage."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-01T05:00:00Z",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "Dispatcher pass 2026-08-01. Intake: 0 moved -- no incoming eligible (intake at go_live-4d; today 08-01; thresholds best-apps=08-02, checkout-blocks=08-07, toy-gift=08-09); 3 incoming still queued go_live 08-06..08-13. Active x3, all at deliver, all HELD, 0 steps advanced, no git/file/repo changes. Worker A graduate-b2b-terms-by-order-count (go_live 07-28, 4d past): go-live gate + budget (budget.json date 07-23!=today would reset spent to 0/1) both fine, but HELD by attention hard rule -- attention.json last_brief_answered 1970-01-01 (>48h, no brief ever answered) so veto_window blog publish must NOT auto-advance per CLAUDE.md; PR #56 unmerged. Worker B shopify-b2b-2026-all-plans-vs-plus (go_live 07-30, 2d past): HELD by same attention rule AND unresolved fact_check FLAG (all-plans premise contradicts 3 published Plus-only posts) needing human reconcile before publish -- 07-30 brief noted shopify.com/news/b2b-for-all confirms the Apr-2026 all-plans change, ready to reconcile but not yet actioned in the task; PR #57 unmerged. Worker C build-vs-buy-payment-terms-functions-agencies (go_live 08-04, future): HELD by go-live gate (08-01<08-04) and attention rule; PR #58 unmerged. STILL BLOCKED FOR HUMAN: (1) answer a brief to refresh attention.json -> unblocks veto_window publishes for #56/#57/#58; (2) reconcile the shopify Plus-only contradiction before #57 publishes. No emails/posts/merges performed."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-02T03:10:00+05:30",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "Outreach daily pass 2026-08-02 (Sun, non-T1 day). Reconcile: 0 sends since 08-01, 0 replies, 0 bounces, control labels (reject/hold/later) all empty; the 3 T2 drafts from 08-01 (death-wish/ule/valvetronic) still unsent, ids intact, not stale. Pick: slots_available 3 (6 max - 3 unsent). Drafted 3 due T2 follow-ups (darche/maguire/tony-s, T1 07-29 + 4) as thread replies, zero links; pending now 6/6, guard trips tomorrow. T1s 0 (non-T1 day + verified cold pool empty, mining needed). 15 in sequence. Nothing sent. Summary to Command Center iMessage."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-01T23:52:23Z",
+    "tasks_touched": 4,
+    "ok": true,
+    "notes": "content-blog dispatcher 2026-08-02. Intake: best-shopify-b2b (go_live 08-06, lead 4d -> due today) stamped + moved incoming->active; checkout-blocks (08-11) & toy-gift (08-13) not yet due. Worker on best-shopify-b2b ran branch->commit and STOPPED: branch=blog/cb-20260718-best-shopify-b2b-payment-terms-apps-2026, slug=best-shopify-b2b-payment-terms-apps, draft_pr=https://github.com/rajatujawane/varr-labs-website/pull/59, backlink added from native-vs-app post, iMessage sent to Command Center; no blocked_on. 3 active tasks HELD at deliver, none advanced: attention.json last_brief_answered=1970-01-01 (>48h) -> CLAUDE.md hard rule forbids auto-advancing the veto_window publish step for ALL of them. graduate-b2b (PR56, go_live 07-28 past) HELD on attention rule. shopify-all-plans-vs-plus (PR57, go_live 07-30 past) HELD on attention rule + carries fact_check FLAG (all-plans premise contradicts 3 published Plus-only posts; human must reconcile before publish). build-vs-buy (PR58) HELD: go_live 08-04 not reached (go-live gate) AND attention rule. Also note: budget.json stale (date 2026-07-23, blog_publish 1/1) \u2014 deliver will reset spent on a new day when it eventually runs."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-02T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Brief sent. Pipeline: 4 content-blog tasks active, all held at deliver on the attention hard rule (last_brief_answered never, 1970-01-01). graduate-b2b (PR#56, go_live 07-28, 5d overdue) blocked on attention only. shopify-b2b-all-plans-vs-plus (PR#57, go_live 07-30, 3d overdue) blocked on attention + unresolved Plus-only fact_check flag, though Jul 30 digest confirmed the Apr-2026 all-plans change via shopify.com/news/b2b-for-all -- ready to reconcile. build-vs-buy (PR#58) holding for go-live 08-04. best-shopify-b2b-apps-2026 (PR#59) freshly drafted this run, holding for go-live 08-06. Outreach: queue guard full, 6 T2 drafts pending send (death-wish/ule/valvetronic/darche/maguire/tony-s), verified cold pool empty. Digest: shopify changelog quiet since Jul 29 + SHOP price target cut ~$31 ahead of Aug 5 earnings; tech EU AI Act Article 50 disclosure live today + LinkedIn AI-slop report button + Claude Code usage boost through Aug 19; world Ceuta Spain-Morocco crisis 67 dead + reported US/Israel plans for new Iran bombing campaign this weekend. Flagged: attention.json still never answered (1970-01-01, blocking all veto_window publishes); budget.json stale (dated 07-23)."
+  }
+]

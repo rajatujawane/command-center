@@ -4,7 +4,7 @@
   "website": "https://skyhighsupply.com",
   "vertical": "Wholesale supply / accessories",
   "hq": "US",
-  "tier": "A - Native B2B confirmed",
+  "tier": "C - Disqualified",
   "size_class": "Right-size",
   "fit": 7,
   "evidence": "Review (Jun 2025): runs custom pricing + net terms with customers on Shopify (~6 yrs)",
@@ -18,10 +18,10 @@
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Sky%20High%20Supply%20ecommerce",
     "hunter": "https://hunter.io/search/skyhighsupply.com"
   },
-  "status": "not_contacted",
-  "raw_status": "Not contacted",
+  "status": "dropped",
+  "raw_status": "Dropped",
   "touches": {},
-  "notes": "",
+  "notes": "Dropped 2026-07-26: domain skyhighsupply.com is expired/up for auction \u2014 company likely defunct or rebranded. Evidence was a B2B Wholesale Hub app review (non-Plus app), not native Shopify B2B. Fails Plus confirmation gate. Do not pursue unless new domain + Plus confirmation found.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {

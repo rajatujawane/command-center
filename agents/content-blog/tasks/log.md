@@ -6,3 +6,5 @@
 2026-06-26T00:00:00Z cb-20260615-dynamic-deposits-shopify-25pct-upfront — all steps done, promoted to prod via PR #46
 2026-07-08T00:00:00Z cb-20260629-shopify-scripts-stopped-restore-b2b-terms-functions — all steps done, promoted to prod via PR #49
 cb-20260629-shopify-summer26-b2b-payment-terms-native-vs-app | done | 2026-07-09
+2026-07-21T00:00:00Z cb-20260718-customer-tier-payment-terms-shopify-plus — all steps done, promoted to prod via PR #54
+2026-07-23T00:00:00Z cb-20260718-require-prepayment-first-time-b2b-buyers — all steps done, promoted to prod via PR #55

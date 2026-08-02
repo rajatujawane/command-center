@@ -1,0 +1,77 @@
+{
+  "id": "cb-20260718-best-shopify-b2b-payment-terms-apps-2026",
+  "title": "Best Shopify Apps for B2B Payment Terms (2026)",
+  "project": "termstack",
+  "go_live": "2026-08-06",
+  "queued_at": "2026-07-18",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/best-shopify-b2b-payment-terms-apps-2026.md"
+  ],
+  "steps": [
+    {
+      "do": "branch",
+      "gate": "auto",
+      "status": "done",
+      "out": "branch=blog/cb-20260718-best-shopify-b2b-payment-terms-apps-2026 default=main"
+    },
+    {
+      "do": "draft",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/content-blog/outputs/cb-20260718-best-shopify-b2b-payment-terms-apps-2026/draft.md"
+    },
+    {
+      "do": "fact_check",
+      "gate": "auto",
+      "status": "done",
+      "out": "verified"
+    },
+    {
+      "do": "build",
+      "to": "{meta.repo}",
+      "run": [
+        "blog-ready",
+        "blog-image"
+      ],
+      "status": "done",
+      "out": "slug=best-shopify-b2b-payment-terms-apps"
+    },
+    {
+      "do": "qa_image",
+      "gate": "auto",
+      "status": "done",
+      "out": "pass"
+    },
+    {
+      "do": "commit",
+      "gate": "auto",
+      "status": "done",
+      "out": "https://github.com/rajatujawane/varr-labs-website/pull/59"
+    },
+    {
+      "do": "deliver",
+      "to": [
+        "git_pr:merge"
+      ],
+      "gate": "auto",
+      "status": "pending",
+      "out": ""
+    },
+    {
+      "do": "promote",
+      "to": [
+        "git_pr:prod"
+      ],
+      "gate": "auto",
+      "status": "pending",
+      "out": ""
+    },
+    {
+      "do": "notify",
+      "to": "me",
+      "status": "pending",
+      "out": ""
+    }
+  ]
+}

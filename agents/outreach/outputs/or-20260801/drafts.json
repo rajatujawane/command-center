@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-01",
+  "drafts": [
+    {
+      "prospect_id": "death-wish-coffee",
+      "touch": "t2",
+      "draft_id": "r6088723322136366537",
+      "subject": "Re: Death Wish's wholesale checkout",
+      "thread_id": "19fa587367261230",
+      "to": "will@deathwishcoffee.com"
+    },
+    {
+      "prospect_id": "ule-group",
+      "touch": "t2",
+      "draft_id": "r2410807495299474855",
+      "subject": "Re: Payment terms on your contract accounts",
+      "thread_id": "19fa5872bae7a4fc",
+      "to": "dfoley@ulegroup.com"
+    },
+    {
+      "prospect_id": "valvetronic-designs",
+      "touch": "t2",
+      "draft_id": "r-5716470282331944502",
+      "subject": "Re: Valvetronic's dealer checkout",
+      "thread_id": "19fa5874090a667b",
+      "to": "ahuffman@valvetronic.com"
+    }
+  ],
+  "sent_detected": [
+    { "prospect_id": "allied-medical", "touch": "t3", "sent": "2026-07-31" },
+    { "prospect_id": "hiut-denim", "touch": "t3", "sent": "2026-07-31" },
+    { "prospect_id": "pittsburgh-spray-equipment", "touch": "t3", "sent": "2026-07-31" }
+  ],
+  "replies": [],
+  "auto_dropped": []
+}

@@ -1,7 +1,7 @@
 {
   "id": "bequet-confections",
   "brand": "Bequet Confections",
-  "website": "https://bequet.com",
+  "website": "https://bequetconfections.com",
   "vertical": "Food & beverage (caramel)",
   "hq": "US",
   "tier": "A - Native B2B confirmed",
@@ -16,17 +16,19 @@
     "email": "",
     "email_verified": false,
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Bequet%20Confections%20ecommerce",
-    "hunter": "https://hunter.io/search/bequet.com"
+    "hunter": "https://hunter.io/search/bequetconfections.com"
   },
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "",
+  "notes": " | Domain corrected to bequetconfections.com (2026-07-26). Founder: Robin Bequet. Only generic sales@ found so far. | Blocked 2026-07-26: only generic sales@ found, no named person.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
     "thread_id": null,
     "pending_draft_id": null
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "flags": [],
+  "blocked": "generic_inbox_only"
 }

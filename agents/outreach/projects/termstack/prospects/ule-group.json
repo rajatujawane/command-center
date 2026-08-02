@@ -1,32 +1,47 @@
 {
   "id": "ule-group",
   "brand": "ULE Group",
-  "website": "",
+  "website": "https://ulegroup.com",
   "vertical": "Industrial supplies",
   "hq": "US (verify)",
   "tier": "A - Native B2B confirmed",
   "size_class": "Right-size",
   "fit": 9,
-  "evidence": "Shopify case study via Uncap: true B2B commerce, thousands of protected contract price lists, ERP/PIM",
-  "evidence_source": "shopify.com/case-studies",
+  "evidence": "Shopify case study: ULE Group on Plus with native B2B, thousands of contract price lists, payment terms, company accounts",
+  "evidence_source": "shopify.com/case-studies/ule-group",
   "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback - contract price lists beg for terms-by-contract rules",
   "contact": {
-    "role_target": "Ecommerce / IT Director",
-    "named_person": "",
-    "email": "",
-    "email_verified": false,
+    "role_target": "VP Ecommerce",
+    "named_person": "Denise M. Foley (EVP of eCommerce, verified via Shopify case study + LinkedIn)",
+    "email": "dfoley@ulegroup.com",
+    "email_verified": true,
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=ULE%20Group%20ecommerce",
-    "hunter": ""
+    "hunter": "https://hunter.io/search/ulegroup.com",
+    "generic_inbox": "contact@ulegroup.com",
+    "linkedin": "https://www.linkedin.com/in/denisefoley1/"
   },
-  "status": "not_contacted",
+  "status": "in_sequence",
   "raw_status": "Not contacted",
-  "touches": {},
-  "notes": "Find official domain first (brand name from cited source)",
+  "touches": {
+    "t1": {
+      "drafted": "2026-07-28",
+      "draft_id": "r-341755229372141987",
+      "sent": "2026-07-28"
+    },
+    "t2": {
+      "drafted": "2026-08-01",
+      "draft_id": "r2410807495299474855",
+      "subject": "Re: Payment terms on your contract accounts"
+    }
+  },
+  "notes": "Researched 2026-07-21: domain confirmed ulegroup.com (Shopify Plus, powered-by header, account.ulegroup.com custom account domain, buyer_flags JWT = native B2B). Wholesale electrical/lighting distributor, Hauppauge NY, ~$18.6M rev. Denise M. Foley EVP eCommerce verified (non-marketing persona, tier 2). 60s guard PASSES on all three. Email verified by Rajat 2026-07-26: dfoley@ulegroup.com | T1 sent 2026-07-28 (thread 19fa5872bae7a4fc). | T2 draft created 2026-08-01 (id r2410807495299474855), awaiting review; no links (cold thread). T3 due 2026-08-06.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": null,
-    "pending_draft_id": null
+    "thread_id": "19fa5872bae7a4fc",
+    "pending_draft_id": "r2410807495299474855",
+    "pending_touch": "t2"
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "flags": []
 }

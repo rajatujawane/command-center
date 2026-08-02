@@ -1,0 +1,14 @@
+{
+  "date": "2026-07-21",
+  "project": "termstack",
+  "gate": "drafts only - nothing sent",
+  "drafts": [
+    { "prospect_id": "american-hospital-supply", "touch": "t3", "draft_id": "r-2366121571741718305", "thread_id": "19ed41d7b8838598", "to": "brian@american-hospitalsupply.com", "subject": "Re: American Hospital Supply: terms by order size at checkout?", "angle": "credit exposure on new reseller accounts" },
+    { "prospect_id": "elite-truck", "touch": "t3", "draft_id": "r-7794270601807989403", "thread_id": "19ef5cea83859658", "to": "warren@elitetruck.com", "subject": "Re: Terms by order size at checkout?", "angle": "dealer tiers policed per order" },
+    { "prospect_id": "montana-west-u-s-a", "touch": "t3", "draft_id": "r-6189983160447488661", "thread_id": "19ef5f059d617b9f", "to": "derek@montanawestusa.com", "subject": "Re: Montana West - payment terms by retailer or order size at checkout?", "angle": "preseason buy volume spike" },
+    { "prospect_id": "wbc", "touch": "t3", "draft_id": "r-250554197948944899", "thread_id": "19ed1bc78b8b96c8", "to": "mark.judson@wbc.co.uk", "subject": "Re: Terms by order size at checkout?", "angle": "first order risk on new trade accounts (GBP)" },
+    { "prospect_id": "filtrous", "touch": "t2", "draft_id": "r-8852580823048405894", "thread_id": "19f66ad4aa0b7ee0", "to": "david.yazdi@filtrous.com", "subject": "Re: Payment terms for your lab accounts", "angle": "three rules + university purchase orders" }
+  ],
+  "failed": [],
+  "t1_drafts": []
+}

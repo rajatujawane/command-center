@@ -12,21 +12,34 @@
   "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback - they already grant Net 30; deposits on large first orders is the exact gap",
   "contact": {
     "role_target": "Ecommerce Director",
-    "named_person": "",
-    "email": "",
-    "email_verified": false,
+    "named_person": "Will Spurgeon (COO/CFO)",
+    "email": "will@deathwishcoffee.com",
+    "email_verified": true,
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Death%20Wish%20Coffee%20ecommerce",
     "hunter": "https://hunter.io/search/deathwishcoffee.com"
   },
-  "status": "not_contacted",
+  "status": "in_sequence",
   "raw_status": "Not contacted",
-  "touches": {},
-  "notes": "",
+  "touches": {
+    "t1": {
+      "drafted": "2026-07-28",
+      "draft_id": "r226054642010235757",
+      "sent": "2026-07-28"
+    },
+    "t2": {
+      "drafted": "2026-08-01",
+      "draft_id": "r6088723322136366537",
+      "subject": "Re: Death Wish's wholesale checkout"
+    }
+  },
+  "notes": "Researched 2026-07-21: Plus CONFIRMED (Shopify case study + dwccwholesale.com expansion store). Real gated wholesale channel, not D2C-only. PERSONA WEAK: DTC ecommerce seat vacant since Will Critcher left Sep 2023; only verifiable ecom title is Nick DeAngelo who owns Amazon, not Shopify. Marketing roles excluded per playbook. Tier-4 fallback is Will Spurgeon COO/CFO. No published email for either. Wholesale runs on the OLD separate-storefront pattern, not native B2B, which is itself a usable wedge if a contact is found. | Email verified by Rajat 2026-07-26: will@deathwishcoffee.com (Will Spurgeon COO/CFO). | T1 sent 2026-07-28 (thread 19fa587367261230). | T2 (final follow-up in seq) draft created 2026-08-01 (id r6088723322136366537), awaiting review; no links (cold thread). T3 due 2026-08-06.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": null,
-    "pending_draft_id": null
+    "thread_id": "19fa587367261230",
+    "pending_draft_id": "r6088723322136366537",
+    "pending_touch": "t2"
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "flags": []
 }

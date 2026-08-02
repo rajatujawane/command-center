@@ -23,14 +23,25 @@
   "touches": {
     "t1": {
       "sent": "2026-07-16"
+    },
+    "t2": {
+      "drafted": "2026-07-25",
+      "sent": "2026-07-26"
+    },
+    "t3": {
+      "drafted": "2026-07-31",
+      "draft_id": "r4956952630405743713",
+      "subject": "Re: Deposit rules on large equipment orders",
+      "sent": "2026-07-31"
     }
   },
-  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20",
+  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T2 draft created 2026-07-25 (id r4171547755318258885), awaiting review | T2 sent 2026-07-26 (detected in Gmail Sent, msg 19f9ea9285bfe48a); T3 due 2026-07-30 (t2+min_gap) | T3 (final) draft created 2026-07-31 (id r4956952630405743713) | T3 sent 2026-07-31 (detected Gmail Sent, msg 19fb780279e395f0); final touch, no reply, auto-drop after 2026-08-07 if silent.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
     "thread_id": "19f6be6fb16b36d5",
-    "pending_draft_id": null
+    "pending_draft_id": null,
+    "pending_touch": null
   },
   "imported": "2026-07-20"
 }
