@@ -1,0 +1,7 @@
+[
+  { "prospect_id": "snyder-performance-engineering", "touch": "t1", "reason": "new T1, tier A, fit 8, contact locked+confirmed by Rajat 2026-08-04 (Amy Snyder, COO); native dealer B2B on Plus, archetype 1", "window": "US 6:30-9:30pm IST" },
+  { "prospect_id": "geoshield", "touch": "t1", "reason": "new T1, tier A, fit 8, contact locked+confirmed by Rajat 2026-08-04 (Dylan Doiga, Territory Sales Mgr); native B2B dealer portal, persona_caveat = Rajat's call", "window": "US 6:30-9:30pm IST" },
+  { "prospect_id": "v-s-barbershop", "touch": "t1", "reason": "new T1, tier A, fit 7, contact locked+confirmed by Rajat 2026-08-04 (Amanda Peer, CDO); unified B2C+franchise on Plus case study", "window": "US 6:30-9:30pm IST" },
+  { "prospect_id": "hydrant", "touch": "t1", "reason": "new T1, tier A, fit 7, contact locked+confirmed by Rajat 2026-08-04 (John Sherwin, Co-Founder, persona override); Plus UNCONFIRMED -> qualifying-question opener per Rajat note", "window": "US 6:30-9:30pm IST" },
+  { "prospect_id": "polyvinyl-records", "touch": "t1", "reason": "new T1, tier A, fit 7, contact locked+confirmed by Rajat 2026-08-04 (Tori Benes, Retail Sales Mgr); B2B stack UNCONFIRMED -> qualifying-question opener per Rajat note", "window": "US 6:30-9:30pm IST" }
+]

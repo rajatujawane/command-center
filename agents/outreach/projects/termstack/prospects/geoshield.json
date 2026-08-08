@@ -1,7 +1,7 @@
 {
   "id": "geoshield",
   "brand": "Geoshield",
-  "website": "",
+  "website": "https://geoshieldusa.com",
   "vertical": "Window film (pro channel)",
   "hq": "US",
   "tier": "A - Native B2B confirmed",
@@ -12,22 +12,32 @@
   "angle": "Uses a B2B-companion app = actively investing in native B2B stack right now; warm timing - installer accounts = terms by certification tier",
   "contact": {
     "role_target": "Founder / Channel lead",
-    "named_person": "",
-    "email": "",
-    "email_verified": false,
-    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Geoshield%20ecommerce",
-    "hunter": ""
+    "named_person": "Dylan Doiga (Territory Sales Manager)",
+    "email": "dylan@geoshieldusa.com",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/in/burns-mulhearn-6a5b5715/",
+    "hunter": "https://hunter.io/search/geoshieldusa.com"
   },
-  "status": "not_contacted",
+  "status": "in_sequence",
   "raw_status": "Not contacted",
-  "touches": {},
-  "notes": "Find official domain first (brand name from cited source)",
+  "touches": {
+    "t1": {
+      "drafted": "2026-08-05",
+      "draft_id": "r-7447957355944334310",
+      "subject": "GeoShield's dealer checkout",
+      "sent": "2026-08-05"
+    }
+  },
+  "notes": "Find official domain first (brand name from cited source)\n2026-08-04 research: domain resolved to geoshieldusa.com (Shopify, geoshield-v2.myshopify.com). Native B2B portal at account.geoshieldusa.com + 'Become a Dealer'/'Dealer Portal' in footer; tiered 'Dealer Journey' program = terms by certification tier, matches archetype 1. Only public email is info@geoshieldusa.com. Alt persona: Beau Dingler (VP, co-founder). EMAIL CANDIDATES to verify: burns@geoshieldusa.com, bmulhearn@geoshieldusa.com, burns.mulhearn@geoshieldusa.com\n2026-08-04 Hunter: Burns Mulhearn NOT in the index. 4 records on geoshieldusa.com, all green-verified: Dylan D. (Territory Sales Manager), Adam S. (Marketing Director), Jakari S. (Warehouse Associate), Blake H. (Supply Chain Analyst). Adam S. is EXCLUDED by the playbook (never Marketing). Jakari/Blake too junior. Dylan D. is the only in-policy target: territory sales owns the dealer network, so dealer-tier terms is their problem. PERSONA CAVEAT: Territory Sales Manager is off the priority list (no ecom/ops/founder record exists in Hunter). Rajat's call. Founder route stays open via info@ or LinkedIn if Dylan bounces.\n2026-08-04 CONTACT LOCKED: Dylan Doiga (Territory Sales Manager) <dylan@geoshieldusa.com>, Hunter green-verified, confirmed by Rajat. Ready for T1.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb15cc2ccff). No reply. Status in_sequence, T2 due 2026-08-09.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": null,
-    "pending_draft_id": null
+    "thread_id": "19fcebb15cc2ccff",
+    "pending_draft_id": null,
+    "pending_touch": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [
+    "persona_caveat"
+  ]
 }

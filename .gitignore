@@ -1,0 +1,13 @@
+# secrets — never commit
+.env
+.env.local
+*.key
+
+# macOS
+.DS_Store
+
+# temp files from atomic writes (write .tmp -> mv)
+*.tmp
+
+# logs
+logs/**/*.log

@@ -31,16 +31,21 @@
     "t2": {
       "drafted": "2026-08-01",
       "draft_id": "r2410807495299474855",
-      "subject": "Re: Payment terms on your contract accounts"
+      "subject": "Re: Payment terms on your contract accounts",
+      "sent": "2026-08-02"
+    },
+    "t3": {
+      "drafted": "2026-08-06",
+      "draft_id": "r5019193501450061921",
+      "subject": "Re: Payment terms on your contract accounts",
+      "sent": "2026-08-06"
     }
   },
-  "notes": "Researched 2026-07-21: domain confirmed ulegroup.com (Shopify Plus, powered-by header, account.ulegroup.com custom account domain, buyer_flags JWT = native B2B). Wholesale electrical/lighting distributor, Hauppauge NY, ~$18.6M rev. Denise M. Foley EVP eCommerce verified (non-marketing persona, tier 2). 60s guard PASSES on all three. Email verified by Rajat 2026-07-26: dfoley@ulegroup.com | T1 sent 2026-07-28 (thread 19fa5872bae7a4fc). | T2 draft created 2026-08-01 (id r2410807495299474855), awaiting review; no links (cold thread). T3 due 2026-08-06.",
+  "notes": "Researched 2026-07-21: domain confirmed ulegroup.com (Shopify Plus, powered-by header, account.ulegroup.com custom account domain, buyer_flags JWT = native B2B). Wholesale electrical/lighting distributor, Hauppauge NY, ~$18.6M rev. Denise M. Foley EVP eCommerce verified (non-marketing persona, tier 2). 60s guard PASSES on all three. Email verified by Rajat 2026-07-26: dfoley@ulegroup.com | T1 sent 2026-07-28 (thread 19fa5872bae7a4fc). | T2 draft created 2026-08-01 (id r2410807495299474855), awaiting review; no links (cold thread). T3 due 2026-08-06. | T2 SENT 2026-08-02 (detected via Gmail Sent). No reply. T3 due 2026-08-06. Out-of-office auto-reply from Denise Foley 2026-08-02 (ignored per reconcile; cadence continues).\n2026-08-06: T3 (FINAL touch) draft created (id r5019193501450061921), reply in existing thread, no links. New angle, graceful close. Awaiting review. No reply within 7d of send -> auto-drop, no 4th email.\n2026-08-07 reconcile: T3 (FINAL) SENT 2026-08-06 (detected in Gmail Sent). No reply. t3 clock started; auto-drop after 7d silence (~08-13), no 4th email.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": "19fa5872bae7a4fc",
-    "pending_draft_id": "r2410807495299474855",
-    "pending_touch": "t2"
+    "thread_id": "19fa5872bae7a4fc"
   },
   "imported": "2026-07-20",
   "flags": []

@@ -18,7 +18,7 @@
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Russell%20Hendrix%20ecommerce",
     "hunter": "https://hunter.io/search/russellhendrix.com"
   },
-  "status": "in_sequence",
+  "status": "dropped",
   "raw_status": "QUEUED Jul 18 - contact needed (draft ready, AB: L)",
   "touches": {
     "t1": {
@@ -34,11 +34,12 @@
       "drafted": "2026-07-29"
     }
   },
-  "notes": "Claude web search Jul 13 found no named ecomm/digital lead (company-level results only). Rajat: use LinkedIn search link + hunter.io/search/russellhendrix.com. Draft ready - just add name. | AB: L. Jul 18 web check: no named ecom/digital lead confirmed. Candidate LinkedIn profiles at Russell Hendrix to check: Tom Pitera, Rob Vass, Amy Kissler, Stan Dabic (roles unverified, do NOT send until one maps to ecom/ops). PE-owned (Blue Point), Saskatoon HQ, largest CA foodservice dealer, so not founder-persona. Use LinkedIn + hunter.io/search/russellhendrix.com. | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T2 draft created 2026-07-22 (id r8087751110958439868), awaiting review | T2 SENT 2026-07-24 as \"Hi Paul\" (Rajat filled the name); no reply; t3 due 2026-07-28 | reconciled 2026-07-31: T3 SENT 2026-07-29 (final touch). Out-of-office auto-reply from Paul (back Aug 4) - ignored per reconcile rule, cadence complete; auto-drop after 2026-08-05 if silent.",
+  "notes": "Claude web search Jul 13 found no named ecomm/digital lead (company-level results only). Rajat: use LinkedIn search link + hunter.io/search/russellhendrix.com. Draft ready - just add name. | AB: L. Jul 18 web check: no named ecom/digital lead confirmed. Candidate LinkedIn profiles at Russell Hendrix to check: Tom Pitera, Rob Vass, Amy Kissler, Stan Dabic (roles unverified, do NOT send until one maps to ecom/ops). PE-owned (Blue Point), Saskatoon HQ, largest CA foodservice dealer, so not founder-persona. Use LinkedIn + hunter.io/search/russellhendrix.com. | reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T2 draft created 2026-07-22 (id r8087751110958439868), awaiting review | T2 SENT 2026-07-24 as \"Hi Paul\" (Rajat filled the name); no reply; t3 due 2026-07-28 | reconciled 2026-07-31: T3 SENT 2026-07-29 (final touch). Out-of-office auto-reply from Paul (back Aug 4) - ignored per reconcile rule, cadence complete; auto-drop after 2026-08-05 if silent.\n2026-08-06 auto-drop: T3 final sent 2026-07-29, no reply within 7 days -> dropped silently. No 4th email. Re-approach eligible after 45 days (from 2026-08-06), new contact + new angle + new thread.",
   "sheet_draft": "T1: (AB: L) Subject: Russell Hendrix wholesale checkout\n\nHi {Name},\n\nQuick question about Russell Hendrix B2B orders: when a restaurant group or institutional buyer places a large equipment order, do payment terms and any deposit apply automatically at checkout, or is that handled through invoicing after the order?\n\nIn TermStack that runs as a rule at checkout: under $1k pay now, $1k to $10k Net 30, over $10k Net 60 with a 25% deposit. A US toy and gift wholesaler on Plus runs it today.\n\nRajat\nFounder, TermStack by Varr Labs",
   "sheet_next_action": "Find ecom/ops contact (LinkedIn + Hunter), then send T1 Tue Jul 21 ~7pm IST.",
   "gmail": {
     "thread_id": "19f6a603e65a7c09"
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "dropped_at": "2026-08-06"
 }

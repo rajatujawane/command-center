@@ -18,7 +18,7 @@
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Memobottle%20ecommerce",
     "hunter": "https://hunter.io/search/memobottle.com"
   },
-  "status": "in_sequence",
+  "status": "dropped",
   "raw_status": "Not contacted",
   "touches": {
     "t1": {
@@ -34,11 +34,12 @@
       "drafted": "2026-07-29"
     }
   },
-  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T2 draft created 2026-07-22 (id r4629686905532665799), awaiting review | T2 SENT 2026-07-24 (detected via Gmail Sent 2026-07-25); no reply; t3 due 2026-07-28",
+  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T2 draft created 2026-07-22 (id r4629686905532665799), awaiting review | T2 SENT 2026-07-24 (detected via Gmail Sent 2026-07-25); no reply; t3 due 2026-07-28\n2026-08-06 auto-drop: T3 final sent 2026-07-29, no reply within 7 days -> dropped silently. No 4th email. Re-approach eligible after 45 days (from 2026-08-06), new contact + new angle + new thread.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
     "thread_id": "19f66c3fbec095e4"
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "dropped_at": "2026-08-06"
 }

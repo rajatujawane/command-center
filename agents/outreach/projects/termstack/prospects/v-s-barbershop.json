@@ -12,21 +12,29 @@
   "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback - franchisee ordering = terms by location",
   "contact": {
     "role_target": "Franchise ops lead",
-    "named_person": "",
-    "email": "",
-    "email_verified": false,
-    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=V%27s%20Barbershop%20ecommerce",
+    "named_person": "Amanda Peer (Chief Digital Officer)",
+    "email": "amandav@vbarbershop.com",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/in/emilyhutchesonbrown/",
     "hunter": "https://hunter.io/search/vbarbershop.com"
   },
-  "status": "not_contacted",
+  "status": "in_sequence",
   "raw_status": "Not contacted",
-  "touches": {},
-  "notes": "",
+  "touches": {
+    "t1": {
+      "drafted": "2026-08-05",
+      "draft_id": "r-5802770200286091524",
+      "subject": "V's Barbershop wholesale checkout",
+      "sent": "2026-08-05"
+    }
+  },
+  "notes": "2026-08-04 research: Shopify confirmed. Emily Hutcheson-Brown is COO and explicitly owns all franchise operations and franchisee support - exact match for the franchise-ops persona, and she is on the company team page (/pages/our-team/emily-brown). Alt: Jim Valenzuela (Founder/CEO, Phoenix AZ). Franchisee ordering = terms by location, archetype 1. Caveat: she also runs the marketing program, but the ops title governs, so she is in-policy. EMAIL CANDIDATES to verify: emily@vbarbershop.com, ebrown@vbarbershop.com, emily.brown@vbarbershop.com\n2026-08-04 Hunter: TARGET SWITCHED from Emily Hutcheson-Brown (not in the index) to Amanda P., Chief Digital Officer, green-verified. CDO is the strongest persona match in this whole batch: digital commerce owner, priority tier 1/2. Alt: Jim V. (Jim Valenzuela, CEO) green-verified. EXCLUDED by playbook: Brady W. (Content Strategy Director). Patrick B. (Director of Customer Experience) is a weak third option. Emily remains the ops-side name if a reply needs routing.\n2026-08-04 CONTACT LOCKED: Amanda Peer (Chief Digital Officer) <amandav@vbarbershop.com>, Hunter green-verified, confirmed by Rajat. Ready for T1.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb20195f2b4). No reply. Status in_sequence, T2 due 2026-08-09.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": null,
-    "pending_draft_id": null
+    "thread_id": "19fcebb20195f2b4",
+    "pending_draft_id": null,
+    "pending_touch": null
   },
   "imported": "2026-07-20",
   "flags": []

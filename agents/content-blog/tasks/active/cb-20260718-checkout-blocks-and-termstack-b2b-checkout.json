@@ -1,0 +1,77 @@
+{
+  "id": "cb-20260718-checkout-blocks-and-termstack-b2b-checkout",
+  "title": "Checkout Blocks + TermStack: What Each Controls at B2B Checkout",
+  "project": "termstack",
+  "go_live": "2026-08-11",
+  "queued_at": "2026-07-18",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/checkout-blocks-and-termstack-b2b-checkout.md"
+  ],
+  "steps": [
+    {
+      "do": "branch",
+      "gate": "auto",
+      "status": "done",
+      "out": "branch=blog/cb-20260718-checkout-blocks-and-termstack-b2b-checkout default=main"
+    },
+    {
+      "do": "draft",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/content-blog/outputs/cb-20260718-checkout-blocks-and-termstack-b2b-checkout/draft.md"
+    },
+    {
+      "do": "fact_check",
+      "gate": "auto",
+      "status": "done",
+      "out": "verified against prd.md + brief; no em dashes; 3 internal links valid; no unverifiable core claim"
+    },
+    {
+      "do": "build",
+      "to": "{project.repo}",
+      "run": [
+        "blog-ready",
+        "blog-image"
+      ],
+      "status": "done",
+      "out": "slug=checkout-blocks-b2b-payment-terms; wrote src/content/blog/checkout-blocks-b2b-payment-terms.mdx + hero + inline SVG; backlink added from shopify-b2b-payment-terms-native-vs-app.mdx"
+    },
+    {
+      "do": "qa_image",
+      "gate": "auto",
+      "status": "done",
+      "out": "viewed hero + inline at true aspect; cream theme, two-tone title, violet accents, watermark, no overflow; passed, no fixes"
+    },
+    {
+      "do": "commit",
+      "gate": "auto",
+      "status": "done",
+      "out": "draft PR https://github.com/rajatujawane/varr-labs-website/pull/64 (base main); pushed blog/cb-20260718-checkout-blocks-and-termstack-b2b-checkout; iMessage sent to Command Center"
+    },
+    {
+      "do": "deliver",
+      "to": [
+        "git_pr:merge"
+      ],
+      "gate": "auto",
+      "status": "pending",
+      "out": ""
+    },
+    {
+      "do": "promote",
+      "to": [
+        "git_pr:prod"
+      ],
+      "gate": "auto",
+      "status": "pending",
+      "out": ""
+    },
+    {
+      "do": "notify",
+      "to": "me",
+      "status": "pending",
+      "out": ""
+    }
+  ]
+}

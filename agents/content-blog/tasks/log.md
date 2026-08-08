@@ -8,3 +8,7 @@
 cb-20260629-shopify-summer26-b2b-payment-terms-native-vs-app | done | 2026-07-09
 2026-07-21T00:00:00Z cb-20260718-customer-tier-payment-terms-shopify-plus — all steps done, promoted to prod via PR #54
 2026-07-23T00:00:00Z cb-20260718-require-prepayment-first-time-b2b-buyers — all steps done, promoted to prod via PR #55
+2026-08-03T00:00:00Z cb-20260718-graduate-b2b-terms-by-order-count — all steps done, promoted to prod via PR #60
+2026-08-04T00:00:00Z cb-20260718-build-vs-buy-payment-terms-functions-agencies — all steps done, promoted to prod via PR #61
+- 2026-08-06 cb-20260718-best-shopify-b2b-payment-terms-apps-2026 [termstack] published -> https://varrlabs.com/blog/best-shopify-b2b-payment-terms-apps (deliver PR#59, promote PR#63)
+- 2026-08-07 cb-20260802-schedule-publishing-webflow-native-limits [publishpilot] published -> https://publishpilot.app/blog/schedule-publishing-webflow-native-limits (deliver PR#79, promote PR#81)

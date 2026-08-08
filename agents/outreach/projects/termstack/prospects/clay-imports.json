@@ -11,22 +11,36 @@
   "evidence_source": "Shopify App Store - Onboard B2B reviews",
   "angle": "Uses a B2B-companion app = actively investing in native B2B stack right now; warm timing - trade/contractor accounts = terms by account; deposits on big tile orders",
   "contact": {
-    "role_target": "Ecommerce / Trade lead",
-    "named_person": "",
-    "email": "",
-    "email_verified": false,
+    "role_target": "Logistics Manager",
+    "named_person": "Vanessa S. (Logistics Manager)",
+    "email": "vanessa@clayimports.com",
+    "email_verified": true,
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Clay%20Imports%20ecommerce",
     "hunter": "https://hunter.io/search/clayimports.com"
   },
-  "status": "not_contacted",
+  "status": "in_sequence",
   "raw_status": "Not contacted",
-  "touches": {},
-  "notes": "",
+  "touches": {
+    "t1": {
+      "drafted": "2026-08-04",
+      "draft_id": "r-9123204645025400598",
+      "subject": "Clay Imports' trade account checkout",
+      "sent": "2026-08-04"
+    },
+    "t2": {
+      "drafted": "2026-08-08",
+      "draft_id": "r-6574272959215406518",
+      "subject": "Re: Clay Imports' trade account checkout",
+      "sent": null
+    }
+  },
+  "notes": " | Email verified by Rajat 2026-08-03: vanessa@clayimports.com (Vanessa S., Logistics Manager). Rajat picked Vanessa over Luna L. (Web Manager) from the same contact list; Luna is the fallback for a 45-day re-approach. Anna L. (Head of Growth) excluded per persona rule (marketing seat).",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": null,
-    "pending_draft_id": null
+    "thread_id": "19fc9930b2f82270",
+    "pending_draft_id": "r-6574272959215406518",
+    "pending_touch": "t2"
   },
   "imported": "2026-07-20",
   "flags": []

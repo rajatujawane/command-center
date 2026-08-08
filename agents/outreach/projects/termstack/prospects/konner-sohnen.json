@@ -1,7 +1,7 @@
 {
   "id": "konner-sohnen",
   "brand": "Konner & Sohnen",
-  "website": "",
+  "website": "https://konner-sohnen.com",
   "vertical": "Power equipment",
   "hq": "DE/EU",
   "tier": "A - Native B2B confirmed",
@@ -12,16 +12,16 @@
   "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback - terms by EU market is a strong demo",
   "contact": {
     "role_target": "Ecommerce lead",
-    "named_person": "",
+    "named_person": "Pavlo Fomin (General Manager / Geschaftsfuhrer, DIMAX Int. GmbH)",
     "email": "",
     "email_verified": false,
-    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Konner%20%26%20Sohnen%20ecommerce",
-    "hunter": ""
+    "linkedin_search": "https://www.linkedin.com/company/dimax-group",
+    "hunter": "https://hunter.io/search/dimaxgroup.com"
   },
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "Find official domain first (brand name from cited source)",
+  "notes": "Find official domain first (brand name from cited source)\n2026-08-04 research: domain resolved to konner-sohnen.com, separate B2B storefront at b2b.konner-sohnen.com (strong native-B2B/expansion-store signal). Operating entity is DIMAX Int. GmbH, Flinger Broich 203, Dusseldorf, HRB 85051. IMPORTANT: staff email domain is dimaxgroup.com, NOT konner-sohnen.com (sales@ / shop@ / service@dimaxgroup.com). Search Hunter on dimaxgroup.com. Alt: Tetiana Rodionova (authorized signatory). Terms by EU market is the demo hook. EMAIL CANDIDATES to verify: p.fomin@dimaxgroup.com, pfomin@dimaxgroup.com, pavlo.fomin@dimaxgroup.com\n2026-08-04 Hunter: dimaxgroup.com returns ONE record, unnamed and unverified (crossed shield). Pavlo Fomin is not indexed. BLOCKED - no verifiable direct address. Options if Rajat wants to keep it: LinkedIn Sales Nav on DIMAX Group, or the b2b.konner-sohnen.com dealer form. Do NOT send to sales@dimaxgroup.com as a cold T1.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -29,5 +29,8 @@
     "pending_draft_id": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [
+    "contact_needed"
+  ],
+  "blocked": "generic_inbox_only"
 }

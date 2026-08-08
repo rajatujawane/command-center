@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-06",
+  "day": "Thu",
+  "t1_day": true,
+  "queue_guard": { "pending_unsent_at_start": 0, "slots_available": 6 },
+  "queue": [
+    { "prospect_id": "death-wish-coffee", "touch": "t3", "reason": "T3 final due (t1 07-28 +9=08-06; t2 08-02 +4=08-06); no reply", "window": "US 6:30-9:30pm IST" },
+    { "prospect_id": "ule-group", "touch": "t3", "reason": "T3 final due (same clock); no reply; Denise OOO 08-02 ignored", "window": "US 6:30-9:30pm IST" },
+    { "prospect_id": "valvetronic-designs", "touch": "t3", "reason": "T3 final due (same clock); no reply", "window": "US 6:30-9:30pm IST" }
+  ],
+  "t1_new": [],
+  "t1_note": "T1 reserve (3) returned to follow-ups: verified cold pool spent. artisaire held (first-name unconfirmed), benchmade held (warm-via-Shero only). No eligible T1 target.",
+  "notes": "Reserve unfilled -> released to follow-ups; only 3 followups due, all fit under 6 slots."
+}

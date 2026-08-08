@@ -1,7 +1,7 @@
 {
   "id": "ocb-usa-republic-brands",
   "brand": "OCB USA (Republic Brands)",
-  "website": "",
+  "website": "https://ocbusa.com",
   "vertical": "Distribution / smoking accessories",
   "hq": "US",
   "tier": "A - Native B2B confirmed",
@@ -15,13 +15,13 @@
     "named_person": "",
     "email": "",
     "email_verified": false,
-    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=OCB%20USA%20%28Republic%20Brands%29%20ecommerce",
-    "hunter": ""
+    "linkedin_search": "https://www.linkedin.com/company/republicbrands",
+    "hunter": "https://hunter.io/search/ocbusa.com"
   },
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "Find official domain first (brand name from cited source)",
+  "notes": "Find official domain first (brand name from cited source)\n2026-08-04 research: domain resolved to ocbusa.com (D2C) with a SEPARATE password-gated retailer store at retail.ocbusa.com - confirms the Onboard B2B review evidence. Parent entity: Republic Brands (formerly Republic Tobacco), Glenview IL; brands OCB, JOB, e-z wider, TOP, DRUM. NO named ecommerce/digital-commerce person findable publicly. Republic Brands has a CMO - playbook forbids CMO/VP Marketing, do not default to them. BLOCKED no_contact - needs a LinkedIn people search from Rajat. Also check whether ocbusa.com or republicbrands.com is the staff email domain.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -29,5 +29,8 @@
     "pending_draft_id": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [
+    "contact_needed"
+  ],
+  "blocked": "no_contact"
 }

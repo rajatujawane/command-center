@@ -1,7 +1,7 @@
 {
   "id": "snyder-performance-engineering",
   "brand": "Snyder Performance Engineering",
-  "website": "",
+  "website": "https://www.spemotorsport.com",
   "vertical": "Automotive performance",
   "hq": "US",
   "tier": "A - Native B2B confirmed",
@@ -12,21 +12,29 @@
   "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
   "contact": {
     "role_target": "Owner / Ops",
-    "named_person": "",
-    "email": "",
-    "email_verified": false,
-    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Snyder%20Performance%20Engineering%20ecommerce",
-    "hunter": ""
+    "named_person": "Amy Snyder (COO)",
+    "email": "amy@spemotorsport.com",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=SPE%20Motorsport%20Snyder",
+    "hunter": "https://hunter.io/search/spemotorsport.com"
   },
-  "status": "not_contacted",
+  "status": "in_sequence",
   "raw_status": "Not contacted",
-  "touches": {},
-  "notes": "Find official domain first (brand name from cited source)",
+  "touches": {
+    "t1": {
+      "drafted": "2026-08-05",
+      "draft_id": "r2305059998232444062",
+      "subject": "SPE Motorsport's dealer checkout",
+      "sent": "2026-08-05"
+    }
+  },
+  "notes": "Find official domain first (brand name from cited source)\n2026-08-04 research: domain resolved to spemotorsport.com (Shopify, myshopify handle snyder-performance-engineering). Latrobe PA. Dealer Login points at shopify.com/13389609/account (native customer accounts) + 'Become a Dealer' form; expanding dealer network = archetype 1. Only public email is sales@spemotorsport.com. Alt persona: Amy Snyder (COO). EMAIL CANDIDATES to verify: dan@spemotorsport.com, dsnyder@spemotorsport.com, dan.snyder@spemotorsport.com\n2026-08-04 Hunter: TARGET SWITCHED from Dan Snyder to Amy Snyder. Two records on spemotorsport.com: Amy S. green-verified; Dan S. flagged accept-all/unverifiable (tilde + crossed shield), so an email to Dan is a bounce risk. Amy is COO = ops persona, in policy. Neither record carries a department or title in Hunter; titles come from the earlier web research.\n2026-08-04 CONTACT LOCKED: Amy Snyder (COO) <amy@spemotorsport.com>, Hunter green-verified, confirmed by Rajat. Ready for T1.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb090d2321a). No reply. Status in_sequence, T2 due 2026-08-09.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": null,
-    "pending_draft_id": null
+    "thread_id": "19fcebb090d2321a",
+    "pending_draft_id": null,
+    "pending_touch": null
   },
   "imported": "2026-07-20",
   "flags": []

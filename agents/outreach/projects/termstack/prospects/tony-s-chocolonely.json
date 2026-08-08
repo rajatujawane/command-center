@@ -29,16 +29,22 @@
     "t2": {
       "drafted": "2026-08-02",
       "draft_id": "r5614659168117413243",
+      "subject": "Re: Payment terms on your reseller accounts",
+      "sent": "2026-08-02"
+    },
+    "t3": {
+      "drafted": "2026-08-07",
+      "draft_id": "r3888091251271939322",
       "subject": "Re: Payment terms on your reseller accounts"
     }
   },
-  "notes": "Custom ChocoPortal on Shopify for B2B, ~30 pay-on-account requests/DAY = huge terms pain. US ops smaller team. Find US head of ecommerce/B2B ops first (us.tonyschocolonely.com). From targets.md Wave 2. | Email verified by Rajat 2026-07-26: brianam@tonyschocolonely.com (Ecommerce Manager). | T2 draft created 2026-08-02 (id r5614659168117413243), awaiting review; no links (cold thread). T3 due 2026-08-06.",
+  "notes": "Custom ChocoPortal on Shopify for B2B, ~30 pay-on-account requests/DAY = huge terms pain. US ops smaller team. Find US head of ecommerce/B2B ops first (us.tonyschocolonely.com). From targets.md Wave 2. | Email verified by Rajat 2026-07-26: brianam@tonyschocolonely.com (Ecommerce Manager). | T2 draft created 2026-08-02 (id r5614659168117413243), awaiting review; no links (cold thread). T3 due 2026-08-06. | T2 SENT 2026-08-02 (detected via Gmail Sent). No reply. T3 due 2026-08-07.\n2026-08-07: T3 (FINAL) draft created (id r3888091251271939322), reply in existing thread, no links. New angle, graceful close. Awaiting review. No reply within 7d of send -> auto-drop, no 4th email.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
     "thread_id": "19faaae110bcf923",
-    "pending_draft_id": "r5614659168117413243",
-    "pending_touch": "t2"
+    "pending_draft_id": "r3888091251271939322",
+    "pending_touch": "t3"
   },
   "imported": "2026-07-20",
   "flags": []

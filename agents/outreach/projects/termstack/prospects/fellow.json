@@ -4,15 +4,15 @@
   "website": "https://fellowproducts.com",
   "vertical": "Coffee gear",
   "hq": "US",
-  "tier": "B - Native B2B very likely",
+  "tier": "B - B2B stack unconfirmed (off-Shopify wholesale)",
   "size_class": "Right-size",
-  "fit": 8,
-  "evidence": "Runs dedicated B2B/wholesale portal on Shopify Plus (b2b subdomain); stack check needed",
-  "evidence_source": "Public site signals",
-  "angle": "Ask the qualifying question: 'do wholesale buyers check out through Shopify checkout?'",
+  "fit": 5,
+  "evidence": "Real multi-segment dealer network (retail, cafes + roasters, hospitality, international dealers) but NOT on Shopify checkout. /pages/wholesale is three Apply Now buttons into a JotForm (form.jotform.com/241074460647153); wholesale catalog hosted on Air.inc. No login, no portal, no company accounts, no stated terms or minimums.",
+  "evidence_source": "fellowproducts.com/pages/wholesale verified directly 2026-08-03; b2b.fellowproducts.com does NOT resolve (ENOTFOUND)",
+  "angle": "Structured dealer network, entirely manual: applications via JotForm, catalog on Air, terms settled off-platform. Upstream pitch (move wholesale onto native Shopify B2B, then terms at checkout) = platform decision, long cycle. Deprioritize behind native-B2B prospects.",
   "contact": {
-    "role_target": "CEO / Wholesale Director",
-    "named_person": "Jake Miller (verify)",
+    "role_target": "Director of Sales (dealer network owner)",
+    "named_person": "Britney Z. (Director of Sales)",
     "email": "",
     "email_verified": false,
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Fellow%20ecommerce",
@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "",
+  "notes": " | Corrected 2026-08-03: the 'b2b subdomain on Shopify Plus' claim is FALSE - b2b.fellowproducts.com does not resolve. Wholesale is JotForm + Air.inc catalog, off Shopify. fit 8 -> 5, tier stays B. Contact identified but address not yet supplied: Britney Z., Director of Sales (owns the dealer accounts). Omar M. (CFO) is the 45-day re-approach - net terms is a credit call. Excluded: Jodie E. (Senior DTC Manager) - DTC channel, wrong side of the business.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -29,5 +29,8 @@
     "pending_draft_id": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [
+    "b2b_stack_unconfirmed",
+    "contact_needed"
+  ]
 }

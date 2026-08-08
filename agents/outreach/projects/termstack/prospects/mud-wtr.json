@@ -7,27 +7,37 @@
   "tier": "A - Native B2B confirmed",
   "size_class": "Right-size",
   "fit": 8,
-  "evidence": "IWD B2B Examples 2026: Plus wholesale implementation",
-  "evidence_source": "IWD Agency article",
-  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
+  "evidence": "Real gated B2B: /pages/wholesale has an application form plus a separate Wholesale Login (Shopify account portal, approved partners only). Serves 'over 900 businesses'. Shopify Plus.",
+  "evidence_source": "mudwtr.com/pages/wholesale verified directly 2026-08-03",
+  "angle": "900+ approved wholesale accounts behind a login = someone is setting terms per account by hand. Pitch rules at checkout doing that policing instead of inside sales reviewing each order.",
   "contact": {
-    "role_target": "Ecommerce lead",
-    "named_person": "",
-    "email": "",
-    "email_verified": false,
+    "role_target": "Inside Sales Manager (wholesale owner)",
+    "named_person": "Renee M. (Inside Sales Manager)",
+    "email": "renee@mudwtr.com",
+    "email_verified": true,
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=MUD%5CWTR%20ecommerce",
     "hunter": "https://hunter.io/search/mudwtr.com"
   },
-  "status": "not_contacted",
+  "status": "replied",
   "raw_status": "Not contacted",
-  "touches": {},
-  "notes": "",
+  "touches": {
+    "t1": {
+      "drafted": "2026-08-04",
+      "draft_id": "r362916342496405347",
+      "subject": "MUD\\WTR's wholesale checkout",
+      "sent": "2026-08-04"
+    }
+  },
+  "notes": " | Email verified 2026-08-03: renee@mudwtr.com, published on mudwtr.com/pages/wholesale as their wholesale contact (Renee M., Inside Sales Manager). Emma N. (COO) is the 45-day re-approach fallback. Megan S. (VP Marketing) excluded per persona rule. Tier A confirmed by direct site check, not just the IWD listicle.\n2026-08-06 reconcile: REPLY on 2026-08-04 -- Renee's departure notice, referred wholesale contact to Jeff Howard. Rajat ACTIONED manually 2026-08-05: replied to Renee and opened a fresh thread to jeff.howard@mudwtr.com (thread 19fd306e44da4099). Auto-cadence to renee STOPPED (status replied). Rajat hand-driving the Jeff thread; do not auto-draft. Emma N. (COO) remains the 45-day fallback if the Jeff thread goes cold.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": null,
-    "pending_draft_id": null
+    "thread_id": "19fc993182b6a49d",
+    "pending_draft_id": null,
+    "pending_touch": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [],
+  "replied_at": "2026-08-04",
+  "reply_gist": "Departure auto-notice: Renee left MUD\\WTR for Santa Cruz Shakespeare, referred wholesale to Jeff Howard (jeff.howard@mudwtr.com)."
 }

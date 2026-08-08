@@ -12,21 +12,28 @@
   "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
   "contact": {
     "role_target": "Co-founders",
-    "named_person": "",
-    "email": "",
-    "email_verified": false,
+    "named_person": "Darsh Thomsen (Founder & CEO)",
+    "email": "dthomsen@artisaire.com",
+    "email_verified": true,
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Artisaire%20ecommerce",
     "hunter": "https://hunter.io/search/artisaire.com"
   },
-  "status": "not_contacted",
+  "status": "drafted",
   "raw_status": "Not contacted",
-  "touches": {},
-  "notes": "",
+  "touches": {
+    "t1": {
+      "drafted": "2026-08-07",
+      "draft_id": "r3415535865399131560",
+      "subject": "Artisaire's wholesale checkout"
+    }
+  },
+  "notes": " | Email verified by Rajat 2026-08-03: dthomsen@artisaire.com. Full first name and title not yet confirmed - needed before T1 (template opens with {FirstName}). | 2026-08-07: First name CONFIRMED via LinkedIn (ca.linkedin.com/in/waxsealsdarshthomsen) = Darsh Thomsen, Founder & CEO @ Artisaire; maps to dthomsen@artisaire.com. Plus + native trade portal already confirmed (tier A). Small stationery boutique -> founder persona per playbook. RAJAT-confirm blocker cleared. T1 draft created (id r3415535865399131560), new thread 19fd9074b1c530d4, zero links. Awaiting review.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": null,
-    "pending_draft_id": null
+    "thread_id": "19fd9074b1c530d4",
+    "pending_draft_id": "r3415535865399131560",
+    "pending_touch": "t1"
   },
   "imported": "2026-07-20",
   "flags": []

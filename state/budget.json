@@ -1,9 +1,16 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-08-07",
   "caps": {
-    "blog_publish": { "default": 1, "termstack": 1, "publishpilot": 1 }
+    "blog_publish": {
+      "default": 1,
+      "termstack": 1,
+      "publishpilot": 1
+    }
   },
   "spent": {
-    "blog_publish": { "termstack": 1, "publishpilot": 0 }
+    "blog_publish": {
+      "termstack": 0,
+      "publishpilot": 1
+    }
   }
 }

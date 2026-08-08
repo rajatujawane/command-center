@@ -1,0 +1,26 @@
+[
+  {
+    "prospect_id": "darche",
+    "touch": "t3",
+    "reason": "t3 due (t1 07-29 +9, t2 08-02 +4)",
+    "window": "AU 6-8am IST"
+  },
+  {
+    "prospect_id": "maguire-shoes",
+    "touch": "t3",
+    "reason": "t3 due (t1 07-29 +9)",
+    "window": "US 6:30-9:30pm IST"
+  },
+  {
+    "prospect_id": "tony-s-chocolonely",
+    "touch": "t3",
+    "reason": "t3 due (t1 07-29 +9)",
+    "window": "EU 1:30-3pm IST"
+  },
+  {
+    "prospect_id": "artisaire",
+    "touch": "t1",
+    "reason": "new T1; first name confirmed via LinkedIn, Plus+email already verified",
+    "window": "US 6:30-9:30pm IST"
+  }
+]

@@ -1,7 +1,7 @@
 {
   "id": "happ-e-rides",
   "brand": "Happ-E-Rides",
-  "website": "",
+  "website": "https://happ-e-rides.com",
   "vertical": "E-mobility",
   "hq": "NL",
   "tier": "A - Native B2B confirmed",
@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "Find official domain first (brand name from cited source)",
+  "notes": "Find official domain first (brand name from cited source)\n2026-08-04 research: domain resolved to happ-e-rides.com (Shopify, B2B-only registration flow for bike shops/dealers). Entity: Happ-E-Rides B.V., Panamalaan 2G Amsterdam, KvK 93771010. NO named person findable via public web (no team/about page, no LinkedIn people results). Only info@happ-e-rides.com. BLOCKED generic_inbox_only - needs a LinkedIn Sales Nav or KvK lookup from Rajat before it can be queued.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -29,5 +29,8 @@
     "pending_draft_id": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [
+    "contact_needed"
+  ],
+  "blocked": "generic_inbox_only"
 }

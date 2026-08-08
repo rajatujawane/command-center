@@ -12,22 +12,32 @@
   "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
   "contact": {
     "role_target": "Founder / Ecom",
-    "named_person": "",
-    "email": "",
-    "email_verified": false,
-    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Hydrant%20ecommerce",
+    "named_person": "John Sherwin (Co-Founder)",
+    "email": "john@drinkhydrant.com",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/in/johnfsherwin/",
     "hunter": "https://hunter.io/search/drinkhydrant.com"
   },
-  "status": "not_contacted",
+  "status": "in_sequence",
   "raw_status": "Not contacted",
-  "touches": {},
-  "notes": "",
+  "touches": {
+    "t1": {
+      "drafted": "2026-08-05",
+      "draft_id": "r-6814028181128111606",
+      "subject": "Hydrant's wholesale checkout",
+      "sent": "2026-08-05"
+    }
+  },
+  "notes": "2026-08-04 research: Shopify confirmed. Wholesale exists only as /collections/wholesale, NOT a gated B2B portal - could be bulk D2C, so lead with the qualifying question. PERSONA CAVEAT: playbook allows founder only under $5M; Hydrant raised $14.9M over 2 rounds, and no ecom/wholesale lead is findable publicly. Rajat's call whether Sherwin is the right target. EMAIL CANDIDATES to verify: john@drinkhydrant.com, johns@drinkhydrant.com, john.sherwin@drinkhydrant.com\n2026-08-04 CONTACT LOCKED: John Sherwin <john@drinkhydrant.com>, verified, confirmed by Rajat. PERSONA OVERRIDE: Rajat explicitly approved the founder despite the under-$5M rule, because no ecom or wholesale lead is findable. Do not re-flag this. OPEN RISK: Plus is NOT confirmed. Only evidence is the IWD agency listicle claiming a Plus wholesale implementation; the site shows just /collections/wholesale, no gated portal. Lead the T1 with the qualifying question before any dynamic-terms pitch.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb2f76f1332). No reply. Status in_sequence, T2 due 2026-08-09.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": null,
-    "pending_draft_id": null
+    "thread_id": "19fcebb2f76f1332",
+    "pending_draft_id": null,
+    "pending_touch": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [
+    "b2b_stack_unconfirmed"
+  ]
 }

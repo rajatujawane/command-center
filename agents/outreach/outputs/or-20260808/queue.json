@@ -1,0 +1,4 @@
+[
+  { "prospect_id": "brooklinen", "touch": "t2", "reason": "t2 due (t1 sent 2026-08-04 + 4d = 2026-08-08); in_sequence, no reply, no hold", "window": "US 6:30-9:30pm IST" },
+  { "prospect_id": "clay-imports", "touch": "t2", "reason": "t2 due (t1 sent 2026-08-04 + 4d = 2026-08-08); in_sequence, no reply, no hold", "window": "US 6:30-9:30pm IST" }
+]

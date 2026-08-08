@@ -7,26 +7,40 @@
   "tier": "A - Native B2B confirmed",
   "size_class": "Right-size",
   "fit": 7,
-  "evidence": "Shopify B2B page + IWD examples: hospitality B2B with company accounts + reorder flows",
-  "evidence_source": "shopify.com + IWD B2B Examples 2026",
-  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
+  "evidence": "Official Shopify case study: 'Brooklinen scales their wholesale business to new heights with Shopify B2B'. Native Shopify B2B, moved off manual phone-based ordering to self-serve. Trade/Hospitality program at /pages/trade, 2,000+ trade and hospitality clients in 18 months, B4B growing 60% YoY.",
+  "evidence_source": "shopify.com/case-studies/brooklinen + brooklinen.com/pages/trade, verified directly 2026-08-03",
+  "angle": "Case study says self-serve ordering with personalized prices, products and payment METHODS - never payment TERMS. Everything else escaped the manual phone-order era except who gets terms, which is still set per account by hand across 2,000+ trade/hospitality accounts.",
   "contact": {
-    "role_target": "Ecommerce Director",
-    "named_person": "",
-    "email": "",
-    "email_verified": false,
+    "role_target": "VP of E-commerce",
+    "named_person": "Elizabeth B. (VP of E-commerce)",
+    "email": "elizabeth@brooklinen.com",
+    "email_verified": true,
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Brooklinen%20ecommerce",
     "hunter": "https://hunter.io/search/brooklinen.com"
   },
-  "status": "not_contacted",
+  "status": "in_sequence",
   "raw_status": "Not contacted",
-  "touches": {},
-  "notes": "",
+  "touches": {
+    "t1": {
+      "drafted": "2026-08-04",
+      "draft_id": "r-620545327752445743",
+      "subject": "Brooklinen's trade checkout",
+      "sent": "2026-08-04"
+    },
+    "t2": {
+      "drafted": "2026-08-08",
+      "draft_id": "r8105339447452722866",
+      "subject": "Re: Brooklinen's trade checkout",
+      "sent": null
+    }
+  },
+  "notes": " | Email verified by Rajat 2026-08-03: elizabeth@brooklinen.com (Elizabeth B., VP of E-commerce). Likely the Elizabeth Bell quoted as Director of Product Management in the Shopify B2B case study, i.e. she worked on the B2B build itself - usable as a hook. Fallbacks for 45-day re-approach: Nicolas Lukac (Director, Emerging Channels) and Kelly Hallinan (SVP, Emerging Channels), both quoted in the same case study, neither found in the Executive contact group. Excluded: Billy M. (CEO) and Vicki F. (Co-Founder) - company well over $5M so persona rule 3 does not apply; Josh I. (VP Retail) - wrong channel; Susan W. (CFO) - not on ladder; marketing group per rule.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": null,
-    "pending_draft_id": null
+    "thread_id": "19fc993252bea9ca",
+    "pending_draft_id": "r8105339447452722866",
+    "pending_touch": "t2"
   },
   "imported": "2026-07-20",
   "flags": []

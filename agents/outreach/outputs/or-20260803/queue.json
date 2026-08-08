@@ -1,0 +1,13 @@
+{
+  "date": "2026-08-03",
+  "day_of_week": "Mon",
+  "t1_day": false,
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent_at_start": 0,
+    "slots_available": 6
+  },
+  "queue": [],
+  "t1s": [],
+  "notes": "Non-T1 day (Mon), no new T1s. All 6 T2s (death-wish/ule/valvetronic sent, darche/maguire/tony-s) confirmed sent by Rajat 2026-08-02, pending now 0, queue guard clear. No follow-ups due: the 6 fresh T2s have T3 due 08-06/08-07; the 9 other in-sequence are T3 finals awaiting auto-drop. Nothing to draft. Verified-contact cold pool empty; mining/contact-research needed."
+}

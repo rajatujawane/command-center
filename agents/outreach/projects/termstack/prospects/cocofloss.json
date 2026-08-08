@@ -18,7 +18,7 @@
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Cocofloss%20ecommerce",
     "hunter": "https://hunter.io/search/cocofloss.com"
   },
-  "status": "in_sequence",
+  "status": "dropped",
   "raw_status": "Not contacted",
   "touches": {
     "t1": {
@@ -34,7 +34,7 @@
       "sent": "2026-07-28"
     }
   },
-  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T2 draft created 2026-07-22 (id r-6431761475815498025), awaiting review | T2 SENT 2026-07-24 (detected via Gmail Sent 2026-07-25); no reply; t3 due 2026-07-28",
+  "notes": "reconciled 2026-07-20 from Gmail Sent (sheet was stale); no reply as of 2026-07-20 | T2 draft created 2026-07-22 (id r-6431761475815498025), awaiting review | T2 SENT 2026-07-24 (detected via Gmail Sent 2026-07-25); no reply; t3 due 2026-07-28\n2026-08-05 auto-dropped: T3 final sent 2026-07-28, no reply within 7 days. Silent close, no 4th email. Re-approach eligible after 45 days with a new contact and angle.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -42,5 +42,6 @@
     "pending_draft_id": null,
     "pending_touch": null
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "dropped_at": "2026-08-05"
 }

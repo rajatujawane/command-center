@@ -4,12 +4,12 @@
   "website": "https://truff.com",
   "vertical": "Food & beverage",
   "hq": "US",
-  "tier": "A - Native B2B confirmed",
+  "tier": "B - B2B stack unconfirmed",
   "size_class": "Right-size",
-  "fit": 8,
-  "evidence": "IWD B2B Examples 2026: Plus wholesale implementation",
-  "evidence_source": "IWD Agency article",
-  "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
+  "fit": 5,
+  "evidence": "Shopify Plus (case study, ~$80M GMV). Wholesale = inquiry form only: /pages/wholesale 404s, old wholesale product pages 404, no B2B portal or login. Major retail via distributors, off-Shopify.",
+  "evidence_source": "truff.com verified directly 2026-08-03 (contact-us -> /pages/truff-wholesale-form); IWD listicle claim not supported",
+  "angle": "Form-based wholesale: every trade account is manually onboarded and invoiced outside checkout. Upstream pitch (get terms INTO checkout at all), not the dynamic-terms gap. Longer cycle - deprioritize behind native-B2B prospects.",
   "contact": {
     "role_target": "Ecommerce Director",
     "named_person": "",
@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "",
+  "notes": " | Downgraded 2026-08-03 by Rajat: tier A -> B, fit 8 -> 5. Site check found no native B2B - wholesale is a lead form, not a portal. Original tier A came from the IWD Agency 'Shopify B2B Examples 2026' listicle, which does not hold up. No named contact yet.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -29,5 +29,8 @@
     "pending_draft_id": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [
+    "b2b_stack_unconfirmed",
+    "contact_needed"
+  ]
 }

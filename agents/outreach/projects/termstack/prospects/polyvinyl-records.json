@@ -12,22 +12,32 @@
   "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback - record-store wholesale accounts",
   "contact": {
     "role_target": "Ecom / Ops lead",
-    "named_person": "",
-    "email": "",
-    "email_verified": false,
-    "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Polyvinyl%20Records%20ecommerce",
+    "named_person": "Tori Benes (Retail Sales Manager)",
+    "email": "tori@polyvinylrecords.com",
+    "email_verified": true,
+    "linkedin_search": "https://www.linkedin.com/company/polyvinyl-records",
     "hunter": "https://hunter.io/search/polyvinylrecords.com"
   },
-  "status": "not_contacted",
+  "status": "in_sequence",
   "raw_status": "Not contacted",
-  "touches": {},
-  "notes": "",
+  "touches": {
+    "t1": {
+      "drafted": "2026-08-05",
+      "draft_id": "r1401409419666513397",
+      "subject": "Polyvinyl's wholesale checkout",
+      "sent": "2026-08-05"
+    }
+  },
+  "notes": "2026-08-04 research: Shopify confirmed. Team page names Matt Lunsford (Co-founder), Seth Hubbard (Label Manager) - both valid personas. Rob Wilcox (Promotions Director) and Andy De Santis (Marketing Director) are EXCLUDED by the playbook persona rule. No public wholesale portal on the site; B2B claim comes from the Softlimit Shopify case study, so open with the qualifying question. Small label, founder is in-policy. EMAIL CANDIDATES to verify: matt@polyvinylrecords.com, seth@polyvinylrecords.com (site pattern looks like firstname@)\n2026-08-04 Hunter: TARGET SWITCHED from Matt Lunsford to Tori B., Retail Sales Manager, green-verified. Retail sales owns the record-store wholesale accounts, which is the exact buyer for tiered terms. Alt: Matt L. (Matt Lunsford, listed as President) and Darcie L. (Co-Founder), both green-verified. Also on file: Sara C. (Fulfillment Manager), Alexis F. (Finance Director). EXCLUDED: Andrew S. (Digital Promotions), Michael T. (Promotions), Rob W. - all marketing-side.\n2026-08-04 CONTACT LOCKED: Tori Benes (Retail Sales Manager) <tori@polyvinylrecords.com>, Hunter green-verified, confirmed by Rajat. Ready for T1.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb42948ffa4). No reply. Status in_sequence, T2 due 2026-08-09.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": null,
-    "pending_draft_id": null
+    "thread_id": "19fcebb42948ffa4",
+    "pending_draft_id": null,
+    "pending_touch": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [
+    "b2b_stack_unconfirmed"
+  ]
 }

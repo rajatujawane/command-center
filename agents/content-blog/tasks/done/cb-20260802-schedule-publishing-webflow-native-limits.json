@@ -1,0 +1,22 @@
+{
+  "id": "cb-20260802-schedule-publishing-webflow-native-limits",
+  "title": "How to Schedule Publishing in Webflow (Native Options + Their Limits)",
+  "project": "publishpilot",
+  "go_live": "2026-08-07",
+  "queued_at": "2026-08-02",
+  "inputs": [
+    "knowledge/publishpilot/prd.md",
+    "knowledge/publishpilot/briefs/schedule-publishing-webflow-native-limits.md"
+  ],
+  "steps": [
+    { "do": "branch",     "gate": "auto", "status": "done", "out": "branch=blog/cb-20260802-schedule-publishing-webflow-native-limits; default=main" },
+    { "do": "draft",      "gate": "auto", "status": "done", "out": "agents/content-blog/outputs/cb-20260802-schedule-publishing-webflow-native-limits/draft.md" },
+    { "do": "fact_check", "gate": "auto", "status": "done", "out": "agents/content-blog/outputs/cb-20260802-schedule-publishing-webflow-native-limits/fact_check.md" },
+    { "do": "build",      "to": "{project.repo}", "run": ["blog-ready", "blog-image"], "status": "done", "out": "slug=schedule-publishing-webflow-native-limits; mdx=main-site/src/content/blog/schedule-publishing-webflow-native-limits.mdx; cover=main-site/public/blog/schedule-publishing-webflow-native-limits.svg" },
+    { "do": "qa_image",   "gate": "auto", "status": "done", "out": "agents/content-blog/outputs/cb-20260802-schedule-publishing-webflow-native-limits/qa_image.md" },
+    { "do": "commit",     "gate": "auto", "status": "done", "out": "pr=https://github.com/rajatujawane/publish-pilot/pull/79 (draft); preview=http://192.168.0.217:3002/blog/schedule-publishing-webflow-native-limits" },
+    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "auto", "status": "done", "out": "merged PR #79 into main at 2026-08-06T23:53:38Z; budget spent.blog_publish.publishpilot=1/1" },
+    { "do": "promote",    "to": ["git_pr:prod"],  "gate": "auto", "status": "done", "out": "promo PR #81 main->prod merged at 2026-08-06T23:54:39Z" },
+    { "do": "notify",     "to": "me", "status": "done", "out": "iMessage sent to Command Center: Published: https://publishpilot.app/blog/schedule-publishing-webflow-native-limits" }
+  ]
+}

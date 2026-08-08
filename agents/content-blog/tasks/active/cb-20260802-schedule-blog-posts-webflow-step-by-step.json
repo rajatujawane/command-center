@@ -1,0 +1,22 @@
+{
+  "id": "cb-20260802-schedule-blog-posts-webflow-step-by-step",
+  "title": "How to Schedule Blog Posts in Webflow (Step-by-Step)",
+  "project": "publishpilot",
+  "go_live": "2026-08-11",
+  "queued_at": "2026-08-02",
+  "inputs": [
+    "knowledge/publishpilot/prd.md",
+    "knowledge/publishpilot/briefs/schedule-blog-posts-webflow-step-by-step.md"
+  ],
+  "steps": [
+    { "do": "branch",     "gate": "auto", "status": "done", "out": "branch=blog/cb-20260802-schedule-blog-posts-webflow-step-by-step; default=main" },
+    { "do": "draft",      "gate": "auto", "status": "done", "out": "agents/content-blog/outputs/cb-20260802-schedule-blog-posts-webflow-step-by-step/draft.md" },
+    { "do": "fact_check", "gate": "auto", "status": "done", "out": "agents/content-blog/outputs/cb-20260802-schedule-blog-posts-webflow-step-by-step/fact_check.md" },
+    { "do": "build",      "to": "{project.repo}", "run": ["blog-ready", "blog-image"], "status": "done", "out": "slug=schedule-blog-posts-webflow-step-by-step; mdx=main-site/src/content/blog/schedule-blog-posts-webflow-step-by-step.mdx; cover=main-site/public/blog/schedule-blog-posts-webflow-step-by-step.svg; body_img=main-site/public/blog/schedule-blog-posts-webflow-step-by-step-two-schedules.svg" },
+    { "do": "qa_image",   "gate": "auto", "status": "done", "out": "agents/content-blog/outputs/cb-20260802-schedule-blog-posts-webflow-step-by-step/qa_image.md" },
+    { "do": "commit",     "gate": "auto", "status": "done", "out": "pr=https://github.com/rajatujawane/publish-pilot/pull/80 (draft); preview=http://192.168.0.217:3002/blog/schedule-blog-posts-webflow-step-by-step" },
+    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "auto", "status": "pending", "out": "" },
+    { "do": "promote",    "to": ["git_pr:prod"],  "gate": "auto", "status": "pending", "out": "" },
+    { "do": "notify",     "to": "me", "status": "pending", "out": "" }
+  ]
+}

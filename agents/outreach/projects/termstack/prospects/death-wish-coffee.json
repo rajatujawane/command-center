@@ -29,16 +29,21 @@
     "t2": {
       "drafted": "2026-08-01",
       "draft_id": "r6088723322136366537",
-      "subject": "Re: Death Wish's wholesale checkout"
+      "subject": "Re: Death Wish's wholesale checkout",
+      "sent": "2026-08-02"
+    },
+    "t3": {
+      "drafted": "2026-08-06",
+      "draft_id": "r-3463375909544188329",
+      "subject": "Re: Death Wish's wholesale checkout",
+      "sent": "2026-08-06"
     }
   },
-  "notes": "Researched 2026-07-21: Plus CONFIRMED (Shopify case study + dwccwholesale.com expansion store). Real gated wholesale channel, not D2C-only. PERSONA WEAK: DTC ecommerce seat vacant since Will Critcher left Sep 2023; only verifiable ecom title is Nick DeAngelo who owns Amazon, not Shopify. Marketing roles excluded per playbook. Tier-4 fallback is Will Spurgeon COO/CFO. No published email for either. Wholesale runs on the OLD separate-storefront pattern, not native B2B, which is itself a usable wedge if a contact is found. | Email verified by Rajat 2026-07-26: will@deathwishcoffee.com (Will Spurgeon COO/CFO). | T1 sent 2026-07-28 (thread 19fa587367261230). | T2 (final follow-up in seq) draft created 2026-08-01 (id r6088723322136366537), awaiting review; no links (cold thread). T3 due 2026-08-06.",
+  "notes": "Researched 2026-07-21: Plus CONFIRMED (Shopify case study + dwccwholesale.com expansion store). Real gated wholesale channel, not D2C-only. PERSONA WEAK: DTC ecommerce seat vacant since Will Critcher left Sep 2023; only verifiable ecom title is Nick DeAngelo who owns Amazon, not Shopify. Marketing roles excluded per playbook. Tier-4 fallback is Will Spurgeon COO/CFO. No published email for either. Wholesale runs on the OLD separate-storefront pattern, not native B2B, which is itself a usable wedge if a contact is found. | Email verified by Rajat 2026-07-26: will@deathwishcoffee.com (Will Spurgeon COO/CFO). | T1 sent 2026-07-28 (thread 19fa587367261230). | T2 (final follow-up in seq) draft created 2026-08-01 (id r6088723322136366537), awaiting review; no links (cold thread). T3 due 2026-08-06. | T2 SENT 2026-08-02 (detected via Gmail Sent). No reply. T3 due 2026-08-06.\n2026-08-06: T3 (FINAL touch) draft created (id r-3463375909544188329), reply in existing thread, no links. New angle, graceful close. Awaiting review. No reply within 7d of send -> auto-drop, no 4th email.\n2026-08-07 reconcile: T3 (FINAL) SENT 2026-08-06 (detected in Gmail Sent). No reply. t3 clock started; auto-drop after 7d silence (~08-13), no 4th email.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": "19fa587367261230",
-    "pending_draft_id": "r6088723322136366537",
-    "pending_touch": "t2"
+    "thread_id": "19fa587367261230"
   },
   "imported": "2026-07-20",
   "flags": []
