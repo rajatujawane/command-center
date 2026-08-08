@@ -28,7 +28,24 @@ From `projects/termstack/prospects/*.json`:
 - `fit >= 6`, and
 - not flagged `do_not_contact` / `disqualified` / `catch_all_unverifiable`
 
-Sort by `fit` descending — if the ceiling bites mid-run it must bite on the weakest.
+**Never spend on `plus_verified: false`** — TermStack is Plus-only.
+
+Rank: `plus_verified: true` first, then `plus_confidence: high`, then the rest. Sort by
+`fit` descending within each band — if the ceiling bites mid-run it must bite on the weakest.
+
+**Then ASK, before spending anything.** List every candidate with `plus_confidence: high`
+and `plus_verified: null`, with its evidence, and ask the operator to confirm Plus:
+
+```
+2 candidates have high Plus evidence but are unverified:
+  - konner-sohnen  checkout.konner-sohnen.com + b2b.konner-sohnen.com
+  - fsaproshop     separate B2B storefront (wholesale.fsaproshop.com)
+Confirm Plus on these before I spend searches?  (y / skip / mark false)
+```
+
+The answer persists to `plus_verified`, so each prospect is asked about ONCE, ever. This
+puts the manual check on the 2-3 prospects that earned it instead of all 15, and stops
+searches going to stores that turn out to be Basic.
 Skip any domain the cache already marks `accept_all: true`; park it (Step 5) for free.
 
 ## Step 3 — research each candidate (free, no Hunter)

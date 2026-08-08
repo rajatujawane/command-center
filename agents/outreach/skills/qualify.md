@@ -52,6 +52,37 @@ prospect file. Re-run when a prospect has not been checked in 60 days — stores
 Terms published openly on the wholesale page is a NEGATIVE, not a positive: it means
 they are already solved. The pitch needs terms settled by hand.
 
+## Shopify Plus — three fields, and they are not the same thing
+TermStack is Plus-only, but Shopify does not publish the plan. Every signal is
+POSITIVE-ONLY: it confirms Plus when present and proves NOTHING when absent.
+
+- `plus_verified` — `true` / `false` / **`null`**. Tri-state. ONLY a human sets it.
+  `false` is as valuable as `true`: it stops all future spend on that prospect.
+- `plus_evidence` — the signals actually found, so the claim stays auditable.
+- `plus_confidence` — `high` / `medium` / `none` / `pending`, set mechanically.
+
+**`none` means "no evidence either way", NEVER "not Plus".** Gymshark is unquestionably
+Plus and scores `none`. Treating `none` as a negative would silently drop good prospects,
+which is worse than the gap it closes. Confidence never sets `plus_verified`, exactly as
+a Hunter score never grants acceptance.
+
+Signals: `checkout.<domain>` resolving (legacy custom checkout, Plus-only) or a separate
+B2B storefront on its own subdomain (expansion store) -> `high`. A Plus-only app -> `medium`.
+Native B2B artifacts are worth little now — per the playbook, static net terms went native
+on all paid plans in Summer '26, so B2B no longer implies Plus.
+
+### The wildcard DNS trap
+Some domains resolve ANY subdomain. On 2026-08-09 mejuri, tonyschocolonely and
+happ-e-rides each resolved checkout./wholesale./b2b./trade./dealers. and were briefly
+scored `high` on pure noise. qualify.sh now resolves `zzq7x9nonexistent.<domain>` FIRST
+and voids every DNS-based signal if it answers. Never trust a subdomain hit without it.
+
+### Transient failures are not evidence
+Any non-2xx root response returns `UNKNOWN_RETRY`, never a verdict. A 429 error page has
+zero cdn.shopify.com references and was about to be classified NOT_SHOPIFY — yeti and
+fun-express were disqualified this way before the guard existed. Re-probe serially.
+Probing in parallel triggers rate limiting; keep it slow.
+
 ## Contact-domain trap
 The email domain is not always the store domain. konner-sohnen.com is operated by DIMAX
 Group and its people are on **dimaxgroup.com** — a Hunter search against the store domain
