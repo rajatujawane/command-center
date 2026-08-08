@@ -24,7 +24,9 @@ set -uo pipefail
 raw="${1:?usage: qualify.sh <domain-or-url>}"
 domain="${raw#http://}"; domain="${domain#https://}"; domain="${domain%%/*}"
 UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36'
-H="/tmp/qualify.$$.html"; trap 'rm -f "$H" "$H".*' EXIT
+# mktemp, not $$ — parallel invocations collided on a PID-named file and silently
+# corrupted each other's results (observed 2026-08-09: 32 of 43 came back empty).
+H=$(mktemp "${TMPDIR:-/tmp}/qualify.XXXXXXXX"); trap 'rm -f "$H" "$H".*' EXIT
 
 get() { curl -sSL -m 20 -A "$UA" -o "$2" -w '%{http_code} %{url_effective}' "$1" 2>/dev/null || echo "000 -"; }
 # grep -c exits 1 on zero matches, so `|| echo 0` would append a SECOND line and
@@ -60,6 +62,15 @@ fi
 if [ "$code" = "404" ] || [ "$code" = "000" ]; then
   jq -n --arg d "$domain" --arg c "$code" --arg f "$final" \
     '{domain:$d, verdict:"CLOSED", reason:("root returns HTTP " + $c), final_url:$f}'; exit 0
+fi
+# Anything else non-2xx (429 rate limit, 5xx, 403 bot wall) is NOT a verdict. Observed
+# 2026-08-09: parallel probing got us 429s, whose error page has zero cdn.shopify.com
+# refs and was about to be classified NOT_SHOPIFY — silently disqualifying a good
+# prospect. Transient failure must never look like evidence. Retry later, serially.
+if [ "${code:0:1}" != "2" ]; then
+  jq -n --arg d "$domain" --arg c "$code" \
+    '{domain:$d, verdict:"UNKNOWN_RETRY", reason:("root returned HTTP " + $c + " — transient, not evidence. Re-probe serially before judging.")}'
+  exit 0
 fi
 
 # --- 5. Shopify? ------------------------------------------------------------
@@ -97,6 +108,39 @@ done
 
 auth_root=$(count 'customer_authentication' "$H")
 
+# --- 7b. Shopify Plus evidence. POSITIVE-ONLY, and that is the whole point:
+# Shopify does not expose the plan publicly. Every signal below CONFIRMS Plus when
+# present and proves NOTHING when absent. `none` therefore means "no evidence either
+# way" — it must never be read as "not Plus". Only a human sets plus_verified.
+plus_ev=""
+# WILDCARD GUARD, and this is not optional. Some domains resolve ANY subdomain
+# (observed 2026-08-09: mejuri, tonyschocolonely, happ-e-rides all resolved
+# checkout./wholesale./b2b./trade./dealers.). On such a domain, subdomain DNS is
+# evidence of nothing, and three prospects were briefly scored "high" on pure noise.
+# If a nonsense subdomain resolves, ALL DNS-based signals below are void.
+wildcard=0
+host "zzq7x9nonexistent.$domain" >/dev/null 2>&1 && wildcard=1
+
+# (a) legacy custom checkout domain — Plus-only. High precision, low recall: Shopify
+#     moved checkout onto the primary domain, so modern Plus stores (gymshark) show
+#     nothing here while allbirds still does.
+if [ "$wildcard" -eq 0 ] && host "checkout.$domain" >/dev/null 2>&1; then
+  plus_ev="$plus_ev custom_checkout_domain(checkout.$domain)"
+fi
+# (b) a wholesale/B2B storefront on its own subdomain serving Shopify = expansion
+#     store, a Plus feature. Strongest signal available for free. (fsaproshop)
+[ -n "$subs" ] && plus_ev="$plus_ev separate_b2b_storefront"
+# (c) Plus-only apps. Conservative list — a false positive here is worse than a miss.
+plus_app=$(printf '%s' "$apps" | grep -oiE 'launchpad|script-editor|shopify-plus' | sort -u | tr '\n' ',' | sed 's/,$//')
+[ -n "$plus_app" ] && plus_ev="$plus_ev plus_only_app($plus_app)"
+
+plus_conf="none"
+[ "$wildcard" -eq 1 ] && plus_ev="$plus_ev wildcard_dns(subdomain_signals_void)"
+case "$plus_ev" in
+  *custom_checkout_domain*|*separate_b2b_storefront*) plus_conf="high" ;;
+  *plus_only_app*)                                    plus_conf="medium" ;;
+esac
+
 # --- 8. Verdict -------------------------------------------------------------
 verdict="REVIEW"; reason="passed mechanical checks — human decides fit"
 if [ -n "$offplat" ]; then
@@ -108,8 +152,11 @@ fi
 jq -n --arg d "$domain" --arg v "$verdict" --arg r "$reason" --arg t "$title" --arg f "$final" \
       --argjson shop "$shop" --arg apps "$apps" --arg off "$offplat" \
       --arg subs "$(printf '%s' "$subs" | sed 's/^ //')" --arg paths "$(printf '%s' "$paths" | sed 's/^ //')" \
-      --argjson auth "$auth_root" --arg links "$(printf '%s' "$links" | tr '\n' ' ')" '
+      --argjson auth "$auth_root" --arg links "$(printf '%s' "$links" | tr '\n' ' ')" \
+      --arg pconf "$plus_conf" --arg pev "$(printf '%s' "$plus_ev" | sed 's/^ //')" '
 {domain:$d, verdict:$v, reason:$r, title:$t, final_url:$f,
  shopify_refs:$shop, customer_authentication:($auth>0),
  apps:$apps, offplatform_app:$off,
- b2b_subdomains:$subs, wholesale_paths:$paths, wholesale_links:$links}'
+ b2b_subdomains:$subs, wholesale_paths:$paths, wholesale_links:$links,
+ plus_confidence:$pconf, plus_evidence:$pev,
+ plus_verified:null}'

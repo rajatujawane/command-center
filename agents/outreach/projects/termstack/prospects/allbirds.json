@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": " | qualify.sh 2026-08-09: NO_B2B_CHANNEL \u2014 live Shopify but no wholesale/trade/dealer/stockist surface anywhere",
+  "notes": " | qualify.sh 2026-08-09: NO_B2B_CHANNEL \u2014 live Shopify but no wholesale/trade/dealer/stockist surface anywhere | plus check 2026-08-09: HIGH Plus evidence, but verdict is NO_B2B_CHANNEL \u2014 Plus with nothing to sell terms into. Not a prospect.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -31,5 +31,8 @@
   "imported": "2026-07-20",
   "flags": [],
   "qualify_verdict": "NO_B2B_CHANNEL",
-  "qualified": false
+  "qualified": false,
+  "plus_verified": null,
+  "plus_confidence": "high",
+  "plus_evidence": "custom_checkout_domain(checkout.allbirds.com)"
 }

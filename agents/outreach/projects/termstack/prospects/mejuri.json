@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": " | qualify.sh 2026-08-09: REVIEW \u2014 passed mechanical checks \u2014 human decides fit",
+  "notes": " | qualify.sh 2026-08-09: REVIEW \u2014 passed mechanical checks \u2014 human decides fit | plus check 2026-08-09: initially scored HIGH on checkout.mejuri.com / b2b / wholesale / trade / dealers DNS \u2014 ALL FALSE. mejuri.com has WILDCARD DNS (zzq7x9nonexistent.mejuri.com resolves), so subdomain DNS proves nothing. Corrected to none. qualify.sh now runs a wildcard test before trusting any DNS signal.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -31,5 +31,8 @@
   "imported": "2026-07-20",
   "flags": [],
   "qualify_verdict": "REVIEW",
-  "qualified": true
+  "qualified": true,
+  "plus_verified": null,
+  "plus_confidence": "none",
+  "plus_evidence": ""
 }
