@@ -6,7 +6,7 @@
   "hq": "US",
   "tier": "B - B2B stack unconfirmed",
   "size_class": "Right-size",
-  "fit": 5,
+  "fit": 3,
   "evidence": "Shopify Plus (case study, ~$80M GMV). Wholesale = inquiry form only: /pages/wholesale 404s, old wholesale product pages 404, no B2B portal or login. Major retail via distributors, off-Shopify.",
   "evidence_source": "truff.com verified directly 2026-08-03 (contact-us -> /pages/truff-wholesale-form); IWD listicle claim not supported",
   "angle": "Form-based wholesale: every trade account is manually onboarded and invoiced outside checkout. Upstream pitch (get terms INTO checkout at all), not the dynamic-terms gap. Longer cycle - deprioritize behind native-B2B prospects.",
@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": " | Downgraded 2026-08-03 by Rajat: tier A -> B, fit 8 -> 5. Site check found no native B2B - wholesale is a lead form, not a portal. Original tier A came from the IWD Agency 'Shopify B2B Examples 2026' listicle, which does not hold up. No named contact yet.",
+  "notes": " | Downgraded 2026-08-03 by Rajat: tier A -> B, fit 8 -> 5. Site check found no native B2B - wholesale is a lead form, not a portal. Original tier A came from the IWD Agency 'Shopify B2B Examples 2026' listicle, which does not hold up. No named contact yet. | qualify.sh 2026-08-09: NO_B2B_CHANNEL \u2014 live Shopify but no wholesale/trade/dealer/stockist surface anywhere",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -32,5 +32,7 @@
   "flags": [
     "b2b_stack_unconfirmed",
     "contact_needed"
-  ]
+  ],
+  "qualify_verdict": "NO_B2B_CHANNEL",
+  "qualified": false
 }

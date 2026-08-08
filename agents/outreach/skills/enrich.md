@@ -21,6 +21,8 @@ Then `run-begin termstack <credit_ceiling> <verify_ceiling>`.
 
 ## Step 2 — select candidates (free)
 From `projects/termstack/prospects/*.json`:
+- `qualified == true` (run skills/qualify.md first — NEVER spend a search on a
+  prospect that has not passed the intake gate), and
 - `status == "not_contacted"`, and
 - `contact.email` empty or `email_verified == false`, and
 - `fit >= 6`, and
@@ -43,6 +45,10 @@ Any of a/b failing → no Hunter call. Set `flags: ["contact_needed"]` or
 Only prospects clearing a+b reach Step 4.
 
 ## Step 4 — one Hunter path per prospect, cheapest first
+**Domain check first (free):** use `contact.email_domain` if set. The store domain is
+not always the company's mail domain — konner-sohnen.com's people are on dimaxgroup.com,
+and searching the wrong one returns nothing AND still consumes a search.
+
 **Path A — name found in Step 3:**
 `email-finder <domain> <first> <last>` — 1 credit, free on a miss.
 

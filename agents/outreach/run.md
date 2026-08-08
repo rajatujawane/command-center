@@ -11,6 +11,13 @@ For EACH folder in `projects/*` (today: termstack), load its `config.json` and
 `playbook.md`, then run the five phases in order. All caps/days/labels come from
 config.json — never hardcode them.
 
+## Phase 0 — qualify (skills/qualify.md)
+Free, no API. For any prospect with `status: "not_contacted"` and no `qualified` field
+(or last probed > 60 days ago), run `agents/outreach/qualify.sh <domain>` and write
+`qualified` + `qualify_verdict` onto the file. Cap at 10 prospects per pass so a run
+stays short; the backlog drains over a few days. DEAD / CLOSED / NOT_SHOPIFY become
+`status: "disqualified"` immediately. Gate: auto (read-only HTTP).
+
 ## Phase 1 — reconcile (skills/reconcile.md)
 Read Gmail (sent, inbox, labels) and sync every tracked prospect's state:
 real send dates, replies, control labels (reject / hold / later), auto-drops.

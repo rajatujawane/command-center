@@ -6,7 +6,7 @@
   "hq": "",
   "tier": "WAVE 2 CANDIDATE",
   "size_class": "",
-  "fit": null,
+  "fit": 5,
   "evidence": "",
   "evidence_source": "",
   "angle": "",
@@ -21,12 +21,14 @@
   "status": "not_contacted",
   "raw_status": "NOT CONTACTED",
   "touches": {},
-  "notes": "Shopify case study, wholesale portal, Pittsburgh candles. VERIFY PLUS FIRST (BuiltWith). Hook: their /pages/wholesale-new page. Was MO-012, never sent.",
+  "notes": "Shopify case study, wholesale portal, Pittsburgh candles. VERIFY PLUS FIRST (BuiltWith). Hook: their /pages/wholesale-new page. Was MO-012, never sent. | qualify.sh 2026-08-09: REVIEW \u2014 passed mechanical checks \u2014 human decides fit (paths=/pages/wholesale)",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
     "thread_id": null,
     "pending_draft_id": null
   },
-  "imported": "2026-07-20"
+  "imported": "2026-07-20",
+  "qualify_verdict": "REVIEW",
+  "qualified": true
 }

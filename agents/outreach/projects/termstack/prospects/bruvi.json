@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": " | Sweep 2026-08-09 (free, 0 Hunter quota): No wholesale/trade/dealer/stockist link anywhere on the homepage and no B2B app detected. No evidence of a Shopify-based B2B channel. fit 6 -> 3.",
+  "notes": " | Sweep 2026-08-09 (free, 0 Hunter quota): No wholesale/trade/dealer/stockist link anywhere on the homepage and no B2B app detected. No evidence of a Shopify-based B2B channel. fit 6 -> 3. | qualify.sh 2026-08-09: probe confirms: no wholesale/trade/dealer path, no B2B subdomain, no wholesale link. Sweep verdict stands.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -31,5 +31,7 @@
   "imported": "2026-07-20",
   "flags": [
     "no_wholesale_signal"
-  ]
+  ],
+  "qualified": false,
+  "qualify_verdict": "NO_B2B_CHANNEL"
 }

@@ -6,7 +6,7 @@
   "hq": "",
   "tier": "WAVE 2 CANDIDATE",
   "size_class": "",
-  "fit": null,
+  "fit": 7,
   "evidence": "",
   "evidence_source": "",
   "angle": "",
@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "NOT CONTACTED",
   "touches": {},
-  "notes": "Majority B2B revenue, Shopify blog feature, corporate clients. VERIFY PLUS FIRST. Hook: Shopify B2B blog feature. Was MO-013, never sent.",
+  "notes": "Majority B2B revenue, Shopify blog feature, corporate clients. VERIFY PLUS FIRST. Hook: Shopify B2B blog feature. Was MO-013, never sent. | qualify.sh 2026-08-09: REVIEW \u2014 passed mechanical checks \u2014 human decides fit (paths=/pages/trade; customer_authentication present) | qualify.sh 2026-08-09: fit was null on file, scored now. Live Shopify with /pages/trade AND customer_authentication \u2014 a login-gated trade portal, which is the native-B2B signal. Ranks with konner-sohnen, above the form-only prospects. fit null -> 7.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -29,5 +29,9 @@
     "pending_draft_id": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [
+    "contact_needed"
+  ],
+  "qualify_verdict": "REVIEW",
+  "qualified": true
 }

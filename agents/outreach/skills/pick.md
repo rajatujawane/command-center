@@ -32,6 +32,13 @@ Follow-up capacity depends on the day:
 Pick new T1 targets:
 - Eligible: `status == "not_contacted"` (or "drafted"/"queued" imports with a usable
   draft), no exclusion below.
+- **QUALIFICATION GATE (check this first): never pick a prospect whose `qualified`
+  field is not `true`.** Not-yet-probed is not eligible — run skills/qualify.md
+  (`agents/outreach/qualify.sh <domain>`, free, no Hunter) and let the verdict decide.
+  On 2026-08-08/09, 21 of 25 top-fit prospects failed this gate: dead stores,
+  password-protected stores, non-Shopify sites, and off-platform wholesale. Anything
+  unqualified that reaches a draft is a wasted email and, if it reaches enrich, a
+  wasted search.
 - HARD EXCLUSIONS — never pick: replied, call_booked, customer, do_not_contact,
   disqualified, warm_install, hold flag, bounced without a new email, dropped less
   than `reapproach_after_days` ago, notes containing a do-not-contact-before date

@@ -6,7 +6,7 @@
   "hq": "US",
   "tier": "A - Native B2B confirmed",
   "size_class": "Enterprise long shot",
-  "fit": 5,
+  "fit": 0,
   "evidence": "Shopify enterprise blog: chose Shopify for wholesale business",
   "evidence_source": "shopify.com/enterprise/blog",
   "angle": "One tailored touch to digital commerce team; never chase",
@@ -18,10 +18,10 @@
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Carrier%20ecommerce",
     "hunter": "https://hunter.io/search/carrier.com"
   },
-  "status": "not_contacted",
+  "status": "disqualified",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "",
+  "notes": " | qualify.sh 2026-08-09: NOT_SHOPIFY \u2014 zero cdn.shopify.com references Disqualified, 0 quota spent.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -29,5 +29,7 @@
     "pending_draft_id": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [],
+  "qualify_verdict": "NOT_SHOPIFY",
+  "qualified": false
 }

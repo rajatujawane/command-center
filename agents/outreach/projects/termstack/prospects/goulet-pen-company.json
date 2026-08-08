@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": " | Corrected 2026-08-08 (enrich): the 'dedicated wholesale section for retailers' claim is FALSE. gouletpens.com/pages/wholesale, /pages/wholesale-login and wholesale.gouletpens.com all 404. No wholesale portal and no B2B app detected (only judge.me reviews + swym wishlist). fit 7 -> 4. 0 Hunter quota spent.",
+  "notes": " | Corrected 2026-08-08 (enrich): the 'dedicated wholesale section for retailers' claim is FALSE. gouletpens.com/pages/wholesale, /pages/wholesale-login and wholesale.gouletpens.com all 404. No wholesale portal and no B2B app detected (only judge.me reviews + swym wishlist). fit 7 -> 4. 0 Hunter quota spent. | qualify.sh 2026-08-09: passed mechanical qualification; human fit judgement recorded above.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -31,5 +31,7 @@
   "imported": "2026-07-20",
   "flags": [
     "no_wholesale_portal"
-  ]
+  ],
+  "qualified": true,
+  "qualify_verdict": "REVIEW"
 }

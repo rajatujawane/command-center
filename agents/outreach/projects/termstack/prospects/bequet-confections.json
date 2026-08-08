@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": " | Domain corrected to bequetconfections.com (2026-07-26). Founder: Robin Bequet. Only generic sales@ found so far. | Blocked 2026-07-26: only generic sales@ found, no named person. | Sweep 2026-08-09 (free, 0 Hunter quota): Live Shopify (29 refs), /pages/wholesale present. App stack is DTC-CRO heavy (countdown timer, sales/discounts, order value booster) - no B2B app. Wholesale likely a form, not a portal.",
+  "notes": " | Domain corrected to bequetconfections.com (2026-07-26). Founder: Robin Bequet. Only generic sales@ found so far. | Blocked 2026-07-26: only generic sales@ found, no named person. | Sweep 2026-08-09 (free, 0 Hunter quota): Live Shopify (29 refs), /pages/wholesale present. App stack is DTC-CRO heavy (countdown timer, sales/discounts, order value booster) - no B2B app. Wholesale likely a form, not a portal. | qualify.sh 2026-08-09: passed mechanical qualification; human fit judgement recorded above.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -32,5 +32,7 @@
   "flags": [
     "contact_needed"
   ],
-  "blocked": "generic_inbox_only"
+  "blocked": "generic_inbox_only",
+  "qualified": true,
+  "qualify_verdict": "REVIEW"
 }

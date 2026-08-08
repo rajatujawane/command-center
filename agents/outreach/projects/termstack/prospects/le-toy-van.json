@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": " | Corrected 2026-08-08 (enrich): letoyvan.co.uk is live Shopify but loads the Wholesale Gorilla app extension (wholesale-gorilla-42) and links /pages/wholesale-registration-form. Wholesale is APP-based, not native Shopify B2B, and Wholesale Gorilla runs on non-Plus plans. Resolves the old 'native-vs-app unconfirmed' note. fit 8 -> 4. 0 Hunter quota spent.",
+  "notes": " | Corrected 2026-08-08 (enrich): letoyvan.co.uk is live Shopify but loads the Wholesale Gorilla app extension (wholesale-gorilla-42) and links /pages/wholesale-registration-form. Wholesale is APP-based, not native Shopify B2B, and Wholesale Gorilla runs on non-Plus plans. Resolves the old 'native-vs-app unconfirmed' note. fit 8 -> 4. 0 Hunter quota spent. | qualify.sh 2026-08-09: probe verdict OFF_PLATFORM_B2B. Confirmed.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -32,5 +32,7 @@
   "flags": [
     "app_based_wholesale",
     "plus_unverified"
-  ]
+  ],
+  "qualified": false,
+  "qualify_verdict": "OFF_PLATFORM_B2B"
 }

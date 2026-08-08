@@ -6,7 +6,7 @@
   "hq": "US",
   "tier": "A - Native B2B confirmed",
   "size_class": "Enterprise long shot",
-  "fit": 5,
+  "fit": 3,
   "evidence": "IWD B2B Examples 2026: Plus B2B with branded wholesale onboarding",
   "evidence_source": "IWD Agency article",
   "angle": "One touch only",
@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "",
+  "notes": " | qualify.sh 2026-08-09: NO_B2B_CHANNEL \u2014 live Shopify but no wholesale/trade/dealer/stockist surface anywhere",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -29,5 +29,7 @@
     "pending_draft_id": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [],
+  "qualify_verdict": "NO_B2B_CHANNEL",
+  "qualified": false
 }
