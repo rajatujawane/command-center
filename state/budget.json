@@ -6,7 +6,12 @@
       "termstack": 1,
       "publishpilot": 1
     },
-    "hunter_credits": {
+    "hunter_searches": {
+      "default": 5,
+      "termstack": 15,
+      "publishpilot": 5
+    },
+    "hunter_verifications": {
       "default": 10,
       "termstack": 40,
       "publishpilot": 10
@@ -17,9 +22,14 @@
       "termstack": 0,
       "publishpilot": 1
     },
-    "hunter_credits": {
-      "termstack": 0,
+    "hunter_searches": {
+      "termstack": 1,
+      "publishpilot": 0
+    },
+    "hunter_verifications": {
+      "termstack": 1,
       "publishpilot": 0
     }
-  }
+  },
+  "_hunter_note": "Free plan: 50 searches + 100 verifications per month, separate pools, reset on reset_date from hunter.sh account. Not one credit pool."
 }

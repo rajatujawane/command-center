@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": " | Blocked 2026-08-03: Rajat searched, no email found to verify.",
+  "notes": " | Blocked 2026-08-03: Rajat searched, no email found to verify. | Enrich 2026-08-08: B2B CONFIRMED - wholesale.fsaproshop.com is a live Shopify store with customer_authentication and 20 b2b refs (native Shopify B2B). Contact still unavailable: Hunter domain-search returned 0 personal emails on both a tight filter and a loosened one, pattern null, accept_all false (not catch-all). wholesale@fsaproshop.com verified INVALID/undeliverable. Cost: 1 search + 1 verification. Do not re-query this domain this billing period - it is cached and free to repeat but yields nothing. Next step is manual: LinkedIn for the ecommerce/B2B lead.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -29,6 +29,9 @@
     "pending_draft_id": null
   },
   "imported": "2026-07-20",
-  "flags": [],
+  "flags": [
+    "contact_needed",
+    "b2b_confirmed"
+  ],
   "blocked": "no_contact"
 }

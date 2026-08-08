@@ -6,7 +6,7 @@
   "hq": "AU",
   "tier": "A - Native B2B confirmed",
   "size_class": "Right-size",
-  "fit": 8,
+  "fit": 0,
   "evidence": "Shopify case study: wholesale channel built on Plus B2B",
   "evidence_source": "shopify.com/case-studies",
   "angle": "Already on native B2B: pitch the dynamic-terms gap head-on; cite Winter '26 + simulator/audit/rollback",
@@ -18,10 +18,10 @@
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Uncle%20Jack%20ecommerce",
     "hunter": "https://hunter.io/search/unclejack.com.au"
   },
-  "status": "not_contacted",
+  "status": "disqualified",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": " | Blocked 2026-07-26: Hunter/search shows only generic inboxes (sales/support), no named person.",
+  "notes": " | Blocked 2026-07-26: Hunter/search shows only generic inboxes (sales/support), no named person. | DISQUALIFIED 2026-08-08 (enrich): unclejack.com.au 301s to unclejackwatches.com which returns HTTP 404 'This store is unavailable'. Shopify store is closed. Business appears dead. 0 Hunter quota spent.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -29,6 +29,8 @@
     "pending_draft_id": null
   },
   "imported": "2026-07-20",
-  "flags": [],
+  "flags": [
+    "store_dead"
+  ],
   "blocked": "generic_inbox_only"
 }

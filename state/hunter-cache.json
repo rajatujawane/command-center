@@ -1,1 +1,9 @@
-{}
+{
+  "fsaproshop.com": {
+    "pattern": null,
+    "accept_all": false,
+    "disposable": false,
+    "webmail": false,
+    "last_seen": "2026-08-08T18:56:08Z"
+  }
+}

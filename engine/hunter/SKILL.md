@@ -6,22 +6,35 @@ NEVER curl api.hunter.io directly, and never put the API key in a prompt, a file
 under version control, an output artifact, or the ledger.
 
 ## The four calls (nothing else is wired up)
-| call | cost | free when |
+The free plan has TWO SEPARATE QUOTAS, not one credit pool:
+**50 searches** and **100 verifications** per month, reset on `reset_date`.
+
+| call | draws from | notes |
 |---|---|---|
-| `account` | free | always |
-| `domain-search <domain> [extra]` | **1 credit PER EMAIL RETURNED** | 0 results |
-| `email-finder <domain> <first> <last>` | 1 credit | no email found |
-| `verify <email>` | 0.5 credit | never |
+| `account` | nothing | free, and the authority on what anything cost |
+| `domain-search <domain> [extra]` | searches | 1 per UNIQUE DOMAIN per billing period |
+| `email-finder <domain> <first> <last>` | searches | 1 |
+| `verify <email>` | verifications | 1 |
+
+**Observed 2026-08-08, contradicting hunter.io's own docs:** a domain-search returning
+ZERO results still consumed a search. The docs claim "a new query is counted for calls
+returning at least one result" — do not trust it. Repeats on the SAME domain within a
+billing period ARE free, which is why tight-then-loosen on one domain costs 1, not 2.
+
+Because the docs are unreliable, **cost is never inferred from the response body** — it
+is MEASURED as the account-counter delta around every call. Ledger rows carry the real
+`searches` and `verifications` consumed.
 
 Enrichment, companies, combined, leads, discover: deliberately not implemented.
 They do not answer "who do I email and is it deliverable."
 
 Two rules that drive every decision below:
-- Domain-search bills per email, so it is ALWAYS capped by `domain_search_limit`
-  in config.json (free plan: 1). An uncapped search on a large brand costs 10.
-- A call returning nothing is free. So query tight FIRST and loosen only on a miss —
-  a precise miss costs nothing, and its response still carries the domain-level
-  `pattern` and `accept_all`, which get cached.
+- A miss is NOT free — budget for the search whether or not it returns anything.
+- But a SECOND query on a domain already queried this period IS free. So once you have
+  paid for a domain, loosening the filter and retrying costs nothing. Query tight first,
+  loosen on a miss, and take the free `pattern` / `accept_all` intel either way.
+- `domain_search_limit` still caps results (paid plans bill per email returned); on the
+  free plan the search counter moves by 1 per domain regardless.
 
 ## Every run is ceilinged
 No metered call runs outside an open run.

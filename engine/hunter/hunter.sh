@@ -12,12 +12,14 @@
 #   hunter.sh email-finder  <domain> <first_name> <last_name>
 #   hunter.sh verify        <email>
 #
-# Costs (hunter.io/pricing, confirmed 2026-08):
-#   domain-search  1 credit PER EMAIL RETURNED   -> always capped by limit; 0 results = free
-#   email-finder   1 credit                      -> no email found = free
-#   verify         0.5 credit                    -> always charged
+# Costs. The free plan has TWO SEPARATE QUOTAS, not one credit pool:
+#   searches       50/month  <- domain-search and email-finder draw from this
+#   verifications 100/month  <- verify draws from this
 #   account        free
-# Same email searched or verified twice in one billing period is charged once.
+# Observed 2026-08-08, contradicting the docs: a domain-search returning ZERO results
+# still consumes a search. Repeats on the SAME domain within a billing period are free.
+# Because the docs are unreliable here, cost is never inferred from the response —
+# it is MEASURED as the account-counter delta around each call. See quota_used().
 #
 # Every metered call appends a row to state/hunter-ledger.jsonl tagged with the
 # project, so spend is attributable. The API key is read from .env and is NEVER
@@ -53,7 +55,7 @@ require_run() {
 }
 
 # Refuse BEFORE the call if its worst case could breach either ceiling.
-guard() { # guard <worst_case_credits> <is_verify:0|1>
+guard() { # guard <worst_case_searches> <worst_case_verifications>
   require_run
   local worst="$1" isv="$2"
   local ceil spent vceil vdone
@@ -62,11 +64,21 @@ guard() { # guard <worst_case_credits> <is_verify:0|1>
 
   if [ "$ceil" != "null" ] && \
      awk -v s="$spent" -v w="$worst" -v c="$ceil" 'BEGIN{exit !(s+w > c)}'; then
-    die "CEILING: spent $spent + worst-case $worst would exceed credit ceiling $ceil. Stopping."
+    die "CEILING: used $spent searches + worst-case $worst would exceed search ceiling $ceil. Stopping."
   fi
-  if [ "$isv" = "1" ] && [ "$vceil" != "null" ] && [ "$vdone" -ge "$vceil" ]; then
+  if [ "$isv" -ge 1 ] && [ "$vceil" != "null" ] && [ "$vdone" -ge "$vceil" ]; then
     die "CEILING: verification ceiling $vceil reached. Stopping."
   fi
+}
+
+# Authoritative metering. Hunter's docs say a domain-search returning no results is
+# not counted — observed 2026-08-08, that is FALSE on the free plan: a zero-result
+# search still consumed a search. (Repeats on the SAME domain within a billing period
+# are free, which is real.) So never infer cost from the response body. Ask the
+# account endpoint what actually got consumed. This call is free.
+quota_used() { # -> "<searches_used> <verifications_used>"
+  curl -sS --get "$API/account" --data-urlencode "api_key=$HUNTER_API_KEY" \
+    | jq -r '"\(.data.requests.searches.used) \(.data.requests.verifications.used)"'
 }
 
 # Hunter returns {"errors":[...]} on 401/403/429/quota-exhausted. Those cost nothing,
@@ -78,14 +90,14 @@ check_error() { # check_error <response_json>
   fi
 }
 
-charge() { # charge <credits> <endpoint> <target> <result> <is_verify:0|1>
-  local c="$1" ep="$2" tg="$3" res="$4" isv="$5"
+charge() { # charge <search_delta> <verify_delta> <endpoint> <target> <result>
+  local sd="$1" vd="$2" ep="$3" tg="$4" res="$5"
   local proj; proj=$(run_field '.project')
   jq -cn --arg ts "$(date -u +%FT%TZ)" --arg p "$proj" --arg e "$ep" \
-         --arg t "$tg" --arg r "$res" --argjson c "$c" \
-    '{ts:$ts, project:$p, endpoint:$e, target:$t, result:$r, credits:$c}' >> "$LEDGER"
-  local tmp; tmp=$(jq --argjson c "$c" --argjson v "$isv" \
-    '.spent = (.spent + $c) | .verifies = (.verifies + $v)' "$RUN")
+         --arg t "$tg" --arg r "$res" --argjson s "$sd" --argjson v "$vd" \
+    '{ts:$ts, project:$p, endpoint:$e, target:$t, result:$r, searches:$s, verifications:$v}' >> "$LEDGER"
+  local tmp; tmp=$(jq --argjson s "$sd" --argjson v "$vd" \
+    '.spent = (.spent + $s) | .verifies = (.verifies + $v)' "$RUN")
   atomic "$RUN" "$tmp"
 }
 
@@ -95,12 +107,15 @@ charge() { # charge <credits> <endpoint> <target> <result> <is_verify:0|1>
 cache_domain() { # cache_domain <domain> <response_json>
   [ -f "$CACHE" ] || atomic "$CACHE" '{}'
   local d="$1" body="$2" tmp
+  # NB: do NOT use `//` here — jq treats `false` as empty, so `false // old`
+  # silently discards a real `accept_all: false`. Null-check explicitly.
   tmp=$(jq --arg d "$d" --argjson b "$body" --arg ts "$(date -u +%FT%TZ)" '
+    def keep(new; old): if new == null then old else new end;
     .[$d] = ((.[$d] // {}) + {
-      pattern:    ($b.data.pattern    // .[$d].pattern),
-      accept_all: ($b.data.accept_all // .[$d].accept_all),
-      disposable: ($b.data.disposable // .[$d].disposable),
-      webmail:    ($b.data.webmail    // .[$d].webmail),
+      pattern:    keep($b.data.pattern;     .[$d].pattern),
+      accept_all: keep($b.data.accept_all;  .[$d].accept_all),
+      disposable: keep($b.data.disposable;  .[$d].disposable),
+      webmail:    keep($b.data.webmail;     .[$d].webmail),
       last_seen:  $ts
     })' "$CACHE")
   atomic "$CACHE" "$tmp"
@@ -143,14 +158,17 @@ case "$cmd" in
     [ $# -ge 1 ] || die "domain-search <domain> [extra=query&params]"
     domain="$1"; extra="${2:-}"
     limit=$(jq -r '.domain_search_limit' "$CONF")
-    guard "$limit" 0   # worst case: limit emails returned = limit credits
+    guard 1 0   # worst case: 1 search consumed (free plan counts per domain, not per email)
     url="$API/domain-search?domain=$domain&limit=$limit&api_key=$HUNTER_API_KEY"
     [ -n "$extra" ] && url="$url&$extra"
+    before=$(quota_used)
     body=$(curl -sS "$url")
     check_error "$body"
+    after=$(quota_used)
     n=$(jq '(.data.emails // []) | length' <<<"$body")
     cache_domain "$domain" "$body"
-    charge "$n" "domain-search" "$domain" "$n emails" 0
+    charge "$(( ${after%% *} - ${before%% *} ))" "$(( ${after##* } - ${before##* } ))" \
+      "domain-search" "$domain" "$n emails"
     jq '.' <<<"$body"
     ;;
 
@@ -158,25 +176,30 @@ case "$cmd" in
     [ $# -ge 3 ] || die "email-finder <domain> <first_name> <last_name>"
     domain="$1"; first="$2"; last="$3"
     guard 1 0
+    before=$(quota_used)
     body=$(curl -sS --get "$API/email-finder" \
       --data-urlencode "domain=$domain" --data-urlencode "first_name=$first" \
       --data-urlencode "last_name=$last" --data-urlencode "api_key=$HUNTER_API_KEY")
     check_error "$body"
+    after=$(quota_used)
     email=$(jq -r '.data.email // ""' <<<"$body")
-    if [ -n "$email" ]; then charge 1 "email-finder" "$first $last @$domain" "$email" 0
-    else charge 0 "email-finder" "$first $last @$domain" "not found (free)" 0; fi
+    charge "$(( ${after%% *} - ${before%% *} ))" "$(( ${after##* } - ${before##* } ))" \
+      "email-finder" "$first $last @$domain" "${email:-not found}"
     jq '.' <<<"$body"
     ;;
 
   verify)
     [ $# -ge 1 ] || die "verify <email>"
     email="$1"
-    guard 0.5 1
+    guard 0 1   # verifications draw from their own quota, not the search pool
+    before=$(quota_used)
     body=$(curl -sS --get "$API/email-verifier" \
       --data-urlencode "email=$email" --data-urlencode "api_key=$HUNTER_API_KEY")
     check_error "$body"
+    after=$(quota_used)
     status=$(jq -r '.data.status // "error"' <<<"$body")
-    charge 0.5 "email-verifier" "$email" "$status" 1
+    charge "$(( ${after%% *} - ${before%% *} ))" "$(( ${after##* } - ${before##* } ))" \
+      "email-verifier" "$email" "$status"
     jq '.' <<<"$body"
     ;;
 
