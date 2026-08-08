@@ -19,6 +19,11 @@ A routine wakes you with one of these prompts. Map it to the file and follow tha
 - "send the brief"     -> engine/brief/SKILL.md
 - "read replies"       -> engine/replies/SKILL.md
 
+## On-demand prompts (I type these; NO routine ever fires them)
+- "enrich outreach"    -> agents/outreach/skills/enrich.md
+  Spends real Hunter.io credits. It must ask me for a credit ceiling and a
+  verification ceiling and STOP if I give neither. Never add it to routines.md.
+
 ## Gate semantics (this is the autonomy policy)
 - "auto"        : run the step, log it, move on. Reversible work only.
 - "veto_window" : notify me, wait the "wait" duration, then run UNLESS I vetoed.

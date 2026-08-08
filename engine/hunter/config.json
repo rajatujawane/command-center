@@ -1,0 +1,15 @@
+{
+  "plan": "free",
+  "monthly_credits": 50,
+  "default_credit_ceiling": 10,
+  "domain_search_limit": 1,
+  "accept_status": "valid",
+  "verify_score_floor": 50,
+  "generic_fallback_prefixes": [
+    "wholesale",
+    "sales"
+  ],
+  "max_generic_guesses": 2,
+  "warn_at_month_spent_pct": 70,
+  "_upgrade_note": "On a paid plan: raise monthly_credits, raise default_credit_ceiling, and raise domain_search_limit to 3 so one domain-search harvests several candidates. Nothing else changes."
+}

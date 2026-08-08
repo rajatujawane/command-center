@@ -5,12 +5,21 @@
       "default": 1,
       "termstack": 1,
       "publishpilot": 1
+    },
+    "hunter_credits": {
+      "default": 10,
+      "termstack": 40,
+      "publishpilot": 10
     }
   },
   "spent": {
     "blog_publish": {
       "termstack": 0,
       "publishpilot": 1
+    },
+    "hunter_credits": {
+      "termstack": 0,
+      "publishpilot": 0
     }
   }
 }
