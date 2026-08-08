@@ -6,7 +6,7 @@
   "hq": "US",
   "tier": "C - B2B-on-Shopify, verify checkout",
   "size_class": "Right-size",
-  "fit": 6,
+  "fit": 0,
   "evidence": "Crstl: Shopify-stack brand, retail + wholesale via EDI",
   "evidence_source": "crstl.ai (AI-EDI guide)",
   "angle": "On Shopify + EDI/wholesale to big retailers; confirm buyers use Shopify B2B checkout (not EDI-only) with the qualifying question before pitching",
@@ -18,10 +18,10 @@
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Neuro%20ecommerce",
     "hunter": "https://hunter.io/search/getneuro.com"
   },
-  "status": "not_contacted",
+  "status": "disqualified",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "",
+  "notes": " | Sweep 2026-08-09 (free, 0 Hunter quota): getneuro.com redirects to in.getneuro.com/password - Shopify store is password-protected and not trading. fit 6 -> 0.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -29,5 +29,7 @@
     "pending_draft_id": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [
+    "store_password_protected"
+  ]
 }

@@ -6,7 +6,7 @@
   "hq": "NL",
   "tier": "A - Native B2B confirmed",
   "size_class": "Right-size",
-  "fit": 7,
+  "fit": 3,
   "evidence": "Review (May 2026): B2B-only Shopify store with application-gated pricing/checkout",
   "evidence_source": "Shopify App Store - Onboard B2B reviews",
   "angle": "Uses a B2B-companion app = actively investing in native B2B stack right now; warm timing",
@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "Find official domain first (brand name from cited source)\n2026-08-04 research: domain resolved to happ-e-rides.com (Shopify, B2B-only registration flow for bike shops/dealers). Entity: Happ-E-Rides B.V., Panamalaan 2G Amsterdam, KvK 93771010. NO named person findable via public web (no team/about page, no LinkedIn people results). Only info@happ-e-rides.com. BLOCKED generic_inbox_only - needs a LinkedIn Sales Nav or KvK lookup from Rajat before it can be queued.",
+  "notes": "Find official domain first (brand name from cited source)\n2026-08-04 research: domain resolved to happ-e-rides.com (Shopify, B2B-only registration flow for bike shops/dealers). Entity: Happ-E-Rides B.V., Panamalaan 2G Amsterdam, KvK 93771010. NO named person findable via public web (no team/about page, no LinkedIn people results). Only info@happ-e-rides.com. BLOCKED generic_inbox_only - needs a LinkedIn Sales Nav or KvK lookup from Rajat before it can be queued. | Sweep 2026-08-09 (free, 0 Hunter quota): No wholesale/trade/dealer/stockist link anywhere on the homepage and no B2B app detected. No evidence of a Shopify-based B2B channel. fit 7 -> 3.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -30,7 +30,7 @@
   },
   "imported": "2026-07-20",
   "flags": [
-    "contact_needed"
+    "no_wholesale_signal"
   ],
   "blocked": "generic_inbox_only"
 }

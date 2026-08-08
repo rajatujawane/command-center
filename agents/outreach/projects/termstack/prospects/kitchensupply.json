@@ -6,7 +6,7 @@
   "hq": "US",
   "tier": "C - B2B-on-Shopify, verify checkout",
   "size_class": "Right-size",
-  "fit": 6,
+  "fit": 0,
   "evidence": "Crstl case study: multi-retailer dropship + wholesale on Shopify stack",
   "evidence_source": "crstl.ai case study",
   "angle": "On Shopify + EDI/wholesale to big retailers; confirm buyers use Shopify B2B checkout (not EDI-only) with the qualifying question before pitching - kitchenware wholesale = terms by retailer",
@@ -18,10 +18,10 @@
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=KitchenSupply%20ecommerce",
     "hunter": "https://hunter.io/search/kitchensupplyco.com"
   },
-  "status": "not_contacted",
+  "status": "disqualified",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": "",
+  "notes": " | Sweep 2026-08-09 (free, 0 Hunter quota): kitchensupplyco.com HTTPS cert does not match the hostname (curl 60); only http:// responds. Not a Shopify-hosted storefront. fit 6 -> 0.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -29,5 +29,7 @@
     "pending_draft_id": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [
+    "site_broken"
+  ]
 }
