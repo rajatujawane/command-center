@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-01",
+  "day": "Tue",
+  "t1_day": true,
+  "slots_available": 6,
+  "pending_unsent": 0,
+  "queue": [],
+  "auto_dropped": [],
+  "notes": "Queue empty. Follow-ups: jonathan-adler is the only in_sequence prospect; T2 sent 08-31, T3 due 09-05 (not yet). No follow-up due. New T1s: Tue is a T1 day, 3-slot reserve, but 0 draft-ready targets - all 13 qualified+not_contacted are contact_needed / generic_inbox_only / no_contact / fit<=4 / Plus-unverified. Unblocking them needs an enrich (Hunter) run, which is on-demand only. Unused T1 reserve had no follow-ups to fall back to."
+}

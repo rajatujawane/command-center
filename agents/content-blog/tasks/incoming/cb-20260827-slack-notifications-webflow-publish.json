@@ -1,0 +1,11 @@
+{
+  "id": "cb-20260827-slack-notifications-webflow-publish",
+  "title": "Get Slack Notifications When Your Webflow Site Publishes",
+  "project": "publishpilot",
+  "go_live": "2026-09-11",
+  "queued_at": "2026-08-27",
+  "inputs": [
+    "knowledge/publishpilot/prd.md",
+    "knowledge/publishpilot/briefs/slack-notifications-webflow-publish.md"
+  ]
+}

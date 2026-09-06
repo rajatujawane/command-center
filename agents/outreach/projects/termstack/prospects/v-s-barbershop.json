@@ -18,7 +18,7 @@
     "linkedin_search": "https://www.linkedin.com/in/emilyhutchesonbrown/",
     "hunter": "https://hunter.io/search/vbarbershop.com"
   },
-  "status": "in_sequence",
+  "status": "dropped",
   "raw_status": "Not contacted",
   "touches": {
     "t1": {
@@ -26,9 +26,21 @@
       "draft_id": "r-5802770200286091524",
       "subject": "V's Barbershop wholesale checkout",
       "sent": "2026-08-05"
+    },
+    "t2": {
+      "drafted": "2026-08-09",
+      "draft_id": "r5518165810369155077",
+      "subject": "Re: V's Barbershop wholesale checkout",
+      "sent": "2026-08-09"
+    },
+    "t3": {
+      "drafted": "2026-08-14",
+      "draft_id": "r-8434251228458217862",
+      "subject": "Re: V's Barbershop wholesale checkout",
+      "sent": "2026-08-19"
     }
   },
-  "notes": "2026-08-04 research: Shopify confirmed. Emily Hutcheson-Brown is COO and explicitly owns all franchise operations and franchisee support - exact match for the franchise-ops persona, and she is on the company team page (/pages/our-team/emily-brown). Alt: Jim Valenzuela (Founder/CEO, Phoenix AZ). Franchisee ordering = terms by location, archetype 1. Caveat: she also runs the marketing program, but the ops title governs, so she is in-policy. EMAIL CANDIDATES to verify: emily@vbarbershop.com, ebrown@vbarbershop.com, emily.brown@vbarbershop.com\n2026-08-04 Hunter: TARGET SWITCHED from Emily Hutcheson-Brown (not in the index) to Amanda P., Chief Digital Officer, green-verified. CDO is the strongest persona match in this whole batch: digital commerce owner, priority tier 1/2. Alt: Jim V. (Jim Valenzuela, CEO) green-verified. EXCLUDED by playbook: Brady W. (Content Strategy Director). Patrick B. (Director of Customer Experience) is a weak third option. Emily remains the ops-side name if a reply needs routing.\n2026-08-04 CONTACT LOCKED: Amanda Peer (Chief Digital Officer) <amandav@vbarbershop.com>, Hunter green-verified, confirmed by Rajat. Ready for T1.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb20195f2b4). No reply. Status in_sequence, T2 due 2026-08-09.",
+  "notes": "2026-08-04 research: Shopify confirmed. Emily Hutcheson-Brown is COO and explicitly owns all franchise operations and franchisee support - exact match for the franchise-ops persona, and she is on the company team page (/pages/our-team/emily-brown). Alt: Jim Valenzuela (Founder/CEO, Phoenix AZ). Franchisee ordering = terms by location, archetype 1. Caveat: she also runs the marketing program, but the ops title governs, so she is in-policy. EMAIL CANDIDATES to verify: emily@vbarbershop.com, ebrown@vbarbershop.com, emily.brown@vbarbershop.com\n2026-08-04 Hunter: TARGET SWITCHED from Emily Hutcheson-Brown (not in the index) to Amanda P., Chief Digital Officer, green-verified. CDO is the strongest persona match in this whole batch: digital commerce owner, priority tier 1/2. Alt: Jim V. (Jim Valenzuela, CEO) green-verified. EXCLUDED by playbook: Brady W. (Content Strategy Director). Patrick B. (Director of Customer Experience) is a weak third option. Emily remains the ops-side name if a reply needs routing.\n2026-08-04 CONTACT LOCKED: Amanda Peer (Chief Digital Officer) <amandav@vbarbershop.com>, Hunter green-verified, confirmed by Rajat. Ready for T1.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb20195f2b4). No reply. Status in_sequence, T2 due 2026-08-09.\n2026-08-09 draft: T2 reply DRAFTED in thread 19fcebb20195f2b4 (draft r5518165810369155077). GATE: not sent. Rajat to send.\n2026-08-10 reconcile: T2 SENT 2026-08-09 (detected in Gmail Sent, thread 19fcebb20195f2b4). No reply. Status in_sequence; T3 due 2026-08-14 (t1+9=08-14, t2+min_gap 4=08-13).\n2026-08-14 pick+draft: T3 (FINAL) reply drafted in thread 19fcebb20195f2b4 (id r-8434251228458217862), zero links. New angle: risk sits with newest franchise locations, first supply order held prepaid until established, per location. Due T1+9=08-14. GATE: not sent. No reply within 7d -> auto-drop.\n2026-08-21 reconcile: T3 (final) SENT 2026-08-19 (Gmail Sent, thread 19fcebb20195f2b4). Sequence complete; auto-drop at 08-26 if no reply.\n2026-08-26 auto-drop: T3 (final) sent 2026-08-19, no reply by T3+7d (2026-08-26). Sequence closed silently, no 4th email. Re-approach eligible after 45d with a different contact + new trigger.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -37,5 +49,6 @@
     "pending_touch": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [],
+  "dropped_at": "2026-08-26"
 }

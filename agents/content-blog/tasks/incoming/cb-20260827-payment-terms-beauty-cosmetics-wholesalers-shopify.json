@@ -1,0 +1,11 @@
+{
+  "id": "cb-20260827-payment-terms-beauty-cosmetics-wholesalers-shopify",
+  "title": "Payment Terms for Beauty & Cosmetics Wholesalers on Shopify",
+  "project": "termstack",
+  "go_live": "2026-10-15",
+  "queued_at": "2026-08-27",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/payment-terms-beauty-cosmetics-wholesalers-shopify.md"
+  ]
+}

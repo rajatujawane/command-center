@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-06",
+  "project": "termstack",
+  "day_of_week": "Sun",
+  "t1_day": false,
+  "followup_day": true,
+  "followups_due": [],
+  "new_t1": [],
+  "queue": [],
+  "queue_guard": { "pending_before": 1, "pending_after": 1, "cap": 6, "clear": true },
+  "note": "Non-T1 day (Sun). No follow-up due: only in-sequence prospect jonathan-adler has final T3 already drafted and pending Rajat send. Verified cold pool empty; no draftable new T1 without enrich."
+}

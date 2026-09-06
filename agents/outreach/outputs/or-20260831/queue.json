@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-31",
+  "day": "Mon",
+  "t1_day": false,
+  "slots_available": 6,
+  "pending_unsent": 0,
+  "queue": [
+    {
+      "prospect_id": "jonathan-adler",
+      "touch": "t2",
+      "reason": "T2 due (t1 08-27 +4 = 08-31); in_sequence, no reply, no hold, no pending draft",
+      "window": "US 6:30-9:30pm IST"
+    }
+  ],
+  "auto_dropped": [
+    "artisaire",
+    "hydrant",
+    "polyvinyl-records"
+  ]
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "prospect_id": "artisaire",
+    "touch": "t3",
+    "reason": "T3 due 08-23 (t1+9=08-17 passed; t2 sent 08-19 + min_gap 4 = 08-23). Final touch.",
+    "send_window": "CA/US 6:30-9:30pm IST"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "id": "cb-20260827-shopify-payment-terms-per-customer",
+  "title": "Shopify Payment Terms Per Customer: What's Actually Possible",
+  "project": "termstack",
+  "go_live": "2026-09-22",
+  "queued_at": "2026-08-27",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/shopify-payment-terms-per-customer.md"
+  ]
+}

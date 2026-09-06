@@ -1,0 +1,11 @@
+{
+  "id": "cb-20260827-wholesale-order-deposit-how-much",
+  "title": "How Much Deposit Should You Require on Wholesale Orders?",
+  "project": "termstack",
+  "go_live": "2026-09-17",
+  "queued_at": "2026-08-27",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/wholesale-order-deposit-how-much.md"
+  ]
+}

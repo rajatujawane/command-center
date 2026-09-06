@@ -1,0 +1,74 @@
+{
+  "id": "cb-20260827-payment-terms-apparel-fashion-wholesalers-shopify",
+  "title": "Payment Terms for Apparel and Fashion Wholesalers on Shopify",
+  "project": "termstack",
+  "go_live": "2026-09-03",
+  "queued_at": "2026-08-27",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/payment-terms-apparel-fashion-wholesalers-shopify.md"
+  ],
+  "steps": [
+    {
+      "do": "branch",
+      "gate": "auto",
+      "status": "done",
+      "out": "branch=blog/cb-20260827-payment-terms-apparel-fashion-wholesalers-shopify; default=main"
+    },
+    {
+      "do": "draft",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/content-blog/outputs/cb-20260827-payment-terms-apparel-fashion-wholesalers-shopify/draft.md"
+    },
+    {
+      "do": "fact_check",
+      "gate": "auto",
+      "status": "done",
+      "out": "verified vs prd.md + brief: Plus-only B2B terms static per company location; First order / Collection / Total orders count / Customer tag / existing-terms conditions all implemented; 30% deposit within range; full-prepayment = pay-now/no-net-terms outcome; simulator+rollback+audit+14d trial confirmed. no unverifiable core claim."
+    },
+    {
+      "do": "build",
+      "to": "{project.repo}",
+      "run": "{project.build_skills}",
+      "status": "done",
+      "out": "slug=payment-terms-apparel-fashion-wholesalers-shopify; mdx=src/content/blog/payment-terms-apparel-fashion-wholesalers-shopify.mdx; images=public/blog/31-hero-apparel-fashion-wholesalers-payment-terms.svg,public/blog/31a-apparel-rules-recipe.svg; backlink=src/content/blog/require-prepayment-first-time-b2b-buyers-shopify.mdx; blog-ready: 5 internal links, 7 FAQs synced, desc 135c, title 60c, no em dashes"
+    },
+    {
+      "do": "qa_image",
+      "gate": "auto",
+      "status": "done",
+      "out": "viewed both SVGs rendered at 1200x630 / 1200x720. fixed 1 issue: hero title 'for Apparel & Fashion' collided with the card, split onto two lines. re-rendered clean: 4-rule card legible (Full prepay / 30% deposit / Net 60 / Net 30), cream bg, VarrLabs watermark bottom-right on both."
+    },
+    {
+      "do": "commit",
+      "gate": "auto",
+      "status": "done",
+      "out": "pr=https://github.com/rajatujawane/varr-labs-website/pull/71 (DRAFT vs main); pushed blog/cb-20260827-payment-terms-apparel-fashion-wholesalers-shopify; notified Command Center (draft-ready iMessage sent)"
+    },
+    {
+      "do": "deliver",
+      "to": [
+        "git_pr:merge"
+      ],
+      "gate": "auto",
+      "status": "done",
+      "out": "merged PR #71 into main (rebased clean onto origin/main, force-with-lease pushed, draft->ready, --merge --delete-branch). blog_publish budget termstack 0->1 (daily reset, date 2026-09-03)."
+    },
+    {
+      "do": "promote",
+      "to": [
+        "git_pr:prod"
+      ],
+      "gate": "auto",
+      "status": "done",
+      "out": "promoted main->prod: PR #73 merged (3rd September 2026 dev to prod). ahead_by 2, 4 files all blog content/assets, shared-repo guard passed."
+    },
+    {
+      "do": "notify",
+      "to": "me",
+      "status": "done",
+      "out": "iMessage sent to Command Center: 'Published: https://varrlabs.com/blog/payment-terms-apparel-fashion-wholesalers-shopify'"
+    }
+  ]
+}

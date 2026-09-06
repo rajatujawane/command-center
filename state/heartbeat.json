@@ -569,6 +569,124 @@
         "tasks_touched": 4,
         "ok": true,
         "notes": "Dispatcher pass. Intake: 2 eligible at go_live-4d (checkout-blocks-and-termstack + schedule-blog-posts-webflow, both go_live 08-11) stamped+moved to active; 8 incoming still under lead (thresholds 08-09..08-31). Active x4, one at a time: (1) cb-20260718-checkout-blocks-and-termstack-b2b-checkout [termstack] fresh -> branch..commit, DRAFT PR #64, stopped. (2) cb-20260718-shopify-b2b-2026-all-plans-vs-plus [termstack] deliver HELD -- blocked_on unresolved fact_check contradiction (all-plans premise vs 3 Plus-only posts); needs human reconcile, no mutation. (3) cb-20260802-schedule-blog-posts-webflow-step-by-step [publishpilot] fresh -> branch..commit, DRAFT PR #80, stopped. (4) cb-20260802-schedule-publishing-webflow-native-limits [publishpilot] go_live today -> DELIVERED (PR #79 merged to main), PROMOTED to prod (PR #81), NOTIFIED, moved to done. budget.json reset to 08-07: publishpilot 1/1 (exhausted), termstack 0/1. FLAG: shopify-b2b-all-plans still needs human reconcile before its 08-11 go_live."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-08-09T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-08-10T03:00:00Z",
+        "tasks_touched": 5,
+        "ok": true,
+        "note": "Reconcile detected 5 T2 sends 08-09 (geoshield/snyder/hydrant/polyvinyl/v-s-barbershop); files updated (t2.sent, pending cleared, T3->08-14). 0 replies, 0 bounces, labels empty, 0 drops. Mon non-T1 day, no follow-ups due -> 0 drafts. Queue guard clear. 14 in sequence; verified cold pool spent, mine/enrich before Tue T1 day."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-08-12T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Digest sent to Command Center. Pipeline: 2 tasks holding for go-live (termstack 08-13, publishpilot 08-14), both auto-gate deliver pending, no action needed. Sent one correction msg after: initial stale-flag on content-blog was based on a stale snapshot (07:15 read missed the 05:00 same-day clean dispatcher run that landed mid-scan); corrected in-thread. attention.json still epoch sentinel, informational only, no veto_window step exists."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-08-16T03:00:00Z",
+        "tasks_touched": 3,
+        "ok": true,
+        "notes": "Daily pass (Sun, non-T1). Reconcile: 0 new sends (all 6 pending drafts still unsent), 0 replies, 0 bounces, control labels empty. Auto-dropped 3 (darche/maguire/tony-s-chocolonely: T3 sent 08-08, silent past t3+7=08-15). Pick: queue guard TRIPPED \u2014 6 pending drafts == max_pending_drafts 6, slots_available 0, drafted nothing. hydrant + polyvinyl T3 due but held by guard. Phase 0 qualify: nothing to probe (all not_contacted already carry a qualified verdict). 8 in sequence, 15 qualified uncontacted (pool at floor). Summary sent to iMessage. Nothing sent."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-08-17T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: 2 publishpilot tasks holding for go-live (agencies-multiple-client Aug 18, site-publish-vs-cms Aug 21), both auto-gate deliver pending, no action needed. No active termstack tasks. Outreach: queue guard tripped 2nd day (6/6 drafts unsent in Gmail), 2 T3 followups held (hydrant/polyvinyl), 15 qualified uncontacted at pool floor. content-blog heartbeat writer still stale (known bug) but tasks/log.md + active task state confirm clean runs. budget.json dated 2026-08-14, not yet rolled. Digest: shopify 3 quiet changelog days (publishing-window idea); tech Stripe-OpenRouter B+ acquisition + Claude global outage Aug 16; world Cairo Gaza talks + Moscow/Kyiv strikes + Hurricane Lala Hawaii + Zambia vote count unresolved. attention.json still epoch sentinel, informational only."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-08-18T03:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Daily pass (Tue, T1 day). Reconcile clean: all 6 tracked drafts still unsent in Gmail (no send since 08-09), 0 replies (no tracked thread in inbox 21d), 0 bounces (mailer-daemon/SPAM empty), control labels reject/hold/later empty, 0 auto-drops (no in-sequence prospect has a T3 sent). Phase 0: nothing to probe (all not_contacted carry a qualified verdict within 60d). Pick: queue guard TRIPPED day 3 -- 6 pending == max_pending_drafts 6, slots_available 0, drafted nothing (no T1s despite T1 day, no follow-ups). 2 T3s due but held (hydrant/polyvinyl). 3 of 6 pending drafts now past draft_stale_days (artisaire T2 6d, brooklinen/clay T3 5d; geoshield/snyder/v-s 4d). 8 in sequence, 15 qualified uncontacted (~10 need verified contact -> enrich is standing bottleneck to open new T1s). Nothing sent (drafts only). Summary sent to Command Center iMessage."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-08-18T07:25:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: 1 publishpilot task holding for go-live (site-publish-vs-cms Aug 21), auto-gate deliver pending, no action needed; agencies-multiple-client reached go_live today and published (PR #85/#87). No active/incoming termstack tasks. 4 more publishpilot posts queued, none at 4-day threshold. Outreach: queue guard TRIPPED 3rd day (6/6 drafts unsent in Gmail), 3 now past stale line (artisaire/brooklinen/clay), 2 T3 followups held (hydrant/polyvinyl), 15 qualified uncontacted at pool floor, enrich is long-pole. content-blog heartbeat writer still stale (known bug) but tasks/log.md confirms clean run today. budget.json rolled to 2026-08-18: publishpilot blog_publish 1/1 exhausted, termstack 0/1. Digest: shopify changelogs quiet 5th day + SHOP downgrade (margin-squeeze angle for outbound); tech Claude Code v2.1.234 + Imagen 4 API sunset; world Zambia election resolved, Kushner-Netanyahu Gaza roadmap stalled, AU-Sudan Khartoum visit. attention.json still epoch sentinel, informational only."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-08-22T03:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Quiet Sat (non-T1) pass. Reconcile clean: 0 new sends since 08-19 (6 T2/T3s recorded), 2 T3 drafts (hydrant/polyvinyl, drafted 08-21) still unsent in Gmail, 0 replies, 0 bounces, control labels reject/hold/later all 0 threads, 0 auto-drops (5 finals reach t3+7=08-26). Pick: queue guard clear (2/6, 4 slots); no follow-up newly due (artisaire T3 due 08-23 = t2 08-19 + min_gap 4; hydrant/polyvinyl T3 already drafted, idempotent); Sat non-T1 day so 0 T1s. Phase 0 nothing to probe (all not_contacted carry a verdict). Drafted nothing. 8 in sequence, 15 qualified uncontacted contact-starved (enrich is the standing bottleneck to open new T1s). Untracked 07-16 orphan draft left as-is. Nothing sent. Summary to iMessage. Noted a Google passkey-add + account-recovery alert on the sender dated 08-19."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-08-26T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: webflow-publishing-mistakes [publishpilot] holding for go-live Aug 28 (auto, no veto needed); dispatcher intake checked, both incoming still pre-lead. No termstack active/incoming. Outreach: 0 drafted/sent/replies today, auto-dropped 5 finals (brooklinen/clay/geoshield/snyder/v-s, silent past T3+7d); 3 remain in sequence (artisaire/hydrant/polyvinyl, auto-close 08-31); Wed T1 day but 0 draftable targets, pool contact-starved (enrich is standing bottleneck, on-demand only). budget.json dated 08-25 (not yet rolled), nothing over cap. attention.json epoch sentinel, informational only, no veto_window steps exist. Digest: shopify SHOP +2.7% on Morgan Stanley Overweight + checkout.liquid retirement went live today (Shopify still silent) + 12th quiet changelog day; tech Apple M6 Mac mini agentic pitch + Claude Tag full-channel context + Nvidia Groq 3 LPX full production; world Iran-Oman Hormuz corridor proposal + China rejects new Iran sanctions + Romanian airspace drone shootdown + France tornado."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-08-29T03:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Quiet Sat (non-T1) pass. Reconcile clean: no prospect holds a pending_draft_id; 0 replies (label:outreach/termstack in:inbox newer_than:14d empty), 0 bounces (mailer-daemon/delivery-status empty, SPAM 0), control labels reject/hold/later all 0 threads, 0 auto-drops (artisaire/hydrant/polyvinyl-records finals T3 sent 08-24 close 08-31). Pick: queue guard clear (0 pending, 6 slots); Sat is non-T1; 0 follow-ups due (jonathan-adler T2 due 08-31). Phase 0 nothing to probe (pool probed 08-09/08-27, <60d). Drafted nothing. 4 in sequence, 13 qualified uncontacted (contact/Plus-gated, enrich is the standing bottleneck to open new T1s). Orphan 07-16 draft left as-is. Nothing sent. Summary to iMessage."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-08-29T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: 2 tasks holding for go-live 09-01 (publishpilot recurring-publishing, termstack conditional-payment-terms-upgrades), both auto-gate deliver pending, no action needed. No blocked or vetoable items. content-blog heartbeat writer still stale (known bug) but tasks/log.md confirms clean publish 08-28. Outreach ran today (quiet Sat pass), clean reconcile, 0 pending drafts, 13 qualified-uncontacted at pool floor, enrich still the standing bottleneck (on-demand only). budget.json dated 08-28 not yet rolled: publishpilot blog_publish 1/1, termstack 0/1, nothing over cap. attention.json epoch sentinel, informational only. Digest: shopify changelog quiet 15th day + SHOP first pullback (-0.93%) + Storefront MCP cart cutover 2d out; tech Claude Code 2.1.251 security patches + Pentagon Anthropic blacklist voided by federal judge; world Nepal flood toll surge (579+ dead) + Iran Hormuz conditions + Kuwait intercepts Iranian drones."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-09-01T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: 2 tasks holding for go-live (publishpilot editorial-calendar 09-04, termstack payment-terms-apparel 09-03), both auto-gate deliver pending, no action needed. No blocked or vetoable items. content-blog heartbeat writer still stale (known bug) but tasks/log.md confirms 2 clean publishes today (conditional-payment-terms-upgrades-shopify-plus + recurring-publishing-webflow-daily-weekly-monthly). Outreach ran today (Tue T1 day, 0 slots filled, contact-starved), clean reconcile, 0 pending drafts, 13 qualified-uncontacted at pool floor, enrich still the standing bottleneck. budget.json dated today: publishpilot blog_publish 1/1, termstack blog_publish 1/1, both exhausted from today publishes, nothing over cap. attention.json epoch sentinel, informational only. Digest: SHOP -4.23% Aug 31 (month-end profit-taking) + changelog silent 18th day; tech DeepSeek ~74B raise + No AI Fridays HN #1 + Claude Code 2.1.252; world Nepal flood toll 900+ dead/4247 missing + Iran IRGC strikes on Jordan/UAE bases + market selloff/oil spike + Kyiv depot strike toll to 38."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-09-02T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: 2 tasks holding for go-live (termstack payment-terms-apparel 09-03, publishpilot editorial-calendar 09-04), both auto-gate deliver pending, no action needed. No blocked or vetoable items. content-blog heartbeat writer still stale (known bug) but tasks/log.md confirms clean 09-01 publishes; dispatcher has not run yet today. Outreach ran today (Wed T1 day, 0 drafted, contact-starved), clean reconcile, jonathan-adler only in-sequence prospect (T3 due 09-05). budget.json still dated 09-01 (not yet rolled): termstack 1/1, publishpilot 1/1, nothing over cap. attention.json epoch sentinel, informational only. Digest: shopify changelog broke 18-day silence with only a POS tweak + SHOP -5.1% Sep 1 (~9% two-day drop, no catalyst); tech Claude Fable 5.1/Mythos 5.1 launch + B Lambda deal + Anthropic enterprise data-retention controls + Chrome MV2 uBlock Origin pulled; world Nepal flood toll past 1,000 dead + Iran IRGC missiles on Jordan bases + Starmer resigning as MP."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-09-03T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: 1 publishpilot task (editorial-calendar) holding for go-live 09-04, commit done PR#100, deliver/promote/notify pending (auto-gate), no action needed. termstack payment-terms-apparel published today (PR#71->main, PR#73->prod, live). 12 more posts queued in incoming, none within 4-day lead window (next due 09-08 x2). No blocked tasks. content-blog heartbeat writer still stale (known bug) but tasks/log.md confirms clean publish today. Outreach ran today (Thu T1 day, 0 drafted, contact-starved, 13 qualified-uncontacted Plus/contact-gated, enrich standing bottleneck); jonathan-adler only in-sequence prospect, T3 due 09-05; clean reconcile, queue guard clear. budget.json dated today: termstack blog_publish 1/1 (spent), publishpilot blog_publish 0/1 (open for tomorrow), nothing over cap. attention.json epoch sentinel, informational only, no veto_window steps exist today. Digest: shopify changelog dark since Sep1 POS update + SHOP +1.47% rebound to $141.87 + B2B/PO visibility gap in agent checkout still undocumented (MCP handoff audit idea); tech Gemini 3.8 Flash launch + Claude Code 2.1.257-258 (Fable 5.1 default, macOS Monterey fix); world Iran claims strikes on US bases in Bahrain/Jordan/Kuwait/Iraq (US disputes casualties) + Nepal-China flood toll ~1114 dead/4500 missing + Israel captured Hamas security chief in Gaza raid + US House stopgap funding bill."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-09-04T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: termstack payment-terms-food-beverage-distributors holding for go-live 09-08 (auto-gate deliver pending, no action needed). publishpilot webflow-publish-timezone BLOCKED at draft: prd.md line 22 bars timezone claims, needs an exception recorded or my confirmation before drafting can proceed; also needs the timezone-label-formatter fix confirmed live before build. 11 more posts queued in incoming, none within 4-day lead. content-blog heartbeat writer still stale (known bug) but tasks/log.md confirms clean publish today (editorial-calendar-webflow-that-publishes-itself, PR#100/102). Outreach ran today (Fri T1 day, 0 drafted, contact-starved, 13 qualified-uncontacted Plus/contact-gated, enrich still the standing bottleneck); jonathan-adler only in-sequence prospect, T3 due 09-05; clean reconcile, queue guard clear. budget.json dated today: termstack blog_publish 0/1 (open), publishpilot blog_publish 1/1 (spent). attention.json epoch sentinel, informational only, no veto_window steps exist today. Digest: shopify changelog dark 3rd day + SHOP +2.83% to $145.88; tech GPT-6 Astra rollout (first Critical cyber-risk rating) + Claude Code 2.1.259 org MCP push/headless flag/config-clobber fix; world Germany shuts Russian consulate/cultural center over Leipzig drone incident + Congo Ebola toll passes 3,000 deaths."
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-09-05T03:00:00Z",
+        "tasks_touched": 1,
+        "ok": true,
+        "notes": "Daily pass (Sat non-T1). Reconcile clean: jonathan-adler thread holds only 2 SENT touches, no reply from abubbs@; inbox 10d = 2 DMARC + 1 Workspace invoice; control labels reject/hold/later all 0; 0 sends/replies/bounces. Pick: T3 final due for jonathan-adler (t1 08-27 +9 = today, >= t2.sent 08-31 + min_gap 4). Drafted 1 T3 (draft r3652318537400479914) with a new angle (early-order credit exposure + graduated terms, native-B2B framing, avoids Plus-gated deposit claim since plus_verified null); GATE, not sent. Silent drop 09-12 if no reply. No T1s (Sat non-T1 day; verified cold pool empty, contact/Plus-gated). Phase 0 nothing due (<60d). 1 in sequence, 13 qualified uncontacted, 85 pool. Long pole remains enrich (Hunter, on-demand). Nothing sent."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-09-05T05:00:00Z",
+        "tasks_touched": 2,
+        "ok": true,
+        "notes": "Intake: 12 incoming queued, none eligible yet (nearest net-30-vs-net-60 go_live 2026-09-10, threshold 09-06). Active: cb-20260827-payment-terms-food-beverage-distributors-shopify held at deliver (go_live 2026-09-08, PR #74 open). cb-20260827-webflow-publish-timezone stays blocked at draft: prd.md line 22 still bars timezone claims, no recorded exception/confirmation. Neither task advanced."
       }
     ]
   },
@@ -744,5 +862,428 @@
     "tasks_touched": 3,
     "ok": true,
     "notes": "content-blog dispatcher 2026-08-08. Intake: 0 moved -- no incoming eligible (intake at go_live-4d; today 08-08; earliest threshold 08-09 for payment-terms-toy-gift-wholesalers go_live 08-13); 8 incoming queued go_live 08-13..09-04, all routable (termstack x1, publishpilot x7). Active x3, all HELD at deliver, 0 steps advanced: (1) checkout-blocks-and-termstack-b2b-checkout (termstack) go-live gate waiting for 2026-08-11; (2) shopify-b2b-2026-all-plans-vs-plus (termstack) deliver blocked_on fact-check contradiction (post claims Shopify B2B payment terms went to ALL plans Apr-2026 but 3 live posts say Plus-only) -- NOT merged, needs human reconciliation, go_live 07-30 long past; (3) schedule-blog-posts-webflow-step-by-step (publishpilot) go-live gate waiting for 2026-08-11. No merges, no budget spend. attention.json still never answered (1970-01-01) -- informational only, no veto_window step today."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-09T03:00:00Z",
+    "tasks_touched": 5,
+    "ok": true,
+    "note": "5 T2 drafts (geoshield/snyder/hydrant/polyvinyl/v-s-barbershop); 6 sends detected 08-08; 0 replies; 0 drops; guard clear; Sun non-T1 day"
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-09T05:00:00Z",
+    "tasks_touched": 4,
+    "ok": true,
+    "notes": "content-blog dispatcher 2026-08-09. Intake: 1 moved -- payment-terms-toy-gift-wholesalers-shopify (termstack, go_live 08-13) hit its go_live-4d=08-09 threshold; other 7 incoming not yet due (thresholds 08-10..08-31), all routable (publishpilot x7). Active x4 processed one-at-a-time: (1) checkout-blocks-and-termstack-b2b-checkout (termstack) HELD at deliver, go-live gate waiting 2026-08-11, PR #64 draft live. (2) payment-terms-toy-gift-wholesalers-shopify (termstack) fresh: ran branch..commit, draft PR #66, slug=payment-terms-toy-gift-wholesalers-shopify, iMessage draft-ready sent, STOP after commit (go_live 08-13). (3) shopify-b2b-2026-all-plans-vs-plus (termstack) PUBLISHED: fact-check flag human-resolved 08-08, deliver merged PR #57 (merge 9a9ccde), promote PR #67 (0f2e0ea) dev->prod, notify iMessage 'Published: varrlabs.com/blog/shopify-b2b-2026-all-plans-vs-plus'; budget date rolled 08-07->08-09 so daily blog_publish reset then termstack spent 1/1; task moved to done + logged. (4) schedule-blog-posts-webflow-step-by-step (publishpilot) HELD at deliver, go-live gate waiting 2026-08-11, PR #80 draft. Human note: published post's Apr-2026 'all plans' premise still contradicts 3 older live posts (native-vs-app, summer-2026, complete-guide) calling terms Plus-only -- human confirmed new post correct, older 3 may need reconciling (out of scope). attention.json still 1970-01-01 (informational; no veto_window step exists today)."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-10T05:00:00Z",
+    "tasks_touched": 4,
+    "ok": true,
+    "notes": "Intake: unpublish-webflow-page-at-specific-time (publishpilot) reached go_live-4d window (go_live 08-14) -> stamped 9 steps, moved incoming->active. Other 6 incoming webflow tasks not yet in intake window (earliest 08-14). Active x4 processed one-at-a-time: (1) checkout-blocks-and-termstack-b2b-checkout (termstack) HELD at deliver, go-live gate 2026-08-11, PR #64 draft. (2) payment-terms-toy-gift-wholesalers-shopify (termstack) HELD at deliver, go-live gate 2026-08-13, PR #66 draft. (3) schedule-blog-posts-webflow-step-by-step (publishpilot) HELD at deliver, go-live gate 2026-08-11, PR #80 draft. (4) unpublish-webflow-page-at-specific-time (publishpilot) fresh: worker ran branch..commit, draft PR #82 (base main, confirmed draft), slug=unpublish-webflow-page-at-specific-time, cover SVG built+QA-passed, iMessage draft-ready sent to Command Center, STOP after commit (go_live 08-14). No publishes this run; budget untouched (publishpilot blog_publish 0/1). No blocked_on. attention.json informational; no veto_window step exists."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-10T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Digest sent to Command Center. budget.json not reset for 08-10 (still dated 08-09). attention.json last_brief_answered still epoch sentinel."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-11T03:00:00+05:30",
+    "tasks_touched": 0,
+    "ok": true
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-11T05:00:00Z",
+    "tasks_touched": 4,
+    "ok": true,
+    "notes": "content-blog dispatcher 2026-08-11. Intake: 0 moved -- 6 incoming webflow tasks (publishpilot, all routable) not yet in go_live-4d window (earliest go_live 08-18 -> intake 08-14). Active x4 processed one-at-a-time via worker instances: (1) checkout-blocks-and-termstack-b2b-checkout (termstack) go_live TODAY -> PUBLISHED: budget stale (08-09) so daily blog_publish reset for 08-11 then termstack 0->1; rebased clean on main, marked draft PR #64 ready + merged (5b3a624), promote PR #68 dev->prod (shared-repo guard passed, 4 blog files only), notify iMessage 'Published: varrlabs.com/blog/checkout-blocks-b2b-payment-terms'; task moved to done + logged. (2) schedule-blog-posts-webflow-step-by-step (publishpilot) go_live TODAY -> PUBLISHED: budget date already 08-11 so no reset, publishpilot 0->1; merged draft PR #80 into main, promote PR #83 dev->prod (shared-repo guard passed, only this task's 3 blog files), notify iMessage 'Published: publishpilot.app/blog/schedule-blog-posts-webflow-step-by-step'; task moved to done + logged. (3) payment-terms-toy-gift-wholesalers-shopify (termstack) HELD at deliver, go-live gate waiting 2026-08-13, PR #66 draft untouched. (4) unpublish-webflow-page-at-specific-time (publishpilot) HELD at deliver, go-live gate waiting 2026-08-14, PR #82 draft untouched. Budget after run: blog_publish termstack 1/1, publishpilot 1/1 for 08-11 (both caps now spent). attention.json informational; no veto_window step exists today."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-11T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Digest sent to Command Center. Pipeline: 2 tasks holding for go-live (termstack 08-13, publishpilot 08-14), both auto-gate deliver pending, no action needed. Both blog_publish caps spent today (1/1 each). attention.json still epoch sentinel, informational only, no veto_window step exists."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-12T03:15:00Z",
+    "tasks_touched": 1,
+    "ok": true,
+    "notes": "Drafted artisaire T2 (only due follow-up). Reconcile clean: 0 replies/bounces/sends. T1 reserve unfilled - qualified pool contact-starved, enrich needed to advance new T1s. queue guard clear."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-12T05:00:00Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "content-blog dispatcher 2026-08-12. Intake: 0 moved -- 6 incoming webflow tasks (publishpilot, all routable, config present) not yet in go_live-4d window; earliest threshold is agencies-multiple-client + others at 08-14 (go_live 08-18), rest 08-17..08-31. Active x2 processed one-at-a-time via worker instances, both HELD at deliver by the go-live gate: (1) payment-terms-toy-gift-wholesalers-shopify (termstack) go_live 2026-08-13 > today, PR #66 draft untouched, no repo/task mutation. (2) unpublish-webflow-page-at-specific-time (publishpilot) go_live 2026-08-14 > today, PR #82 draft untouched, no repo/task mutation. No publishes; budget untouched. No blocked_on, no veto seen. Both eligible to publish on the first run on/after their go_live if not vetoed and under cap. attention.json informational; no veto_window step exists today."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-13T03:15:00+05:30",
+    "tasks_touched": 2,
+    "ok": true,
+    "note": "drafted 2 T3 finals (brooklinen, clay-imports), replies-in-thread, gate respected (not sent). reconcile clean: 0 sends/replies/bounces, control labels empty, artisaire T2 still unsent (~1d). No auto-drops today (death-wish/ule/valvetronic drop 08-14). T1 pool contact-starved -> reserve released, needs enrich. 14 in sequence. 3 unsent drafts under cap 6. iMessage summary sent."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-13T05:00:00Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "content-blog dispatcher 2026-08-13. Intake: 0 moved -- 6 incoming webflow tasks (publishpilot, all routable) still outside go_live-4d window; earliest eligible 08-14 (agencies-multiple-client, go_live 08-18). Active x2 processed one-at-a-time via worker instances. (1) payment-terms-toy-gift-wholesalers-shopify (termstack) go_live TODAY 08-13: gates passed (now>=go_live, no veto, budget reset stale 08-11->08-13 so termstack 0/1) -> delivered (rebased clean, PR #66 merged to main), promoted main->prod via PR #69, notified via Command Center iMessage, task moved to done. termstack blog_publish now 1/1 (at cap). (2) unpublish-webflow-page-at-specific-time (publishpilot) go_live 08-14 > today: deliver HELD by go-live gate, PR #82 draft untouched, no mutation. budget.json reset for 08-13 (only blog_publish reset; Hunter counters left per file note). attention.json informational; no veto_window step exists."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-14T03:00:00Z",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "Daily pass 2026-08-14 (Fri, T1 day). Reconcile: 0 new sends (3 drafts still unsent: artisaire T2, brooklinen/clay-imports T3), 0 replies, 0 bounces, control labels empty. Auto-dropped 3 T3 finals silent 7d (death-wish/ule/valvetronic, t3 sent 08-06, drop threshold 08-13<today). Pick: slots_available 3 (6-3 unsent); T1 reserve released (verified cold pool empty, all 15 qualified not_contacted have no named-person email). 5 T3 finals due (all t1 08-05/t2 08-09); drafted 3 strongest-signal (geoshield/snyder/v-s-barbershop), carried 2 unconfirmed-B2B (hydrant/polyvinyl) to 08-15. 6 drafts now pending = cap, guard trips tomorrow. 11 in sequence. Enrich is the standing bottleneck to open new T1s. Nothing sent (drafts only)."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-14T05:00:00Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Dispatcher pass 2026-08-14. Intake: 1 of 6 incoming stamped+moved to active (agencies-multiple-client-webflow-sites, go_live 08-18 == today+4d lead threshold); other 5 held in incoming (go_live 08-21..09-04, before lead window). All incoming routable (project=publishpilot, config+inputs present). Workers, one at a time: (1) unpublish-webflow-page-at-specific-time -> deliver gates passed (go_live 08-14 reached, no veto, budget ok), merged PR #82 into main, promoted PR #84 (main->prod), notify sent; task moved to done; publishpilot blog_publish now 1/1 at cap. (2) agencies-multiple-client-webflow-sites (fresh) -> ran branch..commit, draft PR #85 (base main), draft-ready iMessage sent, stopped after commit; remains active for deliver on/after 08-18. FLAG: worker#2 sent the draft-ready iMessage TWICE to Command Center group (re-ran send.sh to capture exit code) \u2014 same-group notify only, no external send, no hard-rule breach, surfaced for transparency."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-15T03:00:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Daily pass (Sat, non-T1 day). Reconcile: 0 sends detected (all 6 tracked drafts still unsent in Gmail: artisaire T2 4d + brooklinen/clay-imports/geoshield/snyder/v-s-barbershop T3 2-3d, none stale), 0 new replies (mud-wtr reply already handled prior), 0 bounces, control labels reject/hold/later all empty, 0 auto-drops (darche/maguire/tony t3.sent 08-08, t3+7=08-15, rule is strictly > so they drop 08-16). No prospect files changed. Pick: queue guard TRIPPED -- 6 pending = max_pending_drafts 6, slots_available 0, drafted nothing. 2 T3s came due but held (hydrant/polyvinyl). Research/draft skipped, no Gmail writes. Pool: 11 in sequence, 15 qualified+uncontacted (not low, threshold <15). Summary sent to iMessage. Note: log had no outreach entries 08-05..08-14 (gap in daily runs)."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-15T05:00:00Z",
+    "tasks_touched": 1,
+    "ok": true,
+    "notes": "Dispatcher pass 2026-08-15. Intake: 0 of 5 incoming stamped (all held; earliest go_live 08-21 -> intakes 08-17 at 4d lead; others 08-25/08-28/09-01/09-04). Active: 1 task (agencies-multiple-client-webflow-sites). Worker resumed at deliver and HELD: go-live gate not reached (now 08-15 < go_live 08-18), no merge, no budget spend. No task-file writes. Draft PR #85 still open. Earliest merge 08-18. FLAG in brief: 'waiting for go-live 08-18'."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-15T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Digest sent to Command Center. Pipeline: 1 active task (agencies-multiple-client-webflow-sites, publishpilot) holding for go-live 08-18, PR #85 draft, killable via reply. 5 more incoming not yet in intake window. Both agents ran clean today, no stale flags. Budget: blog_publish termstack 0/1, publishpilot 1/1 (at cap). attention.json still epoch sentinel, informational only, no veto_window step exists today."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-16T05:00:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Dispatcher pass. Intake: 0 stamped (5 incoming all publishpilot/routable, none in window yet; earliest site-publish-vs-cms intakes 08-17). Active: 1 task agencies-multiple-client-webflow-sites -> worker HELD at deliver, go-live gate (go_live 08-18 > today 08-16), PR #85 draft still killable. No steps advanced. FLAG in brief: 'waiting for go-live 08-18'."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-17T03:00:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Queue guard TRIPPED day 2 (6 pending drafts = max 6). Drafted 0. Mon non-T1 day. Reconcile: 0 sends, 0 replies, 0 bounces, labels clear, 0 auto-drops. 2 T3s due but held (hydrant/polyvinyl). Phase 0: re-probed yeti+funexpress serially, both still HTTP 403 (UNKNOWN_RETRY), no file writes. 8 in sequence, 15 qualified uncontacted at floor. Pipeline stalled on Rajat's send queue; artisaire T2 draft now 5d (stale line)."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-17T05:00:00Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Dispatcher pass 2026-08-17. Intake: 1 of 5 incoming stamped+moved to active (site-publish-vs-cms-item-publish-webflow, go_live 08-21 == today+4d lead threshold); other 4 held in incoming (go_live 08-25/08-28/09-01/09-04, before lead window). All incoming routable (project=publishpilot, config+inputs present). Workers one at a time: (1) agencies-multiple-client-webflow-sites -> deliver HELD, go-live gate not reached (now 08-17 < go_live 08-18); PR #85 draft untouched, earliest merge 08-18. (2) site-publish-vs-cms-item-publish-webflow (fresh) -> ran branch..commit in one pass, draft PR #86 (base main), slug site-publish-vs-cms-item-publish-webflow, hero SVG built + qa passed, draft-ready iMessage sent to Command Center, stopped after commit; remains active for deliver on/after 08-21. Worker judgment notes: dropped an unverified \"individual CMS item publish is Enterprise-only\" claim (2 sources contradicted); frontmatter title trimmed for SEO length. Budget: publishpilot blog_publish shows 1/1 but budget.json dated 08-14 (stale) -> deliver auto-resets spent to 0 on the go-live run."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-18T05:00:00Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Dispatcher pass 2026-08-18. Intake: 0 of 4 incoming stamped/moved -- all held before the 4d lead window (time-a-webflow-launch go_live 08-25 -> intake 08-21; webflow-publishing-mistakes 08-28; recurring-publishing 09-01; editorial-calendar 09-04). All 4 routable (project=publishpilot, config+inputs present). Workers one at a time: (1) agencies-multiple-client-webflow-sites -> go-live gate REACHED (now 08-18 == go_live), not vetoed; budget reset (date was 08-14) then publishpilot blog_publish 0->1/1 (hunter counters left untouched -- outreach's monthly pool). deliver: branch 1-ahead/0-behind main, marked PR #85 ready + merged (fast-forward, only mdx+svg shipped), branch deleted. promote: shared-repo guard clean (only the 2 blog files ahead of prod), PR #87 main->prod created+merged, prod==main. notify: iMessage 'Published: https://publishpilot.app/blog/agencies-multiple-client-webflow-sites' to Command Center. Task -> done/, logged. (2) site-publish-vs-cms-item-publish-webflow -> deliver HELD, go-live not reached (now 08-18 < go_live 08-21); PR #86 draft untouched, remains active for deliver on/after 08-21. Repo tidied to main."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-19T03:00:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Outreach daily pass 2026-08-19 (Wed, T1 day). Reconcile: 0 sends (all 6 tracked drafts still unsent in Gmail), 0 replies (inbox 16d is only DMARC + Workspace admin mail; mud-wtr 08-04 reply already handled), 0 bounces, control labels reject/hold/later all empty, 0 auto-drops (no in-sequence prospect has a sent T3). Phase 0: re-probed yeti.com + funexpress.com serially, both still HTTP 403 UNKNOWN_RETRY, no verdict/no file write; no other not_contacted prospect unprobed or past 60d. Pick: queue guard TRIPPED day 4 (6 pending unsent == max_pending_drafts 6, slots_available 0) -> drafted NOTHING, no T1s despite T1 day, no follow-ups. 2 T3s due but held (hydrant/polyvinyl). All 6 pending drafts now at/past the 5-day stale line (artisaire T2 7d; brooklinen/clay 6d; geoshield/snyder/v-s 5d) -- pipeline fully stalled on Rajat's send queue. 8 in sequence; 15 qualified not_contacted but all contact-starved (enrich, paid Hunter on-demand, is the standing bottleneck for new T1s). Summary to Command Center iMessage. Nothing sent (drafts only)."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-19T05:00:00Z",
+    "tasks_touched": 1,
+    "ok": true,
+    "notes": "Dispatcher pass 2026-08-19. Intake: 0 of 4 incoming stamped/moved -- all held before the 4d lead window (time-a-webflow-launch go_live 08-25 -> intake 08-21; webflow-publishing-mistakes 08-28 -> 08-24; recurring-publishing 09-01 -> 08-28; editorial-calendar 09-04 -> 08-31). All 4 routable (project=publishpilot, config+inputs present). Workers one at a time: (1) site-publish-vs-cms-item-publish-webflow -> deliver HELD, go-live gate not reached (now 08-19 < go_live 08-21); PR #86 draft untouched, no budget spent, remains active for deliver on/after 08-21. No task file mutated (hold is idempotent). No other active tasks."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-19T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Brief sent. Pipeline: 1 publishpilot task holding for go-live (site-publish-vs-cms Aug 21), auto-gate deliver pending, no action needed. No termstack tasks. Outreach queue guard TRIPPED day 4 (6/6 drafts unsent), all past stale line, contact-starved pool needs enrich. budget.json still dated 08-18 (publishpilot blog_publish 1/1 exhausted, termstack 0/1). Digest: shopify changelog dark 6th day + SHOP down 3rd straight day (quiet-window opportunity); tech Claude Code v2.1.235 + GitHub Actions 8hr outage; world Kushner-Netanyahu weapons-handover step, Flores quake toll 68, Hungary president inaugurated. attention.json still epoch sentinel, informational only."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-21T03:15:00Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Outreach pass 2026-08-21 (Fri, T1 day). RECONCILE caught 6 sends Rajat made 08-19 (drafts folder cleared): artisaire T2, brooklinen/clay-imports/geoshield/snyder/v-s-barbershop T3 final. No replies, no bounces, no control labels. Queue guard now CLEAR (0 pending, 6 slots). Drafted 2 due T3 finals: hydrant + polyvinyl-records (both US, zero links, new angle). New T1s 0: reserve of 3 unfilled, 0 draft-ready in qualified pool (all 15 contact_needed/blocked/low-fit), recommend enrich. 8 in_sequence; 5 finals auto-close 08-26; artisaire T3 due 08-23. Summary sent to iMessage."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-21T05:00:00Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Dispatcher pass 2026-08-21. Intake: 1 of 4 incoming eligible (time-a-webflow-launch, go_live 08-25, intake at go_live-4d=08-21=today) -> stamped + moved to active; other 3 held before lead window (webflow-publishing-mistakes 08-28->08-24; recurring-publishing 09-01->08-28; editorial-calendar 09-04->08-31), all routable (project=publishpilot). Workers one at a time. (1) site-publish-vs-cms-item-publish-webflow: resumed at deliver, go-live gate reached (go_live 08-21=today), no veto, budget reset to 08-21 and publishpilot under cap -> merged PR #86 into main, promoted main->prod via PR #90, iMessage Published sent. Task moved to done; budget spent.blog_publish.publishpilot now 1/1. (2) time-a-webflow-launch-without-staying-up: fresh task, ran branch->draft->fact_check->build->qa_image->commit in one pass and stopped per rule. slug=schedule-webflow-product-launch-midnight, DRAFT PR #91 (base main), preview sent, draft-ready iMessage sent; deliver/promote/notify pending, remains active for go-live 08-25. No blocked_on, no holds."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-22T05:00:00Z",
+    "tasks_touched": 1,
+    "ok": true,
+    "notes": "Dispatcher pass 2026-08-22. Intake: 0 of 3 incoming stamped/moved -- all held before the 4d lead window (webflow-publishing-mistakes go_live 08-28->intake 08-24; recurring-publishing 09-01->08-28; editorial-calendar 09-04->08-31). All 3 routable (project=publishpilot, config present). Active: 1 task time-a-webflow-launch-without-staying-up -> worker HELD at deliver, go-live gate not reached (now 08-22 < go_live 08-25); DRAFT PR #91 (slug schedule-webflow-product-launch-midnight) untouched, no veto, no budget spend, no task-file write (hold is idempotent). Earliest merge 08-25, still killable via 'kill <id>'. No other active tasks, no blocked_on. FLAG in brief: 'waiting for go-live 08-25'."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-22T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Brief sent. Pipeline: 1 publishpilot task holding for go-live 08-25 (time-a-webflow-launch, PR#91); 2 outreach drafts pending send (hydrant/polyvinyl). CORRECTION: initial pass mis-flagged content-blog heartbeat as stale (only checked d[0].runs, missed flat top-level entries appended after it) -- content-blog actually ran clean today 08-22T05:00:00Z. Sent a correction to Command Center."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-23T03:00:00Z",
+    "tasks_touched": 1,
+    "ok": true,
+    "notes": "Pass ok. Drafted 1 (artisaire T3 final, thread 19fd9074b1c530d4, new angle first-order credit exposure CAD). Sent-detected 0, replies 0, bounces 0, auto-drops 0. Queue guard clear (3/6 pending: hydrant/polyvinyl/artisaire T3). Sun non-T1 day, 0 T1s. 8 in sequence; 5 finals auto-close 08-26; 15 qualified uncontacted but contact-starved (enrich needed). Phase 0 nothing to probe. Labels clear."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-23T05:00:00Z",
+    "tasks_touched": 1,
+    "ok": true,
+    "notes": "Dispatcher pass 2026-08-23. Intake: 0 of 3 incoming stamped/moved -- all still before the 4d lead window (webflow-publishing-mistakes go_live 08-28->intake 08-24=TOMORROW; recurring-publishing 09-01->08-28; editorial-calendar 09-04->08-31). All 3 routable (project=publishpilot, config present). Active: 1 task time-a-webflow-launch-without-staying-up -> HELD at deliver, go-live gate not reached (now 08-23 < go_live 08-25); DRAFT PR #91 (slug schedule-webflow-product-launch-midnight) untouched, no veto on deliver step, no budget spend, no task-file write (hold is idempotent). Earliest merge 08-25, still killable via 'kill <id>'. Note: budget.spent.blog_publish.publishpilot=1/1 with stale date 08-21 -- deliver will reset spent when date!=today on the go-live run. No other active tasks, no blocked_on. FLAG in brief: 'waiting for go-live 08-25'; webflow-publishing-mistakes intakes tomorrow 08-24."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-23T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Brief sent. Pipeline: 1 publishpilot task holding for go-live (time-a-webflow-launch Aug 25), auto-gate deliver pending, no action needed; 3 more publishpilot posts queued, none at 4-day threshold. No termstack active/incoming. Outreach: 3 T3-final drafts unsent in Gmail (artisaire/hydrant/polyvinyl), queue guard clear (3/6), 15 qualified uncontacted contact-starved (enrich is standing bottleneck), 5 T1 finals auto-close 08-26 if silent. budget.json dated 08-21: publishpilot blog_publish 1/1 exhausted, termstack 0/1, nothing over cap. Digest: Shopify B2B/checkout changelog silent 10th day + checkout.liquid retirement 3 days out (08-26) -- flagged as last window for TermStack cutover piece; tech Inherent Faraday research agent + OpenAI reversal on CA SB 53; world Iran sanctions escalation ahead of Mon Aug 24 Treasury announcement + JWST black-hole-star discovery. attention.json still epoch sentinel, informational only, gates nothing (no veto_window steps exist)."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-24T03:00:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Pass ok. Drafted 0, sent-detected 0, replies 0, bounces 0, auto-drops 0. Mon non-T1 day AND no follow-up due (all 8 in-sequence prospects have final touch sent or a pending T3 draft) -> queue empty, nothing to draft. Queue guard clear (3/6 pending: hydrant/polyvinyl/artisaire T3 finals, none past 5d stale line). 5 finals (brooklinen/clay/geoshield/snyder/v-s) auto-close 08-26. Phase 0: re-probed 2 UNKNOWN_RETRY (yeti/fun-express), both still 403, no change. 8 in sequence; 15 qualified uncontacted but contact-starved (enrich needed to open new T1s); 85 in pool. Inbox: DMARC reports + Google account-security notices only, no prospect replies. Labels clear. Summary sent to iMessage."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-24T05:00:00Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Dispatcher pass 2026-08-24. Intake: 1 of 3 incoming stamped/moved to active -- webflow-publishing-mistakes-that-break-live-sites (go_live 08-28, intake window 08-24=today) stamped 9 steps and moved to active; recurring-publishing (09-01->intake 08-28) and editorial-calendar (09-04->intake 08-31) left in incoming, not yet due. All routable (project=publishpilot). Active x2, processed one at a time: (1) time-a-webflow-launch-without-staying-up -> HELD at deliver, go-live gate not reached (now 08-24 < go_live 08-25); DRAFT PR #91 untouched, no veto, no budget spend, no task-file write (idempotent hold). Publishes next run once 08-25 reached; still killable via 'kill <id>'. (2) webflow-publishing-mistakes -> fresh, worker ran branch..commit and stopped: DRAFT PR #92 (base main, slug webflow-publishing-mistakes-that-break-live-sites), only .mdx+.svg committed, hero image QA'd, 'draft ready' iMessage sent to Command Center (preview http://192.168.0.217:3002/blog/webflow-publishing-mistakes-that-break-live-sites, go-live 08-28). No blocked_on on either task. budget.spent.blog_publish.publishpilot=1/1 with stale date 08-21 -- deliver resets spent when date!=today on the go-live run. FLAG in brief: 'waiting for go-live 08-25' (PR#91); PR#92 draft ready to read (go-live 08-28)."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-24T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Brief sent. Pipeline: 2 publishpilot tasks holding for go-live (time-a-webflow-launch Aug 25, webflow-publishing-mistakes Aug 28), both auto-gate deliver pending, no action needed. No active/incoming termstack tasks. Outreach: 3 T3-final drafts ready to send in Gmail (hydrant/polyvinyl/artisaire), queue guard clear, 5 finals auto-close 08-26 if silent, pool contact-starved (needs enrich). budget.json dated 08-21, nothing over cap, self-resets next touch. attention.json epoch sentinel, informational only, no veto_window step exists. Digest: shopify quiet 11th day + checkout.liquid deadline 2d out (already flagged, no new dev); tech Ox Alpha stealth model + Fable losing share to cheaper models (FT) + Gemini 3.7 Flash price cut; world Iran sanctions unveiled + Hawaii tropical storm flooding + Ukraine strikes on Samara/Krasnodar."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-25T03:00:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Pass ok. Drafted 0, sent-detected 3, replies 0, bounces 0, auto-drops 0. Reconcile: hydrant/polyvinyl/artisaire T3 finals SENT by Rajat 08-24 (detected in Gmail Sent), files updated (t3.sent=08-24, pending cleared); drafts folder now holds only orphan russell-hendrix. Tue is a T1 day with 6 free slots but 0 ready T1 targets (pool contact-starved/Plus-unverified: 15 qualified uncontacted, only sweet-water-decor has an email and it is a generic wholesale@ inbox with Plus unverified) and no follow-up due (all 8 in-sequence have final T3 sent) -> empty queue, nothing to draft. Queue guard clear (0 pending, 6 slots). 5 finals (brooklinen/clay/geoshield/snyder/v-s) auto-close 08-26; 3 finals (hydrant/polyvinyl/artisaire) auto-close 08-31. Phase 0: re-probed yeti+fun-express UNKNOWN_RETRY, both still 403, no writes. 8 in sequence; 1 replied (mud-wtr, handled); 15 qualified uncontacted, contact-starved (enrich needed); 85 in pool. Inbox: DMARC + Google notices only, no replies/bounces. Labels clear. Summary sent to iMessage."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-25T05:00:00",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Intake: 0 (recurring-publishing intakes 08-28, editorial-calendar 08-31; both publishpilot, routable, not yet due). 2 active tasks, both at deliver. Task time-a-webflow-launch: go_live 08-25 reached, no veto, budget reset (was 08-21) -> published: merged PR #91 into main, promoted PR #97 main->prod, iMessage Published sent, moved to done. Task webflow-publishing-mistakes: deliver HELD, waiting for go-live 2026-08-28 (PR #92 stays open draft). budget blog_publish.publishpilot now 1/1."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-25T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Brief sent. Pipeline: webflow-publishing-mistakes holding for go-live 08-28 (auto, no veto). time-a-webflow-launch published today (PR #91 merged, PR #97 promoted). No termstack active/incoming. Outreach: queue empty (Tue T1 day, 0 ready targets, pool contact-starved), 3 T3 finals sent 08-24, 5 T1 finals auto-close 08-26. budget.json fresh (dated 08-25), nothing over cap. attention.json epoch sentinel, no veto_window steps exist. Digest: shopify checkout.liquid retirement tomorrow still un-acknowledged by Shopify (12th quiet day) + tax-origin/DDU changelog items; tech OpenAI desktop autonomous-control push + Anthropic 3.5h outage overnight; world new Iran sanctions + tanker strikes near Oman/Saudi coast + Iran act-of-war threat."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-26T03:00:00+05:30",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Outreach pass ok. Drafted 0. Auto-dropped 5 finals (brooklinen/clay/geoshield/snyder/v-s: T3 sent 08-19, T3+7d=08-26 no reply, silent close). Reconciled all 8 threads via Gmail: 0 new replies, 0 bounces, 0 pending drafts. Wed is a T1 day (6 slots free, 3 reserve) but 0 draftable T1 targets: 15 qualified uncontacted are all contact-starved/Plus-unverified; opening T1s needs an on-demand enrich session. No follow-up due. Now 3 in sequence (artisaire/hydrant/polyvinyl, finals sent, auto-close 08-31), 1 replied (mud-wtr), 85 in pool. Summary sent to iMessage."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-26T05:02:29+05:30",
+    "tasks_touched": 1,
+    "ok": true,
+    "notes": "Dispatcher pass ok. Intake: 2 incoming (editorial-calendar go_live 09-04, recurring-publishing go_live 09-01) both publishpilot+routable but pre-intake (now < go_live-4d lead); left in incoming. 1 active (webflow-publishing-mistakes): worker held deliver at go-live gate (go_live 08-28 > 08-26), no veto, stays active."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-27T03:10:00+05:30",
+    "tasks_touched": 0,
+    "ok": true
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-27T05:02:00+05:30",
+    "tasks_touched": 1,
+    "ok": true,
+    "notes": "Dispatcher pass ok. Intake: 2 incoming (editorial-calendar go_live 09-04 threshold 08-31; recurring-publishing go_live 09-01 threshold 08-28) both publishpilot+routable but pre-intake (now 08-27 < go_live-4d); left in incoming. 1 active (webflow-publishing-mistakes): worker held deliver at go-live gate (go_live 08-28 > 08-27), no veto, stays active. No inbound handoffs."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-27T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Brief sent. Pipeline: 1 publishpilot task holding for go-live 08-28 (webflow-publishing-mistakes, PR#92), auto deliver, no action needed. No termstack active/incoming. Outreach: queue empty (Thu T1 day, 0 draft-ready targets, pool contact-starved), 3 T3 finals sent, auto-close 08-31 if silent, enrich remains standing bottleneck (on-demand only). budget.json dated 08-25, nothing over cap. attention.json epoch sentinel, informational only, no veto_window steps exist. Digest: shopify Aug 31 Storefront MCP cart-tools cutoff (UCP replaces) + 13th quiet day on checkout.liquid + Oct1/Dec1 roadmap deadlines; tech GLM-5.3-Flash unmasked as Ox Alpha + Claude Code stability update + Claude Mythos 5 added to Claude Security for Enterprise; world China-Nepal border landslide (14+ dead, 463 missing) + Islamabad hospital fire (15+ infants dead) + Iran executes another Isfahan protester + partial lunar eclipse tonight."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-28T03:12:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Outreach pass ok. 0 drafted (Fri T1 day, 6 open slots, 0 draft-ready): every qualified-uncontacted prospect fails research guard, Plus unverified (all plus_verified=null, deep-probed 08-27) and/or no direct contact. 0 follow-ups due (jonathan-adler T2 due 08-31; artisaire/hydrant/polyvinyl finals sent, close 08-31). Reconcile: 0 sends, 0 replies (label inbox empty 30d), 0 bounces, control labels clear. Phase 0 nothing due. 4 in sequence, 1 replied (mud-wtr), 13 qualified uncontacted, 85 pool. Standing bottleneck = enrich (Hunter, on-demand only) + human Plus check; routine cannot produce either."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-28T05:00:00Z",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "Intake: 2 tasks in (recurring-publishing-webflow go_live 09-01, conditional-payment-terms-upgrades go_live 09-01); 16 incoming held (go_live > 09-01 threshold); 0 unroutable. Processed 3 active: (1) webflow-publishing-mistakes [publishpilot] delivered->promoted->notified, PUBLISHED live (PR#92 merged to main, prod PR#98 merged, budget publishpilot 1/1); (2) recurring-publishing-webflow [publishpilot] fresh branch..commit, draft PR#99, 'draft ready' texted, go_live 09-01; (3) conditional-payment-terms-upgrades [termstack] fresh branch..commit, draft PR#70, 'draft ready' texted, go_live 09-01. No blocks/holds. No emails."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-28T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Brief sent. Pipeline: 2 blog tasks holding for go-live 09-01 (publishpilot recurring-publishing PR#99, termstack conditional-payment-terms-upgrades PR#70), both auto deliver, kill window open. 16 incoming held (go_live beyond threshold). Outreach: 0 drafted (Fri T1, 6 slots), qualified-uncontacted prospects fail research guard. All agents clean, no stale. Budget: blog_publish termstack 0/1, publishpilot 1/1."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-29T05:00:00Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Intake: 0 in (earliest incoming apparel-fashion go_live 09-03, threshold 08-30 > today; 16 held); 0 unroutable. Processed 2 active, both held at deliver on go-live gate (go_live 2026-09-01 > 2026-08-29): recurring-publishing-webflow [publishpilot] PR#99, conditional-payment-terms-upgrades [termstack] PR#70. No merges, no vetoes, no blocks. Note: publishpilot blog_publish budget at 1/1 \u2014 resets daily, fine for 09-01."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-30T03:15:00+05:30",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Outreach pass 2026-08-30 (Sun, non-T1). Drafted 0, sent-detected 0, replies 0, bounces 0, auto-drops 0. Reconcile: no pending drafts; inbox 5d = 2 DMARC aggregate reports only (MS+Google), no prospect mail/bounces; control labels reject/hold/later all 0; only untracked orphan 07-16 draft, left untouched. No prospect file changed. Pick: queue guard clear (0 pending, 6 slots); Sun is non-T1 so no new T1s; 0 follow-ups due (jonathan-adler T2 due 08-31; artisaire/hydrant/polyvinyl finals sent 08-24, close 08-31). Phase 0 nothing due (pool probed 08-09/08-27, <60d). 4 in sequence, 1 replied (mud-wtr terminal), 13 qualified uncontacted (contact/Plus-gated), 85 pool. Standing bottleneck = enrich (Hunter, on-demand only) + human Plus check; routine cannot open new T1s. Summary sent to iMessage. Nothing sent."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-30T05:15:04+05:30",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "Intake: 1 in (apparel-fashion, go_live 09-03, threshold met 08-30); 15 remain in incoming (next: editorial-calendar go_live 09-04, intakes 08-31). 3 active processed: recurring-publishing + conditional-payment-terms both HELD at deliver (go_live 09-01 future); apparel-fashion ran branch..commit, draft PR #71 (varr-labs-website, base main), stopped after commit. No merges, no publishes."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-30T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Brief sent. Pipeline: 3 blog tasks holding for go-live, all auto deliver, kill window open (recurring-publishing-webflow PR#99 + conditional-payment-terms-upgrades PR#70 -> 09-01; apparel-fashion-wholesalers PR#71, drafted today -> 09-03). 15 incoming held (go_live beyond threshold). Outreach: 0 drafted (Sun non-T1), queue clear, no replies/bounces, standing bottleneck remains enrich. Agents clean, no stale. Budget dated 08-28 (stale, self-resets next touch): blog_publish termstack 0/1, publishpilot 1/1. attention.json epoch sentinel, informational only, no veto_window steps exist. Digest: shopify 16th quiet day + Storefront MCP get_cart/update_cart retires tomorrow (Aug 31), still no Shopify guidance; tech OpenAI cutting Cursor's direct model access after SpaceX's Anysphere buy, Anthropic offering more Claude access instead; world Nepal-China flood toll to 675+ dead/~2500 missing + Israeli settlers attacked NBC crew near Nablus + Iran IRGC claims Hormuz control vs White House."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-08-31T03:00:00Z",
+    "tasks_touched": 1,
+    "ok": true
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-08-31T05:00:00Z",
+    "tasks_touched": 4,
+    "ok": true
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-08-31T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Brief sent. Pipeline: 4 blog tasks holding for go-live, all auto deliver, kill window open (recurring-publishing-webflow PR#99 + conditional-payment-terms-upgrades PR#70 -> 09-01; apparel-fashion-wholesalers PR#71 -> 09-03; editorial-calendar-webflow PR#100, newly intaked+drafted today -> 09-04). 12 incoming held (go_live beyond threshold). Outreach: 1 drafted (jonathan-adler T2, Mon non-T1), 3 auto-dropped (artisaire/hydrant/polyvinyl silent close), queue guard clear, standing bottleneck remains enrich. Agents clean, no stale. Budget dated 08-28 (stale, self-resets next touch): blog_publish termstack 0/1, publishpilot 1/1. attention.json epoch sentinel, informational only, no veto_window steps exist. Digest: shopify Storefront MCP cart tools cutover landed today + no UCP successor for policies/FAQs; tech GitHub retiring 6 Copilot models today + OpenAI retired DALL-E GPT; world Nepal-China flood toll 734+ dead/~2500 missing + US struck Iranian rocket launchers near Hormuz."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-01T03:12:00+05:30",
+    "tasks_touched": 0,
+    "ok": true,
+    "note": "pass ok \u00b7 drafted 0 \u00b7 sent-detected 1 (jonathan-adler T2 sent 08-31) \u00b7 replies 0 \u00b7 bounces 0 \u00b7 queue empty (Tue T1 day, 0 draft-ready; contact-starved, enrich-gated) \u00b7 1 in sequence \u00b7 13 qualified uncontacted \u00b7 85 pool"
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-09-01T05:00:00Z",
+    "tasks_touched": 4,
+    "ok": true,
+    "notes": "Intake: 0 (earliest incoming go_live 09-08, intake at go_live-4d). Published+promoted 2 go-live-reached posts: termstack conditional-payment-terms-upgrades (PR#70->main, PR#72->prod), publishpilot recurring-publishing-webflow (PR#99->main, PR#101->prod); both notified. Held 2 for go-live: apparel-fashion-wholesalers 09-03, editorial-calendar-webflow 09-04. Budget reset for 09-01: blog_publish termstack 1/1, publishpilot 1/1."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-02T03:00:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Daily pass. Reconcile: 0 replies, 0 bounces, 0 new sends, control labels (reject/hold/later) all empty; jonathan-adler unchanged (T1 08-27, T2 08-31, T3 due 09-05). Pick: Wed T1 day, queue guard clear (0 pending, 6 slots), 3-slot T1 reserve unfilled -- 13 qualified-uncontacted all Plus-unverified and/or contact-blocked (generic_inbox_only/no_contact/contact_needed); no follow-up due; no follow-ups to reclaim the idle reserve. Queue empty. Phase 0 nothing due (<60d). 1 in sequence, 13 qualified uncontacted (contact-starved, enrich = long pole), 85 in pool. Nothing sent."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-09-02T05:00:00Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Intake: 0 (earliest incoming go_live 09-08 for food-beverage & webflow-timezone; intake opens go_live-4d = 09-04; today 09-02). 14 incoming all routable (13 termstack, 1 publishpilot). Active: 2, both at deliver pending -- both HELD for go-live, neither vetoed (blocked_on None): apparel-fashion-wholesalers 09-03 (publishes next run), editorial-calendar-webflow 09-04. No merges, no budget spend. budget.json date still 09-01 -- left as-is (reset happens inside deliver step 3, which neither task reached)."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-03T03:00:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Daily pass. Reconcile: 0 replies, 0 bounces, 0 new sends, control labels (reject/hold/later) all empty, SPAM 0; jonathan-adler unchanged (T1 08-27, T2 08-31, no reply, T3 due 09-05). Pick: Thu T1 day, queue guard clear (0 pending, 6 slots), 3-slot T1 reserve unfilled -- 13 qualified-uncontacted all Plus-unverified and/or contact-blocked (contact_needed/no_wholesale_portal); no follow-up due to reclaim the idle reserve. Queue empty, 0 drafts. Phase 0 nothing due (<60d). 1 in sequence, 13 qualified uncontacted (contact-starved, enrich = long pole), 85 in pool. Nothing sent."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-09-03T00:00:00Z",
+    "tasks_touched": 1,
+    "ok": true,
+    "notes": "Intake no-op: nothing meets go_live-4d window today (earliest 2026-09-08, opens 09-04); 14 incoming all routable (termstack/publishpilot). Active x2 at deliver. termstack apparel-fashion: go_live today, no veto, budget reset (date 09-01->09-03, blog_publish daily reset) -> published: merged PR#71->main, promoted PR#73->prod, notified; live varrlabs.com/blog/payment-terms-apparel-fashion-wholesalers-shopify. publishpilot editorial-calendar: HOLD, waiting for go-live 2026-09-04. Budget preserved hunter monthly pools on reset."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-04T00:00:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Fri T1 day. Reconcile clean: jonathan-adler thread 1a043787f61d84bb holds only 2 SENT (T1 08-27, T2 08-31), no reply from abubbs@; T3 due 09-05, silent drop 09-12. No sends/replies/bounces. Control labels reject/hold/later all 0. Inbox 9d = 2 DMARC + 1 Workspace invoice. 1 untracked orphan draft (2026-07-16), left untouched, not in queue guard. Phase 0 nothing due (<60d). Queue empty: reserve 3 unfilled, all 13 qualified-uncontacted pick-excluded (Plus-unverified/contact_needed/generic_inbox/low-fit). Queue guard 0 pending, 6 slots. Summary sent to iMessage Command Center. 1 in sequence, 85 pool. Long pole: enrich (Hunter) run, on-demand only."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-09-04T05:00:00Z",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "Intake: 2 tasks hit go_live-4d window (both go_live 09-08, opens 09-04) -> stamped+moved to active: termstack food-beverage-distributors, publishpilot webflow-publish-timezone. 12 remain incoming (earliest next open 09-06 net-30-vs-net-60). All routable. Active x3 processed one-at-a-time: (1) publishpilot editorial-calendar at deliver, go_live today, no veto, budget reset (date 09-03->09-04) -> PUBLISHED merged PR#100->main, promoted PR#102->prod, notified; live publishpilot.app/blog/editorial-calendar-webflow-that-publishes-itself; blog_publish publishpilot 1/1. (2) termstack food-beverage-distributors fresh -> branch..commit, draft PR#74 (varr-labs), commit iMessage sent, STOPPED at commit; deliver holds until 09-08. (3) publishpilot webflow-publish-timezone fresh -> BLOCKED at draft: brief 'Trigger status NOT CLEARED' requires prd.md timezone exception or Rajat confirm; prd.md line22 still forbids timezone claims. Needs Rajat decision to unblock; build also gated on timezone-label formatter being live. imessage MCP down (CONNECTION_CLOSED) but send.sh AppleScript path worked."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-09-05T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Brief sent. Pipeline: 1 blog task blocked (webflow-publish-timezone, publishpilot) needing prd.md timezone exception or Rajat confirm before drafting can proceed; 1 holding for go-live (food-beverage-distributors, termstack, PR#74 -> 09-08, kill window open). 11 more incoming, none due. content-blog/outreach last clean runs 09-04, not yet run today, not stale. Budget dated 09-04: blog_publish termstack 0/1, publishpilot 1/1. attention.json epoch sentinel, informational only, no veto_window steps exist. Digest: shopify 4th quiet day on B2B/checkout + SHOP dipped to $145.09; tech Nvidia PAIR distributed-inference router + Microsoft MAI-Transcribe-2 pricing + Claude Code /diff panel and GitLab MR support; world US-IRGC strike/retaliation exchange (Jordan/Kuwait/Bahrain/Erbil, no casualties) + Putin signals Ukraine peace-deal openness + US Aug jobs beat + Syria destroying chemical-weapons remnants."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-06T03:10:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Quiet pass. Sun non-T1 day, no follow-up due. Reconcile clean: 0 replies/sends/bounces, control labels all 0, inbox 12d = 3 DMARC + Workspace invoice. jonathan-adler T3 drafted 09-05 still pending Rajat send (not stale, ~1-2d), silent drop 09-12 if sent+silent. 1 in sequence, 13 qualified-uncontacted (contact/Plus-gated), 85 in pool. enrich (Hunter, on-demand) remains the long pole to unblock new T1s."
   }
 ]

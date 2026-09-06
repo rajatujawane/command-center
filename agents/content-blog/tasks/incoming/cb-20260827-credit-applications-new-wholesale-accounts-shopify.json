@@ -1,0 +1,11 @@
+{
+  "id": "cb-20260827-credit-applications-new-wholesale-accounts-shopify",
+  "title": "Credit Applications for New Wholesale Accounts on Shopify",
+  "project": "termstack",
+  "go_live": "2026-10-08",
+  "queued_at": "2026-08-27",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/credit-applications-new-wholesale-accounts-shopify.md"
+  ]
+}

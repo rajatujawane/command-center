@@ -1,0 +1,74 @@
+{
+  "id": "cb-20260827-payment-terms-food-beverage-distributors-shopify",
+  "title": "Payment Terms for Food & Beverage Distributors on Shopify",
+  "project": "termstack",
+  "go_live": "2026-09-08",
+  "queued_at": "2026-08-27",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/payment-terms-food-beverage-distributors-shopify.md"
+  ],
+  "steps": [
+    {
+      "do": "branch",
+      "gate": "auto",
+      "status": "done",
+      "out": "branch=blog/cb-20260827-payment-terms-food-beverage-distributors-shopify default=main"
+    },
+    {
+      "do": "draft",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/content-blog/outputs/cb-20260827-payment-terms-food-beverage-distributors-shopify/draft.md"
+    },
+    {
+      "do": "fact_check",
+      "gate": "auto",
+      "status": "done",
+      "out": "verified against knowledge/termstack/prd.md; fixed rule-order inconsistency in recipe to match first-match-wins table"
+    },
+    {
+      "do": "build",
+      "to": "{project.repo}",
+      "run": "{project.build_skills}",
+      "status": "done",
+      "out": "slug=payment-terms-food-beverage-distributors-shopify; ran blog-ready + blog-image; backlink added to graduate-b2b-payment-terms-by-order-count.mdx"
+    },
+    {
+      "do": "qa_image",
+      "gate": "auto",
+      "status": "done",
+      "out": "viewed hero + rules-recipe SVG; light editorial theme, legible, no fixes needed"
+    },
+    {
+      "do": "commit",
+      "gate": "auto",
+      "status": "done",
+      "out": "https://github.com/rajatujawane/varr-labs-website/pull/74 (draft); imessage sent to Command Center"
+    },
+    {
+      "do": "deliver",
+      "to": [
+        "git_pr:merge"
+      ],
+      "gate": "auto",
+      "status": "pending",
+      "out": ""
+    },
+    {
+      "do": "promote",
+      "to": [
+        "git_pr:prod"
+      ],
+      "gate": "auto",
+      "status": "pending",
+      "out": ""
+    },
+    {
+      "do": "notify",
+      "to": "me",
+      "status": "pending",
+      "out": ""
+    }
+  ]
+}

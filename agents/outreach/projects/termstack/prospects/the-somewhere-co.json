@@ -18,10 +18,10 @@
     "linkedin_search": "",
     "hunter": ""
   },
-  "status": "not_contacted",
-  "raw_status": "NOT CONTACTED",
+  "status": "disqualified",
+  "raw_status": "DISQUALIFIED Aug 27 - third-party wholesale app, not native B2B",
   "touches": {},
-  "notes": "Shopify Plus B2B case study, cut order time 33%. AU-based: lower priority, AU send window 6-8am IST. | qualify.sh 2026-08-09: REVIEW \u2014 passed mechanical checks \u2014 human decides fit (customer_authentication present) | plus check 2026-08-09: wholesale.thesomewhereco.com resolves and the domain has NO wildcard DNS, so this is a real subdomain. Whether it serves a Shopify storefront is UNVERIFIED - HTTP probing hit 429 rate limiting. Re-probe serially before treating as Plus evidence.",
+  "notes": "Shopify Plus B2B case study, cut order time 33%. AU-based: lower priority, AU send window 6-8am IST. | qualify.sh 2026-08-09: REVIEW — passed mechanical checks — human decides fit (customer_authentication present) | plus check 2026-08-09: wholesale.thesomewhereco.com resolves and the domain has NO wildcard DNS, so this is a real subdomain. Whether it serves a Shopify storefront is UNVERIFIED - HTTP probing hit 429 rate limiting. Re-probe serially before treating as Plus evidence. | Deep probe 2026-08-27: runs the \"wholesale-lock-hide-price\" app (Wholesale Lock Manager class). B2B is not native and these run on non-Plus plans. Playbook hard gate: drop. NOTE: qualify.sh returned REVIEW because its offplat regex does not include wholesale-lock. Script gap, see below.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -30,9 +30,9 @@
   },
   "imported": "2026-07-20",
   "flags": [],
-  "qualify_verdict": "REVIEW",
-  "qualified": true,
+  "qualify_verdict": "OFF_PLATFORM_B2B",
+  "qualified": false,
   "plus_verified": null,
   "plus_confidence": "pending",
-  "plus_evidence": "b2b_subdomain_dns(wholesale.thesomewhereco.com) \u2014 NOT yet HTTP-verified"
+  "plus_evidence": "b2b_subdomain_dns(wholesale.thesomewhereco.com) — NOT yet HTTP-verified"
 }

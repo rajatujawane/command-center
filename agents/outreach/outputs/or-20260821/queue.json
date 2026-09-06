@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-21",
+  "day": "Fri",
+  "t1_day": true,
+  "queue_guard": {
+    "pending_unsent": 0,
+    "slots_available": 6,
+    "note": "6 tracked drafts detected sent 08-19; drafts folder clear"
+  },
+  "followups_due": [
+    {
+      "prospect_id": "hydrant",
+      "touch": "t3",
+      "reason": "due follow-up (t3 due 08-14); final touch",
+      "send_window": "US 6:30-9:30pm IST"
+    },
+    {
+      "prospect_id": "polyvinyl-records",
+      "touch": "t3",
+      "reason": "due follow-up (t3 due 08-14); final touch",
+      "send_window": "US 6:30-9:30pm IST"
+    }
+  ],
+  "new_t1": [],
+  "t1_reserve_unfilled": 3,
+  "t1_gap_reason": "No draft-ready qualified target: all 15 qualified not_contacted prospects still need contact enrichment (Hunter/enrich is on-demand only) or are blocked/low-fit. Recommend 'enrich outreach'.",
+  "queue": [
+    {
+      "prospect_id": "hydrant",
+      "touch": "t3",
+      "reason": "due follow-up (t3 due 08-14); final touch",
+      "send_window": "US 6:30-9:30pm IST"
+    },
+    {
+      "prospect_id": "polyvinyl-records",
+      "touch": "t3",
+      "reason": "due follow-up (t3 due 08-14); final touch",
+      "send_window": "US 6:30-9:30pm IST"
+    }
+  ]
+}

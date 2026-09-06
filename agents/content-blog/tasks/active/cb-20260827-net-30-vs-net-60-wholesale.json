@@ -1,0 +1,74 @@
+{
+  "id": "cb-20260827-net-30-vs-net-60-wholesale",
+  "title": "Net 30 vs Net 60: Which Should You Offer Wholesale Buyers?",
+  "project": "termstack",
+  "go_live": "2026-09-10",
+  "queued_at": "2026-08-27",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/net-30-vs-net-60-wholesale.md"
+  ],
+  "steps": [
+    {
+      "do": "branch",
+      "gate": "auto",
+      "status": "done",
+      "out": "branch=blog/cb-20260827-net-30-vs-net-60-wholesale default=main"
+    },
+    {
+      "do": "draft",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/content-blog/outputs/cb-20260827-net-30-vs-net-60-wholesale/draft.md"
+    },
+    {
+      "do": "fact_check",
+      "gate": "auto",
+      "status": "done",
+      "out": "verified against prd.md + brief; CCC math consistent with net-60 post; no fixes"
+    },
+    {
+      "do": "build",
+      "to": "{project.repo}",
+      "run": "{project.build_skills}",
+      "status": "done",
+      "out": "slug=net-30-vs-net-60-wholesale; mdx=src/content/blog/net-30-vs-net-60-wholesale.mdx; images=32-hero,32a,32b; blog-ready+blog-image applied; backlink added to net-60 post"
+    },
+    {
+      "do": "qa_image",
+      "gate": "auto",
+      "status": "pending",
+      "out": ""
+    },
+    {
+      "do": "commit",
+      "gate": "auto",
+      "status": "pending",
+      "out": ""
+    },
+    {
+      "do": "deliver",
+      "to": [
+        "git_pr:merge"
+      ],
+      "gate": "auto",
+      "status": "pending",
+      "out": ""
+    },
+    {
+      "do": "promote",
+      "to": [
+        "git_pr:prod"
+      ],
+      "gate": "auto",
+      "status": "pending",
+      "out": ""
+    },
+    {
+      "do": "notify",
+      "to": "me",
+      "status": "pending",
+      "out": ""
+    }
+  ]
+}

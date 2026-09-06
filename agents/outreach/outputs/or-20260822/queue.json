@@ -1,0 +1,16 @@
+{
+  "date": "2026-08-22",
+  "day": "Sat",
+  "t1_day": false,
+  "queue_guard": {
+    "pending_unsent": 2,
+    "slots_available": 4,
+    "note": "2 tracked drafts unsent (hydrant/polyvinyl T3, drafted 08-21); guard clear (2/6)"
+  },
+  "followups_due": [],
+  "new_t1": [],
+  "t1_reserve_unfilled": 0,
+  "t1_gap_reason": "Not a T1 day (Sat). No new T1s attempted.",
+  "queue": [],
+  "notes": "Reconcile clean: 0 new sends since 08-19, 0 replies, 0 bounces, control labels empty, 0 auto-drops. No follow-up newly due today: artisaire T3 due 08-23 (t2 08-19 + min_gap 4); hydrant/polyvinyl T3 already drafted 08-21 (idempotent, awaiting send). Nothing drafted."
+}

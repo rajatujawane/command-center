@@ -1,0 +1,4 @@
+[
+  {"prospect_id":"brooklinen","touch":"t3","reason":"T3 final due: T1 sent 2026-08-04 + t3_after_t1(9) = 2026-08-13; min_gap from T2(08-08) satisfied"},
+  {"prospect_id":"clay-imports","touch":"t3","reason":"T3 final due: T1 sent 2026-08-04 + t3_after_t1(9) = 2026-08-13; min_gap from T2(08-08) satisfied"}
+]

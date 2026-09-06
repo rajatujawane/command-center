@@ -18,7 +18,7 @@
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=SPE%20Motorsport%20Snyder",
     "hunter": "https://hunter.io/search/spemotorsport.com"
   },
-  "status": "in_sequence",
+  "status": "dropped",
   "raw_status": "Not contacted",
   "touches": {
     "t1": {
@@ -26,9 +26,21 @@
       "draft_id": "r2305059998232444062",
       "subject": "SPE Motorsport's dealer checkout",
       "sent": "2026-08-05"
+    },
+    "t2": {
+      "drafted": "2026-08-09",
+      "draft_id": "r4443001233942328293",
+      "subject": "Re: SPE Motorsport's dealer checkout",
+      "sent": "2026-08-09"
+    },
+    "t3": {
+      "drafted": "2026-08-14",
+      "draft_id": "r-1603194292581143075",
+      "subject": "Re: SPE Motorsport's dealer checkout",
+      "sent": "2026-08-19"
     }
   },
-  "notes": "Find official domain first (brand name from cited source)\n2026-08-04 research: domain resolved to spemotorsport.com (Shopify, myshopify handle snyder-performance-engineering). Latrobe PA. Dealer Login points at shopify.com/13389609/account (native customer accounts) + 'Become a Dealer' form; expanding dealer network = archetype 1. Only public email is sales@spemotorsport.com. Alt persona: Amy Snyder (COO). EMAIL CANDIDATES to verify: dan@spemotorsport.com, dsnyder@spemotorsport.com, dan.snyder@spemotorsport.com\n2026-08-04 Hunter: TARGET SWITCHED from Dan Snyder to Amy Snyder. Two records on spemotorsport.com: Amy S. green-verified; Dan S. flagged accept-all/unverifiable (tilde + crossed shield), so an email to Dan is a bounce risk. Amy is COO = ops persona, in policy. Neither record carries a department or title in Hunter; titles come from the earlier web research.\n2026-08-04 CONTACT LOCKED: Amy Snyder (COO) <amy@spemotorsport.com>, Hunter green-verified, confirmed by Rajat. Ready for T1.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb090d2321a). No reply. Status in_sequence, T2 due 2026-08-09.",
+  "notes": "Find official domain first (brand name from cited source)\n2026-08-04 research: domain resolved to spemotorsport.com (Shopify, myshopify handle snyder-performance-engineering). Latrobe PA. Dealer Login points at shopify.com/13389609/account (native customer accounts) + 'Become a Dealer' form; expanding dealer network = archetype 1. Only public email is sales@spemotorsport.com. Alt persona: Amy Snyder (COO). EMAIL CANDIDATES to verify: dan@spemotorsport.com, dsnyder@spemotorsport.com, dan.snyder@spemotorsport.com\n2026-08-04 Hunter: TARGET SWITCHED from Dan Snyder to Amy Snyder. Two records on spemotorsport.com: Amy S. green-verified; Dan S. flagged accept-all/unverifiable (tilde + crossed shield), so an email to Dan is a bounce risk. Amy is COO = ops persona, in policy. Neither record carries a department or title in Hunter; titles come from the earlier web research.\n2026-08-04 CONTACT LOCKED: Amy Snyder (COO) <amy@spemotorsport.com>, Hunter green-verified, confirmed by Rajat. Ready for T1.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb090d2321a). No reply. Status in_sequence, T2 due 2026-08-09.\n2026-08-09 draft: T2 reply DRAFTED in thread 19fcebb090d2321a (draft r4443001233942328293). GATE: not sent. Rajat to send.\n2026-08-10 reconcile: T2 SENT 2026-08-09 (detected in Gmail Sent, thread 19fcebb090d2321a). No reply. Status in_sequence; T3 due 2026-08-14 (t1+9=08-14, t2+min_gap 4=08-13).\n2026-08-14 pick+draft: T3 (FINAL) reply drafted in thread 19fcebb090d2321a (id r-1603194292581143075), zero links. New angle: exposure sits in big build orders, deposit above a set order size while restocks stay Net 30. Due T1+9=08-14. GATE: not sent. No reply within 7d -> auto-drop.\n2026-08-21 reconcile: T3 (final) SENT 2026-08-19 (Gmail Sent, thread 19fcebb090d2321a). Sequence complete; auto-drop at 08-26 if no reply.\n2026-08-26 auto-drop: T3 (final) sent 2026-08-19, no reply by T3+7d (2026-08-26). Sequence closed silently, no 4th email. Re-approach eligible after 45d with a different contact + new trigger.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -37,5 +49,6 @@
     "pending_touch": null
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [],
+  "dropped_at": "2026-08-26"
 }

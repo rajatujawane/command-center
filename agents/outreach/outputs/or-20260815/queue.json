@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-15",
+  "day_of_week": "Sat",
+  "is_t1_day": false,
+  "queue": [],
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent": 6,
+    "slots_available": 0,
+    "holding_all_drafting": true,
+    "reason": "6 tracked drafts sit unsent in Gmail, equal to max_pending_drafts. Draft nothing this pass per pick.md queue guard."
+  },
+  "held_due_followups": [
+    {"prospect_id": "hydrant", "touch": "t3", "reason": "t3 due (t1 08-05 +9, t2 08-09 +4) but held by queue guard"},
+    {"prospect_id": "polyvinyl-records", "touch": "t3", "reason": "t3 due (t1 08-05 +9, t2 08-09 +4) but held by queue guard"}
+  ]
+}

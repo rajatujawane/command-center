@@ -18,7 +18,7 @@
     "linkedin_search": "https://www.linkedin.com/in/johnfsherwin/",
     "hunter": "https://hunter.io/search/drinkhydrant.com"
   },
-  "status": "in_sequence",
+  "status": "dropped",
   "raw_status": "Not contacted",
   "touches": {
     "t1": {
@@ -26,18 +26,29 @@
       "draft_id": "r-6814028181128111606",
       "subject": "Hydrant's wholesale checkout",
       "sent": "2026-08-05"
+    },
+    "t2": {
+      "drafted": "2026-08-09",
+      "draft_id": "r2263858343945137976",
+      "subject": "Re: Hydrant's wholesale checkout",
+      "sent": "2026-08-09"
+    },
+    "t3": {
+      "drafted": "2026-08-21",
+      "draft_id": "r-386831573644176296",
+      "subject": "Re: Hydrant's wholesale checkout",
+      "sent": "2026-08-24"
     }
   },
-  "notes": "2026-08-04 research: Shopify confirmed. Wholesale exists only as /collections/wholesale, NOT a gated B2B portal - could be bulk D2C, so lead with the qualifying question. PERSONA CAVEAT: playbook allows founder only under $5M; Hydrant raised $14.9M over 2 rounds, and no ecom/wholesale lead is findable publicly. Rajat's call whether Sherwin is the right target. EMAIL CANDIDATES to verify: john@drinkhydrant.com, johns@drinkhydrant.com, john.sherwin@drinkhydrant.com\n2026-08-04 CONTACT LOCKED: John Sherwin <john@drinkhydrant.com>, verified, confirmed by Rajat. PERSONA OVERRIDE: Rajat explicitly approved the founder despite the under-$5M rule, because no ecom or wholesale lead is findable. Do not re-flag this. OPEN RISK: Plus is NOT confirmed. Only evidence is the IWD agency listicle claiming a Plus wholesale implementation; the site shows just /collections/wholesale, no gated portal. Lead the T1 with the qualifying question before any dynamic-terms pitch.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb2f76f1332). No reply. Status in_sequence, T2 due 2026-08-09.",
+  "notes": "2026-08-04 research: Shopify confirmed. Wholesale exists only as /collections/wholesale, NOT a gated B2B portal - could be bulk D2C, so lead with the qualifying question. PERSONA CAVEAT: playbook allows founder only under $5M; Hydrant raised $14.9M over 2 rounds, and no ecom/wholesale lead is findable publicly. Rajat's call whether Sherwin is the right target. EMAIL CANDIDATES to verify: john@drinkhydrant.com, johns@drinkhydrant.com, john.sherwin@drinkhydrant.com\n2026-08-04 CONTACT LOCKED: John Sherwin <john@drinkhydrant.com>, verified, confirmed by Rajat. PERSONA OVERRIDE: Rajat explicitly approved the founder despite the under-$5M rule, because no ecom or wholesale lead is findable. Do not re-flag this. OPEN RISK: Plus is NOT confirmed. Only evidence is the IWD agency listicle claiming a Plus wholesale implementation; the site shows just /collections/wholesale, no gated portal. Lead the T1 with the qualifying question before any dynamic-terms pitch.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb2f76f1332). No reply. Status in_sequence, T2 due 2026-08-09.\n2026-08-09 draft: T2 reply DRAFTED in thread 19fcebb2f76f1332 (draft r2263858343945137976). GATE: not sent. Rajat to send.\n2026-08-10 reconcile: T2 SENT 2026-08-09 (detected in Gmail Sent, thread 19fcebb2f76f1332). No reply. Status in_sequence; T3 due 2026-08-14 (t1+9=08-14, t2+min_gap 4=08-13).\n2026-08-21: T3 (final) due (t1 08-05 +9, t2 08-09 +min_gap). Reply draft created in thread 19fcebb2f76f1332 (id r-386831573644176296), zero links, new angle, USD. Awaiting review. Auto-drop 7d after send if no reply.\n2026-08-25 reconcile: T3 (final) SENT 2026-08-24 (detected in Gmail Sent). No reply. Status in_sequence; auto-drop at t3+7=2026-08-31 if silent. NEVER a 4th email.\n2026-08-31 reconcile/auto-drop: T3 (final) sent 2026-08-24, no reply, today = t3+7 (drop_after_final_touch_days). Silent close per playbook, matching the 08-26 precedent (drop on exactly t3+7). status -> dropped. NEVER a 4th email. Re-approach eligible after 45d with a different contact and a new angle.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": "19fcebb2f76f1332",
-    "pending_draft_id": null,
-    "pending_touch": null
+    "thread_id": "19fcebb2f76f1332"
   },
   "imported": "2026-07-20",
   "flags": [
     "b2b_stack_unconfirmed"
-  ]
+  ],
+  "dropped_at": "2026-08-31"
 }

@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-14",
+  "day": "Fri",
+  "t1_day": true,
+  "slots_available": 3,
+  "pending_unsent_at_start": 3,
+  "t1_reserve": "released_to_followups (no eligible verified T1 targets: qualified pool has no named-person email)",
+  "queued": [
+    { "prospect_id": "geoshield", "touch": "t3", "reason": "T3 final due 08-14 (t1+9); fit 8, confirmed dealer portal", "send_window": "US 6:30-9:30pm IST" },
+    { "prospect_id": "snyder-performance-engineering", "touch": "t3", "reason": "T3 final due 08-14 (t1+9); fit 8, clean persona", "send_window": "US 6:30-9:30pm IST" },
+    { "prospect_id": "v-s-barbershop", "touch": "t3", "reason": "T3 final due 08-14 (t1+9); fit 7, confirmed native B2B", "send_window": "US 6:30-9:30pm IST" }
+  ],
+  "carried_to_tomorrow": [
+    { "prospect_id": "hydrant", "touch": "t3", "reason": "T3 due 08-14 but slot cap (3); fit 7, b2b_stack_unconfirmed" },
+    { "prospect_id": "polyvinyl-records", "touch": "t3", "reason": "T3 due 08-14 but slot cap (3); fit 7, b2b_stack_unconfirmed" }
+  ]
+}

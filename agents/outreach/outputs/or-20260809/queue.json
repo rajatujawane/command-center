@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-09",
+  "day": "Sun",
+  "t1_day": false,
+  "slots_available": 6,
+  "pending_unsent_at_start": 0,
+  "queue": [
+    {
+      "prospect_id": "geoshield",
+      "touch": "t2",
+      "reason": "T2 due (t1 sent 08-05 +4)",
+      "hq": "US",
+      "window": "US 6:30-9:30pm IST"
+    },
+    {
+      "prospect_id": "snyder-performance-engineering",
+      "touch": "t2",
+      "reason": "T2 due (t1 sent 08-05 +4)",
+      "hq": "US",
+      "window": "US 6:30-9:30pm IST"
+    },
+    {
+      "prospect_id": "hydrant",
+      "touch": "t2",
+      "reason": "T2 due (t1 sent 08-05 +4)",
+      "hq": "US",
+      "window": "US 6:30-9:30pm IST"
+    },
+    {
+      "prospect_id": "polyvinyl-records",
+      "touch": "t2",
+      "reason": "T2 due (t1 sent 08-05 +4)",
+      "hq": "US",
+      "window": "US 6:30-9:30pm IST"
+    },
+    {
+      "prospect_id": "v-s-barbershop",
+      "touch": "t2",
+      "reason": "T2 due (t1 sent 08-05 +4)",
+      "hq": "US",
+      "window": "US 6:30-9:30pm IST"
+    }
+  ]
+}

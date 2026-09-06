@@ -1,0 +1,22 @@
+{
+  "id": "cb-20260718-payment-terms-toy-gift-wholesalers-shopify",
+  "title": "Payment Terms for Toy & Gift Wholesalers on Shopify",
+  "project": "termstack",
+  "go_live": "2026-08-13",
+  "queued_at": "2026-07-18",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/payment-terms-toy-gift-wholesalers-shopify.md"
+  ],
+  "steps": [
+    { "do": "branch",     "gate": "auto", "status": "done", "out": "branch blog/cb-20260718-payment-terms-toy-gift-wholesalers-shopify off main" },
+    { "do": "draft",      "gate": "auto", "status": "done", "out": "agents/content-blog/outputs/cb-20260718-payment-terms-toy-gift-wholesalers-shopify/draft.md" },
+    { "do": "fact_check", "gate": "auto", "status": "done", "out": "verified vs prd.md; fixed rule-4 zero-condition catch-all (match-all not implemented) to an explicit condition / store default" },
+    { "do": "build",      "to": "{project.repo}", "run": ["blog-ready", "blog-image"], "status": "done", "out": "slug payment-terms-toy-gift-wholesalers-shopify; src/content/blog/payment-terms-toy-gift-wholesalers-shopify.mdx + public/blog/30-hero-toy-gift-wholesalers-payment-terms.svg + public/blog/30a-toy-gift-rules-recipe.svg; backlink added from b2b-payment-terms-case-study-toy-gift-wholesaler.mdx" },
+    { "do": "qa_image",   "gate": "auto", "status": "done", "out": "viewed hero + inline at 1200x630/720; legible, on-brand, no overflow; no fixes" },
+    { "do": "commit",     "gate": "auto", "status": "done", "out": "https://github.com/rajatujawane/varr-labs-website/pull/66 (draft, base main); iMessage draft-ready notice sent to Command Center" },
+    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "auto", "status": "done", "out": "merged PR #66 into main (fast-forward); budget termstack blog_publish 1/1" },
+    { "do": "promote",    "to": ["git_pr:prod"],  "gate": "auto", "status": "done", "out": "https://github.com/rajatujawane/varr-labs-website/pull/69 (13th August 2026 dev to prod) merged; prod up to date" },
+    { "do": "notify",     "to": "me", "status": "done", "out": "iMessage 'Published: https://varrlabs.com/blog/payment-terms-toy-gift-wholesalers-shopify' sent to Command Center" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-09",
+  "drafts": [
+    {
+      "prospect_id": "geoshield",
+      "touch": "t2",
+      "draft_id": "r-966968541581777850",
+      "subject": "Re: GeoShield's dealer checkout"
+    },
+    {
+      "prospect_id": "snyder-performance-engineering",
+      "touch": "t2",
+      "draft_id": "r4443001233942328293",
+      "subject": "Re: SPE Motorsport's dealer checkout"
+    },
+    {
+      "prospect_id": "hydrant",
+      "touch": "t2",
+      "draft_id": "r2263858343945137976",
+      "subject": "Re: Hydrant's wholesale checkout"
+    },
+    {
+      "prospect_id": "polyvinyl-records",
+      "touch": "t2",
+      "draft_id": "r6255908314904271523",
+      "subject": "Re: Polyvinyl's wholesale checkout"
+    },
+    {
+      "prospect_id": "v-s-barbershop",
+      "touch": "t2",
+      "draft_id": "r5518165810369155077",
+      "subject": "Re: V's Barbershop wholesale checkout"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-08-24",
+  "day_of_week": "Mon",
+  "t1_day": false,
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent": 3,
+    "pending_ids": ["artisaire", "hydrant", "polyvinyl-records"],
+    "slots_available": 3,
+    "tripped": false
+  },
+  "followups_due": [],
+  "new_t1s": [],
+  "queue": [],
+  "note": "Monday = non-T1 day. All 8 in-sequence prospects have either sent their final touch (5 finals awaiting auto-close 08-26) or already carry a pending T3 draft (artisaire/hydrant/polyvinyl). Nothing due to draft."
+}

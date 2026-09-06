@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "Not contacted",
   "touches": {},
-  "notes": " | Sweep 2026-08-09 (free, 0 Hunter quota): immieats.com/wholesale/ exists with /account/login, but only 4 cdn.shopify.com refs on the homepage - likely headless or largely off-Shopify. B2B stack unconfirmed. | qualify.sh 2026-08-09: passed mechanical qualification; human fit judgement recorded above.",
+  "notes": " | Sweep 2026-08-09 (free, 0 Hunter quota): immieats.com/wholesale/ exists with /account/login, but only 4 cdn.shopify.com refs on the homepage - likely headless or largely off-Shopify. B2B stack unconfirmed. | qualify.sh 2026-08-09: passed mechanical qualification; human fit judgement recorded above. | Deep probe 2026-08-27 (immieats.com, free, 0 Hunter quota): live Shopify, wholesale surface present, but NO Plus evidence and no native-B2B company-location portal in the page source. Not disqualified, just unconfirmed: Plus is never public, so absence is not proof. Ranks below the company-location-confirmed prospects. Do not spend a Hunter credit here before the confirmed ones.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -33,5 +33,6 @@
     "contact_needed"
   ],
   "qualified": true,
-  "qualify_verdict": "REVIEW"
+  "qualify_verdict": "REVIEW",
+  "plus_confidence": "none"
 }

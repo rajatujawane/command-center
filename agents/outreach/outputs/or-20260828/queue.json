@@ -1,0 +1,16 @@
+{
+  "date": "2026-08-28",
+  "project": "termstack",
+  "slots_available": 6,
+  "pending_unsent_drafts": 0,
+  "queue": [],
+  "followups_due": [],
+  "t1_candidates_gated": [
+    {"id": "hollis-morris", "fit": 7, "gate": "contact_needed + plus_unverified"},
+    {"id": "elavi", "fit": 6, "gate": "contact_needed + plus_unverified"},
+    {"id": "immi", "fit": 6, "gate": "contact_needed + plus_unverified"},
+    {"id": "nature-s-path", "fit": 5, "gate": "no_contact + plus_unverified"},
+    {"id": "sweet-water-decor", "fit": 5, "gate": "generic_inbox_only + plus_unverified"}
+  ],
+  "note": "T1 day, 6 open slots, 0 drafted. Every qualified-uncontacted prospect fails research guard: Plus never confirmed (all plus_verified=null, deep-probed 08-27) and/or no verified personal contact. Enrich (Hunter) is on-demand only; routine does not spend credits or set plus_verified. Same structural gate as 08-25/26/27."
+}

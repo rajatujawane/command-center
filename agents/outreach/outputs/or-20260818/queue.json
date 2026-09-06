@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-18",
+  "day_of_week": "Tue",
+  "is_t1_day": true,
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent": 6,
+    "slots_available": 0,
+    "tripped": true,
+    "note": "6 tracked drafts unsent in Gmail == max_pending_drafts. slots_available 0, so this pass drafted nothing — no T1s (despite Tue being a T1 day) and no follow-ups. Day 3 of the guard tripping. Rajat sending or binning any pending draft frees a slot."
+  },
+  "queue": [],
+  "held_by_guard": [
+    { "prospect_id": "hydrant", "touch": "t3", "reason": "T3 due (t1+9=08-14, t2+min_gap=08-13). Held by queue guard (0 slots)." },
+    { "prospect_id": "polyvinyl-records", "touch": "t3", "reason": "T3 due (t1+9=08-14, t2+min_gap=08-13). Held by queue guard (0 slots)." }
+  ],
+  "t1_reserve": {
+    "reserved_slots": 0,
+    "note": "Tue is a T1 day, but 0 slots under the guard so no reserve. Independently, the verified cold pool is empty: all 15 qualified not_contacted prospects lack a named-person email (blocked generic_inbox_only / no_contact, or unenriched). Enrich is the standing bottleneck to open new T1s."
+  },
+  "pending_unsent_drafts": [
+    { "prospect_id": "artisaire", "touch": "t2", "drafted": "2026-08-12", "age_days": 6, "stale": true },
+    { "prospect_id": "brooklinen", "touch": "t3", "drafted": "2026-08-13", "age_days": 5, "stale": true },
+    { "prospect_id": "clay-imports", "touch": "t3", "drafted": "2026-08-13", "age_days": 5, "stale": true },
+    { "prospect_id": "geoshield", "touch": "t3", "drafted": "2026-08-14", "age_days": 4, "stale": false },
+    { "prospect_id": "snyder-performance-engineering", "touch": "t3", "drafted": "2026-08-14", "age_days": 4, "stale": false },
+    { "prospect_id": "v-s-barbershop", "touch": "t3", "drafted": "2026-08-14", "age_days": 4, "stale": false }
+  ]
+}

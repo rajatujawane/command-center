@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-09-04",
   "caps": {
     "blog_publish": {
       "default": 1,
@@ -19,7 +19,6 @@
   },
   "spent": {
     "blog_publish": {
-      "termstack": 0,
       "publishpilot": 1
     },
     "hunter_searches": {

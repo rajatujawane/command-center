@@ -1,0 +1,11 @@
+{
+  "id": "cb-20260827-shopify-company-vs-company-location",
+  "title": "Company vs Company Location in Shopify B2B: Where Payment Terms Actually Live",
+  "project": "termstack",
+  "go_live": "2026-09-24",
+  "queued_at": "2026-08-27",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/shopify-company-vs-company-location.md"
+  ]
+}

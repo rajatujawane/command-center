@@ -18,7 +18,7 @@
     "linkedin_search": "https://www.linkedin.com/company/polyvinyl-records",
     "hunter": "https://hunter.io/search/polyvinylrecords.com"
   },
-  "status": "in_sequence",
+  "status": "dropped",
   "raw_status": "Not contacted",
   "touches": {
     "t1": {
@@ -26,18 +26,29 @@
       "draft_id": "r1401409419666513397",
       "subject": "Polyvinyl's wholesale checkout",
       "sent": "2026-08-05"
+    },
+    "t2": {
+      "drafted": "2026-08-09",
+      "draft_id": "r6255908314904271523",
+      "subject": "Re: Polyvinyl's wholesale checkout",
+      "sent": "2026-08-09"
+    },
+    "t3": {
+      "drafted": "2026-08-21",
+      "draft_id": "r6941088670574086070",
+      "subject": "Re: Polyvinyl's wholesale checkout",
+      "sent": "2026-08-24"
     }
   },
-  "notes": "2026-08-04 research: Shopify confirmed. Team page names Matt Lunsford (Co-founder), Seth Hubbard (Label Manager) - both valid personas. Rob Wilcox (Promotions Director) and Andy De Santis (Marketing Director) are EXCLUDED by the playbook persona rule. No public wholesale portal on the site; B2B claim comes from the Softlimit Shopify case study, so open with the qualifying question. Small label, founder is in-policy. EMAIL CANDIDATES to verify: matt@polyvinylrecords.com, seth@polyvinylrecords.com (site pattern looks like firstname@)\n2026-08-04 Hunter: TARGET SWITCHED from Matt Lunsford to Tori B., Retail Sales Manager, green-verified. Retail sales owns the record-store wholesale accounts, which is the exact buyer for tiered terms. Alt: Matt L. (Matt Lunsford, listed as President) and Darcie L. (Co-Founder), both green-verified. Also on file: Sara C. (Fulfillment Manager), Alexis F. (Finance Director). EXCLUDED: Andrew S. (Digital Promotions), Michael T. (Promotions), Rob W. - all marketing-side.\n2026-08-04 CONTACT LOCKED: Tori Benes (Retail Sales Manager) <tori@polyvinylrecords.com>, Hunter green-verified, confirmed by Rajat. Ready for T1.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb42948ffa4). No reply. Status in_sequence, T2 due 2026-08-09.",
+  "notes": "2026-08-04 research: Shopify confirmed. Team page names Matt Lunsford (Co-founder), Seth Hubbard (Label Manager) - both valid personas. Rob Wilcox (Promotions Director) and Andy De Santis (Marketing Director) are EXCLUDED by the playbook persona rule. No public wholesale portal on the site; B2B claim comes from the Softlimit Shopify case study, so open with the qualifying question. Small label, founder is in-policy. EMAIL CANDIDATES to verify: matt@polyvinylrecords.com, seth@polyvinylrecords.com (site pattern looks like firstname@)\n2026-08-04 Hunter: TARGET SWITCHED from Matt Lunsford to Tori B., Retail Sales Manager, green-verified. Retail sales owns the record-store wholesale accounts, which is the exact buyer for tiered terms. Alt: Matt L. (Matt Lunsford, listed as President) and Darcie L. (Co-Founder), both green-verified. Also on file: Sara C. (Fulfillment Manager), Alexis F. (Finance Director). EXCLUDED: Andrew S. (Digital Promotions), Michael T. (Promotions), Rob W. - all marketing-side.\n2026-08-04 CONTACT LOCKED: Tori Benes (Retail Sales Manager) <tori@polyvinylrecords.com>, Hunter green-verified, confirmed by Rajat. Ready for T1.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb42948ffa4). No reply. Status in_sequence, T2 due 2026-08-09.\n2026-08-09 draft: T2 reply DRAFTED in thread 19fcebb42948ffa4 (draft r6255908314904271523). GATE: not sent. Rajat to send.\n2026-08-10 reconcile: T2 SENT 2026-08-09 (detected in Gmail Sent, thread 19fcebb42948ffa4). No reply. Status in_sequence; T3 due 2026-08-14 (t1+9=08-14, t2+min_gap 4=08-13).\n2026-08-21: T3 (final) due (t1 08-05 +9, t2 08-09 +min_gap). Reply draft created in thread 19fcebb42948ffa4 (id r6941088670574086070), zero links, new angle, USD. Awaiting review. Auto-drop 7d after send if no reply.\n2026-08-25 reconcile: T3 (final) SENT 2026-08-24 (detected in Gmail Sent). No reply. Status in_sequence; auto-drop at t3+7=2026-08-31 if silent. NEVER a 4th email.\n2026-08-31 reconcile/auto-drop: T3 (final) sent 2026-08-24, no reply, today = t3+7 (drop_after_final_touch_days). Silent close per playbook, matching the 08-26 precedent (drop on exactly t3+7). status -> dropped. NEVER a 4th email. Re-approach eligible after 45d with a different contact and a new angle.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
-    "thread_id": "19fcebb42948ffa4",
-    "pending_draft_id": null,
-    "pending_touch": null
+    "thread_id": "19fcebb42948ffa4"
   },
   "imported": "2026-07-20",
   "flags": [
     "b2b_stack_unconfirmed"
-  ]
+  ],
+  "dropped_at": "2026-08-31"
 }

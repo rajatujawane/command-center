@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-17",
+  "day_of_week": "Mon",
+  "is_t1_day": false,
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent": 6,
+    "slots_available": 0,
+    "tripped": true,
+    "note": "6 tracked drafts unsent in Gmail == max_pending_drafts. Drafted nothing this pass (T1s and follow-ups alike). Rajat sending or binning any pending draft frees a slot."
+  },
+  "queue": [],
+  "held_by_guard": [
+    { "prospect_id": "hydrant", "touch": "t3", "reason": "T3 due (t1+9=08-14, t2+min_gap=08-13). Held by queue guard (0 slots)." },
+    { "prospect_id": "polyvinyl-records", "touch": "t3", "reason": "T3 due (t1+9=08-14, t2+min_gap=08-13). Held by queue guard (0 slots)." }
+  ],
+  "pending_unsent_drafts": [
+    { "prospect_id": "artisaire", "touch": "t2", "drafted": "2026-08-12", "age_days": 5 },
+    { "prospect_id": "brooklinen", "touch": "t3", "drafted": "2026-08-13", "age_days": 4 },
+    { "prospect_id": "clay-imports", "touch": "t3", "drafted": "2026-08-13", "age_days": 4 },
+    { "prospect_id": "geoshield", "touch": "t3", "drafted": "2026-08-14", "age_days": 3 },
+    { "prospect_id": "snyder-performance-engineering", "touch": "t3", "drafted": "2026-08-14", "age_days": 3 },
+    { "prospect_id": "v-s-barbershop", "touch": "t3", "drafted": "2026-08-14", "age_days": 3 }
+  ]
+}

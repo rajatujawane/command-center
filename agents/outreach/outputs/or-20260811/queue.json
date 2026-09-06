@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-11",
+  "day_of_week": "Tue",
+  "t1_day": true,
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent": 0,
+    "slots_available": 6
+  },
+  "followups_due": [],
+  "t1_reserve": {
+    "target": 3,
+    "filled": 0,
+    "reason": "No not_contacted prospect has a verified direct contact email. Every qualified fit>=5 target is contact_needed / generic_inbox_only / blocked. Verified read-only contact discovery is exhausted; obtaining emails requires the enrich skill (Hunter), which is on-demand only and never runs in a routine."
+  },
+  "queue": [],
+  "notes": "Reconcile clean (0 replies, 0 bounces, control labels empty, ule-group auto-reply from 08-02 is an out-of-office, ignored). No follow-ups due today (earliest artisaire T2 on 08-12). 0 drafts created."
+}

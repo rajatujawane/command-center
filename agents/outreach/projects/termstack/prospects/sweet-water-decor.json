@@ -21,7 +21,7 @@
   "status": "not_contacted",
   "raw_status": "NOT CONTACTED",
   "touches": {},
-  "notes": "Shopify case study, wholesale portal, Pittsburgh candles. VERIFY PLUS FIRST (BuiltWith). Hook: their /pages/wholesale-new page. Was MO-012, never sent. | qualify.sh 2026-08-09: REVIEW \u2014 passed mechanical checks \u2014 human decides fit (paths=/pages/wholesale)",
+  "notes": "Shopify case study, wholesale portal, Pittsburgh candles. VERIFY PLUS FIRST (BuiltWith). Hook: their /pages/wholesale-new page. Was MO-012, never sent. | qualify.sh 2026-08-09: REVIEW — passed mechanical checks — human decides fit (paths=/pages/wholesale) | Deep probe 2026-08-27 (sweetwaterdecor.com, free, 0 Hunter quota): live Shopify, wholesale surface present, but NO Plus evidence and no native-B2B company-location portal in the page source. Not disqualified, just unconfirmed: Plus is never public, so absence is not proof. Ranks below the company-location-confirmed prospects. Do not spend a Hunter credit here before the confirmed ones.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -30,5 +30,6 @@
   },
   "imported": "2026-07-20",
   "qualify_verdict": "REVIEW",
-  "qualified": true
+  "qualified": true,
+  "plus_confidence": "none"
 }

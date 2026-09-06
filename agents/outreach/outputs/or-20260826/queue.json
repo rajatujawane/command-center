@@ -1,0 +1,11 @@
+{
+  "date": "2026-08-26",
+  "day": "Wed",
+  "t1_day": true,
+  "queue_guard": { "max_pending_drafts": 6, "pending_unsent": 0, "slots_available": 6, "tripped": false },
+  "followups_due": [],
+  "t1_reserve": 3,
+  "t1_picked": [],
+  "queue": [],
+  "reason": "Wed is a T1 day, 6 slots free, 3-slot reserve, but 0 draftable T1 targets. 15 qualified uncontacted prospects are all contact-starved: no verified direct contact and/or Plus unverified (only sweet-water-decor has an email and it is a generic wholesale@ inbox with Plus unverified). Opening new T1s needs an enrich (Hunter) session, which is on-demand only. No follow-up due: the 3 remaining in-sequence prospects have their final T3 sent. Empty queue."
+}

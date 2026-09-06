@@ -18,7 +18,7 @@
     "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=Death%20Wish%20Coffee%20ecommerce",
     "hunter": "https://hunter.io/search/deathwishcoffee.com"
   },
-  "status": "in_sequence",
+  "status": "dropped",
   "raw_status": "Not contacted",
   "touches": {
     "t1": {
@@ -39,12 +39,13 @@
       "sent": "2026-08-06"
     }
   },
-  "notes": "Researched 2026-07-21: Plus CONFIRMED (Shopify case study + dwccwholesale.com expansion store). Real gated wholesale channel, not D2C-only. PERSONA WEAK: DTC ecommerce seat vacant since Will Critcher left Sep 2023; only verifiable ecom title is Nick DeAngelo who owns Amazon, not Shopify. Marketing roles excluded per playbook. Tier-4 fallback is Will Spurgeon COO/CFO. No published email for either. Wholesale runs on the OLD separate-storefront pattern, not native B2B, which is itself a usable wedge if a contact is found. | Email verified by Rajat 2026-07-26: will@deathwishcoffee.com (Will Spurgeon COO/CFO). | T1 sent 2026-07-28 (thread 19fa587367261230). | T2 (final follow-up in seq) draft created 2026-08-01 (id r6088723322136366537), awaiting review; no links (cold thread). T3 due 2026-08-06. | T2 SENT 2026-08-02 (detected via Gmail Sent). No reply. T3 due 2026-08-06.\n2026-08-06: T3 (FINAL touch) draft created (id r-3463375909544188329), reply in existing thread, no links. New angle, graceful close. Awaiting review. No reply within 7d of send -> auto-drop, no 4th email.\n2026-08-07 reconcile: T3 (FINAL) SENT 2026-08-06 (detected in Gmail Sent). No reply. t3 clock started; auto-drop after 7d silence (~08-13), no 4th email.",
+  "notes": "Researched 2026-07-21: Plus CONFIRMED (Shopify case study + dwccwholesale.com expansion store). Real gated wholesale channel, not D2C-only. PERSONA WEAK: DTC ecommerce seat vacant since Will Critcher left Sep 2023; only verifiable ecom title is Nick DeAngelo who owns Amazon, not Shopify. Marketing roles excluded per playbook. Tier-4 fallback is Will Spurgeon COO/CFO. No published email for either. Wholesale runs on the OLD separate-storefront pattern, not native B2B, which is itself a usable wedge if a contact is found. | Email verified by Rajat 2026-07-26: will@deathwishcoffee.com (Will Spurgeon COO/CFO). | T1 sent 2026-07-28 (thread 19fa587367261230). | T2 (final follow-up in seq) draft created 2026-08-01 (id r6088723322136366537), awaiting review; no links (cold thread). T3 due 2026-08-06. | T2 SENT 2026-08-02 (detected via Gmail Sent). No reply. T3 due 2026-08-06.\n2026-08-06: T3 (FINAL touch) draft created (id r-3463375909544188329), reply in existing thread, no links. New angle, graceful close. Awaiting review. No reply within 7d of send -> auto-drop, no 4th email.\n2026-08-07 reconcile: T3 (FINAL) SENT 2026-08-06 (detected in Gmail Sent). No reply. t3 clock started; auto-drop after 7d silence (~08-13), no 4th email.\n2026-08-14 reconcile: T3 (final) was sent 2026-08-06; silent 7d (auto-drop threshold t3+7 = 08-13, today 08-14 > that). No reply, no bounce. Status -> dropped, dropped_at 2026-08-14. No 4th email. Eligible for re-approach after 45d with a different contact + new thread.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
     "thread_id": "19fa587367261230"
   },
   "imported": "2026-07-20",
-  "flags": []
+  "flags": [],
+  "dropped_at": "2026-08-14"
 }

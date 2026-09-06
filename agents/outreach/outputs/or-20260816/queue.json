@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-16",
+  "project": "termstack",
+  "day_of_week": "Sun",
+  "t1_day": false,
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent": 6,
+    "slots_available": 0,
+    "tripped": true,
+    "note": "6 drafts sitting unsent in Gmail (== cap). Drafted nothing this pass: no follow-ups, no T1s."
+  },
+  "held_by_guard": [
+    {"prospect_id": "hydrant", "touch": "t3", "reason": "T3 due (t1+9=08-14, t2+min_gap=08-13) but guard blocks drafting"},
+    {"prospect_id": "polyvinyl-records", "touch": "t3", "reason": "T3 due (t1+9=08-14, t2+min_gap=08-13) but guard blocks drafting"}
+  ],
+  "queue": []
+}

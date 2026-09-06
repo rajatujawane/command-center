@@ -1,0 +1,11 @@
+{
+  "id": "cb-20260827-wrong-payment-terms-at-checkout-shopify",
+  "title": "Why Did My B2B Buyer See the Wrong Payment Terms at Checkout?",
+  "project": "termstack",
+  "go_live": "2026-09-29",
+  "queued_at": "2026-08-27",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/wrong-payment-terms-at-checkout-shopify.md"
+  ]
+}

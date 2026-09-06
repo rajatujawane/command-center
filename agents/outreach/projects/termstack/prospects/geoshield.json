@@ -18,7 +18,7 @@
     "linkedin_search": "https://www.linkedin.com/in/burns-mulhearn-6a5b5715/",
     "hunter": "https://hunter.io/search/geoshieldusa.com"
   },
-  "status": "in_sequence",
+  "status": "dropped",
   "raw_status": "Not contacted",
   "touches": {
     "t1": {
@@ -26,9 +26,21 @@
       "draft_id": "r-7447957355944334310",
       "subject": "GeoShield's dealer checkout",
       "sent": "2026-08-05"
+    },
+    "t2": {
+      "drafted": "2026-08-09",
+      "draft_id": "r-966968541581777850",
+      "subject": "Re: GeoShield's dealer checkout",
+      "sent": "2026-08-09"
+    },
+    "t3": {
+      "drafted": "2026-08-14",
+      "draft_id": "r4608392076628516048",
+      "subject": "Re: GeoShield's dealer checkout",
+      "sent": "2026-08-19"
     }
   },
-  "notes": "Find official domain first (brand name from cited source)\n2026-08-04 research: domain resolved to geoshieldusa.com (Shopify, geoshield-v2.myshopify.com). Native B2B portal at account.geoshieldusa.com + 'Become a Dealer'/'Dealer Portal' in footer; tiered 'Dealer Journey' program = terms by certification tier, matches archetype 1. Only public email is info@geoshieldusa.com. Alt persona: Beau Dingler (VP, co-founder). EMAIL CANDIDATES to verify: burns@geoshieldusa.com, bmulhearn@geoshieldusa.com, burns.mulhearn@geoshieldusa.com\n2026-08-04 Hunter: Burns Mulhearn NOT in the index. 4 records on geoshieldusa.com, all green-verified: Dylan D. (Territory Sales Manager), Adam S. (Marketing Director), Jakari S. (Warehouse Associate), Blake H. (Supply Chain Analyst). Adam S. is EXCLUDED by the playbook (never Marketing). Jakari/Blake too junior. Dylan D. is the only in-policy target: territory sales owns the dealer network, so dealer-tier terms is their problem. PERSONA CAVEAT: Territory Sales Manager is off the priority list (no ecom/ops/founder record exists in Hunter). Rajat's call. Founder route stays open via info@ or LinkedIn if Dylan bounces.\n2026-08-04 CONTACT LOCKED: Dylan Doiga (Territory Sales Manager) <dylan@geoshieldusa.com>, Hunter green-verified, confirmed by Rajat. Ready for T1.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb15cc2ccff). No reply. Status in_sequence, T2 due 2026-08-09.",
+  "notes": "Find official domain first (brand name from cited source)\n2026-08-04 research: domain resolved to geoshieldusa.com (Shopify, geoshield-v2.myshopify.com). Native B2B portal at account.geoshieldusa.com + 'Become a Dealer'/'Dealer Portal' in footer; tiered 'Dealer Journey' program = terms by certification tier, matches archetype 1. Only public email is info@geoshieldusa.com. Alt persona: Beau Dingler (VP, co-founder). EMAIL CANDIDATES to verify: burns@geoshieldusa.com, bmulhearn@geoshieldusa.com, burns.mulhearn@geoshieldusa.com\n2026-08-04 Hunter: Burns Mulhearn NOT in the index. 4 records on geoshieldusa.com, all green-verified: Dylan D. (Territory Sales Manager), Adam S. (Marketing Director), Jakari S. (Warehouse Associate), Blake H. (Supply Chain Analyst). Adam S. is EXCLUDED by the playbook (never Marketing). Jakari/Blake too junior. Dylan D. is the only in-policy target: territory sales owns the dealer network, so dealer-tier terms is their problem. PERSONA CAVEAT: Territory Sales Manager is off the priority list (no ecom/ops/founder record exists in Hunter). Rajat's call. Founder route stays open via info@ or LinkedIn if Dylan bounces.\n2026-08-04 CONTACT LOCKED: Dylan Doiga (Territory Sales Manager) <dylan@geoshieldusa.com>, Hunter green-verified, confirmed by Rajat. Ready for T1.\n2026-08-06 reconcile: T1 SENT 2026-08-05 (detected in Gmail Sent, thread 19fcebb15cc2ccff). No reply. Status in_sequence, T2 due 2026-08-09.\n2026-08-09 draft: T2 reply DRAFTED in thread 19fcebb15cc2ccff (draft r-966968541581777850). GATE: not sent. Rajat to send.\n2026-08-10 reconcile: T2 SENT 2026-08-09 (detected in Gmail Sent, thread 19fcebb15cc2ccff). No reply. Status in_sequence; T3 due 2026-08-14 (t1+9=08-14, t2+min_gap 4=08-13).\n2026-08-14 pick+draft: T3 (FINAL) reply drafted in thread 19fcebb15cc2ccff (id r4608392076628516048), zero links. New angle: credit exposure on newest dealers, first orders held prepaid until certified. Due T1+9=08-14 (t2 08-09 + min_gap 4 = 08-13, satisfied). GATE: not sent. No reply within 7d of T3 send -> auto-drop.\n2026-08-21 reconcile: T3 (final) SENT 2026-08-19 (Gmail Sent, thread 19fcebb15cc2ccff). Sequence complete; auto-drop at 08-26 if no reply.\n2026-08-26 auto-drop: T3 (final) sent 2026-08-19, no reply by T3+7d (2026-08-26). Sequence closed silently, no 4th email. Re-approach eligible after 45d with a different contact + new trigger.",
   "sheet_draft": "",
   "sheet_next_action": "",
   "gmail": {
@@ -39,5 +51,6 @@
   "imported": "2026-07-20",
   "flags": [
     "persona_caveat"
-  ]
+  ],
+  "dropped_at": "2026-08-26"
 }

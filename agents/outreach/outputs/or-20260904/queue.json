@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-04",
+  "day": "Fri",
+  "t1_day": true,
+  "queue_guard": { "max_pending_drafts": 6, "pending_unsent": 0, "slots_available": 6 },
+  "follow_ups": [],
+  "new_t1s": [],
+  "queue": [],
+  "notes": "Fri is a T1 day (reserve 3). No follow-up due: jonathan-adler is the only in_sequence prospect, T3 due 09-05 (today 09-04 < t1+9=09-05). New T1 reserve unfilled: all 13 qualified+not_contacted are hard-excluded by pick.md (Plus unverified -> research first, and/or contact-blocked: contact_needed/no_wholesale_portal/generic_inbox_only). No follow-up exists to reclaim the idle reserve. Queue empty. Contact/Plus-gated pool needs an enrich (Hunter) run, which is on-demand only. jonathan-adler T3 comes due tomorrow 09-05."
+}

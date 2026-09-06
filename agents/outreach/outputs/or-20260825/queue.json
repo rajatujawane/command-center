@@ -1,0 +1,11 @@
+{
+  "date": "2026-08-25",
+  "day": "Tue",
+  "t1_day": true,
+  "queue_guard": { "max_pending_drafts": 6, "pending_unsent": 0, "slots_available": 6, "tripped": false },
+  "followups_due": [],
+  "t1_reserve": 3,
+  "t1_picked": [],
+  "queue": [],
+  "reason": "T1 day, 6 slots free, but 0 ready T1 targets (pool contact-starved / Plus-unverified: 15 qualified uncontacted, only sweet-water-decor has an email and it is a generic wholesale@ inbox with Plus unverified). No follow-up due: all 8 in-sequence prospects have their final T3 sent. Empty queue."
+}

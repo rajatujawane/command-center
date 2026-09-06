@@ -1,0 +1,74 @@
+{
+  "id": "cb-20260802-webflow-publishing-mistakes-that-break-live-sites",
+  "title": "5 Webflow Publishing Mistakes That Break Live Sites",
+  "project": "publishpilot",
+  "go_live": "2026-08-28",
+  "queued_at": "2026-08-02",
+  "inputs": [
+    "knowledge/publishpilot/prd.md",
+    "knowledge/publishpilot/briefs/webflow-publishing-mistakes-that-break-live-sites.md"
+  ],
+  "steps": [
+    {
+      "do": "branch",
+      "gate": "auto",
+      "status": "done",
+      "out": "branch=blog/cb-20260802-webflow-publishing-mistakes-that-break-live-sites default=main"
+    },
+    {
+      "do": "draft",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/content-blog/outputs/cb-20260802-webflow-publishing-mistakes-that-break-live-sites/draft.md"
+    },
+    {
+      "do": "fact_check",
+      "gate": "auto",
+      "status": "done",
+      "out": "verified: site-publish all-or-nothing, subdomain vs custom domain, CMS republish, start/end scheduling, run audit records (no retention length quoted), no timezone claims. all claims trace to prd/brief; no inline fixes."
+    },
+    {
+      "do": "build",
+      "to": "{project.repo}",
+      "run": "{project.build_skills}",
+      "status": "done",
+      "out": "slug=webflow-publishing-mistakes-that-break-live-sites; mdx=main-site/src/content/blog/webflow-publishing-mistakes-that-break-live-sites.mdx; cover=main-site/public/blog/webflow-publishing-mistakes-that-break-live-sites.svg"
+    },
+    {
+      "do": "qa_image",
+      "gate": "auto",
+      "status": "done",
+      "out": "viewed hero at 1200x630: title legible + two-tone (Webflow purple), no overflow, on-brand UI mock, watermark present, no timezone field, no forbidden patterns. pass, no fixes."
+    },
+    {
+      "do": "commit",
+      "gate": "auto",
+      "status": "done",
+      "out": "commit=e34bb9d; pushed origin/blog/cb-20260802-webflow-publishing-mistakes-that-break-live-sites; draft_pr=https://github.com/rajatujawane/publish-pilot/pull/92 (base main); imessage 'draft ready' sent to Command Center group"
+    },
+    {
+      "do": "deliver",
+      "to": [
+        "git_pr:merge"
+      ],
+      "gate": "auto",
+      "status": "done",
+      "out": "go-live gate passed (go_live 2026-08-28 = today); not vetoed; budget reset for new day then publishpilot blog_publish 0->1 of cap 1. rebased blog/<id> onto origin/main (clean), force-pushed, marked PR #92 ready, merged --delete-branch. merge commit 4bef9db60e7260d29a94681f6c24b29db42e2a6c."
+    },
+    {
+      "do": "promote",
+      "to": [
+        "git_pr:prod"
+      ],
+      "gate": "auto",
+      "status": "done",
+      "out": "shared-repo guard passed: main ahead of prod by 2, only main-site/public/blog/webflow-publishing-mistakes-that-break-live-sites.svg + main-site/src/content/blog/webflow-publishing-mistakes-that-break-live-sites.mdx would ship. promo PR #98 https://github.com/rajatujawane/publish-pilot/pull/98 (main->prod) created and merged."
+    },
+    {
+      "do": "notify",
+      "to": "me",
+      "status": "done",
+      "out": "imessage sent to Command Center group: 'Published: https://publishpilot.app/blog/webflow-publishing-mistakes-that-break-live-sites'"
+    }
+  ]
+}

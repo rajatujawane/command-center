@@ -1,0 +1,74 @@
+{
+  "id": "cb-20260827-conditional-payment-terms-upgrades-shopify-plus",
+  "title": "Give Better Terms to Buyers Who Already Have Them: Conditional Upgrades on Shopify Plus",
+  "project": "termstack",
+  "go_live": "2026-09-01",
+  "queued_at": "2026-08-27",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/conditional-payment-terms-upgrades-shopify-plus.md"
+  ],
+  "steps": [
+    {
+      "do": "branch",
+      "gate": "auto",
+      "status": "done",
+      "out": "branch=blog/cb-20260827-conditional-payment-terms-upgrades-shopify-plus default=main"
+    },
+    {
+      "do": "draft",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/content-blog/outputs/cb-20260827-conditional-payment-terms-upgrades-shopify-plus/draft.md"
+    },
+    {
+      "do": "fact_check",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/content-blog/outputs/cb-20260827-conditional-payment-terms-upgrades-shopify-plus/fact_check.md"
+    },
+    {
+      "do": "build",
+      "to": "{project.repo}",
+      "run": "{project.build_skills}",
+      "status": "done",
+      "out": "slug=conditional-payment-terms-upgrades-shopify-plus; post=src/content/blog/conditional-payment-terms-upgrades-shopify-plus.mdx; cover=public/blog/conditional-payment-terms-upgrades-shopify-plus.svg; backlink=src/content/blog/b2b-payment-terms-by-order-value.mdx"
+    },
+    {
+      "do": "qa_image",
+      "gate": "auto",
+      "status": "done",
+      "out": "viewed hero; cream light editorial theme, legible Inter 800 title, two-tone violet Net 90, watermark bottom-right, all elements within canvas bounds. PASS."
+    },
+    {
+      "do": "commit",
+      "gate": "auto",
+      "status": "done",
+      "out": "pr=https://github.com/rajatujawane/varr-labs-website/pull/70 (draft, base main); commit=1bd4ba1; imessage_sent=Command Center"
+    },
+    {
+      "do": "deliver",
+      "to": [
+        "git_pr:merge"
+      ],
+      "gate": "auto",
+      "status": "done",
+      "out": "merged PR #70 into main; mergeCommit=1c1cdd7"
+    },
+    {
+      "do": "promote",
+      "to": [
+        "git_pr:prod"
+      ],
+      "gate": "auto",
+      "status": "done",
+      "out": "promoted main->prod: https://github.com/rajatujawane/varr-labs-website/pull/72 (MERGED)"
+    },
+    {
+      "do": "notify",
+      "to": "me",
+      "status": "done",
+      "out": "iMessage Published sent to Command Center"
+    }
+  ]
+}
