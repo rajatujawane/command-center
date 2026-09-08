@@ -1,0 +1,19 @@
+{
+  "project": "termstack",
+  "date": "2026-09-08",
+  "weekday": "Tue",
+  "t1_day": true,
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent": 1,
+    "slots_available": 5,
+    "note": "jonathan-adler T3 is the only unsent tracked draft; guard clear"
+  },
+  "t1_reserve": {
+    "reserved": 3,
+    "filled": 0,
+    "note": "Tue is a T1 day. Reserve of 3 unfilled: 0 draft-ready T1s. All 13 qualified-uncontacted prospects are gated on a verified contact (no findable direct email / named person) or Plus verification, or are fit<=4. Unblocking needs an on-demand enrich (Hunter). Unused reserve released to follow-ups, but 0 follow-ups are due."
+  },
+  "queue": [],
+  "reason": "Empty queue. Only in_sequence prospect is jonathan-adler, whose final touch (T3) is already drafted and pending Rajat's send; no further touch is due (no T4), so no follow-up is due. T1 reserve cannot be filled: no draft-ready qualified target has a verified contact. Nothing to draft."
+}

@@ -1,0 +1,14 @@
+{
+  "project": "termstack",
+  "date": "2026-09-07",
+  "weekday": "Mon",
+  "t1_day": false,
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent": 1,
+    "slots_available": 5,
+    "note": "jonathan-adler T3 is the only unsent tracked draft"
+  },
+  "queue": [],
+  "reason": "Empty queue. Mon is not a T1 send day (t1_send_days = Tue-Fri), so no new T1s. Only in_sequence prospect is jonathan-adler, whose final touch (T3) is already drafted and pending Rajat's send; no further touch is due (no T4). No follow-ups due, nothing to draft."
+}
