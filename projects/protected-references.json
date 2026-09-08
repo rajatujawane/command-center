@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "source": "linear:varr-labs-reference-library-and-setup-v1",
+  "references": [
+    {
+      "identifier": "VAR-5",
+      "linear_issue_id": "b1f29a99-1dc3-4792-aeff-35a39cc57112",
+      "seed_marker": "studio-reference-v1:ts-rule-bug"
+    },
+    {
+      "identifier": "VAR-6",
+      "linear_issue_id": "05549fe5-f428-4b39-a605-d28e311890e3",
+      "seed_marker": "studio-reference-v1:ts-onboarding-choice"
+    },
+    {
+      "identifier": "VAR-7",
+      "linear_issue_id": "b9980799-3cc4-4869-a542-9bd0e891f332",
+      "seed_marker": "studio-reference-v1:ts-nonplus-research"
+    },
+    {
+      "identifier": "VAR-8",
+      "linear_issue_id": "016d00f0-b1a7-4808-a9b0-1b4920c51e99",
+      "seed_marker": "studio-reference-v1:ts-agency-drafts"
+    },
+    {
+      "identifier": "VAR-9",
+      "linear_issue_id": "ea6a6c95-dfc5-41cc-809d-57d136c22022",
+      "seed_marker": "studio-reference-v1:ts-customer-conversation"
+    },
+    {
+      "identifier": "VAR-10",
+      "linear_issue_id": "0eb3c248-7cd9-4ff2-b6e5-4b16ac471837",
+      "seed_marker": "studio-reference-v1:pp-conversion-audit"
+    },
+    {
+      "identifier": "VAR-11",
+      "linear_issue_id": "a0d7c397-60b7-4b97-9ce3-8e2190a02e32",
+      "seed_marker": "studio-reference-v1:pp-activation-email"
+    },
+    {
+      "identifier": "VAR-12",
+      "linear_issue_id": "111b2d6c-11f0-4070-b729-4b948b8bd84f",
+      "seed_marker": "studio-reference-v1:preorder-validation"
+    },
+    {
+      "identifier": "VAR-13",
+      "linear_issue_id": "171b4377-9ffd-484d-9e09-588dcfd416fd",
+      "seed_marker": "studio-reference-v1:games-recovery-audit"
+    },
+    {
+      "identifier": "VAR-14",
+      "linear_issue_id": "f1880299-af2b-4588-8507-464979b1ea4b",
+      "seed_marker": "studio-reference-v1:games-update"
+    },
+    {
+      "identifier": "VAR-15",
+      "linear_issue_id": "38aeb901-d22c-443f-ad41-beb14ca92167",
+      "seed_marker": "studio-reference-v1:shared-pricing"
+    },
+    {
+      "identifier": "VAR-16",
+      "linear_issue_id": "ffc02127-ad38-41b5-aa33-beb42ab4f499",
+      "seed_marker": "studio-reference-v1:cc-session-handoff"
+    }
+  ]
+}

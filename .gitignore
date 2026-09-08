@@ -11,3 +11,9 @@
 
 # logs
 logs/**/*.log
+
+# local runner coordination state
+state/runner.sqlite
+state/runner.sqlite-journal
+state/runner.sqlite-shm
+state/runner.sqlite-wal
