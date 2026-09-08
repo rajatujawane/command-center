@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-08",
   "caps": {
     "blog_publish": {
       "default": 1,
@@ -19,16 +19,10 @@
   },
   "spent": {
     "blog_publish": {
-      "publishpilot": 1
+      "termstack": 1
     },
-    "hunter_searches": {
-      "termstack": 1,
-      "publishpilot": 0
-    },
-    "hunter_verifications": {
-      "termstack": 1,
-      "publishpilot": 0
-    }
+    "hunter_searches": {},
+    "hunter_verifications": {}
   },
   "_hunter_note": "Free plan: 50 searches + 100 verifications per month, separate pools, reset on reset_date from hunter.sh account. Not one credit pool."
 }

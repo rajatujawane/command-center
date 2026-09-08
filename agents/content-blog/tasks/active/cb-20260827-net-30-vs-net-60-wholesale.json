@@ -37,14 +37,14 @@
     {
       "do": "qa_image",
       "gate": "auto",
-      "status": "pending",
-      "out": ""
+      "status": "done",
+      "out": "viewed hero + 2 inline (rendered to PNG); legible, on-brand cream/violet, no overflow (card right edge 1130<=1140); no fix needed"
     },
     {
       "do": "commit",
       "gate": "auto",
-      "status": "pending",
-      "out": ""
+      "status": "done",
+      "out": "PR(draft)=https://github.com/rajatujawane/varr-labs-website/pull/75 branch=blog/cb-20260827-net-30-vs-net-60-wholesale commit=c9eeb21; imessage sent (send.sh exit 0)"
     },
     {
       "do": "deliver",

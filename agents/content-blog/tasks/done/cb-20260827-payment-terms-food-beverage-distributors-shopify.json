@@ -52,8 +52,8 @@
         "git_pr:merge"
       ],
       "gate": "auto",
-      "status": "pending",
-      "out": ""
+      "status": "done",
+      "out": "merged PR #74 into main (fast-forward b76ca2e); budget blog_publish.termstack 1/1"
     },
     {
       "do": "promote",
@@ -61,14 +61,14 @@
         "git_pr:prod"
       ],
       "gate": "auto",
-      "status": "pending",
-      "out": ""
+      "status": "done",
+      "out": "https://github.com/rajatujawane/varr-labs-website/pull/76 merged main -> prod (2 files blog content only)"
     },
     {
       "do": "notify",
       "to": "me",
-      "status": "pending",
-      "out": ""
+      "status": "done",
+      "out": "imessage sent to Command Center: Published https://varrlabs.com/blog/payment-terms-food-beverage-distributors-shopify"
     }
   ]
 }

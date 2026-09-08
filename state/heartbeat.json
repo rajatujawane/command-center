@@ -218,7 +218,7 @@
         "ts": "2026-07-08T05:00:00Z",
         "tasks_touched": 2,
         "ok": true,
-        "notes": "shopify-scripts-stopped-restore-b2b-terms-functions: delivered (PR #48 merged), promoted to prod via PR #49, notified. Task moved to done. shopify-summer26-b2b-payment-terms-native-vs-app: deliver parked — daily blog_publish budget exhausted (1/1). Will retry next run."
+        "notes": "shopify-scripts-stopped-restore-b2b-terms-functions: delivered (PR #48 merged), promoted to prod via PR #49, notified. Task moved to done. shopify-summer26-b2b-payment-terms-native-vs-app: deliver parked \u2014 daily blog_publish budget exhausted (1/1). Will retry next run."
       },
       {
         "agent": "brief",
@@ -372,14 +372,14 @@
         "ts": "2026-07-19T05:00:00Z",
         "tasks_touched": 2,
         "ok": true,
-        "notes": "Intake: customer-tier-payment-terms-shopify-plus (go-live 07-21) and require-prepayment-first-time-b2b-buyers (go-live 07-23) moved incoming→active. Both ran branch→commit. PRs: #52 (customer-tier), #53 (require-prepayment). Stopped at deliver; next run resumes deliver for customer-tier (07-21) and require-prepayment (07-23)."
+        "notes": "Intake: customer-tier-payment-terms-shopify-plus (go-live 07-21) and require-prepayment-first-time-b2b-buyers (go-live 07-23) moved incoming\u2192active. Both ran branch\u2192commit. PRs: #52 (customer-tier), #53 (require-prepayment). Stopped at deliver; next run resumes deliver for customer-tier (07-21) and require-prepayment (07-23)."
       },
       {
         "agent": "brief",
         "ts": "2026-07-19T07:15:00Z",
         "tasks_touched": 0,
         "ok": true,
-        "notes": "Brief rendered. Pipeline: customer-tier PR #52 deliver auto Jul 21 + require-prepayment PR #53 deliver auto Jul 23; 6 incoming queued Jul 28–Aug 13. Digest: shopify physical inventory GraphQL early access + Collections API 2026-07 composable sources + @inContext channelId; tech Kimi K3 2.8T open-weight + PyTorch 2.13 FlexAttention MPS + Gemini 3.1 Flash TTS preview; world Iran suspended Doha MOU + FIFA WC final Spain-Argentina + Texas floods. DotDev Jul 21-22 flagged as prep item. System ok, budget clear."
+        "notes": "Brief rendered. Pipeline: customer-tier PR #52 deliver auto Jul 21 + require-prepayment PR #53 deliver auto Jul 23; 6 incoming queued Jul 28\u2013Aug 13. Digest: shopify physical inventory GraphQL early access + Collections API 2026-07 composable sources + @inContext channelId; tech Kimi K3 2.8T open-weight + PyTorch 2.13 FlexAttention MPS + Gemini 3.1 Flash TTS preview; world Iran suspended Doha MOU + FIFA WC final Spain-Argentina + Texas floods. DotDev Jul 21-22 flagged as prep item. System ok, budget clear."
       },
       {
         "agent": "outreach",
@@ -595,7 +595,7 @@
         "ts": "2026-08-16T03:00:00Z",
         "tasks_touched": 3,
         "ok": true,
-        "notes": "Daily pass (Sun, non-T1). Reconcile: 0 new sends (all 6 pending drafts still unsent), 0 replies, 0 bounces, control labels empty. Auto-dropped 3 (darche/maguire/tony-s-chocolonely: T3 sent 08-08, silent past t3+7=08-15). Pick: queue guard TRIPPED — 6 pending drafts == max_pending_drafts 6, slots_available 0, drafted nothing. hydrant + polyvinyl T3 due but held by guard. Phase 0 qualify: nothing to probe (all not_contacted already carry a qualified verdict). 8 in sequence, 15 qualified uncontacted (pool at floor). Summary sent to iMessage. Nothing sent."
+        "notes": "Daily pass (Sun, non-T1). Reconcile: 0 new sends (all 6 pending drafts still unsent), 0 replies, 0 bounces, control labels empty. Auto-dropped 3 (darche/maguire/tony-s-chocolonely: T3 sent 08-08, silent past t3+7=08-15). Pick: queue guard TRIPPED \u2014 6 pending drafts == max_pending_drafts 6, slots_available 0, drafted nothing. hydrant + polyvinyl T3 due but held by guard. Phase 0 qualify: nothing to probe (all not_contacted already carry a qualified verdict). 8 in sequence, 15 qualified uncontacted (pool at floor). Summary sent to iMessage. Nothing sent."
       },
       {
         "agent": "brief",
@@ -708,7 +708,7 @@
     "ts": "2026-07-29T00:00:00Z",
     "tasks_touched": 6,
     "ok": true,
-    "notes": "pass ok · 6 drafts (memobottle/future-glass/russell-hendrix T3 + darche/maguire/tony-s T1) · sent-detected 6 (07-28) · replies 0 · queue guard clear · T1 reserve filled with last 3 verified targets, verified cold pool now empty (mining needed) · 4 finals auto-close tomorrow 07-30"
+    "notes": "pass ok \u00b7 6 drafts (memobottle/future-glass/russell-hendrix T3 + darche/maguire/tony-s T1) \u00b7 sent-detected 6 (07-28) \u00b7 replies 0 \u00b7 queue guard clear \u00b7 T1 reserve filled with last 3 verified targets, verified cold pool now empty (mining needed) \u00b7 4 finals auto-close tomorrow 07-30"
   },
   {
     "agent": "content-blog",
@@ -729,7 +729,7 @@
     "ts": "2026-07-31T00:00:00Z",
     "tasks_touched": 3,
     "ok": true,
-    "notes": "pass ok · 3 drafts (allied/hiut/pittsburgh T3 finals) · sent-detected 6 (darche/maguire/tony-s T1 + memobottle/future-glass/russell T3 sent 07-29) · replies 0 (russell OOO to Aug 4, ignored per rule) · auto-dropped 4 finals (amhosp/elite-truck/montana-west/wbc, silent 7d) · queue guard clear (0 pending) · T1s 0, verified cold pool empty, mining needed · no run 07-30, caught up · next T2s 08-01"
+    "notes": "pass ok \u00b7 3 drafts (allied/hiut/pittsburgh T3 finals) \u00b7 sent-detected 6 (darche/maguire/tony-s T1 + memobottle/future-glass/russell T3 sent 07-29) \u00b7 replies 0 (russell OOO to Aug 4, ignored per rule) \u00b7 auto-dropped 4 finals (amhosp/elite-truck/montana-west/wbc, silent 7d) \u00b7 queue guard clear (0 pending) \u00b7 T1s 0, verified cold pool empty, mining needed \u00b7 no run 07-30, caught up \u00b7 next T2s 08-01"
   },
   {
     "agent": "content-blog",
@@ -764,7 +764,7 @@
     "ts": "2026-08-01T23:52:23Z",
     "tasks_touched": 4,
     "ok": true,
-    "notes": "content-blog dispatcher 2026-08-02. Intake: best-shopify-b2b (go_live 08-06, lead 4d -> due today) stamped + moved incoming->active; checkout-blocks (08-11) & toy-gift (08-13) not yet due. Worker on best-shopify-b2b ran branch->commit and STOPPED: branch=blog/cb-20260718-best-shopify-b2b-payment-terms-apps-2026, slug=best-shopify-b2b-payment-terms-apps, draft_pr=https://github.com/rajatujawane/varr-labs-website/pull/59, backlink added from native-vs-app post, iMessage sent to Command Center; no blocked_on. 3 active tasks HELD at deliver, none advanced: attention.json last_brief_answered=1970-01-01 (>48h) -> CLAUDE.md hard rule forbids auto-advancing the veto_window publish step for ALL of them. graduate-b2b (PR56, go_live 07-28 past) HELD on attention rule. shopify-all-plans-vs-plus (PR57, go_live 07-30 past) HELD on attention rule + carries fact_check FLAG (all-plans premise contradicts 3 published Plus-only posts; human must reconcile before publish). build-vs-buy (PR58) HELD: go_live 08-04 not reached (go-live gate) AND attention rule. Also note: budget.json stale (date 2026-07-23, blog_publish 1/1) — deliver will reset spent on a new day when it eventually runs."
+    "notes": "content-blog dispatcher 2026-08-02. Intake: best-shopify-b2b (go_live 08-06, lead 4d -> due today) stamped + moved incoming->active; checkout-blocks (08-11) & toy-gift (08-13) not yet due. Worker on best-shopify-b2b ran branch->commit and STOPPED: branch=blog/cb-20260718-best-shopify-b2b-payment-terms-apps-2026, slug=best-shopify-b2b-payment-terms-apps, draft_pr=https://github.com/rajatujawane/varr-labs-website/pull/59, backlink added from native-vs-app post, iMessage sent to Command Center; no blocked_on. 3 active tasks HELD at deliver, none advanced: attention.json last_brief_answered=1970-01-01 (>48h) -> CLAUDE.md hard rule forbids auto-advancing the veto_window publish step for ALL of them. graduate-b2b (PR56, go_live 07-28 past) HELD on attention rule. shopify-all-plans-vs-plus (PR57, go_live 07-30 past) HELD on attention rule + carries fact_check FLAG (all-plans premise contradicts 3 published Plus-only posts; human must reconcile before publish). build-vs-buy (PR58) HELD: go_live 08-04 not reached (go-live gate) AND attention rule. Also note: budget.json stale (date 2026-07-23, blog_publish 1/1) \u2014 deliver will reset spent on a new day when it eventually runs."
   },
   {
     "agent": "brief",
@@ -820,7 +820,7 @@
     "ts": "2026-08-05T07:15:00Z",
     "tasks_touched": 0,
     "ok": true,
-    "notes": "Brief sent. Pipeline: 3 content-blog active — shopify-b2b-all-plans-vs-plus (PR #57) 6d overdue, blocked on unresolved fact_check flag (Apr-2026 all-plans premise vs 3 Plus-only posts), needs human reconcile; best-shopify-b2b-apps (PR #59) holding for go-live 08-06; schedule-publishing-webflow (publishpilot) holding for go-live 08-07. Since last brief: graduate-b2b (PR#56) and build-vs-buy (PR#58/#61) both published to prod. 10 incoming queued, none due (earliest 08-11). budget.json stale (dated 08-04, termstack 1/1, publishpilot 0/1). Outreach clean: 3 T1s sent 08-04, 5 new T1 drafts ready (never sent), 2 held on Rajat input (artisaire name, benchmade angle), verified pool spent again. Digest: Shopify quiet (Campaign Autopilot MS-ads only, earnings today 8:30am ET not out yet); tech Cloudflare Wallets/Agent Dev Lifecycle/wrangler traces; world Iran Hormuz deadline + tanker attack, Ukraine drone strike on Russian beach."
+    "notes": "Brief sent. Pipeline: 3 content-blog active \u2014 shopify-b2b-all-plans-vs-plus (PR #57) 6d overdue, blocked on unresolved fact_check flag (Apr-2026 all-plans premise vs 3 Plus-only posts), needs human reconcile; best-shopify-b2b-apps (PR #59) holding for go-live 08-06; schedule-publishing-webflow (publishpilot) holding for go-live 08-07. Since last brief: graduate-b2b (PR#56) and build-vs-buy (PR#58/#61) both published to prod. 10 incoming queued, none due (earliest 08-11). budget.json stale (dated 08-04, termstack 1/1, publishpilot 0/1). Outreach clean: 3 T1s sent 08-04, 5 new T1 drafts ready (never sent), 2 held on Rajat input (artisaire name, benchmade angle), verified pool spent again. Digest: Shopify quiet (Campaign Autopilot MS-ads only, earnings today 8:30am ET not out yet); tech Cloudflare Wallets/Agent Dev Lifecycle/wrangler traces; world Iran Hormuz deadline + tanker attack, Ukraine drone strike on Russian beach."
   },
   {
     "agent": "outreach",
@@ -847,7 +847,7 @@
     "ts": "2026-08-07T07:15:00Z",
     "tasks_touched": 0,
     "ok": true,
-    "notes": "Brief sent. Pipeline: 3 content-blog active — checkout-blocks (PR#64) + schedule-blog-posts-step-by-step (PR#80) both holding for go-live 08-11; shopify-b2b-all-plans-vs-plus (PR#57) still blocked 8d on unresolved fact_check flag (Apr-2026 all-plans premise vs 3 Plus-only posts), needs human reconcile or kill. Published today: schedule-publishing-webflow-native-limits (publishpilot, PR#79/#81). Outreach: T1 day, 4 drafts ready (3 T3 finals + artisaire T1), 3 sends detected, 0 replies, verified pool spent (mining recommended). Digest: shopify WhatsApp-consent Forms feature + Goldman SHOP target raise to $194 + rally continuing; tech Google/Alphabet AI leadership shakeup (Hassabis to chief scientist, Dean+3 leave for Discovery Loop, Gemini delayed) + Stripe Sessions 288 launches on agent payments; world Iran-US Hormuz talks stalled + Kuwait drone intercept + Ukraine refinery strikes + Gaza strikes. Flagged: attention.json still never answered (1970-01-01), informational only per current CLAUDE.md (no veto_window step today)."
+    "notes": "Brief sent. Pipeline: 3 content-blog active \u2014 checkout-blocks (PR#64) + schedule-blog-posts-step-by-step (PR#80) both holding for go-live 08-11; shopify-b2b-all-plans-vs-plus (PR#57) still blocked 8d on unresolved fact_check flag (Apr-2026 all-plans premise vs 3 Plus-only posts), needs human reconcile or kill. Published today: schedule-publishing-webflow-native-limits (publishpilot, PR#79/#81). Outreach: T1 day, 4 drafts ready (3 T3 finals + artisaire T1), 3 sends detected, 0 replies, verified pool spent (mining recommended). Digest: shopify WhatsApp-consent Forms feature + Goldman SHOP target raise to $194 + rally continuing; tech Google/Alphabet AI leadership shakeup (Hassabis to chief scientist, Dean+3 leave for Discovery Loop, Gemini delayed) + Stripe Sessions 288 launches on agent payments; world Iran-US Hormuz talks stalled + Kuwait drone intercept + Ukraine refinery strikes + Gaza strikes. Flagged: attention.json still never answered (1970-01-01), informational only per current CLAUDE.md (no veto_window step today)."
   },
   {
     "agent": "outreach",
@@ -951,7 +951,7 @@
     "ts": "2026-08-14T05:00:00Z",
     "tasks_touched": 2,
     "ok": true,
-    "notes": "Dispatcher pass 2026-08-14. Intake: 1 of 6 incoming stamped+moved to active (agencies-multiple-client-webflow-sites, go_live 08-18 == today+4d lead threshold); other 5 held in incoming (go_live 08-21..09-04, before lead window). All incoming routable (project=publishpilot, config+inputs present). Workers, one at a time: (1) unpublish-webflow-page-at-specific-time -> deliver gates passed (go_live 08-14 reached, no veto, budget ok), merged PR #82 into main, promoted PR #84 (main->prod), notify sent; task moved to done; publishpilot blog_publish now 1/1 at cap. (2) agencies-multiple-client-webflow-sites (fresh) -> ran branch..commit, draft PR #85 (base main), draft-ready iMessage sent, stopped after commit; remains active for deliver on/after 08-18. FLAG: worker#2 sent the draft-ready iMessage TWICE to Command Center group (re-ran send.sh to capture exit code) — same-group notify only, no external send, no hard-rule breach, surfaced for transparency."
+    "notes": "Dispatcher pass 2026-08-14. Intake: 1 of 6 incoming stamped+moved to active (agencies-multiple-client-webflow-sites, go_live 08-18 == today+4d lead threshold); other 5 held in incoming (go_live 08-21..09-04, before lead window). All incoming routable (project=publishpilot, config+inputs present). Workers, one at a time: (1) unpublish-webflow-page-at-specific-time -> deliver gates passed (go_live 08-14 reached, no veto, budget ok), merged PR #82 into main, promoted PR #84 (main->prod), notify sent; task moved to done; publishpilot blog_publish now 1/1 at cap. (2) agencies-multiple-client-webflow-sites (fresh) -> ran branch..commit, draft PR #85 (base main), draft-ready iMessage sent, stopped after commit; remains active for deliver on/after 08-18. FLAG: worker#2 sent the draft-ready iMessage TWICE to Command Center group (re-ran send.sh to capture exit code) \u2014 same-group notify only, no external send, no hard-rule breach, surfaced for transparency."
   },
   {
     "agent": "outreach",
@@ -1174,7 +1174,7 @@
     "ts": "2026-08-29T05:00:00Z",
     "tasks_touched": 2,
     "ok": true,
-    "notes": "Intake: 0 in (earliest incoming apparel-fashion go_live 09-03, threshold 08-30 > today; 16 held); 0 unroutable. Processed 2 active, both held at deliver on go-live gate (go_live 2026-09-01 > 2026-08-29): recurring-publishing-webflow [publishpilot] PR#99, conditional-payment-terms-upgrades [termstack] PR#70. No merges, no vetoes, no blocks. Note: publishpilot blog_publish budget at 1/1 — resets daily, fine for 09-01."
+    "notes": "Intake: 0 in (earliest incoming apparel-fashion go_live 09-03, threshold 08-30 > today; 16 held); 0 unroutable. Processed 2 active, both held at deliver on go-live gate (go_live 2026-09-01 > 2026-08-29): recurring-publishing-webflow [publishpilot] PR#99, conditional-payment-terms-upgrades [termstack] PR#70. No merges, no vetoes, no blocks. Note: publishpilot blog_publish budget at 1/1 \u2014 resets daily, fine for 09-01."
   },
   {
     "agent": "outreach",
@@ -1221,7 +1221,7 @@
     "ts": "2026-09-01T03:12:00+05:30",
     "tasks_touched": 0,
     "ok": true,
-    "note": "pass ok · drafted 0 · sent-detected 1 (jonathan-adler T2 sent 08-31) · replies 0 · bounces 0 · queue empty (Tue T1 day, 0 draft-ready; contact-starved, enrich-gated) · 1 in sequence · 13 qualified uncontacted · 85 pool"
+    "note": "pass ok \u00b7 drafted 0 \u00b7 sent-detected 1 (jonathan-adler T2 sent 08-31) \u00b7 replies 0 \u00b7 bounces 0 \u00b7 queue empty (Tue T1 day, 0 draft-ready; contact-starved, enrich-gated) \u00b7 1 in sequence \u00b7 13 qualified uncontacted \u00b7 85 pool"
   },
   {
     "agent": "content-blog",
@@ -1312,6 +1312,20 @@
     "ts": "2026-09-08T07:15:00Z",
     "tasks_touched": 0,
     "ok": true,
-    "notes": "Brief sent. Pipeline: termstack food-beverage-distributors at deliver, go_live TODAY 09-08, PR#74 kill window open; publishpilot webflow-publish-timezone still blocked needing prd.md exception or Rajat confirm; net-30-vs-net-60 at qa_image, not urgent (go_live 09-10); 11 incoming none due. content-blog flagged STALE — task files unchanged since 09-06, no run in >36h (beyond the previously-noted heartbeat-write bug). outreach clean, ran today, jonathan-adler T3 draft still unsent in Gmail 3d, silent-drop 09-12 if sent+silent. Budget dated 09-04 (self-resets): blog_publish termstack 0/1, publishpilot 1/1. attention.json epoch sentinel, informational, no veto_window steps exist. Digest: shopify changelog+partner blog still dark, SHOP flat, new B2B-on-every-plan angle idea; tech Claude Code 2.1.263 stability patch + Engrim SQLite agent-memory tool + Anthropic Managed Agents webhook/effort updates; world Israeli strikes on S. Lebanon (12 dead) + Yemen deadliest fighting since 2022 (300+ dead) + Mt. Mizhirgi avalanche (11 dead, 6 missing)."
+    "notes": "Brief sent. Pipeline: termstack food-beverage-distributors at deliver, go_live TODAY 09-08, PR#74 kill window open; publishpilot webflow-publish-timezone still blocked needing prd.md exception or Rajat confirm; net-30-vs-net-60 at qa_image, not urgent (go_live 09-10); 11 incoming none due. content-blog flagged STALE \u2014 task files unchanged since 09-06, no run in >36h (beyond the previously-noted heartbeat-write bug). outreach clean, ran today, jonathan-adler T3 draft still unsent in Gmail 3d, silent-drop 09-12 if sent+silent. Budget dated 09-04 (self-resets): blog_publish termstack 0/1, publishpilot 1/1. attention.json epoch sentinel, informational, no veto_window steps exist. Digest: shopify changelog+partner blog still dark, SHOP flat, new B2B-on-every-plan angle idea; tech Claude Code 2.1.263 stability patch + Engrim SQLite agent-memory tool + Anthropic Managed Agents webhook/effort updates; world Israeli strikes on S. Lebanon (12 dead) + Yemen deadliest fighting since 2022 (300+ dead) + Mt. Mizhirgi avalanche (11 dead, 6 missing)."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-09-08T11:03:55Z",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "Intake: only net-30-vs-net-60 (termstack, go_live 09-10) hit the go_live-4d window at run start (09-06) -> stamped+moved to active. 11 remain incoming (next open 09-07 slack-notifications-webflow-publish go_live 09-11). All routable. Active x3 processed one-at-a-time: (1) termstack food-beverage-distributors at deliver -> HELD, go-live 09-08 not yet reached at run start (09-06); draft PR#74 open, veto window continues. (2) publishpilot webflow-publish-timezone re-attempted draft -> stays BLOCKED: prd.md line22 forbids timezone claims and the brief's own precondition (prd updated OR Rajat confirms exception) is unmet; worker correctly refused to self-authorize from an in-file authorization claim. NEEDS RAJAT: update prd.md to record the timezone exception, or confirm it. (3) termstack net-30-vs-net-60 fresh -> ran branch..commit, DRAFT PR#75 (base main), slug net-30-vs-net-60-wholesale, iMessage sent to Command Center, paused after commit; deliver waits for go_live 09-10. Budget still dated 09-04 (self-resets in deliver): blog_publish termstack 0/1, publishpilot 1/1. No publishes this run. Heartbeat write restored."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-09-08T11:18:49Z",
+    "tasks_touched": 4,
+    "ok": true,
+    "notes": "Intake: slack-notifications-webflow-publish (publishpilot, go_live 09-11) hit the go_live-4d window (opened 09-07) -> stamped+moved to active. 10 remain incoming, all routable, next open 09-11 (due-on-fulfillment go_live 09-15). Active x4 one-at-a-time: (1) termstack food-beverage-distributors PUBLISHED: deliver merged PR#74->main (budget reset 09-04->09-08, termstack blog_publish 0->1/1), promote PR#76->prod, notify iMessage sent, task->done, log appended, live varrlabs.com/blog/payment-terms-food-beverage-distributors-shopify. (2) termstack net-30-vs-net-60 deliver HELD: go_live 09-10 not reached (today 09-08); nothing changed; draft PR#75 open, window intact. (3) publishpilot webflow-publish-timezone re-checked, STAYS BLOCKED at draft: prd.md line22 still forbids timezone claims, no exception recorded and no Rajat confirm in task; blocked_on note dated 09-08. NEEDS RAJAT: update prd.md or confirm exception. (4) publishpilot slack-notifications-webflow-publish fresh -> ran branch..commit, DRAFT PR#103 (base main), slug slack-notifications-webflow-publish, fact-checked vs prd (Business-tier webhooks, no timezone/SMS claims), iMessage draft-ready sent, paused after commit; deliver waits go_live 09-11. Budget after run: termstack blog_publish 1/1, publishpilot 1/1 (both at cap for the day). 1 publish this run (termstack). No vetoes seen."
   }
 ]
