@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "project": "termstack",
+  "product": "TermStack",
+  "linear": {
+    "workspace_id": "0afde58c-3da5-4b49-9d15-3b56d7687068",
+    "team_id": "292e27d9-b1f8-4aef-95a3-3fcaf855c8d9",
+    "project_id": "3f45f10a-407a-4503-a40a-185c972a5051",
+    "project_url": "https://linear.app/varr-labs/project/termstack-700c0ad1a97c",
+    "working_instructions_document_id": "d752d813-9865-467c-be88-82f75419c668",
+    "working_instructions_url": "https://linear.app/varr-labs/document/termstack-working-instructions-301f26ff70f2"
+  },
+  "workspace": {
+    "repository_url": "https://github.com/rajatujawane/term-stack",
+    "path": "/Users/rajatserver/Developer/term-stack",
+    "default_branch": "main",
+    "release_branch": null,
+    "isolation": "worktree"
+  },
+  "verification": {
+    "test_commands": [],
+    "test_environment": null,
+    "artifact_path": null
+  },
+  "notification": {
+    "route": null
+  },
+  "policy": {
+    "dispatch_enabled": false,
+    "allowed_actions": [],
+    "release_policy": null,
+    "send_policy": "forbidden"
+  }
+}
