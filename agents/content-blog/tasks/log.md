@@ -26,3 +26,6 @@ cb-20260629-shopify-summer26-b2b-payment-terms-native-vs-app | done | 2026-07-09
 - 2026-09-03 cb-20260827-payment-terms-apparel-fashion-wholesalers-shopify (termstack) — delivered PR #71 -> main, promoted PR #73 -> prod, published https://varrlabs.com/blog/payment-terms-apparel-fashion-wholesalers-shopify, notified.
 2026-09-04 | cb-20260802-editorial-calendar-webflow-that-publishes-itself | publishpilot | published+promoted PR#100->main, PR#102->prod; live publishpilot.app/blog/editorial-calendar-webflow-that-publishes-itself
 - 2026-09-08 cb-20260827-payment-terms-food-beverage-distributors-shopify (termstack) — delivered PR #74 -> main, promoted PR #76 -> prod, published https://varrlabs.com/blog/payment-terms-food-beverage-distributors-shopify, notified.
+- 2026-09-10 cb-20260827-net-30-vs-net-60-wholesale (termstack) — delivered PR #75 -> main, promoted PR #77 -> prod, published https://varrlabs.com/blog/net-30-vs-net-60-wholesale, notified.
+- 2026-09-11 cb-20260827-slack-notifications-webflow-publish (publishpilot) — delivered PR #103 -> main, promoted PR #104 -> prod, published https://publishpilot.app/blog/slack-notifications-webflow-publish, notified.
+- 2026-09-15 cb-20260827-due-on-fulfillment-payment-terms-shopify [termstack] published -> https://varrlabs.com/blog/due-on-fulfillment-payment-terms-shopify (deliver PR#78, promote PR#80)

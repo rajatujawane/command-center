@@ -687,6 +687,75 @@
         "tasks_touched": 2,
         "ok": true,
         "notes": "Intake: 12 incoming queued, none eligible yet (nearest net-30-vs-net-60 go_live 2026-09-10, threshold 09-06). Active: cb-20260827-payment-terms-food-beverage-distributors-shopify held at deliver (go_live 2026-09-08, PR #74 open). cb-20260827-webflow-publish-timezone stays blocked at draft: prd.md line 22 still bars timezone claims, no recorded exception/confirmation. Neither task advanced."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-09-09T23:37:37Z",
+        "tasks_touched": 3,
+        "ok": true
+      },
+      {
+        "agent": "outreach",
+        "ts": "2026-09-11T03:00:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Daily pass 2026-09-11 (Fri, T1 day). Reconcile clean: jonathan-adler thread 1a043787f61d84bb holds only 2 SENT touches (T1 08-27, T2 08-31), no reply from abubbs@, no bounce; stays in_sequence. T3 final draft r3652318537400479914 still UNSENT in Drafts (created 09-04, now 7d = past 5d stale -> waiting-on-you); silent-drop clock (t3.sent+7) has NOT started because T3 is unsent; no T4. label:outreach/termstack in:inbox empty; inbox 3d = 0 msgs; no mailer-daemon/OOO 14d; control labels reject/hold/later all 0, SPAM 0, TRASH 0. Drafts folder = JAdler T3 (tracked) + known orphan russell-hendrix template (untouched). Pick: queue guard clear (1/6 pending, 5 slots); 0 follow-ups due (JAdler T3 already drafted, no T4); Fri T1 reserve 3 unfillable (all 13 qualified-uncontacted contact_needed/blocked/Plus-unverified/fit<=4; only emails on file are sweet-water-decor generic wholesale@ +Plus unverified, and benchmade qualified:false); unused reserve returned to follow-ups but none due. 0 drafts created (idempotent). Phase 0 nothing due (earliest probe 08-09 = 33d, <60d). Summary + iMessage to Command Center sent (exit 0). Long pole = direct contacts + Plus check; enrich (Hunter) is on-demand only. 1 in sequence, 13 qualified-gated, 85 in pool. Nothing sent (drafts only)."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-09-11T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: termstack due-on-fulfillment holding for go-live 09-15 (PR #78); publishpilot webflow-publish-timezone blocked 4th day at draft (prd.md line 22 exception still unrecorded/unconfirmed); outreach jonathan-adler T3 draft 7d stale, waiting on Rajat to send; slack-notifications-webflow-publish published today (PR #103/#104). Budget: termstack 0/1, publishpilot 1/1. content-blog heartbeat writer still stale (known bug) but tasks/log.md confirms clean run today. attention.json still 1970-01-01 but gates nothing (no veto_window steps exist). Digest: shopify changelog quiet on B2B/Plus (Discounts Allocator preview ended only) + SHOP flat after 2-day slide; tech OpenAI Agents API public beta + Claude Code 2.1.268 + DeepSeek new open model; world Ukraine deep Arctic gas-plant strike + IDF Hezbollah tunnel demolition south Lebanon + Oman Hormuz tanker rescue detail."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-09-12T01:59:26Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: publishpilot webflow-publish-timezone blocked at draft (go-live missed Sep 8, needs prd.md exception confirm); termstack due-on-fulfillment holding for go-live Sep 15 (PR #78); jonathan-adler outreach T3 final unsent 8d, flagged waiting-on-Rajat. Digest: shopify SHOP +3.9% on Bernstein init + AI-commerce-layer pitch (net-terms-in-agentic-checkout gap flagged); tech Sakana Fugu Max/Ultra v2 + Claude Code 2.1.269; world Houthis seized Perim Island (Bab al-Mandab) + Israel expelled UK PA trainers + Kyiv fuel-station drone strikes + Palawan ferry fire death toll 35. System: flagged heartbeat.json missing content-blog entries for 09-10/09-11 runs (task log shows they happened); budget.json stale-dated 09-11; attention.json still 1970-01-01 (no veto steps today, gates nothing)."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-09-13T05:00:00Z",
+        "tasks_touched": 3,
+        "ok": true,
+        "notes": "Intake: cb-20260827-wholesale-order-deposit-how-much became eligible (go_live 09-17 minus 4d) -> incoming->active. It ran branch..commit in one run: slug wholesale-order-deposit-percentage, DRAFT PR #79 vs main; owner draft-ready iMessage NOT sent (engine/imessage/send.sh is a permission-gated send + imessage MCP CONNECTION_CLOSED this session) -- prepared text recorded in commit step out for Rajat to send. cb-20260827-due-on-fulfillment-payment-terms-shopify: deliver held, waiting go-live 2026-09-15 (draft PR #78). cb-20260827-webflow-publish-timezone: draft STILL blocked -- prd.md line 22 unchanged (no timezone support), brief only ASSERTS an exception, no direct Rajat confirmation; blocked_on refreshed 09-13. Remaining incoming: 8 (next eligible shopify-payment-terms-per-customer go_live 09-22)."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-09-14T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: termstack due-on-fulfillment holding for go-live 09-15 (PR #78, already notified); termstack wholesale-order-deposit holding for go-live 09-17, commit done 09-13, notify was WITHHELD by worker (this brief is first time reaching Rajat), PR #79. publishpilot webflow-publish-timezone still BLOCKED at draft, unchanged since 09-08 re-check (now 6d overdue past go_live), needs prd.md exception or direct confirm from Rajat. Outreach: jonathan-adler T3 draft unsent ~10d, waiting on Rajat's send; clean reconcile per today's log, 13 qualified-uncontacted, enrich still standing bottleneck. content-blog ran today (re-checked webflow-timezone block 09-14); heartbeat writer for content-blog still not appending entries some days (known bug) but task state confirms it ran. budget.json dated 09-11 (3d stale, not yet rolled): termstack blog_publish 0/1, publishpilot 1/1, nothing over cap. attention.json epoch sentinel, informational only, no veto_window steps exist today. Digest: shopify changelog dark 4th day + SHOP flat since Fri close + Shopify quietly acquired Tailwind Labs 9/9; tech Claude Code weekly-limit change (net -17% vs since-May) + Anthropic 2nd straight profitable quarter ($11.5B Q2 rev) + 2 AI-safety researchers left for METR; world Russian drone near Polish border hit train near Johnson/Petraeus convoy + Indonesian ferry capsize (~130 missing) + 6,300+ tech layoffs in Sept's first 10 days led by Uber."
+      },
+      {
+        "agent": "content-blog",
+        "ts": "2026-09-15T05:00:00Z",
+        "tasks_touched": 3,
+        "ok": true,
+        "notes": "Delivered cb-20260827-due-on-fulfillment-payment-terms-shopify (go_live today): merged PR #78, promoted main->prod via PR #80, notified. Budget reset (date 09-11->09-15); termstack blog_publish now 1/1. cb-20260827-wholesale-order-deposit-how-much: deliver held, waiting for go-live 2026-09-17 (draft PR #79 open). cb-20260827-webflow-publish-timezone (publishpilot): draft STILL blocked pending Rajat updating prd.md line 22 for the timezone exception or confirming it on the task (blocked_on refreshed to 09-15); brief 'Trigger status: NOT CLEARED' also still open. No intake: earliest eligible incoming is shopify-payment-terms-per-customer, go_live 09-22 (eligible 09-18)."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-09-15T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: publishpilot webflow-publish-timezone BLOCKED at draft, 7d past go_live (09-08), unchanged since 09-08 daily re-checks, needs prd.md exception or Rajat's direct confirm; termstack wholesale-order-deposit holding for go-live 09-17, commit+PR#79 done, notify WITHHELD by worker at commit time so this brief is first time it reached Rajat, kill instruction sent. content-blog ran today, delivered+promoted due-on-fulfillment-payment-terms-shopify (PR#78/#80), budget rolled. outreach: heartbeat writer still not appending (known bug) but task log confirms clean daily pass through today; jonathan-adler T3 unsent ~11d, waiting on Rajat; 13 qualified-uncontacted still contact/Plus-gated, enrich long pole. budget.json dated 09-15 (current): termstack blog_publish 1/1, publishpilot 0/1. attention.json epoch sentinel, informational only, no veto_window steps exist today. Digest: shopify changelog dark 6th day + SHOP +3.96% Sep14 on Bernstein/Goldman AI-search commentary + partner blog/newsroom still silent; tech Claude Code 2.1.271 (fast mode in Remote, allowed_domains) + leaky-sandbox disclosure (Claude Code ~50d to patch vs Cursor/Codex ~1wk) + Cohere free North-Small-Translate-1.0; world China FM vs Amodei chip-curbs remarks ahead of Trump-Xi Sep24 + Iranian vessel struck off Qeshm in Hormuz, talks postponed + Israeli strike killed family of 4 in Beit Lahia."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-09-16T07:15:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: publishpilot webflow-publish-timezone still BLOCKED at draft, 8d past go_live 09-08, unchanged (prd.md line 22 still no exception recorded, brief file assertion is not Rajat confirming it); termstack wholesale-order-deposit holding for go-live 09-17, PR#79 ready, notify WITHHELD by worker at commit so this brief is first time it reached Rajat, kill instruction sent. content-blog last clean run 09-15 (delivered+promoted due-on-fulfillment-payment-terms-shopify PR#78/#80). outreach heartbeat writer still not appending (known bug) but task log confirms clean daily pass through 09-16; jonathan-adler T3 unsent ~11d waiting on Rajat; 13 qualified-uncontacted still contact/Plus-gated. budget.json dated 09-15 (not yet rolled): termstack blog_publish 1/1, publishpilot 0/1. attention.json epoch sentinel, informational only, no veto_window steps exist today. Digest: Shopify changelog woke up (B2B family_name optional) + SHOP -3.01% Sep15 reversal + partner blog/newsroom still dark; tech Claude Code 2.1.272/273 + tiun PH launch (merchant-of-record + MCP) + Anthropic Shopify/Priceline shopping agent live; world NATO shot down Belarus drone over Lithuania (first intercept) + tanker hit in Hormuz (2 missing) + Russian drone killed 1 at Kyiv gas station."
+      },
+      {
+        "agent": "brief",
+        "ts": "2026-09-17T01:58:32Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent. Pipeline: publishpilot webflow-publish-timezone still BLOCKED at draft, 9d past go_live 09-08 (unchanged, prd.md line 22 still bars timezone claims, no Rajat confirmation on file); termstack wholesale-order-deposit go_live reached today 09-17, PR #79 ready, deliver held because draft-ready notify was WITHHELD by the worker so Rajat never got the veto window -- surfaced with PR/preview link and kill instruction. outreach: jonathan-adler T3 draft still unsent 13d, queue otherwise quiet. Digest: shopify Events API breaking change Sep 16 + SHOP flat + only B2B item all week is family_name optional; tech Claude chat/Cowork merge + Firefox Smart Window beta + Claude Code 2.1.274 + Google Play review delays; world Saudi pipeline oil drop + LA news helicopter crash. Full digest saved to logs/brief/2026-09-17.md."
       }
     ]
   },
@@ -1327,5 +1396,121 @@
     "tasks_touched": 4,
     "ok": true,
     "notes": "Intake: slack-notifications-webflow-publish (publishpilot, go_live 09-11) hit the go_live-4d window (opened 09-07) -> stamped+moved to active. 10 remain incoming, all routable, next open 09-11 (due-on-fulfillment go_live 09-15). Active x4 one-at-a-time: (1) termstack food-beverage-distributors PUBLISHED: deliver merged PR#74->main (budget reset 09-04->09-08, termstack blog_publish 0->1/1), promote PR#76->prod, notify iMessage sent, task->done, log appended, live varrlabs.com/blog/payment-terms-food-beverage-distributors-shopify. (2) termstack net-30-vs-net-60 deliver HELD: go_live 09-10 not reached (today 09-08); nothing changed; draft PR#75 open, window intact. (3) publishpilot webflow-publish-timezone re-checked, STAYS BLOCKED at draft: prd.md line22 still forbids timezone claims, no exception recorded and no Rajat confirm in task; blocked_on note dated 09-08. NEEDS RAJAT: update prd.md or confirm exception. (4) publishpilot slack-notifications-webflow-publish fresh -> ran branch..commit, DRAFT PR#103 (base main), slug slack-notifications-webflow-publish, fact-checked vs prd (Business-tier webhooks, no timezone/SMS claims), iMessage draft-ready sent, paused after commit; deliver waits go_live 09-11. Budget after run: termstack blog_publish 1/1, publishpilot 1/1 (both at cap for the day). 1 publish this run (termstack). No vetoes seen."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-09T03:00:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Daily pass. Reconcile clean: jonathan-adler thread 1a043787f61d84bb holds 2 SENT touches only (T1 08-27, T2 08-31), no reply from abubbs@, no bounce; stays in_sequence. T3 final draft r3652318537400479914 still UNSENT in Drafts (created 09-04/05), awaiting Rajat; silent-drop 09-12, no T4. Inbox 7d = 1 DMARC report only. Control labels reject/hold/later all 0, SPAM 0. Pick: queue guard clear (1/6 pending, 5 slots); 0 follow-ups due (JAdler T3 already drafted); Wed T1 reserve 3 unfillable (all 13 qualified-uncontacted contact_needed/blocked/Plus-unverified/fit<=4). 0 drafts created (idempotent: JAdler T3 exists). Phase 0 nothing due (<60d). Summary + iMessage to Command Center sent. Long pole = contacts; enrich is on-demand only. 1 in sequence, 13 qualified-gated, 85 in pool. 1 orphan russell-hendrix template draft noted, untouched."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-09-09T05:00:00Z",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "Dispatcher pass. Intake: none eligible today (2026-09-09); earliest is due-on-fulfillment go_live 2026-09-15 -> intakes 2026-09-11; 10 incoming queued, all routable (termstack). Processed 3 active tasks one-at-a-time via worker instances. net-30-vs-net-60 (termstack): deliver HELD, go_live 2026-09-10 not reached; PR #75 draft stays open. slack-notifications-webflow-publish (publishpilot): deliver HELD, go_live 2026-09-11 not reached; PR #103 draft stays open. webflow-publish-timezone (publishpilot): draft stays BLOCKED -- prd.md line 22 forbids timezone claims and there is no direct Rajat confirmation of the exception; the brief's own authorization claim is not Rajat confirming it, so worker did not self-authorize / did not edit prd.md; blocked_on note refreshed 2026-09-09. No merges, no sends, no posts. Budget untouched."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-10T03:00:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Daily pass 2026-09-10 (Thu, T1 day). Reconcile clean: jonathan-adler thread 1a043787f61d84bb holds only 2 SENT touches (T1 08-27, T2 08-31), no reply from abubbs@, no bounce; stays in_sequence. T3 final draft r3652318537400479914 still UNSENT in Drafts (created 09-04, now 6d = past 5d stale line -> waiting-on-you), awaiting Rajat; silent-drop clock (t3.sent+7) has NOT started because T3 is unsent; no T4. label:outreach/termstack in:inbox empty (no reply on any tracked thread); inbox <2d = 0 msgs; control labels reject/hold/later all 0, SPAM 0. Drafts folder = JAdler T3 (tracked) + known orphan russell-hendrix template (untouched). Pick: queue guard clear (1/6 pending, 5 slots); 0 follow-ups due (JAdler T3 already drafted, no T4); Thu T1 reserve 3 unfillable (all 13 qualified-uncontacted contact_needed/blocked/Plus-unverified/fit<=4; sweet-water-decor only email is generic wholesale@ + Plus unverified). 0 drafts created (idempotent). Phase 0 nothing due (<60d). Summary + iMessage to Command Center sent. Long pole = direct contacts + Plus check; enrich (Hunter) is on-demand only. 1 in sequence, 13 qualified-gated, 85 in pool. Nothing sent (drafts only)."
+  },
+  {
+    "runs": [
+      {
+        "agent": "brief",
+        "ts": "2026-09-10T07:30:00Z",
+        "tasks_touched": 0,
+        "ok": true,
+        "notes": "Brief sent to Command Center. Pipeline: publishpilot slack-notifications-webflow-publish holding for go-live 09-11 (commit done PR#103, auto-gate deliver pending, no action needed); publishpilot webflow-publish-timezone stays BLOCKED at draft (prd.md line 22 still bars timezone claims, no recorded exception/Rajat confirmation) -- needs Rajat. termstack net-30-vs-net-60-wholesale published+promoted today (PR#75/77), task moved to done. Outreach: jonathan-adler T3 final draft unsent 6 days (past 5d stale line), waiting on Rajat to send in Gmail; pool contact-starved (13 qualified-uncontacted all contact/Plus-gated), enrich remains the standing on-demand bottleneck. budget.json dated today: termstack blog_publish 1/1 (spent), publishpilot 0/1 (open, nothing due today). state/heartbeat.json per-agent writer still stale for all three agents (known bug) but tasks/log.md for content-blog and outreach both confirm clean daily runs; brief itself has run daily per logs/brief/*.md through today even though this writer had not recorded a brief entry since 09-04. attention.json epoch sentinel, informational only, no veto_window steps exist today. Digest: shopify SHOP -5.45% Sep9 (2-day slide ~12%, no news) + dev-store CLI create/delete + partner blog dark 9th week; tech Claude Code 2.1.267 (maxEffortLevel, prompt-cache fixes) + Anthropic walked from $6B Decart acquisition amid ~$517B/11mo compute commits; world Iran IRGC missiles on Jordan Muwaffaq Salti base + Norway King Harald V state funeral + Saudi ~32 airstrikes on Houthi targets in Yemen."
+      }
+    ]
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-09-11T05:16:27+05:30",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "Dispatcher run. Intake: pulled cb-20260827-due-on-fulfillment-payment-terms-shopify (termstack, go_live 09-15, threshold 09-11 reached) into active; other 9 incoming still pre-window, left in incoming. 3 active tasks processed one at a time. (1) slack-notifications-webflow-publish (publishpilot): deliver gate passed (go_live 09-11 today, not vetoed, budget open) -> merged PR#103 (ef8fd8f), promoted PR#104 to prod, notified; task -> done. budget publishpilot blog_publish now 1/1. (2) webflow-publish-timezone (publishpilot): draft STILL blocked, prd.md line22 unchanged, no Rajat confirmation; blocked_on refreshed 09-11, not self-authorized. (3) due-on-fulfillment-payment-terms-shopify (termstack): fresh, ran branch..commit, DRAFT PR#78 opened, draft-ready texted, stopped at commit per worker.md (publish waits later run)."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-12T03:15:00+05:30",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Sat non-T1 day. Phases 0-4 ran, queue empty: no new T1s (not a t1_send_day), no follow-ups due (sole in_sequence jonathan-adler already at final T3, drafted+pending send, idempotent). 0 drafted, 0 sent, 0 replies. Reconcile clean: JAdler thread = 2 SENT touches, no reply; inbox label empty; reject/hold/later 0. JAdler T3 draft 8d stale -> waiting-on-you; drop clock not started (T3 unsent). Pool low (13 qualified-uncontacted, ~3 T1-ready). Summary sent to iMessage."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-09-12T05:02:42+05:30",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Dispatcher pass. Intake: 9 incoming (all termstack, valid config) \u2014 none reach go_live-4d yet (earliest wholesale-order-deposit intakes 2026-09-13), all left in incoming/, none unroutable. 2 active processed one at a time: (1) due-on-fulfillment (termstack) at deliver \u2014 HOLDS, go_live 2026-09-15 not reached, no advance. (2) webflow-publish-timezone (publishpilot) at draft \u2014 STILL BLOCKED (re-checked 2026-09-12): prd.md line 22 unchanged (forbids timezone claims), no Rajat confirmation on task; brief's embedded 'authorised' claim is not authorization, worker must not self-authorize/edit prd. 0 drafts advanced, 0 published."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-13T03:11:00+05:30",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Outreach daily pass. Sun non-T1 day: 0 new T1s. No follow-ups due (jonathan-adler at final T3, drafted+pending send, idempotent, no T4). Reconcile clean: JAdler thread 2 SENT only, no reply; inbox/labels/SPAM/TRASH all clear; 0 bounces. Phase 0 nothing due (<60d). 0 drafted, 0 sent. Waiting-on-you: JAdler T3 draft ~9d unsent. Pool low (<15 eligible), 85 in pool. Summary sent to iMessage Command Center."
+  },
+  {
+    "agent": "brief",
+    "ts": "2026-09-13T07:31:00+05:30",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Sent Morning Brief. Pipeline: wholesale-order-deposit (termstack) surfaced for first time (notify was withheld by worker) - draft ready, go_live 09-17; due-on-fulfillment (termstack) holding for go_live 09-15, already notified; webflow-publish-timezone (publishpilot) still blocked on prd.md confirmation, go_live 09-08 now 5d overdue; Jonathan Adler T3 (outreach) Gmail draft unsent ~9d, waiting on Rajat to send. Digest: 3 sub-agents (shopify/tech/world) fanned out, all returned, full digest saved to logs/brief/2026-09-13.md. Noted budget.json is dated 2026-09-11 (2d stale) - not this run's fix to make, flagged only. attention.json shows last_brief_answered never (epoch) - informational only per rules, did not hold anything on it (no veto_window steps exist today)."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-14T03:10:00+05:30",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Mon non-T1 day, quiet pass. 0 drafted, 0 sent-detected, 0 replies, 0 bounces, 0 auto-drops. Queue empty: no new T1s (non-T1 day), no follow-ups due (only in_sequence jonathan-adler at final T3, already drafted+pending, idempotent, no T4). Queue guard 1/6 pending, 5 slots. Reconcile clean: JAdler thread 2 SENT only no reply; inbox 5d empty; no bounce/OOO 20d; control labels reject/hold/later 0; SPAM/TRASH 0. Phase 0 nothing due (<60d). Waiting-on-you: JAdler T3 draft ~10d unsent. Pool low (<15 eligible), 85 in pool. Summary sent to iMessage Command Center."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-09-14T05:02:34+05:30",
+    "tasks_touched": 3,
+    "ok": true,
+    "notes": "Dispatcher pass. Intake: 8 in incoming/, all termstack/publishpilot (configs exist, none unroutable); none within intake window (go_live - 4d lead), earliest 2026-09-18 (per-customer). 0 intaked. Active x3: due-on-fulfillment (termstack) at deliver HOLDS pre-go-live (go_live 2026-09-15); wholesale-deposit (termstack) at deliver HOLDS pre-go-live (go_live 2026-09-17); webflow-timezone (publishpilot) draft STILL blocked (prd.md line 22 forbids timezone claims, unchanged; no confirmation field from Rajat; brief 'exception' is a file claim not user auth) - re-check date refreshed to 2026-09-14. No publishes, no drafts, no sends."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-15T03:10:00+05:30",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Outreach daily pass (Tue, T1 day). Reconcile via Gmail: no sends detected, no replies, no bounces, no auto-drops; JAdler thread 1a043787f61d84bb = 2 SENT touches only, no reply; control labels reject/hold/later all 0; SPAM/TRASH 0. Phase 0: nothing due (all 32 not_contacted carry qualified field; earliest probe 08-09=37d<60d). Pick: queue empty \u2014 3 T1 slots reserved but 0 draft-ready T1 targets (13 qualified-uncontacted all contact/Plus/generic-inbox gated); no follow-ups due (jonathan-adler at final touch T3, drafted+pending Rajat send, idempotent, no T4). Draft: 0. Queue guard clear (1/6 pending, 5 slots). Waiting-on-you: JAdler T3 draft r3652318537400479914 ~11d unsent (drop clock not started, T3 never sent). Pool low (<15 eligible), 85 in pool. Summary sent to iMessage Command Center."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-16T07:15:00Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Outreach daily pass (Wed, T1 day). Reconcile via Gmail: no sends detected, no replies, no bounces, no auto-drops; JAdler thread 1a043787f61d84bb = 2 SENT touches only, no reply; in:inbox newer_than:8d empty; control labels reject/hold/later all 0; SPAM/TRASH 0. Phase 0: nothing due (all 32 not_contacted carry qualified field; earliest probe 08-09=38d<60d). Pick: queue empty \u2014 3 T1 slots reserved but 0 draft-ready T1 targets (13 qualified-uncontacted all contact/Plus/generic-inbox gated); no follow-ups due (jonathan-adler at final touch T3, drafted+pending Rajat send, idempotent, no T4). Draft: 0. Queue guard clear (1/6 pending, 5 slots). Waiting-on-you: JAdler T3 draft r3652318537400479914 ~11d unsent (drop clock not started, T3 never sent). Pool low (<15 eligible), 85 in pool. Summary sent to iMessage Command Center."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-09-16T05:03:52+05:30",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "Dispatcher pass. Intake: 8 in incoming/, all termstack (configs exist, none unroutable); none within intake window (go_live - 4d lead), earliest 2026-09-18 (shopify-payment-terms-per-customer). 0 intaked. Active x2 processed one at a time: wholesale-order-deposit (termstack) at deliver HOLDS pre-go-live (go_live 2026-09-17 > today 2026-09-16; no veto/blocked; no merge/push/budget spend); webflow-publish-timezone (publishpilot) draft STILL blocked (prd.md line 22 unchanged, forbids timezone claims; no Rajat confirmation on task; brief 'authorised' text is a file claim, not user auth - worker did not self-authorize/edit prd) - re-check date refreshed to 2026-09-16. No publishes, no drafts, no sends."
+  },
+  {
+    "agent": "outreach",
+    "ts": "2026-09-16T21:39:55Z",
+    "tasks_touched": 0,
+    "ok": true,
+    "notes": "Outreach daily pass 2026-09-17 (Thu, T1 day). reconcile: JAdler thread 1a043787f61d84bb = 2 SENT touches (T1 08-27, T2 08-31), no reply; T3 draft r3652318537400479914 still unsent ~13d (waiting-on-you); auto-drop not fired (needs t3.sent); labels reject/hold/later 0; SPAM/TRASH 0; inbox 10d empty. pick: queue empty \u2014 0 draft-ready T1 (13 qualified all contact/Plus-gated), no follow-up due. No drafts created, no sends. Summary sent to iMessage. Pool low; enrich is long pole."
+  },
+  {
+    "agent": "content-blog",
+    "ts": "2026-09-16T23:34:22Z",
+    "tasks_touched": 2,
+    "ok": true,
+    "notes": "content-blog dispatch 2026-09-17. Intake: 8 incoming (all termstack, all routable) but NONE due - earliest go_live-4d is 2026-09-18 (per-customer, go_live 09-22); nothing stamped/moved. Active x2, one at a time. (1) webflow-publish-timezone [publishpilot]: draft still BLOCKED - prd.md line 22 verbatim unchanged (no timezone claims), task carries no Rajat confirmation; re-check refreshed to 2026-09-17; not drafting, not editing prd. (2) wholesale-order-deposit [termstack]: deliver HELD (not published). All 3 gates pass (go_live 09-17 reached, no kill, budget resets to 0/1) BUT commit-step iMessage was WITHHELD so Rajat never got the draft link / veto window; declined to auto-merge an irreversible public publish on a window that never opened. Needs Rajat: confirm PR #79 or take the window. No publishes, no drafts, no sends this run."
   }
 ]

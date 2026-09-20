@@ -1,0 +1,22 @@
+{
+  "id": "cb-20260827-due-on-fulfillment-payment-terms-shopify",
+  "title": "Due on Fulfillment Payment Terms on Shopify: When and How to Use Them",
+  "project": "termstack",
+  "go_live": "2026-09-15",
+  "queued_at": "2026-08-27",
+  "inputs": [
+    "knowledge/termstack/prd.md",
+    "knowledge/termstack/briefs/due-on-fulfillment-payment-terms-shopify.md"
+  ],
+  "steps": [
+    { "do": "branch", "gate": "auto", "status": "done", "out": "blog/cb-20260827-due-on-fulfillment-payment-terms-shopify (from main)" },
+    { "do": "draft", "gate": "auto", "status": "done", "out": "agents/content-blog/outputs/cb-20260827-due-on-fulfillment-payment-terms-shopify/draft.md" },
+    { "do": "fact_check", "gate": "auto", "status": "done", "out": "verified against prd.md + brief; no fixes needed" },
+    { "do": "build", "to": "{project.repo}", "run": "{project.build_skills}", "status": "done", "out": "slug: due-on-fulfillment-payment-terms-shopify; src/content/blog/due-on-fulfillment-payment-terms-shopify.mdx + hero /blog/33-hero-due-on-fulfillment-terms.svg + inline /blog/33a-date-vs-event-based-terms.svg; backlink added from dynamic-payment-terms-deposits-shopify-plus.mdx" },
+    { "do": "qa_image", "gate": "auto", "status": "done", "out": "viewed hero + inline; legible, on-brand cream/violet, no issues" },
+    { "do": "commit", "gate": "auto", "status": "done", "out": "PR (draft) https://github.com/rajatujawane/varr-labs-website/pull/78 vs main; notified Command Center via imessage" },
+    { "do": "deliver", "to": ["git_pr:merge"], "gate": "auto", "status": "done", "out": "merged PR #78 into main (merge commit 39160b9); budget blog_publish.termstack 1/1" },
+    { "do": "promote", "to": ["git_pr:prod"], "gate": "auto", "status": "done", "out": "merged promo PR #80 https://github.com/rajatujawane/varr-labs-website/pull/80 (main -> prod)" },
+    { "do": "notify", "to": "me", "status": "done", "out": "imessage sent to Command Center: Published: https://varrlabs.com/blog/due-on-fulfillment-payment-terms-shopify" }
+  ]
+}

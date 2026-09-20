@@ -1,0 +1,15 @@
+{
+  "slug": "wholesale-order-deposit-percentage",
+  "post": "src/content/blog/wholesale-order-deposit-percentage.mdx",
+  "hero": "public/blog/33-hero-wholesale-order-deposit.svg",
+  "build_skills": ["blog-ready", "blog-image"],
+  "backlink_edit": "src/content/blog/dynamic-deposits-shopify-25pct-upfront-b2b.mdx",
+  "internal_links": [
+    "/blog/b2b-payment-terms-by-order-value",
+    "/blog/require-prepayment-first-time-b2b-buyers-shopify",
+    "/blog/dynamic-payment-terms-deposits-shopify-plus",
+    "/blog/how-to-require-deposits-on-b2b-orders-shopify-plus"
+  ],
+  "faq_count": 8,
+  "committed": false
+}

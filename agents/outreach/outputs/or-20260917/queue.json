@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-17",
+  "project": "termstack",
+  "day_of_week": "Thu",
+  "is_t1_day": true,
+  "queue_guard": { "max_pending_drafts": 6, "pending_unsent": 1, "slots_available": 5 },
+  "queue": [],
+  "notes": "T1 day (Thu). Reserve = min(min_new_t1_per_day 3, slots_available 5) = 3 slots for new T1s, but 0 draft-ready T1 targets exist: all 13 qualified-uncontacted are contact_needed / blocked(no_contact|generic_inbox_only) / Plus-unverified. sweet-water-decor is the only qualified prospect with an email on file, but it is a generic wholesale@ inbox and Plus is unverified -> fails the research 60-second guard. Unused T1 reserve returns to follow-ups, but none are due. Only in_sequence prospect jonathan-adler is at final touch T3, already drafted (pending_draft_id r3652318537400479914) and pending Rajat send; idempotent, no re-draft, no T4. Queue empty."
+}

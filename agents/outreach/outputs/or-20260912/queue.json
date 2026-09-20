@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-12",
+  "project": "termstack",
+  "day_of_week": "Sat",
+  "t1_day": false,
+  "queue": [],
+  "queue_guard": {
+    "max_pending_drafts": 6,
+    "pending_unsent_tracked": 1,
+    "slots_available": 5,
+    "guard_blocking": false
+  },
+  "reason": "Non-T1 day (Sat not in t1_send_days Tue-Fri) -> no new T1s. No follow-ups due: only in_sequence prospect is jonathan-adler, already at final touch T3 (drafted, pending Rajat send) -> idempotent, no re-draft, no T4. Queue empty."
+}

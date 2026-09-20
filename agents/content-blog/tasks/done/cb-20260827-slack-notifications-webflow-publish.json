@@ -15,8 +15,8 @@
     { "do": "build",      "to": "{project.repo}", "run": "{project.build_skills}", "status": "done", "out": "slug=slack-notifications-webflow-publish; mdx=main-site/src/content/blog/slack-notifications-webflow-publish.mdx; cover=main-site/public/blog/slack-notifications-webflow-publish.svg; blog-ready+blog-image run" },
     { "do": "qa_image",   "gate": "auto", "status": "done", "out": "viewed hero SVG: legible, on-brand white+purple, success/failure feed mock, no overflow (max x~856 < 1140). no fixes needed." },
     { "do": "commit",     "gate": "auto", "status": "done", "out": "commit=6318ad7; branch pushed origin/blog/cb-20260827-slack-notifications-webflow-publish; PR(draft)=https://github.com/rajatujawane/publish-pilot/pull/103; imessage draft-ready sent to 'Command Center'" },
-    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "auto", "status": "pending", "out": "" },
-    { "do": "promote",    "to": ["git_pr:prod"],  "gate": "auto", "status": "pending", "out": "" },
-    { "do": "notify",     "to": "me", "status": "pending", "out": "" }
+    { "do": "deliver",    "to": ["git_pr:merge"], "gate": "auto", "status": "done", "out": "go_live 2026-09-11 reached; not vetoed; budget publishpilot 0->1/1 (day reset from 2026-09-10). rebase clean on origin/main; marked PR ready; merged PR #103, merge commit ef8fd8f, branch deleted." },
+    { "do": "promote",    "to": ["git_pr:prod"],  "gate": "auto", "status": "done", "out": "shared-repo guard: main ahead of prod by 2, both files under main-site blog content/public (no unrelated changes). promo PR #104 (11th September 2026 dev to prod) created + merged into prod. https://github.com/rajatujawane/publish-pilot/pull/104" },
+    { "do": "notify",     "to": "me", "status": "done", "out": "imessage sent to 'Command Center': Published: https://publishpilot.app/blog/slack-notifications-webflow-publish" }
   ]
 }

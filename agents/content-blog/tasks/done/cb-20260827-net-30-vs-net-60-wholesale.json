@@ -52,8 +52,8 @@
         "git_pr:merge"
       ],
       "gate": "auto",
-      "status": "pending",
-      "out": ""
+      "status": "done",
+      "out": "merged PR #75 into main (merge commit a7478ce); rebased clean onto origin/main, force-with-lease push, marked ready, --merge --delete-branch; budget blog_publish.termstack 1/1 (reset for 2026-09-10)"
     },
     {
       "do": "promote",
@@ -61,14 +61,14 @@
         "git_pr:prod"
       ],
       "gate": "auto",
-      "status": "pending",
-      "out": ""
+      "status": "done",
+      "out": "promo PR=https://github.com/rajatujawane/varr-labs-website/pull/77 (main->prod, merged); ahead_by=2, only blog content shipped (net-30 post + 3 SVGs + net-60 backlink)"
     },
     {
       "do": "notify",
       "to": "me",
-      "status": "pending",
-      "out": ""
+      "status": "done",
+      "out": "imessage to 'Command Center': Published: https://varrlabs.com/blog/net-30-vs-net-60-wholesale (send.sh exit 0)"
     }
   ]
 }
