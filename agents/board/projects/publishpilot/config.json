@@ -1,0 +1,22 @@
+{
+  "project": "publishpilot",
+  "product": "Publish Pilot",
+  "linear_project": "Publish Pilot",
+  "repo": "~/Developer/publish-pilot",
+  "repo_slug": "rajatujawane/publish-pilot",
+  "default_branch": "main",
+  "workspace_root": "~/Developer/.worktrees",
+  "test_cmd": null,
+  "delivery": "draft_pr",
+  "knowledge_root": "knowledge/publishpilot",
+  "allowed_tools": "Read Grep Glob Edit Write Bash(git *) Bash(npm *)",
+  "budget": {
+    "max_minutes": 30,
+    "max_attempts": 3
+  },
+  "notify": {
+    "channel": "imessage",
+    "group": "Command Center"
+  },
+  "_note": "test_cmd is null — no test script found on 2026-09-20. A task whose acceptance needs tests must say how to run them, or it is a question."
+}

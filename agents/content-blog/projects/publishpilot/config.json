@@ -6,11 +6,18 @@
   "site_root": "main-site",
   "default_branch": "main",
   "prod_branch": "prod",
+  "workspace_root": "~/Developer/.worktrees",
   "preview_base_url": "http://192.168.0.217:3002/blog",
   "live_base_url": "https://publishpilot.app/blog",
   "knowledge_root": "knowledge/publishpilot",
-  "build_skills": ["blog-ready", "blog-image"],
+  "build_skills": [
+    "blog-ready",
+    "blog-image"
+  ],
   "voice": "repo:.claude/skills/blog-writing.md",
   "lead": "4d",
-  "notify": { "channel": "imessage", "group": "Command Center" }
+  "notify": {
+    "channel": "imessage",
+    "group": "Command Center"
+  }
 }

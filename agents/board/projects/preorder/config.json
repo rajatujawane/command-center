@@ -1,0 +1,22 @@
+{
+  "project": "preorder",
+  "product": "Preorder & Back in Stock",
+  "linear_project": "Preorder & Back in Stock",
+  "repo": "~/Developer/back-in-stock-preorder",
+  "repo_slug": "rajatujawane/back-in-stock-preorder",
+  "default_branch": "main",
+  "workspace_root": "~/Developer/.worktrees",
+  "test_cmd": null,
+  "delivery": "draft_pr",
+  "knowledge_root": "knowledge/preorder",
+  "allowed_tools": "Read Grep Glob Edit Write Bash(git *) Bash(npm *)",
+  "budget": {
+    "max_minutes": 30,
+    "max_attempts": 3
+  },
+  "notify": {
+    "channel": "imessage",
+    "group": "Command Center"
+  },
+  "_note": "Checked out on v1-implementation on 2026-09-20, and that is where this week's real work is. default_branch stays main; a board task that must build on v1-implementation has to say so on the card."
+}

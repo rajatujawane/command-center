@@ -1,0 +1,41 @@
+{
+  "name": "board",
+  "schedule": [],
+  "inputs": [],
+  "meta": {
+    "source": "linear",
+    "projects": [
+      "termstack",
+      "publishpilot",
+      "preorder",
+      "website",
+      "lib"
+    ],
+    "config": "projects/{task.project}/config.json",
+    "max_active": 1,
+    "max_open": 5,
+    "max_claims_per_day": 5,
+    "max_attempts": 3,
+    "note": "max_active counts only tasks the AGENT can act on. A task parked at a gate or waiting on an answer is on Rajat's desk, not the agent's, and must not consume the slot — otherwise one unreviewed task halts everything. max_open caps the total sitting in tasks/active/ regardless of state, so work cannot pile up on his desk unbounded. max_claims_per_day is the runaway backstop. max_attempts here is the DEFAULT; a project config's budget.max_attempts overrides it, same as repo/delivery/test_cmd do."
+  },
+  "steps": [
+    {
+      "do": "brief",
+      "gate": "auto"
+    },
+    {
+      "do": "work",
+      "gate": "auto",
+      "resumable": true
+    },
+    {
+      "do": "report",
+      "gate": "auto"
+    },
+    {
+      "do": "review",
+      "gate": "gate",
+      "to": "me"
+    }
+  ]
+}

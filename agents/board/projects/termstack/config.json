@@ -1,0 +1,22 @@
+{
+  "project": "termstack",
+  "product": "TermStack",
+  "linear_project": "TermStack",
+  "repo": "~/Developer/term-stack",
+  "repo_slug": "rajatujawane/term-stack",
+  "default_branch": "main",
+  "workspace_root": "~/Developer/.worktrees",
+  "test_cmd": "yarn workspace @term-stack/backend test",
+  "delivery": "draft_pr",
+  "knowledge_root": "knowledge/termstack",
+  "allowed_tools": "Read Grep Glob Edit Write Bash(git *) Bash(yarn *) Bash(npm *)",
+  "budget": {
+    "max_minutes": 30,
+    "max_attempts": 3
+  },
+  "notify": {
+    "channel": "imessage",
+    "group": "Command Center"
+  },
+  "_note": "The PRODUCT repo. The marketing site (varr-labs-website) is the 'website' project — the blog agent owns that one. Do not point board tasks at the blog repo."
+}

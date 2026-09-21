@@ -52,9 +52,8 @@
         "git_pr:merge"
       ],
       "gate": "auto",
-      "status": "blocked",
-      "out": "",
-      "blocked_on": "HOLD 2026-09-17 (NOT a veto). All three deliver gates PASS: go_live 2026-09-17 reached; no 'kill' received; budget resets (budget.date 2026-09-15 != today) so termstack blog_publish is 0/1. BUT the commit step recorded notify=WITHHELD: the draft-link iMessage that starts Rajat's lead-time veto window was never sent, so Rajat was never told PR #79 exists and never received the window the publish policy depends on. Merging now would push to main and promote to the live varrlabs.com site on 'silence' Rajat never had a chance to break. Held for one cycle and surfaced instead of auto-publishing an irreversible public change during an unattended run with a broken notification safeguard. NEEDS FROM RAJAT (either): (a) reply to confirm publish of PR #79 -> next run clears this and merges; or (b) get the draft link and take the veto window. Draft: PR #79 https://github.com/rajatujawane/varr-labs-website/pull/79 ; preview http://192.168.0.217:3001/blog/wholesale-order-deposit-percentage ; reply 'kill cb-20260827-wholesale-order-deposit-how-much' to stop."
+      "status": "pending",
+      "out": "hold cleared 2026-09-20: Rajat was shown PR #79 and the preview link directly and authorised publish. The 2026-09-17 hold existed only because the commit step recorded notify=WITHHELD, so the draft-link iMessage that opens the veto window never went out; that window has now been given and used. deliver re-runs its own three gates (go_live / veto / budget) from scratch on the next run."
     },
     {
       "do": "promote",

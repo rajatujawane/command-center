@@ -21,8 +21,11 @@ Repo, branches and budget key all come from the task's project config,
    cap -> park (leave the step), flag in the brief. Stop. One project hitting its cap never
    blocks another.
 
-4. merge (rebase, resolve conflicts): cd `config.repo`.
+4. merge (rebase, resolve conflicts): cd WORKDIR — the `worktree=` path recorded by the
+   `branch` step, or `config.repo` for a task that branched before 2026-09-20 (see the
+   WORKDIR section in agents/content-blog/worker.md).
      git fetch origin
+     # in a worktree the branch is already checked out; only check out when WORKDIR is the repo
      git checkout blog/<id>                        # the branch from the branch step's out
      git rebase origin/<config.default_branch>
    If the rebase hits conflicts, RESOLVE them: the post file + hero image are new files this
@@ -32,6 +35,8 @@ Repo, branches and budget key all come from the task's project config,
    `blocked_on: "unresolvable rebase conflict on PR #<pr>"`, flag in the brief, do NOT merge.
    On a clean or resolved rebase:
      git push --force-with-lease
+     gh pr ready <pr>                              # the commit step opened it as a DRAFT,
+                                                   # and a draft PR cannot be merged
      gh pr merge <pr> --merge --delete-branch
 
 5. increment `state/budget.json` `spent.blog_publish.<project>`. Record "merged PR #.." in

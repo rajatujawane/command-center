@@ -1,0 +1,22 @@
+{
+  "project": "lib",
+  "product": "Varr Labs Lib",
+  "linear_project": "Varr Labs Lib",
+  "repo": "~/Developer/varr-labs-lib",
+  "repo_slug": "rajatujawane/varr-labs-lib",
+  "default_branch": "main",
+  "workspace_root": "~/Developer/.worktrees",
+  "test_cmd": "yarn workspaces foreach -At run test",
+  "delivery": "draft_pr",
+  "knowledge_root": null,
+  "allowed_tools": "Read Grep Glob Edit Write Bash(git *) Bash(yarn *)",
+  "budget": {
+    "max_minutes": 30,
+    "max_attempts": 3
+  },
+  "notify": {
+    "channel": "imessage",
+    "group": "Command Center"
+  },
+  "_note": "origin/HEAD is unset on this repo (checked 2026-09-20) so 'main' is asserted, not detected. Run: git -C ~/Developer/varr-labs-lib remote set-head origin -a  — then confirm."
+}

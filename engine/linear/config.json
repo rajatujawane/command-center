@@ -1,0 +1,20 @@
+{
+  "team_key": "VAR",
+  "api": "https://api.linear.app/graphql",
+  "statuses": {
+    "inbox": "Inbox",
+    "ready": "Ready",
+    "doing": "Doing",
+    "waiting": "Waiting for input",
+    "human": "Human control",
+    "review": "Review",
+    "blocked": "Blocked",
+    "done": "Done"
+  },
+  "labels": {
+    "agent": "agent",
+    "human": "human",
+    "never": "never"
+  },
+  "_note": "Names only, never UUIDs. linear.sh resolves names to ids at call time, so renaming a status in Linear is a one-line change here and nothing else drifts."
+}

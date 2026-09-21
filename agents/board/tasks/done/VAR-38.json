@@ -1,0 +1,48 @@
+{
+  "id": "VAR-38",
+  "title": "[THROWAWAY] Add a two-button section to the admin home page",
+  "project": "termstack",
+  "linear_project": "TermStack",
+  "linear_url": "https://linear.app/varr-labs/issue/VAR-38/throwaway-add-a-two-button-section-to-the-admin-home-page",
+  "controller": "agent",
+  "claimed_at": "2026-09-20T06:32:44Z",
+  "brief_source": "## Goal\n\nAdd a section containing two buttons to the TermStack admin home page.\n\nThrowaway task. It exists only to exercise the runner — the change will be deleted, not merged. Nothing here is product work.\n\n## Scope\n\nIn `packages/admin/src/app/page.tsx`, add one new `<s-section>` containing an inline `<s-stack>` with **two** `<s-button>` elements side by side. Place it inside `HomePage`, immediately before the `<s-box paddingBlockStart=\"large\" />` that precedes the page-level banners.\n\nMatch the component style already in that file — it is a Next.js app-router client component using Shopify Polaris web components. Do not introduce a new UI library or pattern.\n\nThe first button is labelled `Hello`. The second button carries the label specified for this task.\n\nOut of scope: every other file.\n\n## Completion criteria\n\n* `packages/admin/src/app/page.tsx` contains a new `<s-section>` with exactly two buttons, inline, in the position described above.\n* The first button reads `Hello`.\n* The second button's label is the one specified for this task.\n* Exactly one commit on the task branch, containing exactly that change.\n\n## Evidence\n\nThe commit sha and the diff.\n\n## Overrides\n\nThree deliberate departures from this project's defaults:\n\n* `delivery: none`**.** Do not `git push` and do not open a PR. Commit locally in the worktree only. This change must leave no trace on GitHub. The project default is `draft_pr`; it does not apply here.\n* **Do not build, install or run tests.** A fresh worktree has no `node_modules` and installing is out of scope. Do not report a build as passing, and do not attempt one.\n* **Do not update** `docs/kb/`**.** The repo's CLAUDE.md asks for a KB sync when a change touches a path in a page's `sources:`. It does not apply to a branch that will be deleted.\n\n## Cleanup\n\nAfter review the worktree and branch are deleted. Nothing from this issue reaches `main`, a PR, or production.",
+  "steps": [
+    {
+      "do": "brief",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/board/outputs/VAR-38/brief.md"
+    },
+    {
+      "do": "work",
+      "gate": "auto",
+      "status": "done",
+      "out": "worktree=~/Developer/.worktrees/VAR-38 branch=board/VAR-38 base=190663f session=e426c119-33ce-493b-8228-bfa641add00b runs=2 (needs_input, then resumed) result=ready_for_review commit=557d85d files=1 +7/-0 delivery=none(card override; project default draft_pr) pushed=no pr=no build=not-run(card override)",
+      "resumable": true,
+      "attempts": 1
+    },
+    {
+      "do": "report",
+      "gate": "auto",
+      "status": "done",
+      "out": "linear: comment result-VAR-38-2 posted, status->Review; handoff=agents/board/outputs/VAR-38/handoff.md"
+    },
+    {
+      "do": "review",
+      "gate": "gate",
+      "status": "done",
+      "out": "reviewed 2026-09-20: diff correct, label matches the recorded answer. Throwaway — worktree and branch deleted, nothing pushed or merged. Pilot proved: needs_input without guessing, answer recorded once, same session resumed, card override of delivery honoured."
+    }
+  ],
+  "open_questions": [],
+  "answers": [
+    {
+      "q": "Q-VAR-38-1",
+      "text": "World",
+      "source": "4ab2b66f-01f0-441f-b6e5-e02722688108",
+      "at": "2026-09-20T06:35:53.047Z"
+    }
+  ],
+  "closed_at": "2026-09-20T06:43:50Z"
+}

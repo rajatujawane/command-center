@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.varrlabs.board</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/rajatserver/Developer/command-center/ops/board-tick.sh</string>
+  </array>
+
+  <!-- every 15 minutes. The tick is a single HTTPS call when idle, so this is nearly free;
+       it only wakes a Claude session when there is actually something to do. -->
+  <key>StartInterval</key>
+  <integer>900</integer>
+
+  <!-- run once at load so a reboot does not wait a full interval -->
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/rajatserver/Developer/command-center</string>
+
+  <key>StandardOutPath</key>
+  <string>/Users/rajatserver/Developer/command-center/logs/board-tick.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/rajatserver/Developer/command-center/logs/board-tick.err.log</string>
+
+  <!-- claude and gh live in homebrew; launchd does not inherit a login shell's PATH -->
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+</dict>
+</plist>

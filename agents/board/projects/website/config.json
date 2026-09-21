@@ -1,0 +1,23 @@
+{
+  "project": "website",
+  "product": "Varr Labs Website",
+  "linear_project": "Varr Labs Website",
+  "repo": "~/Developer/varr-labs-website",
+  "repo_slug": "rajatujawane/varr-labs-website",
+  "default_branch": "main",
+  "prod_branch": "prod",
+  "workspace_root": "~/Developer/.worktrees",
+  "test_cmd": null,
+  "delivery": "draft_pr",
+  "knowledge_root": "knowledge/termstack",
+  "allowed_tools": "Read Grep Glob Edit Write Bash(git *) Bash(npm *)",
+  "budget": {
+    "max_minutes": 30,
+    "max_attempts": 3
+  },
+  "notify": {
+    "channel": "imessage",
+    "group": "Command Center"
+  },
+  "_note": "Shared with content-blog, which owns everything under src/content/blog. A board task must not touch blog posts; that pipeline has its own gates and its own veto window."
+}

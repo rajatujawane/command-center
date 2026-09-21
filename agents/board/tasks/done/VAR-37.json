@@ -1,0 +1,39 @@
+{
+  "id": "VAR-37",
+  "title": "[THROWAWAY] Add a Hello button to the admin home page",
+  "project": "termstack",
+  "linear_project": "TermStack",
+  "linear_url": "https://linear.app/varr-labs/issue/VAR-37/throwaway-add-a-hello-button-to-the-admin-home-page",
+  "controller": "agent",
+  "claimed_at": "2026-09-20T06:14:29Z",
+  "brief_source": "## Goal\n\nAdd a button labelled \"Hello\" to the TermStack admin home page.\n\nThrowaway task. It exists only to prove the runner works end to end — the change will be deleted, not merged. Nothing here is product work.\n\n## Scope\n\nAdd one visible button reading `Hello` to `packages/admin/src/app/page.tsx`, matching the component style already in that file (Next.js app-router client component using Shopify Polaris web components — `<s-section>`, `<s-stack>`, `<s-button>`). Do not introduce a new UI library or pattern.\n\nOut of scope: every other file.\n\n## Completion criteria\n\n* `packages/admin/src/app/page.tsx` contains a button labelled `Hello`, styled consistently with the components already there.\n* Exactly one commit on the task branch, containing exactly that change.\n\n## Evidence\n\nThe commit sha and the diff.\n\n## Overrides\n\nTwo deliberate departures from the usual defaults for this project:\n\n* **Do not build, install or run tests.** The project config names a test command; it does not apply here. A fresh worktree has no `node_modules` and installing them is out of scope. Do not report a build as passing, and do not attempt one — if you think the change needs verifying beyond the diff, record that as an uncertainty instead of running anything.\n* **Do not** `git push` **and do not open a PR.** Commit locally in the worktree only. This change must leave no trace on GitHub.\n\n## Cleanup\n\nAfter review the worktree and branch are deleted. Nothing from this issue reaches `main`, a PR, or production.",
+  "steps": [
+    {
+      "do": "brief",
+      "gate": "auto",
+      "status": "done",
+      "out": "agents/board/outputs/VAR-37/brief.md"
+    },
+    {
+      "do": "work",
+      "gate": "auto",
+      "status": "done",
+      "out": "worktree=~/Developer/.worktrees/VAR-37 branch=board/VAR-37 base=190663f session=52266e93-7f37-40d1-a353-9ba20289a37e result=ready_for_review commit=1f6883e files=1 +6/-0 pushed=no pr=no build=not-run(card override)",
+      "resumable": true,
+      "attempts": 1
+    },
+    {
+      "do": "report",
+      "gate": "auto",
+      "status": "done",
+      "out": "linear: comment result-VAR-37-1 posted, status->Review; handoff=agents/board/outputs/VAR-37/handoff.md"
+    },
+    {
+      "do": "review",
+      "gate": "gate",
+      "status": "done",
+      "out": "reviewed 2026-09-20: diff correct, 1 commit 1 file +6. Throwaway — worktree and branch board/VAR-37 deleted, nothing pushed, nothing merged. Pilot proved: claim lock, project resolution, worktree isolation, session-id assignment, result contract, push abstention."
+    }
+  ],
+  "closed_at": "2026-09-20T06:23:03Z"
+}

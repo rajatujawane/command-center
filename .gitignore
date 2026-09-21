@@ -11,3 +11,15 @@
 
 # logs
 logs/**/*.log
+
+# per-run churn — one file per run, and none of it is worth a diff.
+# state/pause, budget.json, heartbeat.json and attention.json ARE tracked.
+state/runs/
+state/outbox/
+
+# raw claude -p output: machine JSON, ~4KB per invocation, forever.
+# Kept on disk (permission_denials and the unedited result are the only record of what a
+# worker actually did) but never committed — the readable record is brief.md and handoff.md,
+# and those ARE tracked.
+agents/*/outputs/**/raw*.json
+agents/*/outputs/**/stderr*.txt
